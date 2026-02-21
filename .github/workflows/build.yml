@@ -22,14 +22,6 @@ jobs:
             target: aarch64-unknown-linux-gnu
             artifact: linux-aarch64
 
-          - os: macos-latest
-            target: aarch64-apple-darwin
-            artifact: macos-aarch64
-
-          - os: macos-latest
-            target: x86_64-apple-darwin
-            artifact: macos-x86_64
-
           - os: windows-latest
             target: x86_64-pc-windows-msvc
             artifact: windows-x86_64
@@ -75,12 +67,6 @@ jobs:
           ${{ startsWith(matrix.os, 'ubuntu') && '--bundles deb,rpm' || '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
-          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
-          APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
-          APPLE_ID: ${{ secrets.APPLE_ID }}
-          APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
-          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
 
       - name: Create Linux tarball
         if: startsWith(matrix.os, 'ubuntu')
