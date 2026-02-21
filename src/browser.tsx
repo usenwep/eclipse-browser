@@ -3833,7 +3833,8 @@ const [globalHistory, setGlobalHistory] = useState<HistoryEntry[]>(loadGlobalHis
 
   useEffect(() => {
     if (isMobile) {
-      screen.orientation?.lock?.("portrait").catch(() => {})
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      ;(screen.orientation as any)?.lock?.("portrait").catch(() => {})
     }
   }, [isMobile])
 
