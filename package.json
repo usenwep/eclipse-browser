@@ -2,13 +2,14 @@
   "name": "eclipse-browser",
   "private": true,
   "version": "0.1.0",
+  "packageManager": "pnpm@10.28.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "tauri": "NO_STRIP=1 tauri",
-    "build:linux": "NO_STRIP=1 tauri build --bundles deb,rpm && bash scripts/make-tarball.sh"
+    "tauri": "tauri",
+    "build:linux": "tauri build --bundles deb,rpm && bash scripts/make-tarball.sh"
   },
   "dependencies": {
     "@base-ui/react": "^1.2.0",
