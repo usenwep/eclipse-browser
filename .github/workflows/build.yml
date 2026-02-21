@@ -155,24 +155,9 @@ jobs:
       - name: Initialize Android project
         run: pnpm tauri android init
 
-      # Build one APK per ABI so each is a direct download.
-      - name: Build arm64-v8a APK
-        run: pnpm tauri android build --apk --target aarch64
-        env:
-          NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
-
-      - name: Build armeabi-v7a APK
-        run: pnpm tauri android build --apk --target armv7
-        env:
-          NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
-
-      - name: Build x86 APK
-        run: pnpm tauri android build --apk --target i686
-        env:
-          NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
-
-      - name: Build x86_64 APK
-        run: pnpm tauri android build --apk --target x86_64
+      # Build all APKs in one invocation (all 4 ABIs).
+      - name: Build APKs (all ABIs)
+        run: pnpm tauri android build --apk
         env:
           NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
 
@@ -181,6 +166,9 @@ jobs:
         run: pnpm tauri android build --aab
         env:
           NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
+
+      - name: List Android build outputs (debug)
+        run: find src-tauri/gen/android/app/build/outputs -type f | sort
 
       - name: Upload arm64-v8a APK
         uses: actions/upload-artifact@v4
@@ -214,5 +202,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: eclipse-browser-android.aab
-          path: src-tauri/gen/android/app/build/outputs/bundle/release/*.aab
+          path: src-tauri/gen/android/app/build/outputs/bundle/**/*.aab
           if-no-files-found: warn
