@@ -14,11 +14,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - os: ubuntu-22.04
+          - os: ubuntu-24.04
             target: x86_64-unknown-linux-gnu
             artifact: linux-x86_64
 
-          - os: ubuntu-22.04-arm
+          - os: ubuntu-24.04-arm
             target: aarch64-unknown-linux-gnu
             artifact: linux-aarch64
 
@@ -94,7 +94,7 @@ jobs:
 
   # ── Android ────────────────────────────────────────────────────────────────
   build-android:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
       - uses: actions/checkout@v4
