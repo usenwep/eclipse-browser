@@ -2109,9 +2109,9 @@ dependencies = [
 
 [[package]]
 name = "nwep-rs"
-version = "0.1.7"
+version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b40dc6bc540fa84e6f3a8fb2e5ea5bcf44addd62df4d11d65f4d17bef093a9ef"
+checksum = "5865c66324bebbb06f6934337ac26a1b7f60a9f0f33dd4d8630f7bbec26ae6f4"
 dependencies = [
  "libc",
 ]
