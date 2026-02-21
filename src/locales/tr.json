@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Geri Git",
+    "forward": "İleri Git",
+    "stop": "Durdur",
+    "reload": "Yenile",
+    "newTab": "Yeni Sekme",
+    "copyLink": "Bağlantıyı kopyala",
+    "connectionSecurity": "Bağlantı güvenliği",
+    "searchOrEnterUrl": "Arama yapın veya site adı girin",
+    "bookmarks": "Yer İşaretleri",
+    "options": "Seçenekler"
+  },
+  "tab": {
+    "settings": "Ayarlar",
+    "history": "Geçmiş",
+    "newTab": "Yeni Sekme"
+  },
+  "urlBar": {
+    "placeholder": "Arama yapın veya site adı girin",
+    "mobilePlaceholder": "Arama yapın veya site girin",
+    "bookmarksGroup": "Yer İşaretleri",
+    "historyGroup": "Geçmiş"
+  },
+  "connection": {
+    "authenticated": "Kimliği doğrulandı",
+    "authVerified": "Karşılıklı kimlik doğrulama onaylandı",
+    "failed": "Bağlantı başarısız",
+    "handshakeIncomplete": "El sıkışma tamamlanamadı",
+    "server": "sunucu",
+    "client": "istemci",
+    "ephemeral": "geçici",
+    "logLabel": "günlük"
+  },
+  "find": {
+    "placeholder": "Sayfada bul…",
+    "noResults": "Sonuç yok",
+    "countOf": "{{total}} içinde {{current}}",
+    "prevMatch": "Önceki eşleşme",
+    "nextMatch": "Sonraki eşleşme",
+    "close": "Arama çubuğunu kapat"
+  },
+  "error": {
+    "timeout": "Bağlantı zaman aşımına uğradı",
+    "timeoutHint": "Sunucu yanıt vermekte çok geç kaldı. Çevrimdışı veya erişilemez olabilir.",
+    "cantConnect": "Bu siteye bağlanılamıyor",
+    "cantConnectHint": "Sunucu bağlantıyı reddetti veya erişilemedi.",
+    "authFailed": "Kimlik doğrulama başarısız",
+    "authFailedHint": "Sunucunun şifreleme kimliği doğrulanamadı.",
+    "serverNotFound": "Sunucu bulunamadı",
+    "serverNotFoundHint": "Bu adreste sunucu yok veya erişilemiyor. Adresi kontrol edip tekrar deneyin.",
+    "identityError": "Kimlik hatası",
+    "identityErrorHint": "Sitenin kimliği belirlenirken bir sorun oluştu.",
+    "protocolError": "Protokol hatası",
+    "protocolErrorHint": "Sunucu anlaşılamayan bir yanıt gönderdi.",
+    "genericError": "Bir şeyler ters gitti",
+    "genericErrorHint": "Beklenmedik bir hata nedeniyle sayfa yüklenemedi.",
+    "tryAgain": "Tekrar dene"
+  },
+  "history": {
+    "title": "Geçmiş",
+    "clearAll": "Tümünü Temizle",
+    "empty": "Tarama geçmişi yok",
+    "websiteColumn": "Web Sitesi",
+    "addressColumn": "Adres",
+    "removeFromHistory": "Geçmişten kaldır",
+    "labelToday": "Bugün",
+    "labelYesterday": "Dün",
+    "labelEarlier": "Daha Önce"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Bu Sayfayı İşaretle",
+    "removeBookmark": "Yer İşaretini Kaldır",
+    "bookmarkAllTabs": "Tüm Sekmeleri İşaretle",
+    "addBookmark": "Yer İşareti Ekle",
+    "newFolder": "Yeni Klasör",
+    "addFolder": "Klasör Ekle",
+    "add": "Ekle",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "noBookmarks": "Henüz yer işareti yok",
+    "emptyFolder": "Boş klasör",
+    "folderNamePlaceholder": "Klasör adı",
+    "titlePlaceholder": "Başlık",
+    "openFolder": "Klasörü aç",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "goBack": "Geri dön",
+    "dropToMove": "{{label}} konumuna taşımak için bırakın",
+    "rootLabel": "kök",
+    "parentLabel": "üst"
+  },
+  "optionsMenu": {
+    "zoomOut": "Uzaklaştır",
+    "zoomIn": "Yakınlaştır",
+    "resetZoom": "Yakınlaştırmayı sıfırla",
+    "findInPage": "Sayfada Bul",
+    "print": "Yazdır",
+    "history": "Geçmiş",
+    "settings": "Ayarlar",
+    "current": "Mevcut"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Bağlantıyı Yeni Sekmede Aç",
+    "copyLinkAddress": "Bağlantı Adresini Kopyala",
+    "cut": "Kes",
+    "copy": "Kopyala",
+    "paste": "Yapıştır",
+    "selectAll": "Tümünü Seç",
+    "back": "Geri",
+    "forward": "İleri",
+    "reload": "Yenile",
+    "share": "Paylaş",
+    "savePageAs": "Sayfayı Farklı Kaydet",
+    "print": "Yazdır",
+    "copyLink": "Bağlantıyı Kopyala",
+    "copied": "Kopyalandı!",
+    "copyProxyLink": "Proxy Bağlantısını Kopyala"
+  },
+  "windowControls": {
+    "minimize": "Simge Durumuna Küçült",
+    "maximize": "Ekranı Kapla",
+    "close": "Kapat"
+  },
+  "mobileStart": {
+    "favorites": "Favoriler",
+    "noFavoritesHint": "Yer işareti ekleyin; burada favori olarak görünecekler.",
+    "readingList": "Okuma Listesi",
+    "readingListHint": "Okuma Listesi, web sayfalarını ve bağlantıları daha sonra okumak üzere toplamanızı sağlar. Mevcut sayfayı eklemek için Paylaş düğmesine dokunun."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Sekmelerde ara",
+    "bookmarksBtn": "Yer İşaretleri",
+    "newTabBtn": "Yeni Sekme",
+    "reloadBtn": "Yenile",
+    "moreBtn": "Daha Fazla",
+    "closeTabTipTitle": "Sekme Kapat",
+    "closeTabTipBody": "Herhangi bir sekmeyi kapatmak için yukarı sürükleyin."
+  },
+  "mobileOptions": {
+    "cancelBtn": "İptal",
+    "back": "Geri",
+    "forward": "İleri",
+    "stop": "Durdur",
+    "reload": "Yenile",
+    "findInPage": "Sayfada Bul",
+    "print": "Yazdır",
+    "removeBookmark": "Yer İşaretini Kaldır",
+    "addBookmark": "Yer İşareti Ekle",
+    "settings": "Ayarlar"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Yer İşaretleri",
+    "historyTab": "Geçmiş",
+    "searchBookmarks": "Yer işaretlerinde ara",
+    "searchHistory": "Geçmişte ara",
+    "noBookmarks": "Henüz yer işareti yok",
+    "noHistory": "Geçmiş yok",
+    "editBookmark": "Yer İşaretini Düzenle",
+    "titleLabel": "Başlık",
+    "urlLabel": "URL",
+    "save": "Kaydet",
+    "deleteBookmark": "Yer İşaretini Sil",
+    "cancel": "İptal"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Adres Çubuğu",
+      "body": "Arama yapmak veya URL girmek için dokunun. Sekmeler arasında geçiş yapmak için sola veya sağa kaydırın."
+    },
+    "seeYourTabs": {
+      "title": "Sekmelerinizi Görün",
+      "body": "Tüm açık sekmelerinizi görmek için adres çubuğunu yukarı kaydırın."
+    },
+    "bookmarksHistory": {
+      "title": "Yer İşaretleri & Geçmiş",
+      "body": "Kayıtlı sayfalarınıza göz atmak ve ziyaret ettiğiniz siteleri yeniden açmak için buraya dokunun."
+    },
+    "moreOptions": {
+      "title": "Daha Fazla Seçenek",
+      "body": "Ayarlara, sayfada aramaya ve diğer tarayıcı kontrollerine erişin."
+    },
+    "newTab": {
+      "title": "Yeni Sekme",
+      "body": "Bunun ne olduğunu zaten biliyorsunuz."
+    }
+  },
+  "onboarding": {
+    "skip": "Atla",
+    "continue": "Devam Et",
+    "getStarted": "Başla",
+    "showMeAround": "Gezdirin beni",
+    "iKnowWhatImDoing": "Ne yaptığımı biliyorum",
+    "steps": {
+      "welcome": {
+        "title": "Eclipse'e Hoş Geldiniz",
+        "body": "NWEP eşler arası web için geliştirilmiş bir tarayıcı — siteler uzak sunucularda değil, doğrudan cihazlarda çalışır."
+      },
+      "browse": {
+        "title": "NWEP Web'ini Keşfedin",
+        "body": "NWEP sitelerine doğrudan bağlanmak için URL çubuğuna web:// adresleri yazın. DNS yok, aracı yok."
+      },
+      "private": {
+        "title": "Varsayılan Olarak Gizli",
+        "body": "Her bağlantı yeni bir geçici kimlik kullanır — uçtan uca şifreli, kalıcı takip yok."
+      },
+      "allSet": {
+        "title": "Her Şey Hazır",
+        "body": "URL çubuğuna bir web:// adresi yazarak başlayın veya ağda neler olduğunu keşfedin."
+      },
+      "tour": {
+        "title": "Hızlı Tur İster misiniz?",
+        "body": "Eclipse'i kolayca kullanmanızı sağlayan hareketler ve özellikler konusunda size yol göstereceğiz."
+      }
+    }
+  },
+  "settings": {
+    "general": "Genel",
+    "appearance": "Görünüm",
+    "privacy": "Gizlilik",
+    "developers": "Geliştiriciler",
+    "newTab": "Yeni Sekme",
+    "openNewTabsWith": "Yeni sekmeleri şununla aç",
+    "empty": "Boş",
+    "homepage": "Ana Sayfa",
+    "homepageUrl": "Ana Sayfa URL'si",
+    "homepageUrlActive": "Yeni sekme açıldığında yüklenir",
+    "homepageUrlInactive": "Bunu kullanmak için Ana Sayfa moduna geçin",
+    "addressBar": "Adres Çubuğu",
+    "searchBookmarks": "Yer İşaretlerini Ara",
+    "searchBookmarksDesc": "Yazarken eşleşen yer işaretlerini göster",
+    "searchHistory": "Geçmişi Ara",
+    "searchHistoryDesc": "Yazarken eşleşen geçmiş girişlerini göster",
+    "theme": "Tema",
+    "colorScheme": "Renk Şeması",
+    "light": "Açık",
+    "dark": "Koyu",
+    "auto": "Otomatik",
+    "scaling": "Ölçekleme",
+    "browserUiScale": "Tarayıcı Arayüzü Ölçeği",
+    "browserUiScaleDesc": "Sekmeleri, araç çubuğunu ve tarayıcı kaplamasını ölçekler",
+    "defaultPageZoom": "Varsayılan Sayfa Yakınlaştırması",
+    "defaultPageZoomDesc": "Yeni sekmeler açılırken sayfa içeriğini ölçekler",
+    "browsingData": "Tarama Verileri",
+    "recordBrowsingHistory": "Tarama Geçmişini Kaydet",
+    "recordBrowsingHistoryDesc": "Ziyaret edilen sayfaları geçmişe kaydet",
+    "browsingHistory": "Tarama Geçmişi",
+    "browsingHistoryDesc": "Kayıtlı geçmişinizi görüntüleyin veya temizleyin",
+    "viewBtn": "Görüntüle",
+    "clearBtn": "Temizle",
+    "clearedBtn": "Temizlendi",
+    "interface": "Arayüz",
+    "mobileUi": "Mobil Arayüz",
+    "mobileUiDesc": "Otomatik platform algılamayı geçersiz kıl",
+    "mobileAuto": "Otomatik",
+    "mobileMobile": "Mobil",
+    "mobileDesktop": "Masaüstü",
+    "onboarding": "Başlangıç",
+    "resetWelcomeGuide": "Hoş Geldin Kılavuzunu Sıfırla",
+    "resetWelcomeGuideDesc": "Karşılama rehberini hemen tekrar göster",
+    "resetBtn": "Sıfırla",
+    "doneBtn": "Tamam",
+    "settingsTitle": "Ayarlar",
+    "zoomDefault": "%{{percent}} (varsayılan)"
+  },
+  "bookmarkManager": {
+    "title": "Yer İşaretlerini Yönet",
+    "titlePlaceholder": "Başlık",
+    "urlPlaceholder": "URL (ör. web://…)",
+    "folderNamePlaceholder": "Klasör adı",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "addBookmarkBtn": "Yer İşareti Ekle",
+    "addFolderBtn": "Klasör Ekle",
+    "addBookmarkToolbar": "Yer İşareti Ekle",
+    "newFolderToolbar": "Yeni Klasör",
+    "noBookmarksRoot": "Henüz yer işareti yok. Aşağıdan ekleyin.",
+    "emptyFolder": "Bu klasör boş.",
+    "openFolder": "Klasörü aç",
+    "rename": "Yeniden adlandır",
+    "delete": "Sil"
+  }
+}

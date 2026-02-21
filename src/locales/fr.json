@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Retour",
+    "forward": "Avancer",
+    "stop": "Arrêter",
+    "reload": "Recharger",
+    "newTab": "Nouvel onglet",
+    "copyLink": "Copier le lien",
+    "connectionSecurity": "Sécurité de la connexion",
+    "searchOrEnterUrl": "Rechercher ou entrer une adresse",
+    "bookmarks": "Favoris",
+    "options": "Options"
+  },
+  "tab": {
+    "settings": "Paramètres",
+    "history": "Historique",
+    "newTab": "Nouvel onglet"
+  },
+  "urlBar": {
+    "placeholder": "Rechercher ou entrer une adresse",
+    "mobilePlaceholder": "Rechercher ou entrer un site",
+    "bookmarksGroup": "Favoris",
+    "historyGroup": "Historique"
+  },
+  "connection": {
+    "authenticated": "Authentifié",
+    "authVerified": "Authentification mutuelle vérifiée",
+    "failed": "Connexion échouée",
+    "handshakeIncomplete": "La négociation n'a pas abouti",
+    "server": "serveur",
+    "client": "client",
+    "ephemeral": "éphémère",
+    "logLabel": "journal"
+  },
+  "find": {
+    "placeholder": "Rechercher dans la page…",
+    "noResults": "Aucun résultat",
+    "countOf": "{{current}} sur {{total}}",
+    "prevMatch": "Correspondance précédente",
+    "nextMatch": "Correspondance suivante",
+    "close": "Fermer la barre de recherche"
+  },
+  "error": {
+    "timeout": "La connexion a expiré",
+    "timeoutHint": "Le serveur a mis trop de temps à répondre. Il est peut-être hors ligne ou inaccessible.",
+    "cantConnect": "Impossible de se connecter à ce site",
+    "cantConnectHint": "Le serveur a refusé la connexion ou n'a pas pu être atteint.",
+    "authFailed": "Échec de l'authentification",
+    "authFailedHint": "L'identité cryptographique du serveur n'a pas pu être vérifiée.",
+    "serverNotFound": "Serveur introuvable",
+    "serverNotFoundHint": "Le serveur à cette adresse n'existe pas ou n'a pas pu être atteint. Vérifiez l'adresse et réessayez.",
+    "identityError": "Erreur d'identité",
+    "identityErrorHint": "Un problème est survenu lors de l'établissement de l'identité du site.",
+    "protocolError": "Erreur de protocole",
+    "protocolErrorHint": "Le serveur a envoyé une réponse incompréhensible.",
+    "genericError": "Une erreur est survenue",
+    "genericErrorHint": "La page n'a pas pu être chargée en raison d'une erreur inattendue.",
+    "tryAgain": "Réessayer"
+  },
+  "history": {
+    "title": "Historique",
+    "clearAll": "Tout effacer",
+    "empty": "Aucun historique de navigation",
+    "websiteColumn": "Site web",
+    "addressColumn": "Adresse",
+    "removeFromHistory": "Supprimer de l'historique",
+    "labelToday": "Aujourd'hui",
+    "labelYesterday": "Hier",
+    "labelEarlier": "Plus tôt"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Ajouter aux favoris",
+    "removeBookmark": "Supprimer le favori",
+    "bookmarkAllTabs": "Ajouter tous les onglets",
+    "addBookmark": "Ajouter un favori",
+    "newFolder": "Nouveau dossier",
+    "addFolder": "Ajouter un dossier",
+    "add": "Ajouter",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "noBookmarks": "Aucun favori pour l'instant",
+    "emptyFolder": "Dossier vide",
+    "folderNamePlaceholder": "Nom du dossier",
+    "titlePlaceholder": "Titre",
+    "openFolder": "Ouvrir le dossier",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "goBack": "Retour",
+    "dropToMove": "Déposer ici pour déplacer vers {{label}}",
+    "rootLabel": "racine",
+    "parentLabel": "parent"
+  },
+  "optionsMenu": {
+    "zoomOut": "Zoom arrière",
+    "zoomIn": "Zoom avant",
+    "resetZoom": "Réinitialiser le zoom",
+    "findInPage": "Rechercher dans la page",
+    "print": "Imprimer",
+    "history": "Historique",
+    "settings": "Paramètres",
+    "current": "Actuel"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Ouvrir le lien dans un nouvel onglet",
+    "copyLinkAddress": "Copier l'adresse du lien",
+    "cut": "Couper",
+    "copy": "Copier",
+    "paste": "Coller",
+    "selectAll": "Tout sélectionner",
+    "back": "Retour",
+    "forward": "Avancer",
+    "reload": "Recharger",
+    "share": "Partager",
+    "savePageAs": "Enregistrer la page sous",
+    "print": "Imprimer",
+    "copyLink": "Copier le lien",
+    "copied": "Copié !",
+    "copyProxyLink": "Copier le lien proxy"
+  },
+  "windowControls": {
+    "minimize": "Réduire",
+    "maximize": "Agrandir",
+    "close": "Fermer"
+  },
+  "mobileStart": {
+    "favorites": "Favoris",
+    "noFavoritesHint": "Ajoutez des favoris et ils apparaîtront ici.",
+    "readingList": "Liste de lecture",
+    "readingListHint": "La liste de lecture vous permet de collecter des pages et des liens à lire plus tard. Appuyez sur Partager pour ajouter la page actuelle."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Rechercher des onglets",
+    "bookmarksBtn": "Favoris",
+    "newTabBtn": "Nouvel onglet",
+    "reloadBtn": "Recharger",
+    "moreBtn": "Plus",
+    "closeTabTipTitle": "Fermer un onglet",
+    "closeTabTipBody": "Faites glisser un onglet vers le haut pour le fermer."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Annuler",
+    "back": "Retour",
+    "forward": "Avancer",
+    "stop": "Arrêter",
+    "reload": "Recharger",
+    "findInPage": "Rechercher dans la page",
+    "print": "Imprimer",
+    "removeBookmark": "Supprimer le favori",
+    "addBookmark": "Ajouter un favori",
+    "settings": "Paramètres"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Favoris",
+    "historyTab": "Historique",
+    "searchBookmarks": "Rechercher dans les favoris",
+    "searchHistory": "Rechercher dans l'historique",
+    "noBookmarks": "Aucun favori pour l'instant",
+    "noHistory": "Aucun historique",
+    "editBookmark": "Modifier le favori",
+    "titleLabel": "Titre",
+    "urlLabel": "URL",
+    "save": "Enregistrer",
+    "deleteBookmark": "Supprimer le favori",
+    "cancel": "Annuler"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Barre d'adresse",
+      "body": "Appuyez pour rechercher ou saisir une URL. Glissez à gauche ou à droite pour passer d'un onglet à l'autre."
+    },
+    "seeYourTabs": {
+      "title": "Voir vos onglets",
+      "body": "Faites glisser la barre d'adresse vers le haut pour voir tous vos onglets ouverts."
+    },
+    "bookmarksHistory": {
+      "title": "Favoris et historique",
+      "body": "Appuyez ici pour parcourir vos pages sauvegardées et revisiter des sites."
+    },
+    "moreOptions": {
+      "title": "Plus d'options",
+      "body": "Accédez aux paramètres, à la recherche dans la page et aux autres commandes du navigateur."
+    },
+    "newTab": {
+      "title": "Nouvel onglet",
+      "body": "Vous savez déjà à quoi ça sert."
+    }
+  },
+  "onboarding": {
+    "skip": "Passer",
+    "continue": "Continuer",
+    "getStarted": "Commencer",
+    "showMeAround": "Faire le tour",
+    "iKnowWhatImDoing": "Je sais ce que je fais",
+    "steps": {
+      "welcome": {
+        "title": "Bienvenue dans Eclipse",
+        "body": "Un navigateur conçu pour le web pair-à-pair NWEP — où les sites s'exécutent directement sur les appareils, sans serveurs distants."
+      },
+      "browse": {
+        "title": "Naviguer sur le web NWEP",
+        "body": "Tapez des adresses web:// dans la barre d'adresse pour vous connecter directement aux sites NWEP. Sans DNS, sans intermédiaires."
+      },
+      "private": {
+        "title": "Privé par défaut",
+        "body": "Chaque connexion utilise une identité éphémère fraîche — chiffrée de bout en bout, sans traçage persistant."
+      },
+      "allSet": {
+        "title": "Vous êtes prêt",
+        "body": "Commencez en tapant une adresse web:// dans la barre d'adresse ou explorez ce qui est disponible sur le réseau."
+      },
+      "tour": {
+        "title": "Envie d'une visite guidée ?",
+        "body": "Nous vous présenterons les gestes et les fonctionnalités qui rendent Eclipse facile à utiliser."
+      }
+    }
+  },
+  "settings": {
+    "general": "Général",
+    "appearance": "Apparence",
+    "privacy": "Confidentialité",
+    "developers": "Développeurs",
+    "newTab": "Nouvel onglet",
+    "openNewTabsWith": "Ouvrir les nouveaux onglets avec",
+    "empty": "Vide",
+    "homepage": "Page d'accueil",
+    "homepageUrl": "URL de la page d'accueil",
+    "homepageUrlActive": "Chargée à l'ouverture d'un nouvel onglet",
+    "homepageUrlInactive": "Activez le mode Page d'accueil pour utiliser ceci",
+    "addressBar": "Barre d'adresse",
+    "searchBookmarks": "Rechercher dans les favoris",
+    "searchBookmarksDesc": "Afficher les favoris correspondants lors de la saisie",
+    "searchHistory": "Rechercher dans l'historique",
+    "searchHistoryDesc": "Afficher les entrées d'historique correspondantes lors de la saisie",
+    "theme": "Thème",
+    "colorScheme": "Schéma de couleurs",
+    "light": "Clair",
+    "dark": "Sombre",
+    "auto": "Auto",
+    "scaling": "Mise à l'échelle",
+    "browserUiScale": "Échelle de l'interface",
+    "browserUiScaleDesc": "Met à l'échelle les onglets, la barre d'outils et le chrome du navigateur",
+    "defaultPageZoom": "Zoom de page par défaut",
+    "defaultPageZoomDesc": "Met à l'échelle le contenu des pages lors de l'ouverture de nouveaux onglets",
+    "browsingData": "Données de navigation",
+    "recordBrowsingHistory": "Enregistrer l'historique de navigation",
+    "recordBrowsingHistoryDesc": "Sauvegarder les pages visitées dans l'historique",
+    "browsingHistory": "Historique de navigation",
+    "browsingHistoryDesc": "Consulter ou effacer votre historique sauvegardé",
+    "viewBtn": "Afficher",
+    "clearBtn": "Effacer",
+    "clearedBtn": "Effacé",
+    "interface": "Interface",
+    "mobileUi": "Interface mobile",
+    "mobileUiDesc": "Remplacer la détection automatique de la plateforme",
+    "mobileAuto": "Auto",
+    "mobileMobile": "Mobile",
+    "mobileDesktop": "Bureau",
+    "onboarding": "Présentation",
+    "resetWelcomeGuide": "Réinitialiser le guide d'accueil",
+    "resetWelcomeGuideDesc": "Afficher à nouveau la présentation de bienvenue immédiatement",
+    "resetBtn": "Réinitialiser",
+    "doneBtn": "Terminé",
+    "settingsTitle": "Paramètres",
+    "zoomDefault": "{{percent}}% (par défaut)"
+  },
+  "bookmarkManager": {
+    "title": "Gérer les favoris",
+    "titlePlaceholder": "Titre",
+    "urlPlaceholder": "URL (ex. web://…)",
+    "folderNamePlaceholder": "Nom du dossier",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "addBookmarkBtn": "Ajouter un favori",
+    "addFolderBtn": "Ajouter un dossier",
+    "addBookmarkToolbar": "Ajouter un favori",
+    "newFolderToolbar": "Nouveau dossier",
+    "noBookmarksRoot": "Aucun favori pour l'instant. Ajoutez-en un ci-dessous.",
+    "emptyFolder": "Ce dossier est vide.",
+    "openFolder": "Ouvrir le dossier",
+    "rename": "Renommer",
+    "delete": "Supprimer"
+  }
+}

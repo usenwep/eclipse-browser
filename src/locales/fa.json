@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "برگشت",
+    "forward": "جلو",
+    "stop": "توقف",
+    "reload": "بارگذاری مجدد",
+    "newTab": "زبانه جدید",
+    "copyLink": "کپی پیوند",
+    "connectionSecurity": "امنیت اتصال",
+    "searchOrEnterUrl": "جستجو یا وارد کردن نام وبسایت",
+    "bookmarks": "نشانک‌ها",
+    "options": "گزینه‌ها"
+  },
+  "tab": {
+    "settings": "تنظیمات",
+    "history": "تاریخچه",
+    "newTab": "زبانه جدید"
+  },
+  "urlBar": {
+    "placeholder": "جستجو یا وارد کردن نام وبسایت",
+    "mobilePlaceholder": "جستجو یا وارد کردن وبسایت",
+    "bookmarksGroup": "نشانک‌ها",
+    "historyGroup": "تاریخچه"
+  },
+  "connection": {
+    "authenticated": "تأیید شده",
+    "authVerified": "احراز هویت متقابل تأیید شد",
+    "failed": "اتصال ناموفق",
+    "handshakeIncomplete": "دست‌دهی کامل نشد",
+    "server": "سرور",
+    "client": "کاربر",
+    "ephemeral": "موقت",
+    "logLabel": "گزارش"
+  },
+  "find": {
+    "placeholder": "جستجو در صفحه…",
+    "noResults": "نتیجه‌ای یافت نشد",
+    "countOf": "{{current}} از {{total}}",
+    "prevMatch": "قبلی",
+    "nextMatch": "بعدی",
+    "close": "بستن نوار جستجو"
+  },
+  "error": {
+    "timeout": "مهلت اتصال به پایان رسید",
+    "timeoutHint": "سرور برای پاسخ‌دهی خیلی طول کشید. ممکن است آفلاین یا غیرقابل دسترس باشد.",
+    "cantConnect": "اتصال به این سایت ممکن نیست",
+    "cantConnectHint": "سرور اتصال را رد کرد یا قابل دسترس نبود.",
+    "authFailed": "احراز هویت ناموفق",
+    "authFailedHint": "هویت رمزنگاری سرور قابل تأیید نبود.",
+    "serverNotFound": "سرور یافت نشد",
+    "serverNotFoundHint": "سرور در این آدرس وجود ندارد یا قابل دسترس نیست. آدرس را بررسی کنید و دوباره تلاش کنید.",
+    "identityError": "خطای هویت",
+    "identityErrorHint": "مشکلی در تأیید هویت سایت وجود داشت.",
+    "protocolError": "خطای پروتکل",
+    "protocolErrorHint": "سرور پاسخی ارسال کرد که قابل درک نبود.",
+    "genericError": "مشکلی پیش آمد",
+    "genericErrorHint": "صفحه به دلیل خطای غیرمنتظره بارگذاری نشد.",
+    "tryAgain": "دوباره تلاش کنید"
+  },
+  "history": {
+    "title": "تاریخچه",
+    "clearAll": "پاک کردن همه",
+    "empty": "تاریخچه مرور وجود ندارد",
+    "websiteColumn": "وبسایت",
+    "addressColumn": "آدرس",
+    "removeFromHistory": "حذف از تاریخچه",
+    "labelToday": "امروز",
+    "labelYesterday": "دیروز",
+    "labelEarlier": "قبل‌تر"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "نشانک‌گذاری این صفحه",
+    "removeBookmark": "حذف نشانک",
+    "bookmarkAllTabs": "نشانک‌گذاری همه زبانه‌ها",
+    "addBookmark": "افزودن نشانک",
+    "newFolder": "پوشه جدید",
+    "addFolder": "افزودن پوشه",
+    "add": "افزودن",
+    "cancel": "لغو",
+    "save": "ذخیره",
+    "noBookmarks": "هنوز نشانکی وجود ندارد",
+    "emptyFolder": "پوشه خالی",
+    "folderNamePlaceholder": "نام پوشه",
+    "titlePlaceholder": "عنوان",
+    "openFolder": "باز کردن پوشه",
+    "edit": "ویرایش",
+    "delete": "حذف",
+    "goBack": "برگشت",
+    "dropToMove": "اینجا رها کنید تا به {{label}} منتقل شود",
+    "rootLabel": "ریشه",
+    "parentLabel": "پوشه والد"
+  },
+  "optionsMenu": {
+    "zoomOut": "کوچک‌نمایی",
+    "zoomIn": "بزرگ‌نمایی",
+    "resetZoom": "بازنشانی بزرگ‌نمایی",
+    "findInPage": "جستجو در صفحه",
+    "print": "چاپ",
+    "history": "تاریخچه",
+    "settings": "تنظیمات",
+    "current": "فعلی"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "باز کردن پیوند در زبانه جدید",
+    "copyLinkAddress": "کپی آدرس پیوند",
+    "cut": "برش",
+    "copy": "کپی",
+    "paste": "جای‌گذاری",
+    "selectAll": "انتخاب همه",
+    "back": "برگشت",
+    "forward": "جلو",
+    "reload": "بارگذاری مجدد",
+    "share": "اشتراک‌گذاری",
+    "savePageAs": "ذخیره صفحه به عنوان",
+    "print": "چاپ",
+    "copyLink": "کپی پیوند",
+    "copied": "کپی شد!",
+    "copyProxyLink": "کپی پیوند پروکسی"
+  },
+  "windowControls": {
+    "minimize": "کوچک کردن",
+    "maximize": "بزرگ کردن",
+    "close": "بستن"
+  },
+  "mobileStart": {
+    "favorites": "علاقه‌مندی‌ها",
+    "noFavoritesHint": "نشانک اضافه کنید تا اینجا به عنوان علاقه‌مندی نمایش داده شوند.",
+    "readingList": "لیست خواندن",
+    "readingListHint": "لیست خواندن به شما امکان می‌دهد صفحات وب را برای خواندن بعدی جمع‌آوری کنید."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "جستجوی زبانه‌ها",
+    "bookmarksBtn": "نشانک‌ها",
+    "newTabBtn": "زبانه جدید",
+    "reloadBtn": "بارگذاری مجدد",
+    "moreBtn": "بیشتر",
+    "closeTabTipTitle": "بستن زبانه",
+    "closeTabTipBody": "هر زبانه را به بالا بکشید تا بسته شود."
+  },
+  "mobileOptions": {
+    "cancelBtn": "لغو",
+    "back": "برگشت",
+    "forward": "جلو",
+    "stop": "توقف",
+    "reload": "بارگذاری مجدد",
+    "findInPage": "جستجو در صفحه",
+    "print": "چاپ",
+    "removeBookmark": "حذف نشانک",
+    "addBookmark": "افزودن نشانک",
+    "settings": "تنظیمات"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "نشانک‌ها",
+    "historyTab": "تاریخچه",
+    "searchBookmarks": "جستجوی نشانک‌ها",
+    "searchHistory": "جستجوی تاریخچه",
+    "noBookmarks": "هنوز نشانکی وجود ندارد",
+    "noHistory": "تاریخچه‌ای وجود ندارد",
+    "editBookmark": "ویرایش نشانک",
+    "titleLabel": "عنوان",
+    "urlLabel": "URL",
+    "save": "ذخیره",
+    "deleteBookmark": "حذف نشانک",
+    "cancel": "لغو"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "نوار آدرس",
+      "body": "برای جستجو یا تایپ آدرس URL ضربه بزنید. برای جابجایی بین زبانه‌ها به چپ یا راست بکشید."
+    },
+    "seeYourTabs": {
+      "title": "زبانه‌های خود را ببینید",
+      "body": "برای مشاهده همه زبانه‌های باز، روی نوار آدرس به بالا بکشید."
+    },
+    "bookmarksHistory": {
+      "title": "نشانک‌ها و تاریخچه",
+      "body": "اینجا ضربه بزنید تا صفحات ذخیره‌شده و سایت‌های بازدید شده را ببینید."
+    },
+    "moreOptions": {
+      "title": "گزینه‌های بیشتر",
+      "body": "به تنظیمات، جستجو در صفحه و کنترل‌های مرورگر دسترسی داشته باشید."
+    },
+    "newTab": {
+      "title": "زبانه جدید",
+      "body": "می‌دانید این چیست."
+    }
+  },
+  "onboarding": {
+    "skip": "رد کردن",
+    "continue": "ادامه",
+    "getStarted": "شروع",
+    "showMeAround": "نشانم بده",
+    "iKnowWhatImDoing": "می‌دانم چه می‌کنم",
+    "steps": {
+      "welcome": {
+        "title": "به Eclipse خوش آمدید",
+        "body": "مرورگری ساخته شده برای وب همتا به همتای NWEP — جایی که سایت‌ها مستقیماً روی دستگاه‌ها اجرا می‌شوند، نه سرورهای راه دور."
+      },
+      "browse": {
+        "title": "وب NWEP را مرور کنید",
+        "body": "آدرس‌های web:// را در نوار آدرس تایپ کنید تا مستقیماً به سایت‌های NWEP متصل شوید. بدون DNS، بدون واسطه."
+      },
+      "private": {
+        "title": "به طور پیش‌فرض خصوصی",
+        "body": "هر اتصال از یک هویت موقت جدید استفاده می‌کند — رمزگذاری سرتاسری بدون ردیابی دائمی."
+      },
+      "allSet": {
+        "title": "آماده‌اید",
+        "body": "با تایپ آدرس web:// در نوار آدرس شروع کنید یا آنچه در شبکه موجود است را کشف کنید."
+      },
+      "tour": {
+        "title": "آیا می‌خواهید یک تور سریع داشته باشید؟",
+        "body": "حرکات و ویژگی‌هایی را که ناوبری در Eclipse را آسان می‌کنند به شما نشان خواهیم داد."
+      }
+    }
+  },
+  "settings": {
+    "language": "زبان",
+    "general": "عمومی",
+    "appearance": "ظاهر",
+    "privacy": "حریم خصوصی",
+    "developers": "توسعه‌دهندگان",
+    "newTab": "زبانه جدید",
+    "openNewTabsWith": "باز کردن زبانه‌های جدید با",
+    "empty": "خالی",
+    "homepage": "صفحه اصلی",
+    "homepageUrl": "آدرس صفحه اصلی",
+    "homepageUrlActive": "هنگام باز کردن زبانه جدید بارگذاری می‌شود",
+    "homepageUrlInactive": "برای استفاده از این به حالت صفحه اصلی تغییر دهید",
+    "addressBar": "نوار آدرس",
+    "searchBookmarks": "جستجوی نشانک‌ها",
+    "searchBookmarksDesc": "نشانک‌های مطابق را هنگام تایپ نشان بده",
+    "searchHistory": "جستجوی تاریخچه",
+    "searchHistoryDesc": "ورودی‌های تاریخچه مطابق را هنگام تایپ نشان بده",
+    "theme": "پوسته",
+    "colorScheme": "طرح رنگ",
+    "light": "روشن",
+    "dark": "تاریک",
+    "auto": "خودکار",
+    "scaling": "مقیاس‌بندی",
+    "browserUiScale": "مقیاس رابط مرورگر",
+    "browserUiScaleDesc": "زبانه‌ها، نوار ابزار و رابط مرورگر را مقیاس‌بندی می‌کند",
+    "defaultPageZoom": "بزرگ‌نمایی پیش‌فرض صفحه",
+    "defaultPageZoomDesc": "محتوای صفحه را هنگام باز کردن زبانه‌های جدید مقیاس‌بندی می‌کند",
+    "browsingData": "داده‌های مرور",
+    "recordBrowsingHistory": "ثبت تاریخچه مرور",
+    "recordBrowsingHistoryDesc": "صفحات بازدید شده را در تاریخچه ذخیره کنید",
+    "browsingHistory": "تاریخچه مرور",
+    "browsingHistoryDesc": "تاریخچه ذخیره شده خود را مشاهده یا پاک کنید",
+    "viewBtn": "مشاهده",
+    "clearBtn": "پاک کردن",
+    "clearedBtn": "پاک شد",
+    "interface": "رابط کاربری",
+    "mobileUi": "رابط موبایل",
+    "mobileUiDesc": "تشخیص خودکار پلتفرم را نادیده بگیرید",
+    "mobileAuto": "خودکار",
+    "mobileMobile": "موبایل",
+    "mobileDesktop": "دسکتاپ",
+    "onboarding": "آموزش اولیه",
+    "resetWelcomeGuide": "بازنشانی راهنمای خوش‌آمدگویی",
+    "resetWelcomeGuideDesc": "فوری راهنمای خوش‌آمدگویی را دوباره نشان بده",
+    "resetBtn": "بازنشانی",
+    "doneBtn": "انجام شد",
+    "settingsTitle": "تنظیمات",
+    "zoomDefault": "{{percent}}٪ (پیش‌فرض)"
+  },
+  "bookmarkManager": {
+    "title": "مدیریت نشانک‌ها",
+    "titlePlaceholder": "عنوان",
+    "urlPlaceholder": "URL (مثلاً web://…)",
+    "folderNamePlaceholder": "نام پوشه",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "لغو",
+    "save": "ذخیره",
+    "addBookmarkBtn": "افزودن نشانک",
+    "addFolderBtn": "افزودن پوشه",
+    "addBookmarkToolbar": "افزودن نشانک",
+    "newFolderToolbar": "پوشه جدید",
+    "noBookmarksRoot": "هنوز نشانکی وجود ندارد. یکی را در زیر اضافه کنید.",
+    "emptyFolder": "این پوشه خالی است.",
+    "openFolder": "باز کردن پوشه",
+    "rename": "تغییر نام",
+    "delete": "حذف"
+  }
+}

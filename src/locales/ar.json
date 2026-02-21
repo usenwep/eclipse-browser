@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "رجوع",
+    "forward": "للأمام",
+    "stop": "إيقاف",
+    "reload": "إعادة تحميل",
+    "newTab": "تبويب جديد",
+    "copyLink": "نسخ الرابط",
+    "connectionSecurity": "أمان الاتصال",
+    "searchOrEnterUrl": "ابحث أو أدخل اسم موقع",
+    "bookmarks": "الإشارات المرجعية",
+    "options": "خيارات"
+  },
+  "tab": {
+    "settings": "الإعدادات",
+    "history": "السجل",
+    "newTab": "تبويب جديد"
+  },
+  "urlBar": {
+    "placeholder": "ابحث أو أدخل اسم موقع",
+    "mobilePlaceholder": "ابحث أو أدخل موقعاً",
+    "bookmarksGroup": "الإشارات المرجعية",
+    "historyGroup": "السجل"
+  },
+  "connection": {
+    "authenticated": "موثّق",
+    "authVerified": "تم التحقق من المصادقة المتبادلة",
+    "failed": "فشل الاتصال",
+    "handshakeIncomplete": "لم تكتمل المصافحة",
+    "server": "خادم",
+    "client": "عميل",
+    "ephemeral": "مؤقت",
+    "logLabel": "سجل"
+  },
+  "find": {
+    "placeholder": "ابحث في الصفحة…",
+    "noResults": "لا نتائج",
+    "countOf": "{{current}} من {{total}}",
+    "prevMatch": "السابق",
+    "nextMatch": "التالي",
+    "close": "إغلاق شريط البحث"
+  },
+  "error": {
+    "timeout": "انتهت مهلة الاتصال",
+    "timeoutHint": "استغرق الخادم وقتاً طويلاً للاستجابة. قد يكون غير متصل أو غير متاح.",
+    "cantConnect": "تعذّر الاتصال بهذا الموقع",
+    "cantConnectHint": "رفض الخادم الاتصال أو تعذّر الوصول إليه.",
+    "authFailed": "فشلت المصادقة",
+    "authFailedHint": "تعذّر التحقق من هوية الخادم المشفّرة.",
+    "serverNotFound": "الخادم غير موجود",
+    "serverNotFoundHint": "الخادم على هذا العنوان غير موجود أو تعذّر الوصول إليه. تحقق من العنوان وحاول مجدداً.",
+    "identityError": "خطأ في الهوية",
+    "identityErrorHint": "حدثت مشكلة في التحقق من هوية الموقع.",
+    "protocolError": "خطأ في البروتوكول",
+    "protocolErrorHint": "أرسل الخادم استجابة لا يمكن فهمها.",
+    "genericError": "حدث خطأ ما",
+    "genericErrorHint": "تعذّر تحميل الصفحة بسبب خطأ غير متوقع.",
+    "tryAgain": "حاول مجدداً"
+  },
+  "history": {
+    "title": "السجل",
+    "clearAll": "مسح الكل",
+    "empty": "لا يوجد سجل تصفح",
+    "websiteColumn": "الموقع",
+    "addressColumn": "العنوان",
+    "removeFromHistory": "إزالة من السجل",
+    "labelToday": "اليوم",
+    "labelYesterday": "أمس",
+    "labelEarlier": "سابقاً"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "وضع إشارة لهذه الصفحة",
+    "removeBookmark": "إزالة الإشارة المرجعية",
+    "bookmarkAllTabs": "وضع إشارة لكل التبويبات",
+    "addBookmark": "إضافة إشارة مرجعية",
+    "newFolder": "مجلد جديد",
+    "addFolder": "إضافة مجلد",
+    "add": "إضافة",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "noBookmarks": "لا توجد إشارات مرجعية بعد",
+    "emptyFolder": "مجلد فارغ",
+    "folderNamePlaceholder": "اسم المجلد",
+    "titlePlaceholder": "العنوان",
+    "openFolder": "فتح المجلد",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "goBack": "رجوع",
+    "dropToMove": "أفلت هنا للنقل إلى {{label}}",
+    "rootLabel": "الجذر",
+    "parentLabel": "المجلد الأصل"
+  },
+  "optionsMenu": {
+    "zoomOut": "تصغير",
+    "zoomIn": "تكبير",
+    "resetZoom": "إعادة ضبط التكبير",
+    "findInPage": "بحث في الصفحة",
+    "print": "طباعة",
+    "history": "السجل",
+    "settings": "الإعدادات",
+    "current": "الحالي"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "فتح الرابط في تبويب جديد",
+    "copyLinkAddress": "نسخ عنوان الرابط",
+    "cut": "قص",
+    "copy": "نسخ",
+    "paste": "لصق",
+    "selectAll": "تحديد الكل",
+    "back": "رجوع",
+    "forward": "للأمام",
+    "reload": "إعادة تحميل",
+    "share": "مشاركة",
+    "savePageAs": "حفظ الصفحة باسم",
+    "print": "طباعة",
+    "copyLink": "نسخ الرابط",
+    "copied": "تم النسخ!",
+    "copyProxyLink": "نسخ رابط الوكيل"
+  },
+  "windowControls": {
+    "minimize": "تصغير",
+    "maximize": "تكبير",
+    "close": "إغلاق"
+  },
+  "mobileStart": {
+    "favorites": "المفضلة",
+    "noFavoritesHint": "أضف إشارات مرجعية وستظهر هنا كمفضلة.",
+    "readingList": "قائمة القراءة",
+    "readingListHint": "تتيح لك قائمة القراءة جمع صفحات الويب والروابط للقراءة لاحقاً. اضغط على زر المشاركة لإضافة الصفحة الحالية."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "بحث في التبويبات",
+    "bookmarksBtn": "الإشارات المرجعية",
+    "newTabBtn": "تبويب جديد",
+    "reloadBtn": "إعادة تحميل",
+    "moreBtn": "المزيد",
+    "closeTabTipTitle": "إغلاق تبويب",
+    "closeTabTipBody": "اسحب أي تبويب للأعلى لإغلاقه."
+  },
+  "mobileOptions": {
+    "cancelBtn": "إلغاء",
+    "back": "رجوع",
+    "forward": "للأمام",
+    "stop": "إيقاف",
+    "reload": "إعادة تحميل",
+    "findInPage": "بحث في الصفحة",
+    "print": "طباعة",
+    "removeBookmark": "إزالة الإشارة المرجعية",
+    "addBookmark": "إضافة إشارة مرجعية",
+    "settings": "الإعدادات"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "الإشارات المرجعية",
+    "historyTab": "السجل",
+    "searchBookmarks": "بحث في الإشارات المرجعية",
+    "searchHistory": "بحث في السجل",
+    "noBookmarks": "لا توجد إشارات مرجعية بعد",
+    "noHistory": "لا يوجد سجل",
+    "editBookmark": "تعديل الإشارة المرجعية",
+    "titleLabel": "العنوان",
+    "urlLabel": "URL",
+    "save": "حفظ",
+    "deleteBookmark": "حذف الإشارة المرجعية",
+    "cancel": "إلغاء"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "شريط العنوان",
+      "body": "اضغط للبحث أو كتابة عنوان URL. اسحب يساراً أو يميناً للتنقل بين التبويبات."
+    },
+    "seeYourTabs": {
+      "title": "عرض تبويباتك",
+      "body": "اسحب لأعلى على شريط العنوان لرؤية جميع التبويبات المفتوحة."
+    },
+    "bookmarksHistory": {
+      "title": "الإشارات المرجعية والسجل",
+      "body": "اضغط هنا لتصفح صفحاتك المحفوظة وإعادة زيارة المواقع."
+    },
+    "moreOptions": {
+      "title": "خيارات أخرى",
+      "body": "الوصول إلى الإعدادات والبحث في الصفحة وعناصر التحكم في المتصفح."
+    },
+    "newTab": {
+      "title": "تبويب جديد",
+      "body": "أنت تعرف ما هذا بالفعل."
+    }
+  },
+  "onboarding": {
+    "skip": "تخطي",
+    "continue": "متابعة",
+    "getStarted": "ابدأ",
+    "showMeAround": "أرني الجولة",
+    "iKnowWhatImDoing": "أعرف ما أفعله",
+    "steps": {
+      "welcome": {
+        "title": "مرحباً بك في Eclipse",
+        "body": "متصفح مصمم للويب اللامركزي NWEP — حيث تعمل المواقع مباشرة على الأجهزة، لا على خوادم بعيدة."
+      },
+      "browse": {
+        "title": "تصفح ويب NWEP",
+        "body": "اكتب عناوين web:// في شريط العنوان للاتصال مباشرة بمواقع NWEP. بلا DNS، بلا وسطاء."
+      },
+      "private": {
+        "title": "خاص بطبيعته",
+        "body": "كل اتصال يستخدم هوية مؤقتة جديدة — مشفّر من طرف إلى طرف بلا تتبع دائم."
+      },
+      "allSet": {
+        "title": "أنت جاهز",
+        "body": "ابدأ بكتابة عنوان web:// في شريط العنوان أو استكشف ما هو متاح على الشبكة."
+      },
+      "tour": {
+        "title": "هل تريد جولة سريعة؟",
+        "body": "سنرشدك خلال الإيماءات والميزات التي تجعل التنقل في Eclipse سهلاً."
+      }
+    }
+  },
+  "settings": {
+    "language": "اللغة",
+    "general": "عام",
+    "appearance": "المظهر",
+    "privacy": "الخصوصية",
+    "developers": "المطورون",
+    "newTab": "تبويب جديد",
+    "openNewTabsWith": "فتح التبويبات الجديدة بـ",
+    "empty": "فارغ",
+    "homepage": "الصفحة الرئيسية",
+    "homepageUrl": "عنوان الصفحة الرئيسية",
+    "homepageUrlActive": "يُحمَّل عند فتح تبويب جديد",
+    "homepageUrlInactive": "انتقل إلى وضع الصفحة الرئيسية لاستخدام هذا",
+    "addressBar": "شريط العنوان",
+    "searchBookmarks": "بحث في الإشارات المرجعية",
+    "searchBookmarksDesc": "عرض الإشارات المطابقة أثناء الكتابة",
+    "searchHistory": "بحث في السجل",
+    "searchHistoryDesc": "عرض سجلات التصفح المطابقة أثناء الكتابة",
+    "theme": "السمة",
+    "colorScheme": "نظام الألوان",
+    "light": "فاتح",
+    "dark": "داكن",
+    "auto": "تلقائي",
+    "scaling": "القياس",
+    "browserUiScale": "حجم واجهة المتصفح",
+    "browserUiScaleDesc": "تغيير حجم التبويبات وشريط الأدوات وواجهة المتصفح",
+    "defaultPageZoom": "تكبير الصفحة الافتراضي",
+    "defaultPageZoomDesc": "تغيير حجم محتوى الصفحة عند فتح تبويبات جديدة",
+    "browsingData": "بيانات التصفح",
+    "recordBrowsingHistory": "تسجيل سجل التصفح",
+    "recordBrowsingHistoryDesc": "حفظ الصفحات المزارة في سجلك",
+    "browsingHistory": "سجل التصفح",
+    "browsingHistoryDesc": "عرض سجلك المحفوظ أو مسحه",
+    "viewBtn": "عرض",
+    "clearBtn": "مسح",
+    "clearedBtn": "تم المسح",
+    "interface": "الواجهة",
+    "mobileUi": "واجهة الجوال",
+    "mobileUiDesc": "تجاوز الكشف التلقائي عن المنصة",
+    "mobileAuto": "تلقائي",
+    "mobileMobile": "جوال",
+    "mobileDesktop": "سطح مكتب",
+    "onboarding": "الإعداد الأولي",
+    "resetWelcomeGuide": "إعادة ضبط دليل الترحيب",
+    "resetWelcomeGuideDesc": "عرض جولة الترحيب فوراً مرة أخرى",
+    "resetBtn": "إعادة ضبط",
+    "doneBtn": "تم",
+    "settingsTitle": "الإعدادات",
+    "zoomDefault": "{{percent}}% (الافتراضي)"
+  },
+  "bookmarkManager": {
+    "title": "إدارة الإشارات المرجعية",
+    "titlePlaceholder": "العنوان",
+    "urlPlaceholder": "URL (مثل web://…)",
+    "folderNamePlaceholder": "اسم المجلد",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "addBookmarkBtn": "إضافة إشارة مرجعية",
+    "addFolderBtn": "إضافة مجلد",
+    "addBookmarkToolbar": "إضافة إشارة مرجعية",
+    "newFolderToolbar": "مجلد جديد",
+    "noBookmarksRoot": "لا توجد إشارات مرجعية بعد. أضف واحدة أدناه.",
+    "emptyFolder": "هذا المجلد فارغ.",
+    "openFolder": "فتح المجلد",
+    "rename": "إعادة التسمية",
+    "delete": "حذف"
+  }
+}

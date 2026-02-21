@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Wstecz",
+    "forward": "Dalej",
+    "stop": "Stop",
+    "reload": "Odśwież",
+    "newTab": "Nowa karta",
+    "copyLink": "Kopiuj link",
+    "connectionSecurity": "Bezpieczeństwo połączenia",
+    "searchOrEnterUrl": "Wyszukaj lub wpisz adres strony",
+    "bookmarks": "Zakładki",
+    "options": "Opcje"
+  },
+  "tab": {
+    "settings": "Ustawienia",
+    "history": "Historia",
+    "newTab": "Nowa karta"
+  },
+  "urlBar": {
+    "placeholder": "Wyszukaj lub wpisz adres strony",
+    "mobilePlaceholder": "Wyszukaj lub wpisz adres",
+    "bookmarksGroup": "Zakładki",
+    "historyGroup": "Historia"
+  },
+  "connection": {
+    "authenticated": "Uwierzytelniono",
+    "authVerified": "Wzajemne uwierzytelnienie zweryfikowane",
+    "failed": "Błąd połączenia",
+    "handshakeIncomplete": "Uzgadnianie nie zostało ukończone",
+    "server": "serwer",
+    "client": "klient",
+    "ephemeral": "tymczasowy",
+    "logLabel": "log"
+  },
+  "find": {
+    "placeholder": "Znajdź na stronie…",
+    "noResults": "Brak wyników",
+    "countOf": "{{current}} z {{total}}",
+    "prevMatch": "Poprzednie dopasowanie",
+    "nextMatch": "Następne dopasowanie",
+    "close": "Zamknij pasek wyszukiwania"
+  },
+  "error": {
+    "timeout": "Przekroczono limit czasu połączenia",
+    "timeoutHint": "Serwer zbyt długo nie odpowiadał. Może być offline lub niedostępny.",
+    "cantConnect": "Nie można połączyć się z tą stroną",
+    "cantConnectHint": "Serwer odrzucił połączenie lub jest niedostępny.",
+    "authFailed": "Błąd uwierzytelnienia",
+    "authFailedHint": "Nie udało się zweryfikować tożsamości kryptograficznej serwera.",
+    "serverNotFound": "Nie znaleziono serwera",
+    "serverNotFoundHint": "Serwer pod tym adresem nie istnieje lub jest niedostępny. Sprawdź adres i spróbuj ponownie.",
+    "identityError": "Błąd tożsamości",
+    "identityErrorHint": "Wystąpił problem z ustaleniem tożsamości strony.",
+    "protocolError": "Błąd protokołu",
+    "protocolErrorHint": "Serwer zwrócił odpowiedź, której nie można było odczytać.",
+    "genericError": "Coś poszło nie tak",
+    "genericErrorHint": "Nie udało się załadować strony z powodu nieoczekiwanego błędu.",
+    "tryAgain": "Spróbuj ponownie"
+  },
+  "history": {
+    "title": "Historia",
+    "clearAll": "Wyczyść wszystko",
+    "empty": "Brak historii przeglądania",
+    "websiteColumn": "Strona",
+    "addressColumn": "Adres",
+    "removeFromHistory": "Usuń z historii",
+    "labelToday": "Dzisiaj",
+    "labelYesterday": "Wczoraj",
+    "labelEarlier": "Wcześniej"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Dodaj do zakładek",
+    "removeBookmark": "Usuń zakładkę",
+    "bookmarkAllTabs": "Dodaj wszystkie karty do zakładek",
+    "addBookmark": "Dodaj zakładkę",
+    "newFolder": "Nowy folder",
+    "addFolder": "Dodaj folder",
+    "add": "Dodaj",
+    "cancel": "Anuluj",
+    "save": "Zapisz",
+    "noBookmarks": "Brak zakładek",
+    "emptyFolder": "Pusty folder",
+    "folderNamePlaceholder": "Nazwa folderu",
+    "titlePlaceholder": "Tytuł",
+    "openFolder": "Otwórz folder",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "goBack": "Wstecz",
+    "dropToMove": "Upuść tutaj, aby przenieść do {{label}}",
+    "rootLabel": "główny",
+    "parentLabel": "nadrzędny"
+  },
+  "optionsMenu": {
+    "zoomOut": "Oddal",
+    "zoomIn": "Przybliż",
+    "resetZoom": "Resetuj powiększenie",
+    "findInPage": "Znajdź na stronie",
+    "print": "Drukuj",
+    "history": "Historia",
+    "settings": "Ustawienia",
+    "current": "Bieżący"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Otwórz link w nowej karcie",
+    "copyLinkAddress": "Kopiuj adres linku",
+    "cut": "Wytnij",
+    "copy": "Kopiuj",
+    "paste": "Wklej",
+    "selectAll": "Zaznacz wszystko",
+    "back": "Wstecz",
+    "forward": "Dalej",
+    "reload": "Odśwież",
+    "share": "Udostępnij",
+    "savePageAs": "Zapisz stronę jako",
+    "print": "Drukuj",
+    "copyLink": "Kopiuj link",
+    "copied": "Skopiowano!",
+    "copyProxyLink": "Kopiuj link proxy"
+  },
+  "windowControls": {
+    "minimize": "Minimalizuj",
+    "maximize": "Maksymalizuj",
+    "close": "Zamknij"
+  },
+  "mobileStart": {
+    "favorites": "Ulubione",
+    "noFavoritesHint": "Dodaj zakładki, a pojawią się tutaj jako ulubione.",
+    "readingList": "Lista do przeczytania",
+    "readingListHint": "Lista do przeczytania pozwala zbierać strony i linki na później. Dotknij przycisku Udostępnij, aby dodać bieżącą stronę."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Szukaj kart",
+    "bookmarksBtn": "Zakładki",
+    "newTabBtn": "Nowa karta",
+    "reloadBtn": "Odśwież",
+    "moreBtn": "Więcej",
+    "closeTabTipTitle": "Zamknij kartę",
+    "closeTabTipBody": "Przeciągnij kartę w górę, aby ją zamknąć."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Anuluj",
+    "back": "Wstecz",
+    "forward": "Dalej",
+    "stop": "Stop",
+    "reload": "Odśwież",
+    "findInPage": "Znajdź na stronie",
+    "print": "Drukuj",
+    "removeBookmark": "Usuń zakładkę",
+    "addBookmark": "Dodaj zakładkę",
+    "settings": "Ustawienia"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Zakładki",
+    "historyTab": "Historia",
+    "searchBookmarks": "Szukaj zakładek",
+    "searchHistory": "Szukaj w historii",
+    "noBookmarks": "Brak zakładek",
+    "noHistory": "Brak historii",
+    "editBookmark": "Edytuj zakładkę",
+    "titleLabel": "Tytuł",
+    "urlLabel": "URL",
+    "save": "Zapisz",
+    "deleteBookmark": "Usuń zakładkę",
+    "cancel": "Anuluj"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Pasek adresu",
+      "body": "Dotknij, aby wyszukać lub wpisać URL. Przesuń w lewo lub prawo, aby przełączać karty."
+    },
+    "seeYourTabs": {
+      "title": "Przeglądaj karty",
+      "body": "Przesuń pasek adresu w górę, aby zobaczyć wszystkie otwarte karty."
+    },
+    "bookmarksHistory": {
+      "title": "Zakładki i historia",
+      "body": "Dotknij tutaj, aby przeglądać zapisane strony i odwiedzone witryny."
+    },
+    "moreOptions": {
+      "title": "Więcej opcji",
+      "body": "Dostęp do ustawień, wyszukiwania na stronie i innych funkcji przeglądarki."
+    },
+    "newTab": {
+      "title": "Nowa karta",
+      "body": "Wiadomo, co to jest."
+    }
+  },
+  "onboarding": {
+    "skip": "Pomiń",
+    "continue": "Dalej",
+    "getStarted": "Zaczynamy",
+    "showMeAround": "Pokaż mi wszystko",
+    "iKnowWhatImDoing": "Wiem, co robię",
+    "steps": {
+      "welcome": {
+        "title": "Witaj w Eclipse",
+        "body": "Przeglądarka stworzona dla sieci peer-to-peer NWEP — gdzie strony działają bezpośrednio na urządzeniach, nie na zdalnych serwerach."
+      },
+      "browse": {
+        "title": "Przeglądaj sieć NWEP",
+        "body": "Wpisz adresy web:// w pasku URL, aby połączyć się bezpośrednio z witrynami NWEP. Bez DNS, bez pośredników."
+      },
+      "private": {
+        "title": "Prywatność domyślnie",
+        "body": "Każde połączenie używa nowej tymczasowej tożsamości — szyfrowanie end-to-end bez trwałego śledzenia."
+      },
+      "allSet": {
+        "title": "Wszystko gotowe",
+        "body": "Zacznij od wpisania adresu web:// w pasku URL lub odkryj, co jest dostępne w sieci."
+      },
+      "tour": {
+        "title": "Chcesz szybką wycieczkę?",
+        "body": "Pokażemy gesty i funkcje, które ułatwiają korzystanie z Eclipse."
+      }
+    }
+  },
+  "settings": {
+    "general": "Ogólne",
+    "appearance": "Wygląd",
+    "privacy": "Prywatność",
+    "developers": "Deweloperzy",
+    "newTab": "Nowa karta",
+    "openNewTabsWith": "Otwieraj nowe karty z",
+    "empty": "Pusta strona",
+    "homepage": "Strona główna",
+    "homepageUrl": "URL strony głównej",
+    "homepageUrlActive": "Ładowana przy otwieraniu nowej karty",
+    "homepageUrlInactive": "Przełącz na tryb strony głównej, aby użyć tej opcji",
+    "addressBar": "Pasek adresu",
+    "searchBookmarks": "Szukaj zakładek",
+    "searchBookmarksDesc": "Pokazuj pasujące zakładki podczas wpisywania",
+    "searchHistory": "Szukaj w historii",
+    "searchHistoryDesc": "Pokazuj pasujące wpisy historii podczas wpisywania",
+    "theme": "Motyw",
+    "colorScheme": "Schemat kolorów",
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "auto": "Auto",
+    "scaling": "Skalowanie",
+    "browserUiScale": "Skala interfejsu przeglądarki",
+    "browserUiScaleDesc": "Skaluje karty, pasek narzędzi i elementy przeglądarki",
+    "defaultPageZoom": "Domyślne powiększenie strony",
+    "defaultPageZoomDesc": "Skaluje zawartość strony przy otwieraniu nowych kart",
+    "browsingData": "Dane przeglądania",
+    "recordBrowsingHistory": "Zapisuj historię przeglądania",
+    "recordBrowsingHistoryDesc": "Zapisuj odwiedzone strony w historii",
+    "browsingHistory": "Historia przeglądania",
+    "browsingHistoryDesc": "Wyświetl lub wyczyść zapisaną historię",
+    "viewBtn": "Wyświetl",
+    "clearBtn": "Wyczyść",
+    "clearedBtn": "Wyczyszczono",
+    "interface": "Interfejs",
+    "mobileUi": "Interfejs mobilny",
+    "mobileUiDesc": "Zastąp automatyczne wykrywanie platformy",
+    "mobileAuto": "Auto",
+    "mobileMobile": "Mobilny",
+    "mobileDesktop": "Komputer",
+    "onboarding": "Wprowadzenie",
+    "resetWelcomeGuide": "Resetuj przewodnik powitalny",
+    "resetWelcomeGuideDesc": "Pokaż przewodnik powitalny ponownie od razu",
+    "resetBtn": "Resetuj",
+    "doneBtn": "Gotowe",
+    "settingsTitle": "Ustawienia",
+    "zoomDefault": "{{percent}}% (domyślnie)"
+  },
+  "bookmarkManager": {
+    "title": "Zarządzaj zakładkami",
+    "titlePlaceholder": "Tytuł",
+    "urlPlaceholder": "URL (np. web://…)",
+    "folderNamePlaceholder": "Nazwa folderu",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Anuluj",
+    "save": "Zapisz",
+    "addBookmarkBtn": "Dodaj zakładkę",
+    "addFolderBtn": "Dodaj folder",
+    "addBookmarkToolbar": "Dodaj zakładkę",
+    "newFolderToolbar": "Nowy folder",
+    "noBookmarksRoot": "Brak zakładek. Dodaj je poniżej.",
+    "emptyFolder": "Ten folder jest pusty.",
+    "openFolder": "Otwórz folder",
+    "rename": "Zmień nazwę",
+    "delete": "Usuń"
+  }
+}

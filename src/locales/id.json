@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Kembali",
+    "forward": "Maju",
+    "stop": "Berhenti",
+    "reload": "Muat Ulang",
+    "newTab": "Tab Baru",
+    "copyLink": "Salin tautan",
+    "connectionSecurity": "Keamanan koneksi",
+    "searchOrEnterUrl": "Cari atau masukkan alamat situs",
+    "bookmarks": "Markah",
+    "options": "Opsi"
+  },
+  "tab": {
+    "settings": "Pengaturan",
+    "history": "Riwayat",
+    "newTab": "Tab Baru"
+  },
+  "urlBar": {
+    "placeholder": "Cari atau masukkan alamat situs",
+    "mobilePlaceholder": "Cari atau masukkan alamat",
+    "bookmarksGroup": "Markah",
+    "historyGroup": "Riwayat"
+  },
+  "connection": {
+    "authenticated": "Terautentikasi",
+    "authVerified": "Autentikasi bersama terverifikasi",
+    "failed": "Koneksi gagal",
+    "handshakeIncomplete": "Jabat tangan tidak selesai",
+    "server": "server",
+    "client": "klien",
+    "ephemeral": "sementara",
+    "logLabel": "log"
+  },
+  "find": {
+    "placeholder": "Cari di halaman…",
+    "noResults": "Tidak ada hasil",
+    "countOf": "{{current}} dari {{total}}",
+    "prevMatch": "Kecocokan sebelumnya",
+    "nextMatch": "Kecocokan berikutnya",
+    "close": "Tutup bilah pencarian"
+  },
+  "error": {
+    "timeout": "Koneksi habis waktu",
+    "timeoutHint": "Server terlalu lama merespons. Mungkin sedang offline atau tidak dapat dijangkau.",
+    "cantConnect": "Tidak dapat terhubung ke situs ini",
+    "cantConnectHint": "Server menolak koneksi atau tidak dapat dijangkau.",
+    "authFailed": "Autentikasi gagal",
+    "authFailedHint": "Identitas kriptografi server tidak dapat diverifikasi.",
+    "serverNotFound": "Server tidak ditemukan",
+    "serverNotFoundHint": "Server di alamat ini tidak ada atau tidak dapat dijangkau. Periksa alamat dan coba lagi.",
+    "identityError": "Kesalahan identitas",
+    "identityErrorHint": "Ada masalah saat memverifikasi identitas situs.",
+    "protocolError": "Kesalahan protokol",
+    "protocolErrorHint": "Server mengirim respons yang tidak dapat dipahami.",
+    "genericError": "Terjadi kesalahan",
+    "genericErrorHint": "Halaman tidak dapat dimuat karena kesalahan yang tidak terduga.",
+    "tryAgain": "Coba lagi"
+  },
+  "history": {
+    "title": "Riwayat",
+    "clearAll": "Hapus Semua",
+    "empty": "Tidak ada riwayat penelusuran",
+    "websiteColumn": "Situs Web",
+    "addressColumn": "Alamat",
+    "removeFromHistory": "Hapus dari riwayat",
+    "labelToday": "Hari ini",
+    "labelYesterday": "Kemarin",
+    "labelEarlier": "Sebelumnya"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Tandai Halaman Ini",
+    "removeBookmark": "Hapus Markah",
+    "bookmarkAllTabs": "Tandai Semua Tab",
+    "addBookmark": "Tambah Markah",
+    "newFolder": "Folder Baru",
+    "addFolder": "Tambah Folder",
+    "add": "Tambah",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "noBookmarks": "Belum ada markah",
+    "emptyFolder": "Folder kosong",
+    "folderNamePlaceholder": "Nama folder",
+    "titlePlaceholder": "Judul",
+    "openFolder": "Buka folder",
+    "edit": "Edit",
+    "delete": "Hapus",
+    "goBack": "Kembali",
+    "dropToMove": "Letakkan di sini untuk pindah ke {{label}}",
+    "rootLabel": "akar",
+    "parentLabel": "induk"
+  },
+  "optionsMenu": {
+    "zoomOut": "Perkecil",
+    "zoomIn": "Perbesar",
+    "resetZoom": "Atur ulang zoom",
+    "findInPage": "Cari di Halaman",
+    "print": "Cetak",
+    "history": "Riwayat",
+    "settings": "Pengaturan",
+    "current": "Saat ini"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Buka Tautan di Tab Baru",
+    "copyLinkAddress": "Salin Alamat Tautan",
+    "cut": "Potong",
+    "copy": "Salin",
+    "paste": "Tempel",
+    "selectAll": "Pilih Semua",
+    "back": "Kembali",
+    "forward": "Maju",
+    "reload": "Muat Ulang",
+    "share": "Bagikan",
+    "savePageAs": "Simpan Halaman Sebagai",
+    "print": "Cetak",
+    "copyLink": "Salin Tautan",
+    "copied": "Tersalin!",
+    "copyProxyLink": "Salin Tautan Proksi"
+  },
+  "windowControls": {
+    "minimize": "Perkecil",
+    "maximize": "Perbesar",
+    "close": "Tutup"
+  },
+  "mobileStart": {
+    "favorites": "Favorit",
+    "noFavoritesHint": "Tambahkan markah dan akan muncul di sini sebagai favorit.",
+    "readingList": "Daftar Bacaan",
+    "readingListHint": "Daftar Bacaan memungkinkan Anda menyimpan halaman web dan tautan untuk dibaca nanti. Ketuk tombol Bagikan untuk menambahkan halaman saat ini."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Cari tab",
+    "bookmarksBtn": "Markah",
+    "newTabBtn": "Tab Baru",
+    "reloadBtn": "Muat Ulang",
+    "moreBtn": "Lainnya",
+    "closeTabTipTitle": "Tutup Tab",
+    "closeTabTipBody": "Geser tab ke atas untuk menutupnya."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Batal",
+    "back": "Kembali",
+    "forward": "Maju",
+    "stop": "Berhenti",
+    "reload": "Muat Ulang",
+    "findInPage": "Cari di Halaman",
+    "print": "Cetak",
+    "removeBookmark": "Hapus Markah",
+    "addBookmark": "Tambah Markah",
+    "settings": "Pengaturan"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Markah",
+    "historyTab": "Riwayat",
+    "searchBookmarks": "Cari markah",
+    "searchHistory": "Cari riwayat",
+    "noBookmarks": "Belum ada markah",
+    "noHistory": "Tidak ada riwayat",
+    "editBookmark": "Edit Markah",
+    "titleLabel": "Judul",
+    "urlLabel": "URL",
+    "save": "Simpan",
+    "deleteBookmark": "Hapus Markah",
+    "cancel": "Batal"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Bilah Alamat",
+      "body": "Ketuk untuk mencari atau masukkan URL. Geser kiri atau kanan untuk berpindah antar tab."
+    },
+    "seeYourTabs": {
+      "title": "Lihat Tab Anda",
+      "body": "Geser ke atas pada bilah alamat untuk melihat semua tab yang terbuka."
+    },
+    "bookmarksHistory": {
+      "title": "Markah & Riwayat",
+      "body": "Ketuk di sini untuk menelusuri halaman tersimpan dan mengunjungi kembali situs yang pernah dibuka."
+    },
+    "moreOptions": {
+      "title": "Opsi Lainnya",
+      "body": "Akses pengaturan, pencarian di halaman, dan kontrol browser lainnya."
+    },
+    "newTab": {
+      "title": "Tab Baru",
+      "body": "Anda pasti sudah tahu fungsinya."
+    }
+  },
+  "onboarding": {
+    "skip": "Lewati",
+    "continue": "Lanjutkan",
+    "getStarted": "Mulai",
+    "showMeAround": "Tunjukkan sekilas",
+    "iKnowWhatImDoing": "Saya sudah paham",
+    "steps": {
+      "welcome": {
+        "title": "Selamat Datang di Eclipse",
+        "body": "Browser yang dibangun untuk web peer-to-peer NWEP — di mana situs berjalan langsung di perangkat, bukan di server jarak jauh."
+      },
+      "browse": {
+        "title": "Jelajahi Web NWEP",
+        "body": "Ketik alamat web:// di bilah URL untuk terhubung langsung ke situs NWEP. Tanpa DNS, tanpa perantara."
+      },
+      "private": {
+        "title": "Privat Secara Default",
+        "body": "Setiap koneksi menggunakan identitas sementara yang baru — dienkripsi ujung ke ujung tanpa pelacakan persisten."
+      },
+      "allSet": {
+        "title": "Siap Digunakan",
+        "body": "Mulailah dengan mengetik alamat web:// di bilah URL atau jelajahi apa yang tersedia di jaringan."
+      },
+      "tour": {
+        "title": "Ingin Tur Singkat?",
+        "body": "Kami akan memandu Anda melalui gestur dan fitur yang membuat Eclipse mudah digunakan."
+      }
+    }
+  },
+  "settings": {
+    "general": "Umum",
+    "appearance": "Tampilan",
+    "privacy": "Privasi",
+    "developers": "Pengembang",
+    "newTab": "Tab Baru",
+    "openNewTabsWith": "Buka tab baru dengan",
+    "empty": "Kosong",
+    "homepage": "Beranda",
+    "homepageUrl": "URL Beranda",
+    "homepageUrlActive": "Dimuat saat tab baru dibuka",
+    "homepageUrlInactive": "Aktifkan mode Beranda untuk menggunakan ini",
+    "addressBar": "Bilah Alamat",
+    "searchBookmarks": "Cari Markah",
+    "searchBookmarksDesc": "Tampilkan markah yang cocok saat mengetik",
+    "searchHistory": "Cari Riwayat",
+    "searchHistoryDesc": "Tampilkan entri riwayat yang cocok saat mengetik",
+    "theme": "Tema",
+    "colorScheme": "Skema Warna",
+    "light": "Terang",
+    "dark": "Gelap",
+    "auto": "Otomatis",
+    "scaling": "Skala",
+    "browserUiScale": "Skala UI Browser",
+    "browserUiScaleDesc": "Menskalakan tab, toolbar, dan chrome browser",
+    "defaultPageZoom": "Zoom Halaman Default",
+    "defaultPageZoomDesc": "Menskalakan konten halaman saat membuka tab baru",
+    "browsingData": "Data Penelusuran",
+    "recordBrowsingHistory": "Catat Riwayat Penelusuran",
+    "recordBrowsingHistoryDesc": "Simpan halaman yang dikunjungi ke riwayat",
+    "browsingHistory": "Riwayat Penelusuran",
+    "browsingHistoryDesc": "Lihat atau hapus riwayat tersimpan",
+    "viewBtn": "Lihat",
+    "clearBtn": "Hapus",
+    "clearedBtn": "Dihapus",
+    "interface": "Antarmuka",
+    "mobileUi": "UI Mobile",
+    "mobileUiDesc": "Timpa deteksi platform otomatis",
+    "mobileAuto": "Otomatis",
+    "mobileMobile": "Mobile",
+    "mobileDesktop": "Desktop",
+    "onboarding": "Panduan Awal",
+    "resetWelcomeGuide": "Atur Ulang Panduan Selamat Datang",
+    "resetWelcomeGuideDesc": "Tampilkan panduan selamat datang lagi sekarang",
+    "resetBtn": "Atur Ulang",
+    "doneBtn": "Selesai",
+    "settingsTitle": "Pengaturan",
+    "zoomDefault": "{{percent}}% (default)"
+  },
+  "bookmarkManager": {
+    "title": "Kelola Markah",
+    "titlePlaceholder": "Judul",
+    "urlPlaceholder": "URL (mis. web://…)",
+    "folderNamePlaceholder": "Nama folder",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "addBookmarkBtn": "Tambah Markah",
+    "addFolderBtn": "Tambah Folder",
+    "addBookmarkToolbar": "Tambah Markah",
+    "newFolderToolbar": "Folder Baru",
+    "noBookmarksRoot": "Belum ada markah. Tambahkan di bawah.",
+    "emptyFolder": "Folder ini kosong.",
+    "openFolder": "Buka folder",
+    "rename": "Ganti Nama",
+    "delete": "Hapus"
+  }
+}

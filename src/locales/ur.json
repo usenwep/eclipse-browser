@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "واپس",
+    "forward": "آگے",
+    "stop": "رکیں",
+    "reload": "دوبارہ لوڈ کریں",
+    "newTab": "نئی ٹیب",
+    "copyLink": "لنک کاپی کریں",
+    "connectionSecurity": "کنکشن سیکیورٹی",
+    "searchOrEnterUrl": "تلاش کریں یا ویب سائٹ کا نام درج کریں",
+    "bookmarks": "بک مارکس",
+    "options": "اختیارات"
+  },
+  "tab": {
+    "settings": "ترتیبات",
+    "history": "تاریخ",
+    "newTab": "نئی ٹیب"
+  },
+  "urlBar": {
+    "placeholder": "تلاش کریں یا ویب سائٹ کا نام درج کریں",
+    "mobilePlaceholder": "تلاش کریں یا ویب سائٹ درج کریں",
+    "bookmarksGroup": "بک مارکس",
+    "historyGroup": "تاریخ"
+  },
+  "connection": {
+    "authenticated": "تصدیق شدہ",
+    "authVerified": "باہمی تصدیق ہو گئی",
+    "failed": "کنکشن ناکام",
+    "handshakeIncomplete": "ہینڈ شیک مکمل نہیں ہوا",
+    "server": "سرور",
+    "client": "کلائنٹ",
+    "ephemeral": "عارضی",
+    "logLabel": "لاگ"
+  },
+  "find": {
+    "placeholder": "صفحے میں تلاش کریں…",
+    "noResults": "کوئی نتیجہ نہیں",
+    "countOf": "{{current}} از {{total}}",
+    "prevMatch": "پچھلا",
+    "nextMatch": "اگلا",
+    "close": "تلاش بند کریں"
+  },
+  "error": {
+    "timeout": "کنکشن کا وقت ختم",
+    "timeoutHint": "سرور نے جواب دینے میں بہت وقت لیا۔ وہ آف لائن یا دستیاب نہیں ہو سکتا۔",
+    "cantConnect": "اس سائٹ سے کنکشن نہیں ہو سکا",
+    "cantConnectHint": "سرور نے کنکشن سے انکار کیا یا پہنچا نہیں جا سکا۔",
+    "authFailed": "تصدیق ناکام",
+    "authFailedHint": "سرور کی خفیہ نگاری شناخت تصدیق نہیں ہو سکی۔",
+    "serverNotFound": "سرور نہیں ملا",
+    "serverNotFoundHint": "اس پتے پر سرور موجود نہیں یا پہنچا نہیں جا سکتا۔ پتہ جانچیں اور دوبارہ کوشش کریں۔",
+    "identityError": "شناخت کی خرابی",
+    "identityErrorHint": "سائٹ کی شناخت قائم کرنے میں مسئلہ ہوا۔",
+    "protocolError": "پروٹوکول کی خرابی",
+    "protocolErrorHint": "سرور نے ایسا جواب بھیجا جو سمجھ میں نہیں آیا۔",
+    "genericError": "کچھ غلط ہو گیا",
+    "genericErrorHint": "غیر متوقع خرابی کی وجہ سے صفحہ لوڈ نہیں ہو سکا۔",
+    "tryAgain": "دوبارہ کوشش کریں"
+  },
+  "history": {
+    "title": "تاریخ",
+    "clearAll": "سب صاف کریں",
+    "empty": "کوئی براؤزنگ تاریخ نہیں",
+    "websiteColumn": "ویب سائٹ",
+    "addressColumn": "پتہ",
+    "removeFromHistory": "تاریخ سے ہٹائیں",
+    "labelToday": "آج",
+    "labelYesterday": "کل",
+    "labelEarlier": "پہلے"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "اس صفحے کو بک مارک کریں",
+    "removeBookmark": "بک مارک ہٹائیں",
+    "bookmarkAllTabs": "تمام ٹیبیں بک مارک کریں",
+    "addBookmark": "بک مارک شامل کریں",
+    "newFolder": "نئی فولڈر",
+    "addFolder": "فولڈر شامل کریں",
+    "add": "شامل کریں",
+    "cancel": "منسوخ",
+    "save": "محفوظ کریں",
+    "noBookmarks": "ابھی کوئی بک مارک نہیں",
+    "emptyFolder": "خالی فولڈر",
+    "folderNamePlaceholder": "فولڈر کا نام",
+    "titlePlaceholder": "عنوان",
+    "openFolder": "فولڈر کھولیں",
+    "edit": "ترمیم",
+    "delete": "حذف",
+    "goBack": "واپس",
+    "dropToMove": "{{label}} میں منتقل کرنے کے لیے یہاں چھوڑیں",
+    "rootLabel": "بنیاد",
+    "parentLabel": "مادر فولڈر"
+  },
+  "optionsMenu": {
+    "zoomOut": "چھوٹا کریں",
+    "zoomIn": "بڑا کریں",
+    "resetZoom": "زوم ری سیٹ",
+    "findInPage": "صفحے میں تلاش کریں",
+    "print": "پرنٹ",
+    "history": "تاریخ",
+    "settings": "ترتیبات",
+    "current": "موجودہ"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "نئی ٹیب میں لنک کھولیں",
+    "copyLinkAddress": "لنک کا پتہ کاپی کریں",
+    "cut": "کاٹیں",
+    "copy": "کاپی کریں",
+    "paste": "پیسٹ کریں",
+    "selectAll": "سب منتخب کریں",
+    "back": "واپس",
+    "forward": "آگے",
+    "reload": "دوبارہ لوڈ",
+    "share": "شیئر کریں",
+    "savePageAs": "صفحہ بطور محفوظ کریں",
+    "print": "پرنٹ",
+    "copyLink": "لنک کاپی کریں",
+    "copied": "کاپی ہو گیا!",
+    "copyProxyLink": "پراکسی لنک کاپی کریں"
+  },
+  "windowControls": {
+    "minimize": "چھوٹا کریں",
+    "maximize": "بڑا کریں",
+    "close": "بند کریں"
+  },
+  "mobileStart": {
+    "favorites": "پسندیدہ",
+    "noFavoritesHint": "بک مارک شامل کریں اور وہ یہاں پسندیدہ کے طور پر ظاہر ہوں گے۔",
+    "readingList": "پڑھنے کی فہرست",
+    "readingListHint": "پڑھنے کی فہرست آپ کو بعد میں پڑھنے کے لیے ویب پیج اور لنک محفوظ کرنے دیتی ہے۔"
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "ٹیبیں تلاش کریں",
+    "bookmarksBtn": "بک مارکس",
+    "newTabBtn": "نئی ٹیب",
+    "reloadBtn": "دوبارہ لوڈ",
+    "moreBtn": "مزید",
+    "closeTabTipTitle": "ٹیب بند کریں",
+    "closeTabTipBody": "کسی بھی ٹیب کو اوپر کھینچ کر بند کریں۔"
+  },
+  "mobileOptions": {
+    "cancelBtn": "منسوخ",
+    "back": "واپس",
+    "forward": "آگے",
+    "stop": "رکیں",
+    "reload": "دوبارہ لوڈ",
+    "findInPage": "صفحے میں تلاش",
+    "print": "پرنٹ",
+    "removeBookmark": "بک مارک ہٹائیں",
+    "addBookmark": "بک مارک شامل کریں",
+    "settings": "ترتیبات"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "بک مارکس",
+    "historyTab": "تاریخ",
+    "searchBookmarks": "بک مارکس تلاش کریں",
+    "searchHistory": "تاریخ تلاش کریں",
+    "noBookmarks": "ابھی کوئی بک مارک نہیں",
+    "noHistory": "کوئی تاریخ نہیں",
+    "editBookmark": "بک مارک ترمیم کریں",
+    "titleLabel": "عنوان",
+    "urlLabel": "URL",
+    "save": "محفوظ کریں",
+    "deleteBookmark": "بک مارک حذف کریں",
+    "cancel": "منسوخ"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "ایڈریس بار",
+      "body": "تلاش کرنے یا URL ٹائپ کرنے کے لیے ٹیپ کریں۔ ٹیبوں کے درمیان جانے کے لیے سوائپ کریں۔"
+    },
+    "seeYourTabs": {
+      "title": "اپنی ٹیبیں دیکھیں",
+      "body": "تمام کھلی ٹیبیں دیکھنے کے لیے ایڈریس بار پر اوپر سوائپ کریں۔"
+    },
+    "bookmarksHistory": {
+      "title": "بک مارکس اور تاریخ",
+      "body": "اپنے محفوظ صفحات دیکھنے کے لیے یہاں ٹیپ کریں۔"
+    },
+    "moreOptions": {
+      "title": "مزید اختیارات",
+      "body": "ترتیبات اور براؤزر کنٹرولز تک رسائی حاصل کریں۔"
+    },
+    "newTab": {
+      "title": "نئی ٹیب",
+      "body": "آپ کو پہلے سے پتا ہے یہ کیا ہے۔"
+    }
+  },
+  "onboarding": {
+    "skip": "چھوڑیں",
+    "continue": "جاری رکھیں",
+    "getStarted": "شروع کریں",
+    "showMeAround": "مجھے دکھائیں",
+    "iKnowWhatImDoing": "مجھے پتا ہے میں کیا کر رہا ہوں",
+    "steps": {
+      "welcome": {
+        "title": "Eclipse میں خوش آمدید",
+        "body": "NWEP پیر-ٹو-پیر ویب کے لیے بنایا گیا براؤزر — جہاں سائٹیں دور دراز سرورز پر نہیں، براہ راست آلات پر چلتی ہیں۔"
+      },
+      "browse": {
+        "title": "NWEP ویب براؤز کریں",
+        "body": "NWEP سائٹس سے براہ راست جڑنے کے لیے URL بار میں web:// پتے ٹائپ کریں۔ کوئی DNS نہیں، کوئی بیچوان نہیں۔"
+      },
+      "private": {
+        "title": "پہلے سے نجی",
+        "body": "ہر کنکشن ایک نئی عارضی شناخت استعمال کرتا ہے — ایند ٹو ایند انکرپٹڈ، کوئی مستقل ٹریکنگ نہیں۔"
+      },
+      "allSet": {
+        "title": "آپ تیار ہیں",
+        "body": "URL بار میں web:// پتہ ٹائپ کر کے شروع کریں یا نیٹ ورک پر کیا دستیاب ہے دریافت کریں۔"
+      },
+      "tour": {
+        "title": "ایک فوری سیر چاہتے ہیں؟",
+        "body": "ہم آپ کو Eclipse آسانی سے نیویگیٹ کرنے کے اشارے اور خصوصیات دکھائیں گے۔"
+      }
+    }
+  },
+  "settings": {
+    "language": "زبان",
+    "general": "عمومی",
+    "appearance": "ظاہری شکل",
+    "privacy": "رازداری",
+    "developers": "ڈویلپرز",
+    "newTab": "نئی ٹیب",
+    "openNewTabsWith": "نئی ٹیبیں کھولیں",
+    "empty": "خالی",
+    "homepage": "ہوم پیج",
+    "homepageUrl": "ہوم پیج URL",
+    "homepageUrlActive": "نئی ٹیب کھلنے پر لوڈ ہوتا ہے",
+    "homepageUrlInactive": "اسے استعمال کرنے کے لیے ہوم پیج موڈ پر سوئچ کریں",
+    "addressBar": "ایڈریس بار",
+    "searchBookmarks": "بک مارکس تلاش کریں",
+    "searchBookmarksDesc": "ٹائپ کرتے وقت ملتے جلتے بک مارکس دکھائیں",
+    "searchHistory": "تاریخ تلاش کریں",
+    "searchHistoryDesc": "ٹائپ کرتے وقت ملتی جلتی تاریخ کی اندراجات دکھائیں",
+    "theme": "تھیم",
+    "colorScheme": "رنگ کی اسکیم",
+    "light": "روشن",
+    "dark": "تاریک",
+    "auto": "خودکار",
+    "scaling": "اسکیلنگ",
+    "browserUiScale": "براؤزر UI اسکیل",
+    "browserUiScaleDesc": "ٹیبیں، ٹول بار اور براؤزر UI اسکیل کرتا ہے",
+    "defaultPageZoom": "پہلے سے زوم صفحہ",
+    "defaultPageZoomDesc": "نئی ٹیبیں کھلنے پر صفحے کا مواد اسکیل کرتا ہے",
+    "browsingData": "براؤزنگ ڈیٹا",
+    "recordBrowsingHistory": "براؤزنگ تاریخ ریکارڈ کریں",
+    "recordBrowsingHistoryDesc": "دیکھے گئے صفحات آپ کی تاریخ میں محفوظ کریں",
+    "browsingHistory": "براؤزنگ تاریخ",
+    "browsingHistoryDesc": "اپنی محفوظ تاریخ دیکھیں یا صاف کریں",
+    "viewBtn": "دیکھیں",
+    "clearBtn": "صاف کریں",
+    "clearedBtn": "صاف ہو گیا",
+    "interface": "انٹرفیس",
+    "mobileUi": "موبائل UI",
+    "mobileUiDesc": "خودکار پلیٹ فارم شناخت کو اوور رائڈ کریں",
+    "mobileAuto": "خودکار",
+    "mobileMobile": "موبائل",
+    "mobileDesktop": "ڈیسک ٹاپ",
+    "onboarding": "آن بورڈنگ",
+    "resetWelcomeGuide": "خوش آمدید گائیڈ ری سیٹ کریں",
+    "resetWelcomeGuideDesc": "خوش آمدید واک تھرو فوری دوبارہ دکھائیں",
+    "resetBtn": "ری سیٹ",
+    "doneBtn": "ہو گیا",
+    "settingsTitle": "ترتیبات",
+    "zoomDefault": "{{percent}}% (پہلے سے)"
+  },
+  "bookmarkManager": {
+    "title": "بک مارکس منظم کریں",
+    "titlePlaceholder": "عنوان",
+    "urlPlaceholder": "URL (مثلاً web://…)",
+    "folderNamePlaceholder": "فولڈر کا نام",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "منسوخ",
+    "save": "محفوظ کریں",
+    "addBookmarkBtn": "بک مارک شامل کریں",
+    "addFolderBtn": "فولڈر شامل کریں",
+    "addBookmarkToolbar": "بک مارک شامل کریں",
+    "newFolderToolbar": "نئی فولڈر",
+    "noBookmarksRoot": "ابھی کوئی بک مارک نہیں۔ نیچے ایک شامل کریں۔",
+    "emptyFolder": "یہ فولڈر خالی ہے۔",
+    "openFolder": "فولڈر کھولیں",
+    "rename": "نام بدلیں",
+    "delete": "حذف"
+  }
+}

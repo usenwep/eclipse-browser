@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "मागे जा",
+    "forward": "पुढे जा",
+    "stop": "थांबा",
+    "reload": "पुन्हा लोड करा",
+    "newTab": "नवीन टॅब",
+    "copyLink": "दुवा कॉपी करा",
+    "connectionSecurity": "कनेक्शन सुरक्षा",
+    "searchOrEnterUrl": "शोधा किंवा वेबसाइटचे नाव प्रविष्ट करा",
+    "bookmarks": "बुकमार्क",
+    "options": "पर्याय"
+  },
+  "tab": {
+    "settings": "सेटिंग्ज",
+    "history": "इतिहास",
+    "newTab": "नवीन टॅब"
+  },
+  "urlBar": {
+    "placeholder": "शोधा किंवा वेबसाइटचे नाव प्रविष्ट करा",
+    "mobilePlaceholder": "शोधा किंवा वेबसाइट प्रविष्ट करा",
+    "bookmarksGroup": "बुकमार्क",
+    "historyGroup": "इतिहास"
+  },
+  "connection": {
+    "authenticated": "प्रमाणीकृत",
+    "authVerified": "परस्पर प्रमाणीकरण सत्यापित",
+    "failed": "कनेक्शन अयशस्वी",
+    "handshakeIncomplete": "हँडशेक पूर्ण झाले नाही",
+    "server": "सर्व्हर",
+    "client": "क्लायंट",
+    "ephemeral": "तात्पुरते",
+    "logLabel": "लॉग"
+  },
+  "find": {
+    "placeholder": "पृष्ठात शोधा…",
+    "noResults": "कोणताही निकाल नाही",
+    "countOf": "{{current}} / {{total}}",
+    "prevMatch": "मागील",
+    "nextMatch": "पुढील",
+    "close": "शोध बंद करा"
+  },
+  "error": {
+    "timeout": "कनेक्शनची वेळ संपली",
+    "timeoutHint": "सर्व्हरला प्रतिसाद द्यायला खूप वेळ लागला. तो ऑफलाइन किंवा अनुपलब्ध असू शकतो.",
+    "cantConnect": "या साइटशी कनेक्ट होता येत नाही",
+    "cantConnectHint": "सर्व्हरने कनेक्शन नाकारले किंवा पोहोचता आले नाही.",
+    "authFailed": "प्रमाणीकरण अयशस्वी",
+    "authFailedHint": "सर्व्हरची क्रिप्टोग्राफिक ओळख सत्यापित करता आली नाही.",
+    "serverNotFound": "सर्व्हर सापडला नाही",
+    "serverNotFoundHint": "या पत्त्यावर सर्व्हर अस्तित्वात नाही किंवा पोहोचता येत नाही. पत्ता तपासा आणि पुन्हा प्रयत्न करा.",
+    "identityError": "ओळख त्रुटी",
+    "identityErrorHint": "साइटची ओळख स्थापित करण्यात समस्या आली.",
+    "protocolError": "प्रोटोकॉल त्रुटी",
+    "protocolErrorHint": "सर्व्हरने असा प्रतिसाद पाठवला जो समजला नाही.",
+    "genericError": "काहीतरी चूक झाली",
+    "genericErrorHint": "अनपेक्षित त्रुटीमुळे पृष्ठ लोड होऊ शकले नाही.",
+    "tryAgain": "पुन्हा प्रयत्न करा"
+  },
+  "history": {
+    "title": "इतिहास",
+    "clearAll": "सर्व साफ करा",
+    "empty": "कोणताही ब्राउझिंग इतिहास नाही",
+    "websiteColumn": "वेबसाइट",
+    "addressColumn": "पत्ता",
+    "removeFromHistory": "इतिहासातून काढा",
+    "labelToday": "आज",
+    "labelYesterday": "काल",
+    "labelEarlier": "आधी"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "हे पृष्ठ बुकमार्क करा",
+    "removeBookmark": "बुकमार्क काढा",
+    "bookmarkAllTabs": "सर्व टॅब बुकमार्क करा",
+    "addBookmark": "बुकमार्क जोडा",
+    "newFolder": "नवीन फोल्डर",
+    "addFolder": "फोल्डर जोडा",
+    "add": "जोडा",
+    "cancel": "रद्द करा",
+    "save": "जतन करा",
+    "noBookmarks": "अद्याप कोणतेही बुकमार्क नाहीत",
+    "emptyFolder": "रिकामा फोल्डर",
+    "folderNamePlaceholder": "फोल्डरचे नाव",
+    "titlePlaceholder": "शीर्षक",
+    "openFolder": "फोल्डर उघडा",
+    "edit": "संपादित करा",
+    "delete": "हटवा",
+    "goBack": "मागे जा",
+    "dropToMove": "{{label}} मध्ये हलवण्यासाठी येथे सोडा",
+    "rootLabel": "मूळ",
+    "parentLabel": "मूळ फोल्डर"
+  },
+  "optionsMenu": {
+    "zoomOut": "झूम आउट",
+    "zoomIn": "झूम इन",
+    "resetZoom": "झूम रीसेट करा",
+    "findInPage": "पृष्ठात शोधा",
+    "print": "प्रिंट करा",
+    "history": "इतिहास",
+    "settings": "सेटिंग्ज",
+    "current": "सद्य"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "दुवा नवीन टॅबमध्ये उघडा",
+    "copyLinkAddress": "दुव्याचा पत्ता कॉपी करा",
+    "cut": "कापा",
+    "copy": "कॉपी करा",
+    "paste": "पेस्ट करा",
+    "selectAll": "सर्व निवडा",
+    "back": "मागे",
+    "forward": "पुढे",
+    "reload": "पुन्हा लोड करा",
+    "share": "शेअर करा",
+    "savePageAs": "पृष्ठ म्हणून जतन करा",
+    "print": "प्रिंट करा",
+    "copyLink": "दुवा कॉपी करा",
+    "copied": "कॉपी केले!",
+    "copyProxyLink": "प्रॉक्सी दुवा कॉपी करा"
+  },
+  "windowControls": {
+    "minimize": "लहान करा",
+    "maximize": "मोठे करा",
+    "close": "बंद करा"
+  },
+  "mobileStart": {
+    "favorites": "आवडते",
+    "noFavoritesHint": "बुकमार्क जोडा आणि ते येथे आवडते म्हणून दिसतील.",
+    "readingList": "वाचन यादी",
+    "readingListHint": "वाचन यादी आपल्याला नंतर वाचण्यासाठी वेबपेज आणि दुवे संकलित करण्यास देते. सद्य पृष्ठ जोडण्यासाठी शेअर बटण दाबा."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "टॅब शोधा",
+    "bookmarksBtn": "बुकमार्क",
+    "newTabBtn": "नवीन टॅब",
+    "reloadBtn": "पुन्हा लोड करा",
+    "moreBtn": "अधिक",
+    "closeTabTipTitle": "टॅब बंद करा",
+    "closeTabTipBody": "कोणताही टॅब वर खेचून बंद करा."
+  },
+  "mobileOptions": {
+    "cancelBtn": "रद्द करा",
+    "back": "मागे",
+    "forward": "पुढे",
+    "stop": "थांबा",
+    "reload": "पुन्हा लोड करा",
+    "findInPage": "पृष्ठात शोधा",
+    "print": "प्रिंट करा",
+    "removeBookmark": "बुकमार्क काढा",
+    "addBookmark": "बुकमार्क जोडा",
+    "settings": "सेटिंग्ज"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "बुकमार्क",
+    "historyTab": "इतिहास",
+    "searchBookmarks": "बुकमार्क शोधा",
+    "searchHistory": "इतिहास शोधा",
+    "noBookmarks": "अद्याप कोणतेही बुकमार्क नाहीत",
+    "noHistory": "कोणताही इतिहास नाही",
+    "editBookmark": "बुकमार्क संपादित करा",
+    "titleLabel": "शीर्षक",
+    "urlLabel": "URL",
+    "save": "जतन करा",
+    "deleteBookmark": "बुकमार्क हटवा",
+    "cancel": "रद्द करा"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "पत्ता बार",
+      "body": "शोधण्यासाठी किंवा URL टाइप करण्यासाठी टॅप करा. टॅबमध्ये उडी मारण्यासाठी डाव्या किंवा उजव्या बाजूने स्वाइप करा."
+    },
+    "seeYourTabs": {
+      "title": "तुमचे टॅब पहा",
+      "body": "सर्व उघडे टॅब पाहण्यासाठी पत्ता बारवर वर स्वाइप करा."
+    },
+    "bookmarksHistory": {
+      "title": "बुकमार्क आणि इतिहास",
+      "body": "आपले जतन केलेले पृष्ठ पाहण्यासाठी आणि भेट दिलेल्या साइट्सला पुन्हा भेट देण्यासाठी येथे टॅप करा."
+    },
+    "moreOptions": {
+      "title": "अधिक पर्याय",
+      "body": "सेटिंग्ज, पृष्ठात शोधा आणि इतर ब्राउझर नियंत्रणे ऍक्सेस करा."
+    },
+    "newTab": {
+      "title": "नवीन टॅब",
+      "body": "हे काय आहे हे तुम्हाला आधीच माहित आहे."
+    }
+  },
+  "onboarding": {
+    "skip": "वगळा",
+    "continue": "सुरू ठेवा",
+    "getStarted": "सुरू करा",
+    "showMeAround": "मला दाखवा",
+    "iKnowWhatImDoing": "मला माहित आहे मी काय करतो",
+    "steps": {
+      "welcome": {
+        "title": "Eclipse मध्ये आपले स्वागत आहे",
+        "body": "NWEP पीयर-टू-पीयर वेबसाठी बनवलेला ब्राउझर — जेथे साइट्स दूरस्थ सर्व्हरवर नाही, थेट उपकरणांवर चालतात."
+      },
+      "browse": {
+        "title": "NWEP वेब ब्राउझ करा",
+        "body": "NWEP साइट्सशी थेट कनेक्ट होण्यासाठी URL बारमध्ये web:// पत्ते टाइप करा. कोणतेही DNS नाही, कोणतेही मध्यस्थ नाही."
+      },
+      "private": {
+        "title": "डीफॉल्टनुसार खाजगी",
+        "body": "प्रत्येक कनेक्शन नवीन तात्पुरती ओळख वापरते — एंड-टू-एंड एन्क्रिप्टेड, कोणत्याही कायमस्वरूपी ट्रॅकिंगशिवाय."
+      },
+      "allSet": {
+        "title": "तुम्ही तयार आहात",
+        "body": "URL बारमध्ये web:// पत्ता टाइप करून सुरू करा किंवा नेटवर्कवर काय उपलब्ध आहे ते एक्सप्लोर करा."
+      },
+      "tour": {
+        "title": "जलद दौरा हवा आहे?",
+        "body": "आम्ही तुम्हाला Eclipse सहज नेव्हिगेट करण्यासाठी जेश्चर आणि वैशिष्ट्ये दाखवू."
+      }
+    }
+  },
+  "settings": {
+    "language": "भाषा",
+    "general": "सामान्य",
+    "appearance": "देखावा",
+    "privacy": "गोपनीयता",
+    "developers": "डेव्हलपर",
+    "newTab": "नवीन टॅब",
+    "openNewTabsWith": "नवीन टॅब उघडा",
+    "empty": "रिकामे",
+    "homepage": "होमपेज",
+    "homepageUrl": "होमपेज URL",
+    "homepageUrlActive": "नवीन टॅब उघडल्यावर लोड होते",
+    "homepageUrlInactive": "हे वापरण्यासाठी होमपेज मोडवर स्विच करा",
+    "addressBar": "पत्ता बार",
+    "searchBookmarks": "बुकमार्क शोधा",
+    "searchBookmarksDesc": "टाइप करताना जुळणारे बुकमार्क दाखवा",
+    "searchHistory": "इतिहास शोधा",
+    "searchHistoryDesc": "टाइप करताना जुळणाऱ्या इतिहास नोंदी दाखवा",
+    "theme": "थीम",
+    "colorScheme": "रंग योजना",
+    "light": "हलकी",
+    "dark": "गडद",
+    "auto": "स्वयंचलित",
+    "scaling": "स्केलिंग",
+    "browserUiScale": "ब्राउझर UI स्केल",
+    "browserUiScaleDesc": "टॅब, टूलबार आणि ब्राउझर क्रोम स्केल करते",
+    "defaultPageZoom": "डीफॉल्ट पृष्ठ झूम",
+    "defaultPageZoomDesc": "नवीन टॅब उघडताना पृष्ठ सामग्री स्केल करते",
+    "browsingData": "ब्राउझिंग डेटा",
+    "recordBrowsingHistory": "ब्राउझिंग इतिहास रेकॉर्ड करा",
+    "recordBrowsingHistoryDesc": "भेट दिलेली पृष्ठे आपल्या इतिहासात जतन करा",
+    "browsingHistory": "ब्राउझिंग इतिहास",
+    "browsingHistoryDesc": "आपला जतन केलेला इतिहास पहा किंवा साफ करा",
+    "viewBtn": "पहा",
+    "clearBtn": "साफ करा",
+    "clearedBtn": "साफ केले",
+    "interface": "इंटरफेस",
+    "mobileUi": "मोबाइल UI",
+    "mobileUiDesc": "स्वयंचलित प्लॅटफॉर्म ओळख ओव्हरराइड करा",
+    "mobileAuto": "स्वयंचलित",
+    "mobileMobile": "मोबाइल",
+    "mobileDesktop": "डेस्कटॉप",
+    "onboarding": "ऑनबोर्डिंग",
+    "resetWelcomeGuide": "स्वागत मार्गदर्शिका रीसेट करा",
+    "resetWelcomeGuideDesc": "स्वागत वॉकथ्रू लगेच पुन्हा दाखवा",
+    "resetBtn": "रीसेट करा",
+    "doneBtn": "झाले",
+    "settingsTitle": "सेटिंग्ज",
+    "zoomDefault": "{{percent}}% (डीफॉल्ट)"
+  },
+  "bookmarkManager": {
+    "title": "बुकमार्क व्यवस्थापित करा",
+    "titlePlaceholder": "शीर्षक",
+    "urlPlaceholder": "URL (उदा. web://…)",
+    "folderNamePlaceholder": "फोल्डरचे नाव",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "रद्द करा",
+    "save": "जतन करा",
+    "addBookmarkBtn": "बुकमार्क जोडा",
+    "addFolderBtn": "फोल्डर जोडा",
+    "addBookmarkToolbar": "बुकमार्क जोडा",
+    "newFolderToolbar": "नवीन फोल्डर",
+    "noBookmarksRoot": "अद्याप कोणतेही बुकमार्क नाहीत. खाली एक जोडा.",
+    "emptyFolder": "हा फोल्डर रिकामा आहे.",
+    "openFolder": "फोल्डर उघडा",
+    "rename": "नाव बदला",
+    "delete": "हटवा"
+  }
+}

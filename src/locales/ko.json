@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "뒤로",
+    "forward": "앞으로",
+    "stop": "중지",
+    "reload": "새로고침",
+    "newTab": "새 탭",
+    "copyLink": "링크 복사",
+    "connectionSecurity": "연결 보안",
+    "searchOrEnterUrl": "검색 또는 웹 주소 입력",
+    "bookmarks": "북마크",
+    "options": "옵션"
+  },
+  "tab": {
+    "settings": "설정",
+    "history": "방문 기록",
+    "newTab": "새 탭"
+  },
+  "urlBar": {
+    "placeholder": "검색 또는 웹 주소 입력",
+    "mobilePlaceholder": "검색 또는 웹 주소 입력",
+    "bookmarksGroup": "북마크",
+    "historyGroup": "방문 기록"
+  },
+  "connection": {
+    "authenticated": "인증됨",
+    "authVerified": "상호 인증 확인됨",
+    "failed": "연결 실패",
+    "handshakeIncomplete": "핸드셰이크가 완료되지 않았습니다",
+    "server": "서버",
+    "client": "클라이언트",
+    "ephemeral": "임시",
+    "logLabel": "로그"
+  },
+  "find": {
+    "placeholder": "페이지에서 찾기…",
+    "noResults": "결과 없음",
+    "countOf": "{{total}}개 중 {{current}}번째",
+    "prevMatch": "이전",
+    "nextMatch": "다음",
+    "close": "찾기 바 닫기"
+  },
+  "error": {
+    "timeout": "연결 시간 초과",
+    "timeoutHint": "서버 응답 시간이 너무 오래 걸렸습니다. 오프라인이거나 접근할 수 없는 상태일 수 있습니다.",
+    "cantConnect": "이 사이트에 연결할 수 없습니다",
+    "cantConnectHint": "서버가 연결을 거부했거나 접근할 수 없습니다.",
+    "authFailed": "인증 실패",
+    "authFailedHint": "서버의 암호화 ID를 확인할 수 없습니다.",
+    "serverNotFound": "서버를 찾을 수 없습니다",
+    "serverNotFoundHint": "이 주소의 서버가 존재하지 않거나 접근할 수 없습니다. 주소를 확인하고 다시 시도하세요.",
+    "identityError": "ID 오류",
+    "identityErrorHint": "사이트 ID를 확인하는 중 문제가 발생했습니다.",
+    "protocolError": "프로토콜 오류",
+    "protocolErrorHint": "서버에서 이해할 수 없는 응답을 보냈습니다.",
+    "genericError": "오류가 발생했습니다",
+    "genericErrorHint": "예기치 않은 오류로 인해 페이지를 불러올 수 없습니다.",
+    "tryAgain": "다시 시도"
+  },
+  "history": {
+    "title": "방문 기록",
+    "clearAll": "모두 지우기",
+    "empty": "방문 기록이 없습니다",
+    "websiteColumn": "웹사이트",
+    "addressColumn": "주소",
+    "removeFromHistory": "방문 기록에서 삭제",
+    "labelToday": "오늘",
+    "labelYesterday": "어제",
+    "labelEarlier": "이전"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "이 페이지 북마크",
+    "removeBookmark": "북마크 삭제",
+    "bookmarkAllTabs": "모든 탭 북마크",
+    "addBookmark": "북마크 추가",
+    "newFolder": "새 폴더",
+    "addFolder": "폴더 추가",
+    "add": "추가",
+    "cancel": "취소",
+    "save": "저장",
+    "noBookmarks": "북마크가 없습니다",
+    "emptyFolder": "빈 폴더",
+    "folderNamePlaceholder": "폴더 이름",
+    "titlePlaceholder": "제목",
+    "openFolder": "폴더 열기",
+    "edit": "편집",
+    "delete": "삭제",
+    "goBack": "뒤로",
+    "dropToMove": "{{label}}(으)로 이동하려면 여기에 놓으세요",
+    "rootLabel": "루트",
+    "parentLabel": "상위"
+  },
+  "optionsMenu": {
+    "zoomOut": "축소",
+    "zoomIn": "확대",
+    "resetZoom": "확대/축소 초기화",
+    "findInPage": "페이지에서 찾기",
+    "print": "인쇄",
+    "history": "방문 기록",
+    "settings": "설정",
+    "current": "현재"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "새 탭에서 링크 열기",
+    "copyLinkAddress": "링크 주소 복사",
+    "cut": "잘라내기",
+    "copy": "복사",
+    "paste": "붙여넣기",
+    "selectAll": "모두 선택",
+    "back": "뒤로",
+    "forward": "앞으로",
+    "reload": "새로고침",
+    "share": "공유",
+    "savePageAs": "다른 이름으로 저장",
+    "print": "인쇄",
+    "copyLink": "링크 복사",
+    "copied": "복사됨!",
+    "copyProxyLink": "프록시 링크 복사"
+  },
+  "windowControls": {
+    "minimize": "최소화",
+    "maximize": "최대화",
+    "close": "닫기"
+  },
+  "mobileStart": {
+    "favorites": "즐겨찾기",
+    "noFavoritesHint": "북마크를 추가하면 여기에 즐겨찾기로 표시됩니다.",
+    "readingList": "읽기 목록",
+    "readingListHint": "읽기 목록에 웹페이지와 링크를 저장해 나중에 읽을 수 있습니다. 공유 버튼을 탭하여 현재 페이지를 추가하세요."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "탭 검색",
+    "bookmarksBtn": "북마크",
+    "newTabBtn": "새 탭",
+    "reloadBtn": "새로고침",
+    "moreBtn": "더보기",
+    "closeTabTipTitle": "탭 닫기",
+    "closeTabTipBody": "탭을 위로 드래그하면 닫을 수 있습니다."
+  },
+  "mobileOptions": {
+    "cancelBtn": "취소",
+    "back": "뒤로",
+    "forward": "앞으로",
+    "stop": "중지",
+    "reload": "새로고침",
+    "findInPage": "페이지에서 찾기",
+    "print": "인쇄",
+    "removeBookmark": "북마크 삭제",
+    "addBookmark": "북마크 추가",
+    "settings": "설정"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "북마크",
+    "historyTab": "방문 기록",
+    "searchBookmarks": "북마크 검색",
+    "searchHistory": "방문 기록 검색",
+    "noBookmarks": "북마크가 없습니다",
+    "noHistory": "방문 기록이 없습니다",
+    "editBookmark": "북마크 편집",
+    "titleLabel": "제목",
+    "urlLabel": "URL",
+    "save": "저장",
+    "deleteBookmark": "북마크 삭제",
+    "cancel": "취소"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "주소 표시줄",
+      "body": "탭하여 검색하거나 URL을 입력하세요. 좌우로 스와이프하면 탭 간 이동이 가능합니다."
+    },
+    "seeYourTabs": {
+      "title": "탭 보기",
+      "body": "주소 표시줄을 위로 스와이프하면 열려 있는 모든 탭을 확인할 수 있습니다."
+    },
+    "bookmarksHistory": {
+      "title": "북마크 및 방문 기록",
+      "body": "여기를 탭하면 저장된 페이지를 탐색하고 방문했던 사이트를 다시 열 수 있습니다."
+    },
+    "moreOptions": {
+      "title": "추가 옵션",
+      "body": "설정, 페이지 내 찾기 및 기타 브라우저 기능에 접근할 수 있습니다."
+    },
+    "newTab": {
+      "title": "새 탭",
+      "body": "이게 뭔지 이미 알고 계시죠."
+    }
+  },
+  "onboarding": {
+    "skip": "건너뛰기",
+    "continue": "계속",
+    "getStarted": "시작하기",
+    "showMeAround": "안내해 주세요",
+    "iKnowWhatImDoing": "사용법을 알고 있습니다",
+    "steps": {
+      "welcome": {
+        "title": "Eclipse에 오신 것을 환영합니다",
+        "body": "NWEP 피어투피어 웹을 위해 만들어진 브라우저입니다. 사이트는 원격 서버가 아닌 기기에서 직접 실행됩니다."
+      },
+      "browse": {
+        "title": "NWEP 웹 탐색",
+        "body": "URL 표시줄에 web:// 주소를 입력하여 NWEP 사이트에 직접 연결하세요. DNS 불필요, 중간 단계 없음."
+      },
+      "private": {
+        "title": "기본적으로 비공개",
+        "body": "매 연결마다 새로운 임시 ID를 사용합니다. 종단 간 암호화로 지속적인 추적이 없습니다."
+      },
+      "allSet": {
+        "title": "준비 완료",
+        "body": "URL 표시줄에 web:// 주소를 입력해 시작하거나 네트워크에서 이용 가능한 콘텐츠를 탐색해 보세요."
+      },
+      "tour": {
+        "title": "간단한 둘러보기를 하시겠어요?",
+        "body": "Eclipse를 쉽게 사용할 수 있는 제스처와 기능들을 안내해 드립니다."
+      }
+    }
+  },
+  "settings": {
+    "general": "일반",
+    "appearance": "모양",
+    "privacy": "개인정보",
+    "developers": "개발자",
+    "newTab": "새 탭",
+    "openNewTabsWith": "새 탭 열기 방식",
+    "empty": "빈 페이지",
+    "homepage": "홈페이지",
+    "homepageUrl": "홈페이지 URL",
+    "homepageUrlActive": "새 탭을 열 때 로드됩니다",
+    "homepageUrlInactive": "홈페이지 모드로 전환하면 사용할 수 있습니다",
+    "addressBar": "주소 표시줄",
+    "searchBookmarks": "북마크 검색",
+    "searchBookmarksDesc": "입력 시 일치하는 북마크 표시",
+    "searchHistory": "방문 기록 검색",
+    "searchHistoryDesc": "입력 시 일치하는 방문 기록 표시",
+    "theme": "테마",
+    "colorScheme": "색상 구성",
+    "light": "밝게",
+    "dark": "어둡게",
+    "auto": "자동",
+    "scaling": "배율",
+    "browserUiScale": "브라우저 UI 배율",
+    "browserUiScaleDesc": "탭, 도구 모음, 브라우저 프레임 크기 조정",
+    "defaultPageZoom": "기본 페이지 확대/축소",
+    "defaultPageZoomDesc": "새 탭을 열 때 페이지 콘텐츠 크기 조정",
+    "browsingData": "브라우징 데이터",
+    "recordBrowsingHistory": "방문 기록 저장",
+    "recordBrowsingHistoryDesc": "방문한 페이지를 기록에 저장합니다",
+    "browsingHistory": "방문 기록",
+    "browsingHistoryDesc": "저장된 기록 보기 또는 삭제",
+    "viewBtn": "보기",
+    "clearBtn": "지우기",
+    "clearedBtn": "지워짐",
+    "interface": "인터페이스",
+    "mobileUi": "모바일 UI",
+    "mobileUiDesc": "자동 플랫폼 감지 재정의",
+    "mobileAuto": "자동",
+    "mobileMobile": "모바일",
+    "mobileDesktop": "데스크톱",
+    "onboarding": "온보딩",
+    "resetWelcomeGuide": "환영 가이드 초기화",
+    "resetWelcomeGuideDesc": "환영 안내를 즉시 다시 표시합니다",
+    "resetBtn": "초기화",
+    "doneBtn": "완료",
+    "settingsTitle": "설정",
+    "zoomDefault": "{{percent}}% (기본값)"
+  },
+  "bookmarkManager": {
+    "title": "북마크 관리",
+    "titlePlaceholder": "제목",
+    "urlPlaceholder": "URL (예: web://…)",
+    "folderNamePlaceholder": "폴더 이름",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "취소",
+    "save": "저장",
+    "addBookmarkBtn": "북마크 추가",
+    "addFolderBtn": "폴더 추가",
+    "addBookmarkToolbar": "북마크 추가",
+    "newFolderToolbar": "새 폴더",
+    "noBookmarksRoot": "북마크가 없습니다. 아래에서 추가하세요.",
+    "emptyFolder": "이 폴더는 비어 있습니다.",
+    "openFolder": "폴더 열기",
+    "rename": "이름 변경",
+    "delete": "삭제"
+  }
+}

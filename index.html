@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            (function () {
+                var RTL = new Set([
+                    "ar",
+                    "he",
+                    "fa",
+                    "ur",
+                    "ps",
+                    "sd",
+                    "ug",
+                    "ckb",
+                    "yi",
+                ]);
+                var loc = localStorage.getItem("eclipse-locale") || "en";
+                var root = document.documentElement;
+                root.lang = loc;
+                if (RTL.has(loc)) root.dir = "rtl";
+            })();
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Eclipse Browser</title>
+    </head>
+
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/root.tsx"></script>
+    </body>
+</html>

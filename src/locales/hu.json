@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Vissza",
+    "forward": "Előre",
+    "stop": "Leállítás",
+    "reload": "Újratöltés",
+    "newTab": "Új lap",
+    "copyLink": "Hivatkozás másolása",
+    "connectionSecurity": "Kapcsolat biztonsága",
+    "searchOrEnterUrl": "Keresés vagy weboldal nevének megadása",
+    "bookmarks": "Könyvjelzők",
+    "options": "Beállítások"
+  },
+  "tab": {
+    "settings": "Beállítások",
+    "history": "Előzmények",
+    "newTab": "Új lap"
+  },
+  "urlBar": {
+    "placeholder": "Keresés vagy weboldal nevének megadása",
+    "mobilePlaceholder": "Keresés vagy webhely megadása",
+    "bookmarksGroup": "Könyvjelzők",
+    "historyGroup": "Előzmények"
+  },
+  "connection": {
+    "authenticated": "Hitelesítve",
+    "authVerified": "Kölcsönös hitelesítés megerősítve",
+    "failed": "Kapcsolódás sikertelen",
+    "handshakeIncomplete": "A kézfogás nem fejeződött be",
+    "server": "szerver",
+    "client": "kliens",
+    "ephemeral": "ideiglenes",
+    "logLabel": "napló"
+  },
+  "find": {
+    "placeholder": "Keresés az oldalon…",
+    "noResults": "Nincs találat",
+    "countOf": "{{current}} / {{total}}",
+    "prevMatch": "Előző találat",
+    "nextMatch": "Következő találat",
+    "close": "Keresősáv bezárása"
+  },
+  "error": {
+    "timeout": "A kapcsolat időtúllépés miatt megszakadt",
+    "timeoutHint": "A szerver túl sokáig várakoztatott. Lehet, hogy offline vagy elérhetetlen.",
+    "cantConnect": "Nem sikerült csatlakozni ehhez az oldalhoz",
+    "cantConnectHint": "A szerver elutasította a kapcsolatot, vagy nem volt elérhető.",
+    "authFailed": "Hitelesítés sikertelen",
+    "authFailedHint": "A szerver kriptográfiai azonosítását nem sikerült ellenőrizni.",
+    "serverNotFound": "A szerver nem található",
+    "serverNotFoundHint": "Az ezen a címen lévő szerver nem létezik vagy nem érhető el. Ellenőrizze a címet, és próbálja újra.",
+    "identityError": "Azonosítási hiba",
+    "identityErrorHint": "Probléma merült fel az oldal személyazonosságának megállapításakor.",
+    "protocolError": "Protokollhiba",
+    "protocolErrorHint": "A szerver olyan választ küldött, amelyet nem lehetett értelmezni.",
+    "genericError": "Valami hiba történt",
+    "genericErrorHint": "Az oldalt váratlan hiba miatt nem sikerült betölteni.",
+    "tryAgain": "Próbálja újra"
+  },
+  "history": {
+    "title": "Előzmények",
+    "clearAll": "Összes törlése",
+    "empty": "Nincsenek böngészési előzmények",
+    "websiteColumn": "Weboldal",
+    "addressColumn": "Cím",
+    "removeFromHistory": "Eltávolítás az előzményekből",
+    "labelToday": "Ma",
+    "labelYesterday": "Tegnap",
+    "labelEarlier": "Korábban"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Oldal könyvjelzőzése",
+    "removeBookmark": "Könyvjelző eltávolítása",
+    "bookmarkAllTabs": "Összes lap könyvjelzőzése",
+    "addBookmark": "Könyvjelző hozzáadása",
+    "newFolder": "Új mappa",
+    "addFolder": "Mappa hozzáadása",
+    "add": "Hozzáadás",
+    "cancel": "Mégse",
+    "save": "Mentés",
+    "noBookmarks": "Még nincsenek könyvjelzők",
+    "emptyFolder": "Üres mappa",
+    "folderNamePlaceholder": "Mappa neve",
+    "titlePlaceholder": "Cím",
+    "openFolder": "Mappa megnyitása",
+    "edit": "Szerkesztés",
+    "delete": "Törlés",
+    "goBack": "Vissza",
+    "dropToMove": "Ide húzva áthelyezi ide: {{label}}",
+    "rootLabel": "gyökér",
+    "parentLabel": "szülő"
+  },
+  "optionsMenu": {
+    "zoomOut": "Kicsinyítés",
+    "zoomIn": "Nagyítás",
+    "resetZoom": "Nagyítás visszaállítása",
+    "findInPage": "Keresés az oldalon",
+    "print": "Nyomtatás",
+    "history": "Előzmények",
+    "settings": "Beállítások",
+    "current": "Aktuális"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Hivatkozás megnyitása új lapon",
+    "copyLinkAddress": "Hivatkozás címének másolása",
+    "cut": "Kivágás",
+    "copy": "Másolás",
+    "paste": "Beillesztés",
+    "selectAll": "Összes kijelölése",
+    "back": "Vissza",
+    "forward": "Előre",
+    "reload": "Újratöltés",
+    "share": "Megosztás",
+    "savePageAs": "Oldal mentése másként",
+    "print": "Nyomtatás",
+    "copyLink": "Hivatkozás másolása",
+    "copied": "Másolva!",
+    "copyProxyLink": "Proxy hivatkozás másolása"
+  },
+  "windowControls": {
+    "minimize": "Kis méret",
+    "maximize": "Teljes méret",
+    "close": "Bezárás"
+  },
+  "mobileStart": {
+    "favorites": "Kedvencek",
+    "noFavoritesHint": "Adjon hozzá könyvjelzőket, és azok itt fognak megjelenni kedvencként.",
+    "readingList": "Olvasólista",
+    "readingListHint": "Az olvasólista segítségével weboldalakat és hivatkozásokat gyűjthet, hogy később elolvashassa azokat. Az aktuális oldal hozzáadásához koppintson a Megosztás gombra."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Lapok keresése",
+    "bookmarksBtn": "Könyvjelzők",
+    "newTabBtn": "Új lap",
+    "reloadBtn": "Újratöltés",
+    "moreBtn": "Több",
+    "closeTabTipTitle": "Lap bezárása",
+    "closeTabTipBody": "A bezáráshoz húzzon fel bármely lapot."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Mégse",
+    "back": "Vissza",
+    "forward": "Előre",
+    "stop": "Leállítás",
+    "reload": "Újratöltés",
+    "findInPage": "Keresés az oldalon",
+    "print": "Nyomtatás",
+    "removeBookmark": "Könyvjelző eltávolítása",
+    "addBookmark": "Könyvjelző hozzáadása",
+    "settings": "Beállítások"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Könyvjelzők",
+    "historyTab": "Előzmények",
+    "searchBookmarks": "Könyvjelzők keresése",
+    "searchHistory": "Keresés az előzményekben",
+    "noBookmarks": "Még nincsenek könyvjelzők",
+    "noHistory": "Nincsenek előzmények",
+    "editBookmark": "Könyvjelző szerkesztése",
+    "titleLabel": "Cím",
+    "urlLabel": "URL",
+    "save": "Mentés",
+    "deleteBookmark": "Könyvjelző törlése",
+    "cancel": "Mégse"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Címsáv",
+      "body": "Koppintson a kereséshez vagy URL megadásához. Lapok között váltáshoz csúsztasson balra vagy jobbra."
+    },
+    "seeYourTabs": {
+      "title": "Lapok megtekintése",
+      "body": "Az összes nyitott lap megtekintéséhez csúsztassa felfelé a címsávot."
+    },
+    "bookmarksHistory": {
+      "title": "Könyvjelzők és előzmények",
+      "body": "Koppintson ide a mentett oldalak böngészéséhez és a korábban meglátogatott webhelyek újbóli megnyitásához."
+    },
+    "moreOptions": {
+      "title": "További lehetőségek",
+      "body": "Elérheti a beállításokat, az oldali keresést és az egyéb böngészővezérlőket."
+    },
+    "newTab": {
+      "title": "Új lap",
+      "body": "Ezt már biztosan ismeri."
+    }
+  },
+  "onboarding": {
+    "skip": "Kihagyás",
+    "continue": "Folytatás",
+    "getStarted": "Kezdjük el",
+    "showMeAround": "Mutasd meg nekem",
+    "iKnowWhatImDoing": "Tudom, mit csinálok",
+    "steps": {
+      "welcome": {
+        "title": "Üdvözöljük az Eclipse-ben",
+        "body": "Egy böngésző az NWEP peer-to-peer webhez — ahol a webhelyek közvetlenül az eszközökön futnak, nem távoli szervereken."
+      },
+      "browse": {
+        "title": "Böngésszen az NWEP weben",
+        "body": "Gépeljen web:// címeket az URL-sávba az NWEP webhelyekhez való közvetlen csatlakozáshoz. Nincs DNS, nincs közvetítő."
+      },
+      "private": {
+        "title": "Alapértelmezés szerint privát",
+        "body": "Minden kapcsolat friss ideiglenes azonosítót használ — végpontok közötti titkosítással, tartós nyomon követés nélkül."
+      },
+      "allSet": {
+        "title": "Minden készen áll",
+        "body": "Kezdje azzal, hogy begépel egy web:// címet az URL-sávba, vagy fedezze fel, mi érhető el a hálózaton."
+      },
+      "tour": {
+        "title": "Szeretne egy gyors bemutatót?",
+        "body": "Végigvezetjük azon a mozdulatokon és funkciókon, amelyek megkönnyítik az Eclipse használatát."
+      }
+    }
+  },
+  "settings": {
+    "general": "Általános",
+    "appearance": "Megjelenés",
+    "privacy": "Adatvédelem",
+    "developers": "Fejlesztők",
+    "newTab": "Új lap",
+    "openNewTabsWith": "Új lapok megnyitása ezzel:",
+    "empty": "Üres",
+    "homepage": "Kezdőlap",
+    "homepageUrl": "Kezdőlap URL-je",
+    "homepageUrlActive": "Új lap megnyitásakor tölt be",
+    "homepageUrlInactive": "Váltson Kezdőlap módra a használathoz",
+    "addressBar": "Címsáv",
+    "searchBookmarks": "Könyvjelzők keresése",
+    "searchBookmarksDesc": "Egyező könyvjelzők megjelenítése gépelés közben",
+    "searchHistory": "Előzmények keresése",
+    "searchHistoryDesc": "Egyező előzménybejegyzések megjelenítése gépelés közben",
+    "theme": "Téma",
+    "colorScheme": "Színséma",
+    "light": "Világos",
+    "dark": "Sötét",
+    "auto": "Automatikus",
+    "scaling": "Méretezés",
+    "browserUiScale": "Böngésző felület méretezése",
+    "browserUiScaleDesc": "A lapokat, eszköztárat és a böngésző keretét méretezi",
+    "defaultPageZoom": "Alapértelmezett oldalnagyítás",
+    "defaultPageZoomDesc": "Az oldalak tartalmát méretezi új lapok megnyitásakor",
+    "browsingData": "Böngészési adatok",
+    "recordBrowsingHistory": "Böngészési előzmények rögzítése",
+    "recordBrowsingHistoryDesc": "A meglátogatott oldalak mentése az előzményekbe",
+    "browsingHistory": "Böngészési előzmények",
+    "browsingHistoryDesc": "A mentett előzmények megtekintése vagy törlése",
+    "viewBtn": "Megtekintés",
+    "clearBtn": "Törlés",
+    "clearedBtn": "Törölve",
+    "interface": "Felület",
+    "mobileUi": "Mobil felület",
+    "mobileUiDesc": "Az automatikus platformérzékelés felülbírálása",
+    "mobileAuto": "Automatikus",
+    "mobileMobile": "Mobil",
+    "mobileDesktop": "Asztali",
+    "onboarding": "Bevezető",
+    "resetWelcomeGuide": "Üdvözlő útmutató visszaállítása",
+    "resetWelcomeGuideDesc": "Az üdvözlő bemutató azonnali újbóli megjelenítése",
+    "resetBtn": "Visszaállítás",
+    "doneBtn": "Kész",
+    "settingsTitle": "Beállítások",
+    "zoomDefault": "{{percent}}% (alapértelmezett)"
+  },
+  "bookmarkManager": {
+    "title": "Könyvjelzők kezelése",
+    "titlePlaceholder": "Cím",
+    "urlPlaceholder": "URL (pl. web://…)",
+    "folderNamePlaceholder": "Mappa neve",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Mégse",
+    "save": "Mentés",
+    "addBookmarkBtn": "Könyvjelző hozzáadása",
+    "addFolderBtn": "Mappa hozzáadása",
+    "addBookmarkToolbar": "Könyvjelző hozzáadása",
+    "newFolderToolbar": "Új mappa",
+    "noBookmarksRoot": "Még nincsenek könyvjelzők. Adjon hozzá egyet lent.",
+    "emptyFolder": "Ez a mappa üres.",
+    "openFolder": "Mappa megnyitása",
+    "rename": "Átnevezés",
+    "delete": "Törlés"
+  }
+}

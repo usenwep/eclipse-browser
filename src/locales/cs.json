@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Zpět",
+    "forward": "Vpřed",
+    "stop": "Zastavit",
+    "reload": "Obnovit",
+    "newTab": "Nová karta",
+    "copyLink": "Kopírovat odkaz",
+    "connectionSecurity": "Zabezpečení připojení",
+    "searchOrEnterUrl": "Hledat nebo zadat název webu",
+    "bookmarks": "Záložky",
+    "options": "Možnosti"
+  },
+  "tab": {
+    "settings": "Nastavení",
+    "history": "Historie",
+    "newTab": "Nová karta"
+  },
+  "urlBar": {
+    "placeholder": "Hledat nebo zadat název webu",
+    "mobilePlaceholder": "Hledat nebo zadat web",
+    "bookmarksGroup": "Záložky",
+    "historyGroup": "Historie"
+  },
+  "connection": {
+    "authenticated": "Ověřeno",
+    "authVerified": "Vzájemné ověření potvrzeno",
+    "failed": "Připojení selhalo",
+    "handshakeIncomplete": "Handshake nebyl dokončen",
+    "server": "server",
+    "client": "klient",
+    "ephemeral": "dočasné",
+    "logLabel": "log"
+  },
+  "find": {
+    "placeholder": "Hledat na stránce…",
+    "noResults": "Žádné výsledky",
+    "countOf": "{{current}} z {{total}}",
+    "prevMatch": "Předchozí shoda",
+    "nextMatch": "Další shoda",
+    "close": "Zavřít panel hledání"
+  },
+  "error": {
+    "timeout": "Vypršel časový limit připojení",
+    "timeoutHint": "Server odpovídal příliš dlouho. Může být offline nebo nedostupný.",
+    "cantConnect": "Nelze se připojit k tomuto webu",
+    "cantConnectHint": "Server odmítl připojení nebo nebyl dostupný.",
+    "authFailed": "Ověření selhalo",
+    "authFailedHint": "Kryptografickou identitu serveru nelze ověřit.",
+    "serverNotFound": "Server nenalezen",
+    "serverNotFoundHint": "Server na této adrese neexistuje nebo není dostupný. Zkontrolujte adresu a zkuste to znovu.",
+    "identityError": "Chyba identity",
+    "identityErrorHint": "Při ověřování identity webu došlo k problému.",
+    "protocolError": "Chyba protokolu",
+    "protocolErrorHint": "Server odeslal odpověď, které nebylo možné porozumět.",
+    "genericError": "Něco se pokazilo",
+    "genericErrorHint": "Stránku nebylo možné načíst kvůli neočekávané chybě.",
+    "tryAgain": "Zkusit znovu"
+  },
+  "history": {
+    "title": "Historie",
+    "clearAll": "Vymazat vše",
+    "empty": "Žádná historie procházení",
+    "websiteColumn": "Web",
+    "addressColumn": "Adresa",
+    "removeFromHistory": "Odebrat z historie",
+    "labelToday": "Dnes",
+    "labelYesterday": "Včera",
+    "labelEarlier": "Dříve"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Přidat stránku do záložek",
+    "removeBookmark": "Odebrat záložku",
+    "bookmarkAllTabs": "Přidat všechny karty do záložek",
+    "addBookmark": "Přidat záložku",
+    "newFolder": "Nová složka",
+    "addFolder": "Přidat složku",
+    "add": "Přidat",
+    "cancel": "Zrušit",
+    "save": "Uložit",
+    "noBookmarks": "Zatím žádné záložky",
+    "emptyFolder": "Prázdná složka",
+    "folderNamePlaceholder": "Název složky",
+    "titlePlaceholder": "Název",
+    "openFolder": "Otevřít složku",
+    "edit": "Upravit",
+    "delete": "Smazat",
+    "goBack": "Zpět",
+    "dropToMove": "Přetáhněte sem pro přesun do: {{label}}",
+    "rootLabel": "kořen",
+    "parentLabel": "nadřazená"
+  },
+  "optionsMenu": {
+    "zoomOut": "Oddálit",
+    "zoomIn": "Přiblížit",
+    "resetZoom": "Resetovat přiblížení",
+    "findInPage": "Hledat na stránce",
+    "print": "Tisk",
+    "history": "Historie",
+    "settings": "Nastavení",
+    "current": "Aktuální"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Otevřít odkaz na nové kartě",
+    "copyLinkAddress": "Kopírovat adresu odkazu",
+    "cut": "Vyjmout",
+    "copy": "Kopírovat",
+    "paste": "Vložit",
+    "selectAll": "Vybrat vše",
+    "back": "Zpět",
+    "forward": "Vpřed",
+    "reload": "Obnovit",
+    "share": "Sdílet",
+    "savePageAs": "Uložit stránku jako",
+    "print": "Tisk",
+    "copyLink": "Kopírovat odkaz",
+    "copied": "Zkopírováno!",
+    "copyProxyLink": "Kopírovat proxy odkaz"
+  },
+  "windowControls": {
+    "minimize": "Minimalizovat",
+    "maximize": "Maximalizovat",
+    "close": "Zavřít"
+  },
+  "mobileStart": {
+    "favorites": "Oblíbené",
+    "noFavoritesHint": "Přidejte záložky a zobrazí se zde jako oblíbené.",
+    "readingList": "Seznam ke čtení",
+    "readingListHint": "Seznam ke čtení umožňuje ukládat webové stránky a odkazy pro pozdější čtení. Stránku přidáte tlačítkem Sdílet."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Hledat karty",
+    "bookmarksBtn": "Záložky",
+    "newTabBtn": "Nová karta",
+    "reloadBtn": "Obnovit",
+    "moreBtn": "Více",
+    "closeTabTipTitle": "Zavřít kartu",
+    "closeTabTipBody": "Přetáhněte libovolnou kartu nahoru, abyste ji zavřeli."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Zrušit",
+    "back": "Zpět",
+    "forward": "Vpřed",
+    "stop": "Zastavit",
+    "reload": "Obnovit",
+    "findInPage": "Hledat na stránce",
+    "print": "Tisk",
+    "removeBookmark": "Odebrat záložku",
+    "addBookmark": "Přidat záložku",
+    "settings": "Nastavení"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Záložky",
+    "historyTab": "Historie",
+    "searchBookmarks": "Hledat záložky",
+    "searchHistory": "Hledat v historii",
+    "noBookmarks": "Zatím žádné záložky",
+    "noHistory": "Žádná historie",
+    "editBookmark": "Upravit záložku",
+    "titleLabel": "Název",
+    "urlLabel": "URL",
+    "save": "Uložit",
+    "deleteBookmark": "Smazat záložku",
+    "cancel": "Zrušit"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Adresní řádek",
+      "body": "Klepnutím vyhledáte nebo zadáte URL. Přejetím doleva nebo doprava přepínáte karty."
+    },
+    "seeYourTabs": {
+      "title": "Zobrazit karty",
+      "body": "Přejetím nahoru po adresním řádku zobrazíte všechny otevřené karty."
+    },
+    "bookmarksHistory": {
+      "title": "Záložky a historie",
+      "body": "Klepněte sem pro procházení uložených stránek a dříve navštívených webů."
+    },
+    "moreOptions": {
+      "title": "Další možnosti",
+      "body": "Přistupte k nastavení, hledání na stránce a dalším ovládacím prvkům prohlížeče."
+    },
+    "newTab": {
+      "title": "Nová karta",
+      "body": "To už jistě znáte."
+    }
+  },
+  "onboarding": {
+    "skip": "Přeskočit",
+    "continue": "Pokračovat",
+    "getStarted": "Začít",
+    "showMeAround": "Ukažte mi to",
+    "iKnowWhatImDoing": "Vím, co dělám",
+    "steps": {
+      "welcome": {
+        "title": "Vítejte v Eclipse",
+        "body": "Prohlížeč vytvořený pro peer-to-peer web NWEP — weby běží přímo na zařízeních, ne na vzdálených serverech."
+      },
+      "browse": {
+        "title": "Procházejte web NWEP",
+        "body": "Zadejte adresy web:// do adresního řádku a připojte se přímo k webům NWEP. Bez DNS, bez prostředníků."
+      },
+      "private": {
+        "title": "Soukromí jako výchozí stav",
+        "body": "Každé připojení používá novou dočasnou identitu — šifrování end-to-end bez trvalého sledování."
+      },
+      "allSet": {
+        "title": "Vše je připraveno",
+        "body": "Začněte zadáním adresy web:// do adresního řádku nebo prozkoumejte, co je v síti k dispozici."
+      },
+      "tour": {
+        "title": "Chcete rychlý průvodce?",
+        "body": "Provedeme vás gesty a funkcemi, díky nimž se Eclipse snadno ovládá."
+      }
+    }
+  },
+  "settings": {
+    "general": "Obecné",
+    "appearance": "Vzhled",
+    "privacy": "Soukromí",
+    "developers": "Vývojáři",
+    "newTab": "Nová karta",
+    "openNewTabsWith": "Otevírat nové karty s",
+    "empty": "Prázdná",
+    "homepage": "Domovská stránka",
+    "homepageUrl": "URL domovské stránky",
+    "homepageUrlActive": "Načte se při otevření nové karty",
+    "homepageUrlInactive": "Pro použití přepněte do režimu domovské stránky",
+    "addressBar": "Adresní řádek",
+    "searchBookmarks": "Hledat záložky",
+    "searchBookmarksDesc": "Zobrazovat odpovídající záložky při psaní",
+    "searchHistory": "Prohledávat historii",
+    "searchHistoryDesc": "Zobrazovat odpovídající záznamy historie při psaní",
+    "theme": "Motiv",
+    "colorScheme": "Barevné schéma",
+    "light": "Světlý",
+    "dark": "Tmavý",
+    "auto": "Automaticky",
+    "scaling": "Škálování",
+    "browserUiScale": "Měřítko rozhraní prohlížeče",
+    "browserUiScaleDesc": "Škáluje karty, panel nástrojů a chrome prohlížeče",
+    "defaultPageZoom": "Výchozí přiblížení stránky",
+    "defaultPageZoomDesc": "Škáluje obsah stránky při otevření nových karet",
+    "browsingData": "Data procházení",
+    "recordBrowsingHistory": "Zaznamenávat historii procházení",
+    "recordBrowsingHistoryDesc": "Ukládat navštívené stránky do historie",
+    "browsingHistory": "Historie procházení",
+    "browsingHistoryDesc": "Zobrazit nebo vymazat uloženou historii",
+    "viewBtn": "Zobrazit",
+    "clearBtn": "Vymazat",
+    "clearedBtn": "Vymazáno",
+    "interface": "Rozhraní",
+    "mobileUi": "Mobilní rozhraní",
+    "mobileUiDesc": "Přepsat automatické rozpoznávání platformy",
+    "mobileAuto": "Automaticky",
+    "mobileMobile": "Mobilní",
+    "mobileDesktop": "Stolní",
+    "onboarding": "Úvodní průvodce",
+    "resetWelcomeGuide": "Resetovat úvodního průvodce",
+    "resetWelcomeGuideDesc": "Znovu ihned zobrazit uvítacího průvodce",
+    "resetBtn": "Resetovat",
+    "doneBtn": "Hotovo",
+    "settingsTitle": "Nastavení",
+    "zoomDefault": "{{percent}} % (výchozí)"
+  },
+  "bookmarkManager": {
+    "title": "Správa záložek",
+    "titlePlaceholder": "Název",
+    "urlPlaceholder": "URL (např. web://…)",
+    "folderNamePlaceholder": "Název složky",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Zrušit",
+    "save": "Uložit",
+    "addBookmarkBtn": "Přidat záložku",
+    "addFolderBtn": "Přidat složku",
+    "addBookmarkToolbar": "Přidat záložku",
+    "newFolderToolbar": "Nová složka",
+    "noBookmarksRoot": "Zatím žádné záložky. Přidejte níže.",
+    "emptyFolder": "Tato složka je prázdná.",
+    "openFolder": "Otevřít složku",
+    "rename": "Přejmenovat",
+    "delete": "Smazat"
+  }
+}

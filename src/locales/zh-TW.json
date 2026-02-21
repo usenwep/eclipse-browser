@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "上一頁",
+    "forward": "下一頁",
+    "stop": "停止",
+    "reload": "重新整理",
+    "newTab": "開新分頁",
+    "copyLink": "複製連結",
+    "connectionSecurity": "連線安全性",
+    "searchOrEnterUrl": "搜尋或輸入網址",
+    "bookmarks": "書籤",
+    "options": "選項"
+  },
+  "tab": {
+    "settings": "設定",
+    "history": "歷史記錄",
+    "newTab": "開新分頁"
+  },
+  "urlBar": {
+    "placeholder": "搜尋或輸入網址",
+    "mobilePlaceholder": "搜尋或輸入網址",
+    "bookmarksGroup": "書籤",
+    "historyGroup": "歷史記錄"
+  },
+  "connection": {
+    "authenticated": "已驗證",
+    "authVerified": "雙向驗證已確認",
+    "failed": "連線失敗",
+    "handshakeIncomplete": "握手未完成",
+    "server": "伺服器",
+    "client": "用戶端",
+    "ephemeral": "暫時性",
+    "logLabel": "記錄"
+  },
+  "find": {
+    "placeholder": "在頁面中尋找…",
+    "noResults": "無結果",
+    "countOf": "第 {{current}} / {{total}} 個",
+    "prevMatch": "上一個",
+    "nextMatch": "下一個",
+    "close": "關閉尋找列"
+  },
+  "error": {
+    "timeout": "連線逾時",
+    "timeoutHint": "伺服器回應時間過長，可能已離線或無法存取。",
+    "cantConnect": "無法連線至此網站",
+    "cantConnectHint": "伺服器拒絕連線或無法存取。",
+    "authFailed": "驗證失敗",
+    "authFailedHint": "無法驗證伺服器的加密身分。",
+    "serverNotFound": "找不到伺服器",
+    "serverNotFoundHint": "此位址的伺服器不存在或無法存取，請確認位址後再試。",
+    "identityError": "身分錯誤",
+    "identityErrorHint": "建立網站身分時發生問題。",
+    "protocolError": "通訊協定錯誤",
+    "protocolErrorHint": "伺服器傳回了無法識別的回應。",
+    "genericError": "發生錯誤",
+    "genericErrorHint": "由於意外錯誤，頁面無法載入。",
+    "tryAgain": "重試"
+  },
+  "history": {
+    "title": "歷史記錄",
+    "clearAll": "全部清除",
+    "empty": "無瀏覽記錄",
+    "websiteColumn": "網站",
+    "addressColumn": "位址",
+    "removeFromHistory": "從歷史記錄中移除",
+    "labelToday": "今天",
+    "labelYesterday": "昨天",
+    "labelEarlier": "更早之前"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "將此頁面加入書籤",
+    "removeBookmark": "移除書籤",
+    "bookmarkAllTabs": "將所有分頁加入書籤",
+    "addBookmark": "新增書籤",
+    "newFolder": "新增資料夾",
+    "addFolder": "加入資料夾",
+    "add": "新增",
+    "cancel": "取消",
+    "save": "儲存",
+    "noBookmarks": "尚無書籤",
+    "emptyFolder": "空資料夾",
+    "folderNamePlaceholder": "資料夾名稱",
+    "titlePlaceholder": "標題",
+    "openFolder": "開啟資料夾",
+    "edit": "編輯",
+    "delete": "刪除",
+    "goBack": "返回",
+    "dropToMove": "拖放至此以移至{{label}}",
+    "rootLabel": "根目錄",
+    "parentLabel": "上層"
+  },
+  "optionsMenu": {
+    "zoomOut": "縮小",
+    "zoomIn": "放大",
+    "resetZoom": "重設縮放",
+    "findInPage": "在頁面中尋找",
+    "print": "列印",
+    "history": "歷史記錄",
+    "settings": "設定",
+    "current": "目前"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "在新分頁中開啟連結",
+    "copyLinkAddress": "複製連結位址",
+    "cut": "剪下",
+    "copy": "複製",
+    "paste": "貼上",
+    "selectAll": "全選",
+    "back": "上一頁",
+    "forward": "下一頁",
+    "reload": "重新整理",
+    "share": "分享",
+    "savePageAs": "另存新檔",
+    "print": "列印",
+    "copyLink": "複製連結",
+    "copied": "已複製！",
+    "copyProxyLink": "複製代理連結"
+  },
+  "windowControls": {
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "close": "關閉"
+  },
+  "mobileStart": {
+    "favorites": "最愛",
+    "noFavoritesHint": "新增書籤後，它們將在此顯示為最愛。",
+    "readingList": "閱讀列表",
+    "readingListHint": "閱讀列表可收集網頁和連結以便稍後閱讀。點選分享按鈕以新增目前頁面。"
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "搜尋分頁",
+    "bookmarksBtn": "書籤",
+    "newTabBtn": "開新分頁",
+    "reloadBtn": "重新整理",
+    "moreBtn": "更多",
+    "closeTabTipTitle": "關閉分頁",
+    "closeTabTipBody": "向上拖曳任意分頁即可關閉。"
+  },
+  "mobileOptions": {
+    "cancelBtn": "取消",
+    "back": "上一頁",
+    "forward": "下一頁",
+    "stop": "停止",
+    "reload": "重新整理",
+    "findInPage": "在頁面中尋找",
+    "print": "列印",
+    "removeBookmark": "移除書籤",
+    "addBookmark": "新增書籤",
+    "settings": "設定"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "書籤",
+    "historyTab": "歷史記錄",
+    "searchBookmarks": "搜尋書籤",
+    "searchHistory": "搜尋歷史記錄",
+    "noBookmarks": "尚無書籤",
+    "noHistory": "無歷史記錄",
+    "editBookmark": "編輯書籤",
+    "titleLabel": "標題",
+    "urlLabel": "URL",
+    "save": "儲存",
+    "deleteBookmark": "刪除書籤",
+    "cancel": "取消"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "網址列",
+      "body": "點選以搜尋或輸入網址，左右滑動可在分頁之間切換。"
+    },
+    "seeYourTabs": {
+      "title": "查看分頁",
+      "body": "在網址列上向上滑動，可查看所有已開啟的分頁。"
+    },
+    "bookmarksHistory": {
+      "title": "書籤與歷史記錄",
+      "body": "點選此處瀏覽已儲存的頁面並重新造訪過去的網站。"
+    },
+    "moreOptions": {
+      "title": "更多選項",
+      "body": "存取設定、在頁面中尋找及其他瀏覽器功能。"
+    },
+    "newTab": {
+      "title": "開新分頁",
+      "body": "這是什麼，你早就知道了。"
+    }
+  },
+  "onboarding": {
+    "skip": "略過",
+    "continue": "繼續",
+    "getStarted": "開始使用",
+    "showMeAround": "帶我參觀",
+    "iKnowWhatImDoing": "我知道怎麼用",
+    "steps": {
+      "welcome": {
+        "title": "歡迎使用 Eclipse",
+        "body": "專為 NWEP 點對點網路打造的瀏覽器——網站直接在裝置上運行，無需遠端伺服器。"
+      },
+      "browse": {
+        "title": "瀏覽 NWEP 網路",
+        "body": "在網址列輸入 web:// 位址，直接連線到 NWEP 網站。無需 DNS，沒有中間商。"
+      },
+      "private": {
+        "title": "預設私密",
+        "body": "每次連線都使用全新的暫時身分——端對端加密，不留任何持續追蹤記錄。"
+      },
+      "allSet": {
+        "title": "準備就緒",
+        "body": "在網址列輸入 web:// 位址開始瀏覽，或探索網路上的可用內容。"
+      },
+      "tour": {
+        "title": "需要快速導覽嗎？",
+        "body": "我們將帶你了解讓 Eclipse 易於使用的手勢與功能。"
+      }
+    }
+  },
+  "settings": {
+    "general": "一般",
+    "appearance": "外觀",
+    "privacy": "隱私",
+    "developers": "開發人員",
+    "newTab": "開新分頁",
+    "openNewTabsWith": "新分頁開啟方式",
+    "empty": "空白頁",
+    "homepage": "首頁",
+    "homepageUrl": "首頁網址",
+    "homepageUrlActive": "開新分頁時載入",
+    "homepageUrlInactive": "切換至首頁模式以啟用",
+    "addressBar": "網址列",
+    "searchBookmarks": "搜尋書籤",
+    "searchBookmarksDesc": "輸入時顯示符合的書籤",
+    "searchHistory": "搜尋歷史記錄",
+    "searchHistoryDesc": "輸入時顯示符合的歷史記錄",
+    "theme": "佈景主題",
+    "colorScheme": "色彩配置",
+    "light": "淺色",
+    "dark": "深色",
+    "auto": "自動",
+    "scaling": "縮放",
+    "browserUiScale": "瀏覽器介面縮放",
+    "browserUiScaleDesc": "縮放分頁列、工具列及瀏覽器外框",
+    "defaultPageZoom": "預設頁面縮放",
+    "defaultPageZoomDesc": "開啟新分頁時縮放頁面內容",
+    "browsingData": "瀏覽資料",
+    "recordBrowsingHistory": "記錄瀏覽歷史",
+    "recordBrowsingHistoryDesc": "將造訪過的頁面儲存至歷史記錄",
+    "browsingHistory": "瀏覽歷史",
+    "browsingHistoryDesc": "檢視或清除已儲存的歷史記錄",
+    "viewBtn": "檢視",
+    "clearBtn": "清除",
+    "clearedBtn": "已清除",
+    "interface": "介面",
+    "mobileUi": "行動裝置介面",
+    "mobileUiDesc": "覆寫自動平台偵測",
+    "mobileAuto": "自動",
+    "mobileMobile": "行動裝置",
+    "mobileDesktop": "桌面",
+    "onboarding": "引導說明",
+    "resetWelcomeGuide": "重設歡迎指南",
+    "resetWelcomeGuideDesc": "立即重新顯示歡迎引導說明",
+    "resetBtn": "重設",
+    "doneBtn": "完成",
+    "settingsTitle": "設定",
+    "zoomDefault": "{{percent}}%（預設）"
+  },
+  "bookmarkManager": {
+    "title": "管理書籤",
+    "titlePlaceholder": "標題",
+    "urlPlaceholder": "URL（例如 web://…）",
+    "folderNamePlaceholder": "資料夾名稱",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "取消",
+    "save": "儲存",
+    "addBookmarkBtn": "新增書籤",
+    "addFolderBtn": "新增資料夾",
+    "addBookmarkToolbar": "新增書籤",
+    "newFolderToolbar": "新增資料夾",
+    "noBookmarksRoot": "尚無書籤，請在下方新增。",
+    "emptyFolder": "此資料夾為空。",
+    "openFolder": "開啟資料夾",
+    "rename": "重新命名",
+    "delete": "刪除"
+  }
+}

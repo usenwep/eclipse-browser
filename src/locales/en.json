@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "Go Back",
+    "forward": "Go Forward",
+    "stop": "Stop",
+    "reload": "Reload",
+    "newTab": "New Tab",
+    "copyLink": "Copy link",
+    "connectionSecurity": "Connection security",
+    "searchOrEnterUrl": "Search or enter website name",
+    "bookmarks": "Bookmarks",
+    "options": "Options"
+  },
+  "tab": {
+    "settings": "Settings",
+    "history": "History",
+    "newTab": "New Tab"
+  },
+  "urlBar": {
+    "placeholder": "Search or enter website name",
+    "mobilePlaceholder": "Search or enter website",
+    "bookmarksGroup": "Bookmarks",
+    "historyGroup": "History"
+  },
+  "connection": {
+    "authenticated": "Authenticated",
+    "authVerified": "Mutual authentication verified",
+    "failed": "Connection failed",
+    "handshakeIncomplete": "Handshake did not complete",
+    "server": "server",
+    "client": "client",
+    "ephemeral": "ephemeral",
+    "logLabel": "log"
+  },
+  "find": {
+    "placeholder": "Find in page…",
+    "noResults": "No results",
+    "countOf": "{{current}} of {{total}}",
+    "prevMatch": "Previous match",
+    "nextMatch": "Next match",
+    "close": "Close find bar"
+  },
+  "error": {
+    "timeout": "Connection timed out",
+    "timeoutHint": "The server took too long to respond. It may be offline or unreachable.",
+    "cantConnect": "Can't connect to this site",
+    "cantConnectHint": "The server refused the connection or could not be reached.",
+    "authFailed": "Authentication failed",
+    "authFailedHint": "The server's cryptographic identity could not be verified.",
+    "serverNotFound": "Server not found",
+    "serverNotFoundHint": "The server at this address doesn't exist or couldn't be reached. Check the address and try again.",
+    "identityError": "Identity error",
+    "identityErrorHint": "There was a problem establishing the site's identity.",
+    "protocolError": "Protocol error",
+    "protocolErrorHint": "The server sent a response that couldn't be understood.",
+    "genericError": "Something went wrong",
+    "genericErrorHint": "The page couldn't be loaded due to an unexpected error.",
+    "tryAgain": "Try again"
+  },
+  "history": {
+    "title": "History",
+    "clearAll": "Clear All",
+    "empty": "No browsing history",
+    "websiteColumn": "Website",
+    "addressColumn": "Address",
+    "removeFromHistory": "Remove from history",
+    "labelToday": "Today",
+    "labelYesterday": "Yesterday",
+    "labelEarlier": "Earlier"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Bookmark This Page",
+    "removeBookmark": "Remove Bookmark",
+    "bookmarkAllTabs": "Bookmark All Tabs",
+    "addBookmark": "Add Bookmark",
+    "newFolder": "New Folder",
+    "addFolder": "Add Folder",
+    "add": "Add",
+    "cancel": "Cancel",
+    "save": "Save",
+    "noBookmarks": "No bookmarks yet",
+    "emptyFolder": "Empty folder",
+    "folderNamePlaceholder": "Folder name",
+    "titlePlaceholder": "Title",
+    "openFolder": "Open folder",
+    "edit": "Edit",
+    "delete": "Delete",
+    "goBack": "Go back",
+    "dropToMove": "Drop here to move to {{label}}",
+    "rootLabel": "root",
+    "parentLabel": "parent"
+  },
+  "optionsMenu": {
+    "zoomOut": "Zoom out",
+    "zoomIn": "Zoom in",
+    "resetZoom": "Reset zoom",
+    "findInPage": "Find in Page",
+    "print": "Print",
+    "history": "History",
+    "settings": "Settings",
+    "current": "Current"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Open Link in New Tab",
+    "copyLinkAddress": "Copy Link Address",
+    "cut": "Cut",
+    "copy": "Copy",
+    "paste": "Paste",
+    "selectAll": "Select All",
+    "back": "Back",
+    "forward": "Forward",
+    "reload": "Reload",
+    "share": "Share",
+    "savePageAs": "Save Page As",
+    "print": "Print",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "copyProxyLink": "Copy Proxy Link"
+  },
+  "windowControls": {
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "close": "Close"
+  },
+  "mobileStart": {
+    "favorites": "Favorites",
+    "noFavoritesHint": "Add bookmarks and they'll appear here as favorites.",
+    "readingList": "Reading List",
+    "readingListHint": "Reading List lets you collect webpages and links to read later. Tap the Share button to add the current page."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Search tabs",
+    "bookmarksBtn": "Bookmarks",
+    "newTabBtn": "New Tab",
+    "reloadBtn": "Reload",
+    "moreBtn": "More",
+    "closeTabTipTitle": "Close a Tab",
+    "closeTabTipBody": "Drag any tab upward to close it."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Cancel",
+    "back": "Back",
+    "forward": "Forward",
+    "stop": "Stop",
+    "reload": "Reload",
+    "findInPage": "Find in Page",
+    "print": "Print",
+    "removeBookmark": "Remove Bookmark",
+    "addBookmark": "Add Bookmark",
+    "settings": "Settings"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Bookmarks",
+    "historyTab": "History",
+    "searchBookmarks": "Search bookmarks",
+    "searchHistory": "Search history",
+    "noBookmarks": "No bookmarks yet",
+    "noHistory": "No history",
+    "editBookmark": "Edit Bookmark",
+    "titleLabel": "Title",
+    "urlLabel": "URL",
+    "save": "Save",
+    "deleteBookmark": "Delete Bookmark",
+    "cancel": "Cancel"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Address Bar",
+      "body": "Tap to search or type a URL. Swipe left or right to jump between tabs."
+    },
+    "seeYourTabs": {
+      "title": "See Your Tabs",
+      "body": "Swipe up on the address bar to see all your open tabs."
+    },
+    "bookmarksHistory": {
+      "title": "Bookmarks & History",
+      "body": "Tap here to browse your saved pages and revisit sites you've visited."
+    },
+    "moreOptions": {
+      "title": "More Options",
+      "body": "Access settings, find in page, and other browser controls."
+    },
+    "newTab": {
+      "title": "New Tab",
+      "body": "You already know what this is."
+    }
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "continue": "Continue",
+    "getStarted": "Get Started",
+    "showMeAround": "Show me around",
+    "iKnowWhatImDoing": "I know what I'm doing",
+    "steps": {
+      "welcome": {
+        "title": "Welcome to Eclipse",
+        "body": "A browser built for the NWEP peer-to-peer web - where sites run directly on devices, not remote servers."
+      },
+      "browse": {
+        "title": "Browse the NWEP Web",
+        "body": "Type web:// addresses in the URL bar to connect directly to NWEP sites. No DNS, no middlemen."
+      },
+      "private": {
+        "title": "Private by Default",
+        "body": "Every connection uses a fresh ephemeral identity - end-to-end encrypted with no persistent tracking."
+      },
+      "allSet": {
+        "title": "You're All Set",
+        "body": "Start by typing a web:// address in the URL bar or explore what's available on the network."
+      },
+      "tour": {
+        "title": "Want a Quick Tour?",
+        "body": "We'll walk you through the gestures and features that make Eclipse easy to navigate."
+      }
+    }
+  },
+  "settings": {
+    "language": "Language",
+    "general": "General",
+    "appearance": "Appearance",
+    "privacy": "Privacy",
+    "developers": "Developers",
+    "newTab": "New Tab",
+    "openNewTabsWith": "Open new tabs with",
+    "empty": "Empty",
+    "homepage": "Homepage",
+    "homepageUrl": "Homepage URL",
+    "homepageUrlActive": "Loaded when a new tab opens",
+    "homepageUrlInactive": "Switch to Homepage mode to use this",
+    "addressBar": "Address Bar",
+    "searchBookmarks": "Search Bookmarks",
+    "searchBookmarksDesc": "Show matching bookmarks as you type",
+    "searchHistory": "Search History",
+    "searchHistoryDesc": "Show matching history entries as you type",
+    "theme": "Theme",
+    "colorScheme": "Color Scheme",
+    "light": "Light",
+    "dark": "Dark",
+    "auto": "Auto",
+    "scaling": "Scaling",
+    "browserUiScale": "Browser UI Scale",
+    "browserUiScaleDesc": "Scales the tabs, toolbar, and browser chrome",
+    "defaultPageZoom": "Default Page Zoom",
+    "defaultPageZoomDesc": "Scales page content when opening new tabs",
+    "browsingData": "Browsing Data",
+    "recordBrowsingHistory": "Record Browsing History",
+    "recordBrowsingHistoryDesc": "Save visited pages to your history",
+    "browsingHistory": "Browsing History",
+    "browsingHistoryDesc": "View or clear your saved history",
+    "viewBtn": "View",
+    "clearBtn": "Clear",
+    "clearedBtn": "Cleared",
+    "interface": "Interface",
+    "mobileUi": "Mobile UI",
+    "mobileUiDesc": "Override automatic platform detection",
+    "mobileAuto": "Auto",
+    "mobileMobile": "Mobile",
+    "mobileDesktop": "Desktop",
+    "onboarding": "Onboarding",
+    "resetWelcomeGuide": "Reset Welcome Guide",
+    "resetWelcomeGuideDesc": "Show the welcome walkthrough again immediately",
+    "resetBtn": "Reset",
+    "doneBtn": "Done",
+    "settingsTitle": "Settings",
+    "zoomDefault": "{{percent}}% (default)"
+  },
+  "bookmarkManager": {
+    "title": "Manage Bookmarks",
+    "titlePlaceholder": "Title",
+    "urlPlaceholder": "URL (e.g. web://…)",
+    "folderNamePlaceholder": "Folder name",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Cancel",
+    "save": "Save",
+    "addBookmarkBtn": "Add Bookmark",
+    "addFolderBtn": "Add Folder",
+    "addBookmarkToolbar": "Add Bookmark",
+    "newFolderToolbar": "New Folder",
+    "noBookmarksRoot": "No bookmarks yet. Add one below.",
+    "emptyFolder": "This folder is empty.",
+    "openFolder": "Open folder",
+    "rename": "Rename",
+    "delete": "Delete"
+  }
+}

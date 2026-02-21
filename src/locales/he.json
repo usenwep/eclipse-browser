@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "אחורה",
+    "forward": "קדימה",
+    "stop": "עצור",
+    "reload": "רענן",
+    "newTab": "כרטיסייה חדשה",
+    "copyLink": "העתק קישור",
+    "connectionSecurity": "אבטחת חיבור",
+    "searchOrEnterUrl": "חפש או הזן שם אתר",
+    "bookmarks": "סימניות",
+    "options": "אפשרויות"
+  },
+  "tab": {
+    "settings": "הגדרות",
+    "history": "היסטוריה",
+    "newTab": "כרטיסייה חדשה"
+  },
+  "urlBar": {
+    "placeholder": "חפש או הזן שם אתר",
+    "mobilePlaceholder": "חפש או הזן אתר",
+    "bookmarksGroup": "סימניות",
+    "historyGroup": "היסטוריה"
+  },
+  "connection": {
+    "authenticated": "מאומת",
+    "authVerified": "אימות הדדי אומת",
+    "failed": "החיבור נכשל",
+    "handshakeIncomplete": "לחיצת היד לא הושלמה",
+    "server": "שרת",
+    "client": "לקוח",
+    "ephemeral": "זמני",
+    "logLabel": "יומן"
+  },
+  "find": {
+    "placeholder": "חפש בדף…",
+    "noResults": "אין תוצאות",
+    "countOf": "{{current}} מתוך {{total}}",
+    "prevMatch": "הקודם",
+    "nextMatch": "הבא",
+    "close": "סגור שורת חיפוש"
+  },
+  "error": {
+    "timeout": "החיבור פג זמן",
+    "timeoutHint": "השרת לקח זמן רב מדי להגיב. ייתכן שהוא לא מקוון.",
+    "cantConnect": "לא ניתן להתחבר לאתר זה",
+    "cantConnectHint": "השרת דחה את החיבור או שלא ניתן להגיע אליו.",
+    "authFailed": "האימות נכשל",
+    "authFailedHint": "לא ניתן לאמת את הזהות ההצפנתית של השרת.",
+    "serverNotFound": "השרת לא נמצא",
+    "serverNotFoundHint": "השרת בכתובת זו אינו קיים או שלא ניתן להגיע אליו. בדוק את הכתובת ונסה שנית.",
+    "identityError": "שגיאת זהות",
+    "identityErrorHint": "הייתה בעיה בביסוס זהות האתר.",
+    "protocolError": "שגיאת פרוטוקול",
+    "protocolErrorHint": "השרת שלח תגובה שלא ניתן להבינה.",
+    "genericError": "משהו השתבש",
+    "genericErrorHint": "הדף לא נטען עקב שגיאה בלתי צפויה.",
+    "tryAgain": "נסה שנית"
+  },
+  "history": {
+    "title": "היסטוריה",
+    "clearAll": "נקה הכול",
+    "empty": "אין היסטוריית גלישה",
+    "websiteColumn": "אתר",
+    "addressColumn": "כתובת",
+    "removeFromHistory": "הסר מהיסטוריה",
+    "labelToday": "היום",
+    "labelYesterday": "אתמול",
+    "labelEarlier": "קודם"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "הוסף סימנייה לדף זה",
+    "removeBookmark": "הסר סימנייה",
+    "bookmarkAllTabs": "הוסף סימנייה לכל הכרטיסיות",
+    "addBookmark": "הוסף סימנייה",
+    "newFolder": "תיקייה חדשה",
+    "addFolder": "הוסף תיקייה",
+    "add": "הוסף",
+    "cancel": "ביטול",
+    "save": "שמור",
+    "noBookmarks": "אין סימניות עדיין",
+    "emptyFolder": "תיקייה ריקה",
+    "folderNamePlaceholder": "שם תיקייה",
+    "titlePlaceholder": "כותרת",
+    "openFolder": "פתח תיקייה",
+    "edit": "ערוך",
+    "delete": "מחק",
+    "goBack": "חזור",
+    "dropToMove": "שחרר כאן להעברה אל {{label}}",
+    "rootLabel": "שורש",
+    "parentLabel": "תיקיית אב"
+  },
+  "optionsMenu": {
+    "zoomOut": "הקטן",
+    "zoomIn": "הגדל",
+    "resetZoom": "אפס זום",
+    "findInPage": "חפש בדף",
+    "print": "הדפס",
+    "history": "היסטוריה",
+    "settings": "הגדרות",
+    "current": "נוכחי"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "פתח קישור בכרטיסייה חדשה",
+    "copyLinkAddress": "העתק כתובת קישור",
+    "cut": "גזור",
+    "copy": "העתק",
+    "paste": "הדבק",
+    "selectAll": "בחר הכול",
+    "back": "אחורה",
+    "forward": "קדימה",
+    "reload": "רענן",
+    "share": "שתף",
+    "savePageAs": "שמור דף בשם",
+    "print": "הדפס",
+    "copyLink": "העתק קישור",
+    "copied": "הועתק!",
+    "copyProxyLink": "העתק קישור פרוקסי"
+  },
+  "windowControls": {
+    "minimize": "מזער",
+    "maximize": "הגדל",
+    "close": "סגור"
+  },
+  "mobileStart": {
+    "favorites": "מועדפים",
+    "noFavoritesHint": "הוסף סימניות והן יופיעו כאן כמועדפים.",
+    "readingList": "רשימת קריאה",
+    "readingListHint": "רשימת קריאה מאפשרת לך לאסוף דפי אינטרנט וקישורים לקריאה מאוחר יותר."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "חפש כרטיסיות",
+    "bookmarksBtn": "סימניות",
+    "newTabBtn": "כרטיסייה חדשה",
+    "reloadBtn": "רענן",
+    "moreBtn": "עוד",
+    "closeTabTipTitle": "סגור כרטיסייה",
+    "closeTabTipBody": "גרור כל כרטיסייה למעלה כדי לסגור אותה."
+  },
+  "mobileOptions": {
+    "cancelBtn": "ביטול",
+    "back": "אחורה",
+    "forward": "קדימה",
+    "stop": "עצור",
+    "reload": "רענן",
+    "findInPage": "חפש בדף",
+    "print": "הדפס",
+    "removeBookmark": "הסר סימנייה",
+    "addBookmark": "הוסף סימנייה",
+    "settings": "הגדרות"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "סימניות",
+    "historyTab": "היסטוריה",
+    "searchBookmarks": "חפש סימניות",
+    "searchHistory": "חפש היסטוריה",
+    "noBookmarks": "אין סימניות עדיין",
+    "noHistory": "אין היסטוריה",
+    "editBookmark": "ערוך סימנייה",
+    "titleLabel": "כותרת",
+    "urlLabel": "URL",
+    "save": "שמור",
+    "deleteBookmark": "מחק סימנייה",
+    "cancel": "ביטול"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "שורת הכתובת",
+      "body": "הקש לחיפוש או להקלדת כתובת URL. החלק שמאלה או ימינה לעבור בין כרטיסיות."
+    },
+    "seeYourTabs": {
+      "title": "ראה את הכרטיסיות שלך",
+      "body": "החלק למעלה בשורת הכתובת לראות את כל הכרטיסיות הפתוחות."
+    },
+    "bookmarksHistory": {
+      "title": "סימניות והיסטוריה",
+      "body": "הקש כאן לעיון בדפים השמורים ולביקור חוזר באתרים."
+    },
+    "moreOptions": {
+      "title": "אפשרויות נוספות",
+      "body": "גישה להגדרות, חיפוש בדף ופקדי דפדפן נוספים."
+    },
+    "newTab": {
+      "title": "כרטיסייה חדשה",
+      "body": "אתה כבר יודע מה זה."
+    }
+  },
+  "onboarding": {
+    "skip": "דלג",
+    "continue": "המשך",
+    "getStarted": "התחל",
+    "showMeAround": "הראה לי",
+    "iKnowWhatImDoing": "אני יודע מה אני עושה",
+    "steps": {
+      "welcome": {
+        "title": "ברוך הבא אל Eclipse",
+        "body": "דפדפן שנבנה לרשת עמית-לעמית של NWEP — שם אתרים רצים ישירות על מכשירים, לא על שרתים מרוחקים."
+      },
+      "browse": {
+        "title": "גלוש ברשת NWEP",
+        "body": "הקלד כתובות web:// בשורת הכתובת כדי להתחבר ישירות לאתרי NWEP. ללא DNS, ללא מתווכים."
+      },
+      "private": {
+        "title": "פרטי כברירת מחדל",
+        "body": "כל חיבור משתמש בזהות זמנית חדשה — מוצפן מקצה לקצה ללא מעקב קבוע."
+      },
+      "allSet": {
+        "title": "אתה מוכן",
+        "body": "התחל בהקלדת כתובת web:// בשורת הכתובת או חקור מה זמין ברשת."
+      },
+      "tour": {
+        "title": "רוצה סיור קצר?",
+        "body": "נדריך אותך בתנועות ובתכונות שהופכות את הניווט ב-Eclipse לקל."
+      }
+    }
+  },
+  "settings": {
+    "language": "שפה",
+    "general": "כללי",
+    "appearance": "מראה",
+    "privacy": "פרטיות",
+    "developers": "מפתחים",
+    "newTab": "כרטיסייה חדשה",
+    "openNewTabsWith": "פתח כרטיסיות חדשות עם",
+    "empty": "ריק",
+    "homepage": "דף הבית",
+    "homepageUrl": "כתובת דף הבית",
+    "homepageUrlActive": "נטען בעת פתיחת כרטיסייה חדשה",
+    "homepageUrlInactive": "עבור למצב דף הבית כדי להשתמש בזה",
+    "addressBar": "שורת הכתובת",
+    "searchBookmarks": "חפש סימניות",
+    "searchBookmarksDesc": "הצג סימניות תואמות בזמן הקלדה",
+    "searchHistory": "חפש היסטוריה",
+    "searchHistoryDesc": "הצג רשומות היסטוריה תואמות בזמן הקלדה",
+    "theme": "ערכת נושא",
+    "colorScheme": "ערכת צבעים",
+    "light": "בהיר",
+    "dark": "כהה",
+    "auto": "אוטומטי",
+    "scaling": "קנה מידה",
+    "browserUiScale": "קנה מידה של ממשק הדפדפן",
+    "browserUiScaleDesc": "משנה את גודל הכרטיסיות, סרגל הכלים וממשק הדפדפן",
+    "defaultPageZoom": "זום דף ברירת מחדל",
+    "defaultPageZoomDesc": "משנה את גודל תוכן הדף בעת פתיחת כרטיסיות חדשות",
+    "browsingData": "נתוני גלישה",
+    "recordBrowsingHistory": "שמור היסטוריית גלישה",
+    "recordBrowsingHistoryDesc": "שמור דפים שביקרת בהם בהיסטוריה שלך",
+    "browsingHistory": "היסטוריית גלישה",
+    "browsingHistoryDesc": "הצג או נקה את ההיסטוריה השמורה שלך",
+    "viewBtn": "הצג",
+    "clearBtn": "נקה",
+    "clearedBtn": "נוקה",
+    "interface": "ממשק",
+    "mobileUi": "ממשק נייד",
+    "mobileUiDesc": "עקוף זיהוי פלטפורמה אוטומטי",
+    "mobileAuto": "אוטומטי",
+    "mobileMobile": "נייד",
+    "mobileDesktop": "שולחן עבודה",
+    "onboarding": "קליטה",
+    "resetWelcomeGuide": "אפס מדריך ברוכים הבאים",
+    "resetWelcomeGuideDesc": "הצג מחדש את הסיור המקדים באופן מיידי",
+    "resetBtn": "אפס",
+    "doneBtn": "סיום",
+    "settingsTitle": "הגדרות",
+    "zoomDefault": "{{percent}}% (ברירת מחדל)"
+  },
+  "bookmarkManager": {
+    "title": "נהל סימניות",
+    "titlePlaceholder": "כותרת",
+    "urlPlaceholder": "URL (למשל web://…)",
+    "folderNamePlaceholder": "שם תיקייה",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "ביטול",
+    "save": "שמור",
+    "addBookmarkBtn": "הוסף סימנייה",
+    "addFolderBtn": "הוסף תיקייה",
+    "addBookmarkToolbar": "הוסף סימנייה",
+    "newFolderToolbar": "תיקייה חדשה",
+    "noBookmarksRoot": "אין סימניות עדיין. הוסף אחת למטה.",
+    "emptyFolder": "התיקייה ריקה.",
+    "openFolder": "פתח תיקייה",
+    "rename": "שנה שם",
+    "delete": "מחק"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Zurück",
+    "forward": "Vor",
+    "stop": "Stopp",
+    "reload": "Neu laden",
+    "newTab": "Neuer Tab",
+    "copyLink": "Link kopieren",
+    "connectionSecurity": "Verbindungssicherheit",
+    "searchOrEnterUrl": "Suchen oder Adresse eingeben",
+    "bookmarks": "Lesezeichen",
+    "options": "Optionen"
+  },
+  "tab": {
+    "settings": "Einstellungen",
+    "history": "Verlauf",
+    "newTab": "Neuer Tab"
+  },
+  "urlBar": {
+    "placeholder": "Suchen oder Adresse eingeben",
+    "mobilePlaceholder": "Suchen oder Website eingeben",
+    "bookmarksGroup": "Lesezeichen",
+    "historyGroup": "Verlauf"
+  },
+  "connection": {
+    "authenticated": "Authentifiziert",
+    "authVerified": "Gegenseitige Authentifizierung bestätigt",
+    "failed": "Verbindung fehlgeschlagen",
+    "handshakeIncomplete": "Handshake nicht abgeschlossen",
+    "server": "Server",
+    "client": "Client",
+    "ephemeral": "flüchtig",
+    "logLabel": "Protokoll"
+  },
+  "find": {
+    "placeholder": "In Seite suchen…",
+    "noResults": "Keine Ergebnisse",
+    "countOf": "{{current}} von {{total}}",
+    "prevMatch": "Vorheriger Treffer",
+    "nextMatch": "Nächster Treffer",
+    "close": "Suchleiste schließen"
+  },
+  "error": {
+    "timeout": "Verbindungszeit überschritten",
+    "timeoutHint": "Der Server hat zu lange nicht geantwortet. Er ist möglicherweise offline oder nicht erreichbar.",
+    "cantConnect": "Verbindung zu dieser Website nicht möglich",
+    "cantConnectHint": "Der Server hat die Verbindung abgelehnt oder konnte nicht erreicht werden.",
+    "authFailed": "Authentifizierung fehlgeschlagen",
+    "authFailedHint": "Die kryptografische Identität des Servers konnte nicht verifiziert werden.",
+    "serverNotFound": "Server nicht gefunden",
+    "serverNotFoundHint": "Der Server unter dieser Adresse existiert nicht oder konnte nicht erreicht werden. Bitte Adresse prüfen und erneut versuchen.",
+    "identityError": "Identitätsfehler",
+    "identityErrorHint": "Beim Überprüfen der Identität der Website ist ein Problem aufgetreten.",
+    "protocolError": "Protokollfehler",
+    "protocolErrorHint": "Der Server hat eine Antwort gesendet, die nicht verstanden werden konnte.",
+    "genericError": "Ein Fehler ist aufgetreten",
+    "genericErrorHint": "Die Seite konnte aufgrund eines unerwarteten Fehlers nicht geladen werden.",
+    "tryAgain": "Erneut versuchen"
+  },
+  "history": {
+    "title": "Verlauf",
+    "clearAll": "Alles löschen",
+    "empty": "Kein Browserverlauf",
+    "websiteColumn": "Website",
+    "addressColumn": "Adresse",
+    "removeFromHistory": "Aus dem Verlauf entfernen",
+    "labelToday": "Heute",
+    "labelYesterday": "Gestern",
+    "labelEarlier": "Früher"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Seite als Lesezeichen speichern",
+    "removeBookmark": "Lesezeichen entfernen",
+    "bookmarkAllTabs": "Alle Tabs als Lesezeichen speichern",
+    "addBookmark": "Lesezeichen hinzufügen",
+    "newFolder": "Neuer Ordner",
+    "addFolder": "Ordner hinzufügen",
+    "add": "Hinzufügen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "noBookmarks": "Noch keine Lesezeichen",
+    "emptyFolder": "Leerer Ordner",
+    "folderNamePlaceholder": "Ordnername",
+    "titlePlaceholder": "Titel",
+    "openFolder": "Ordner öffnen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "goBack": "Zurück",
+    "dropToMove": "Hier ablegen, um nach {{label}} zu verschieben",
+    "rootLabel": "Stamm",
+    "parentLabel": "Übergeordnet"
+  },
+  "optionsMenu": {
+    "zoomOut": "Verkleinern",
+    "zoomIn": "Vergrößern",
+    "resetZoom": "Zoom zurücksetzen",
+    "findInPage": "In Seite suchen",
+    "print": "Drucken",
+    "history": "Verlauf",
+    "settings": "Einstellungen",
+    "current": "Aktuell"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Link in neuem Tab öffnen",
+    "copyLinkAddress": "Linkadresse kopieren",
+    "cut": "Ausschneiden",
+    "copy": "Kopieren",
+    "paste": "Einfügen",
+    "selectAll": "Alles auswählen",
+    "back": "Zurück",
+    "forward": "Vor",
+    "reload": "Neu laden",
+    "share": "Teilen",
+    "savePageAs": "Seite speichern unter",
+    "print": "Drucken",
+    "copyLink": "Link kopieren",
+    "copied": "Kopiert!",
+    "copyProxyLink": "Proxy-Link kopieren"
+  },
+  "windowControls": {
+    "minimize": "Minimieren",
+    "maximize": "Maximieren",
+    "close": "Schließen"
+  },
+  "mobileStart": {
+    "favorites": "Favoriten",
+    "noFavoritesHint": "Füge Lesezeichen hinzu – sie erscheinen hier als Favoriten.",
+    "readingList": "Leseliste",
+    "readingListHint": "Mit der Leseliste kannst du Webseiten und Links zum späteren Lesen sammeln. Tippe auf Teilen, um die aktuelle Seite hinzuzufügen."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Tabs durchsuchen",
+    "bookmarksBtn": "Lesezeichen",
+    "newTabBtn": "Neuer Tab",
+    "reloadBtn": "Neu laden",
+    "moreBtn": "Mehr",
+    "closeTabTipTitle": "Tab schließen",
+    "closeTabTipBody": "Wische einen Tab nach oben, um ihn zu schließen."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Abbrechen",
+    "back": "Zurück",
+    "forward": "Vor",
+    "stop": "Stopp",
+    "reload": "Neu laden",
+    "findInPage": "In Seite suchen",
+    "print": "Drucken",
+    "removeBookmark": "Lesezeichen entfernen",
+    "addBookmark": "Lesezeichen hinzufügen",
+    "settings": "Einstellungen"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Lesezeichen",
+    "historyTab": "Verlauf",
+    "searchBookmarks": "Lesezeichen durchsuchen",
+    "searchHistory": "Verlauf durchsuchen",
+    "noBookmarks": "Noch keine Lesezeichen",
+    "noHistory": "Kein Verlauf",
+    "editBookmark": "Lesezeichen bearbeiten",
+    "titleLabel": "Titel",
+    "urlLabel": "URL",
+    "save": "Speichern",
+    "deleteBookmark": "Lesezeichen löschen",
+    "cancel": "Abbrechen"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Adressleiste",
+      "body": "Tippe, um zu suchen oder eine URL einzugeben. Wische links oder rechts, um zwischen Tabs zu wechseln."
+    },
+    "seeYourTabs": {
+      "title": "Deine Tabs anzeigen",
+      "body": "Wische die Adressleiste nach oben, um alle geöffneten Tabs zu sehen."
+    },
+    "bookmarksHistory": {
+      "title": "Lesezeichen und Verlauf",
+      "body": "Tippe hier, um gespeicherte Seiten zu durchsuchen und besuchte Websites erneut aufzurufen."
+    },
+    "moreOptions": {
+      "title": "Weitere Optionen",
+      "body": "Zugriff auf Einstellungen, Seitensuche und weitere Browserfunktionen."
+    },
+    "newTab": {
+      "title": "Neuer Tab",
+      "body": "Das weißt du sicher schon."
+    }
+  },
+  "onboarding": {
+    "skip": "Überspringen",
+    "continue": "Weiter",
+    "getStarted": "Loslegen",
+    "showMeAround": "Führung starten",
+    "iKnowWhatImDoing": "Ich weiß, was ich tue",
+    "steps": {
+      "welcome": {
+        "title": "Willkommen bei Eclipse",
+        "body": "Ein Browser für das NWEP-Peer-to-Peer-Web – wo Websites direkt auf Geräten laufen, nicht auf entfernten Servern."
+      },
+      "browse": {
+        "title": "Im NWEP-Web surfen",
+        "body": "Gib web://-Adressen in die URL-Leiste ein, um dich direkt mit NWEP-Seiten zu verbinden. Kein DNS, keine Mittelsmänner."
+      },
+      "private": {
+        "title": "Standardmäßig privat",
+        "body": "Jede Verbindung verwendet eine neue flüchtige Identität – Ende-zu-Ende-verschlüsselt, ohne dauerhaftes Tracking."
+      },
+      "allSet": {
+        "title": "Alles bereit",
+        "body": "Starte mit einer web://-Adresse in der URL-Leiste oder erkunde, was im Netzwerk verfügbar ist."
+      },
+      "tour": {
+        "title": "Möchtest du eine kurze Tour?",
+        "body": "Wir zeigen dir die Gesten und Funktionen, die Eclipse einfach zu bedienen machen."
+      }
+    }
+  },
+  "settings": {
+    "general": "Allgemein",
+    "appearance": "Darstellung",
+    "privacy": "Datenschutz",
+    "developers": "Entwickler",
+    "newTab": "Neuer Tab",
+    "openNewTabsWith": "Neue Tabs öffnen mit",
+    "empty": "Leer",
+    "homepage": "Startseite",
+    "homepageUrl": "Startseiten-URL",
+    "homepageUrlActive": "Wird beim Öffnen eines neuen Tabs geladen",
+    "homepageUrlInactive": "Aktiviere den Startseiten-Modus, um dies zu verwenden",
+    "addressBar": "Adressleiste",
+    "searchBookmarks": "Lesezeichen durchsuchen",
+    "searchBookmarksDesc": "Passende Lesezeichen während der Eingabe anzeigen",
+    "searchHistory": "Verlauf durchsuchen",
+    "searchHistoryDesc": "Passende Verlaufseinträge während der Eingabe anzeigen",
+    "theme": "Design",
+    "colorScheme": "Farbschema",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "auto": "Auto",
+    "scaling": "Skalierung",
+    "browserUiScale": "Browser-Oberfläche skalieren",
+    "browserUiScaleDesc": "Skaliert Tabs, Symbolleiste und Browserrahmen",
+    "defaultPageZoom": "Standard-Seitenzoom",
+    "defaultPageZoomDesc": "Skaliert Seiteninhalt beim Öffnen neuer Tabs",
+    "browsingData": "Browserdaten",
+    "recordBrowsingHistory": "Browserverlauf aufzeichnen",
+    "recordBrowsingHistoryDesc": "Besuchte Seiten im Verlauf speichern",
+    "browsingHistory": "Browserverlauf",
+    "browsingHistoryDesc": "Gespeicherten Verlauf anzeigen oder löschen",
+    "viewBtn": "Anzeigen",
+    "clearBtn": "Löschen",
+    "clearedBtn": "Gelöscht",
+    "interface": "Oberfläche",
+    "mobileUi": "Mobile Oberfläche",
+    "mobileUiDesc": "Automatische Plattformerkennung überschreiben",
+    "mobileAuto": "Auto",
+    "mobileMobile": "Mobil",
+    "mobileDesktop": "Desktop",
+    "onboarding": "Einführung",
+    "resetWelcomeGuide": "Willkommensführung zurücksetzen",
+    "resetWelcomeGuideDesc": "Einführungsassistenten sofort erneut anzeigen",
+    "resetBtn": "Zurücksetzen",
+    "doneBtn": "Fertig",
+    "settingsTitle": "Einstellungen",
+    "zoomDefault": "{{percent}}% (Standard)"
+  },
+  "bookmarkManager": {
+    "title": "Lesezeichen verwalten",
+    "titlePlaceholder": "Titel",
+    "urlPlaceholder": "URL (z. B. web://…)",
+    "folderNamePlaceholder": "Ordnername",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "addBookmarkBtn": "Lesezeichen hinzufügen",
+    "addFolderBtn": "Ordner hinzufügen",
+    "addBookmarkToolbar": "Lesezeichen hinzufügen",
+    "newFolderToolbar": "Neuer Ordner",
+    "noBookmarksRoot": "Noch keine Lesezeichen. Füge unten eines hinzu.",
+    "emptyFolder": "Dieser Ordner ist leer.",
+    "openFolder": "Ordner öffnen",
+    "rename": "Umbenennen",
+    "delete": "Löschen"
+  }
+}

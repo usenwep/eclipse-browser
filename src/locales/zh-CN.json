@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "后退",
+    "forward": "前进",
+    "stop": "停止",
+    "reload": "刷新",
+    "newTab": "新建标签页",
+    "copyLink": "复制链接",
+    "connectionSecurity": "连接安全",
+    "searchOrEnterUrl": "搜索或输入网址",
+    "bookmarks": "书签",
+    "options": "选项"
+  },
+  "tab": {
+    "settings": "设置",
+    "history": "历史记录",
+    "newTab": "新建标签页"
+  },
+  "urlBar": {
+    "placeholder": "搜索或输入网址",
+    "mobilePlaceholder": "搜索或输入网址",
+    "bookmarksGroup": "书签",
+    "historyGroup": "历史记录"
+  },
+  "connection": {
+    "authenticated": "已认证",
+    "authVerified": "双向认证已验证",
+    "failed": "连接失败",
+    "handshakeIncomplete": "握手未完成",
+    "server": "服务器",
+    "client": "客户端",
+    "ephemeral": "临时",
+    "logLabel": "日志"
+  },
+  "find": {
+    "placeholder": "在页面中查找…",
+    "noResults": "无结果",
+    "countOf": "第 {{current}} / {{total}} 个",
+    "prevMatch": "上一个",
+    "nextMatch": "下一个",
+    "close": "关闭查找栏"
+  },
+  "error": {
+    "timeout": "连接超时",
+    "timeoutHint": "服务器响应时间过长，可能已离线或无法访问。",
+    "cantConnect": "无法连接到此站点",
+    "cantConnectHint": "服务器拒绝了连接或无法访问。",
+    "authFailed": "认证失败",
+    "authFailedHint": "无法验证服务器的加密身份。",
+    "serverNotFound": "找不到服务器",
+    "serverNotFoundHint": "该地址的服务器不存在或无法访问，请检查地址后重试。",
+    "identityError": "身份错误",
+    "identityErrorHint": "建立站点身份时出现问题。",
+    "protocolError": "协议错误",
+    "protocolErrorHint": "服务器返回了无法识别的响应。",
+    "genericError": "出现错误",
+    "genericErrorHint": "由于意外错误，页面无法加载。",
+    "tryAgain": "重试"
+  },
+  "history": {
+    "title": "历史记录",
+    "clearAll": "全部清除",
+    "empty": "无浏览历史",
+    "websiteColumn": "网站",
+    "addressColumn": "地址",
+    "removeFromHistory": "从历史记录中删除",
+    "labelToday": "今天",
+    "labelYesterday": "昨天",
+    "labelEarlier": "更早"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "收藏此页面",
+    "removeBookmark": "删除书签",
+    "bookmarkAllTabs": "收藏所有标签页",
+    "addBookmark": "添加书签",
+    "newFolder": "新建文件夹",
+    "addFolder": "添加文件夹",
+    "add": "添加",
+    "cancel": "取消",
+    "save": "保存",
+    "noBookmarks": "暂无书签",
+    "emptyFolder": "空文件夹",
+    "folderNamePlaceholder": "文件夹名称",
+    "titlePlaceholder": "标题",
+    "openFolder": "打开文件夹",
+    "edit": "编辑",
+    "delete": "删除",
+    "goBack": "返回",
+    "dropToMove": "拖放到此处以移至{{label}}",
+    "rootLabel": "根目录",
+    "parentLabel": "上级"
+  },
+  "optionsMenu": {
+    "zoomOut": "缩小",
+    "zoomIn": "放大",
+    "resetZoom": "重置缩放",
+    "findInPage": "在页面中查找",
+    "print": "打印",
+    "history": "历史记录",
+    "settings": "设置",
+    "current": "当前"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "在新标签页中打开链接",
+    "copyLinkAddress": "复制链接地址",
+    "cut": "剪切",
+    "copy": "复制",
+    "paste": "粘贴",
+    "selectAll": "全选",
+    "back": "后退",
+    "forward": "前进",
+    "reload": "刷新",
+    "share": "分享",
+    "savePageAs": "另存为",
+    "print": "打印",
+    "copyLink": "复制链接",
+    "copied": "已复制！",
+    "copyProxyLink": "复制代理链接"
+  },
+  "windowControls": {
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "close": "关闭"
+  },
+  "mobileStart": {
+    "favorites": "收藏",
+    "noFavoritesHint": "添加书签后，它们将在此处显示为收藏。",
+    "readingList": "阅读列表",
+    "readingListHint": "阅读列表可收集网页和链接以备稍后阅读。点击分享按钮添加当前页面。"
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "搜索标签页",
+    "bookmarksBtn": "书签",
+    "newTabBtn": "新建标签页",
+    "reloadBtn": "刷新",
+    "moreBtn": "更多",
+    "closeTabTipTitle": "关闭标签页",
+    "closeTabTipBody": "向上拖动任意标签页即可关闭。"
+  },
+  "mobileOptions": {
+    "cancelBtn": "取消",
+    "back": "后退",
+    "forward": "前进",
+    "stop": "停止",
+    "reload": "刷新",
+    "findInPage": "在页面中查找",
+    "print": "打印",
+    "removeBookmark": "删除书签",
+    "addBookmark": "添加书签",
+    "settings": "设置"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "书签",
+    "historyTab": "历史记录",
+    "searchBookmarks": "搜索书签",
+    "searchHistory": "搜索历史记录",
+    "noBookmarks": "暂无书签",
+    "noHistory": "无历史记录",
+    "editBookmark": "编辑书签",
+    "titleLabel": "标题",
+    "urlLabel": "URL",
+    "save": "保存",
+    "deleteBookmark": "删除书签",
+    "cancel": "取消"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "地址栏",
+      "body": "点击以搜索或输入网址，左右滑动可在标签页之间切换。"
+    },
+    "seeYourTabs": {
+      "title": "查看标签页",
+      "body": "在地址栏上向上滑动，可查看所有已打开的标签页。"
+    },
+    "bookmarksHistory": {
+      "title": "书签与历史记录",
+      "body": "点击此处浏览已保存的页面并重新访问过去的网站。"
+    },
+    "moreOptions": {
+      "title": "更多选项",
+      "body": "访问设置、页内查找及其他浏览器功能。"
+    },
+    "newTab": {
+      "title": "新建标签页",
+      "body": "你已经知道这是什么了。"
+    }
+  },
+  "onboarding": {
+    "skip": "跳过",
+    "continue": "继续",
+    "getStarted": "开始使用",
+    "showMeAround": "带我了解一下",
+    "iKnowWhatImDoing": "我知道怎么做",
+    "steps": {
+      "welcome": {
+        "title": "欢迎使用 Eclipse",
+        "body": "专为 NWEP 点对点网络打造的浏览器——网站直接在设备上运行，无需远程服务器。"
+      },
+      "browse": {
+        "title": "浏览 NWEP 网络",
+        "body": "在地址栏输入 web:// 地址，直接连接到 NWEP 站点。无需 DNS，无中间商。"
+      },
+      "private": {
+        "title": "默认私密",
+        "body": "每次连接都使用全新的临时身份——端到端加密，不留任何持久追踪记录。"
+      },
+      "allSet": {
+        "title": "一切就绪",
+        "body": "在地址栏输入 web:// 地址开始浏览，或探索网络上的可用内容。"
+      },
+      "tour": {
+        "title": "需要快速导览吗？",
+        "body": "我们将带你了解让 Eclipse 易于使用的手势和功能。"
+      }
+    }
+  },
+  "settings": {
+    "general": "通用",
+    "appearance": "外观",
+    "privacy": "隐私",
+    "developers": "开发者",
+    "newTab": "新建标签页",
+    "openNewTabsWith": "新标签页打开方式",
+    "empty": "空白页",
+    "homepage": "主页",
+    "homepageUrl": "主页网址",
+    "homepageUrlActive": "新标签页打开时加载",
+    "homepageUrlInactive": "切换到主页模式以启用",
+    "addressBar": "地址栏",
+    "searchBookmarks": "搜索书签",
+    "searchBookmarksDesc": "输入时显示匹配书签",
+    "searchHistory": "搜索历史记录",
+    "searchHistoryDesc": "输入时显示匹配历史条目",
+    "theme": "主题",
+    "colorScheme": "配色方案",
+    "light": "浅色",
+    "dark": "深色",
+    "auto": "自动",
+    "scaling": "缩放",
+    "browserUiScale": "浏览器界面缩放",
+    "browserUiScaleDesc": "缩放标签栏、工具栏及浏览器框架",
+    "defaultPageZoom": "默认页面缩放",
+    "defaultPageZoomDesc": "打开新标签页时缩放页面内容",
+    "browsingData": "浏览数据",
+    "recordBrowsingHistory": "记录浏览历史",
+    "recordBrowsingHistoryDesc": "将访问过的页面保存到历史记录",
+    "browsingHistory": "浏览历史",
+    "browsingHistoryDesc": "查看或清除已保存的历史记录",
+    "viewBtn": "查看",
+    "clearBtn": "清除",
+    "clearedBtn": "已清除",
+    "interface": "界面",
+    "mobileUi": "移动端界面",
+    "mobileUiDesc": "覆盖自动平台检测",
+    "mobileAuto": "自动",
+    "mobileMobile": "移动端",
+    "mobileDesktop": "桌面端",
+    "onboarding": "引导",
+    "resetWelcomeGuide": "重置欢迎引导",
+    "resetWelcomeGuideDesc": "立即重新显示欢迎引导",
+    "resetBtn": "重置",
+    "doneBtn": "完成",
+    "settingsTitle": "设置",
+    "zoomDefault": "{{percent}}%（默认）"
+  },
+  "bookmarkManager": {
+    "title": "管理书签",
+    "titlePlaceholder": "标题",
+    "urlPlaceholder": "URL（如 web://…）",
+    "folderNamePlaceholder": "文件夹名称",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "取消",
+    "save": "保存",
+    "addBookmarkBtn": "添加书签",
+    "addFolderBtn": "添加文件夹",
+    "addBookmarkToolbar": "添加书签",
+    "newFolderToolbar": "新建文件夹",
+    "noBookmarksRoot": "暂无书签，请在下方添加。",
+    "emptyFolder": "此文件夹为空。",
+    "openFolder": "打开文件夹",
+    "rename": "重命名",
+    "delete": "删除"
+  }
+}

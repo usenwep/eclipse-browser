@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "వెనుకకు",
+    "forward": "ముందుకు",
+    "stop": "ఆపు",
+    "reload": "మళ్ళీ లోడ్ చేయి",
+    "newTab": "కొత్త ట్యాబ్",
+    "copyLink": "లింక్ కాపీ చేయి",
+    "connectionSecurity": "కనెక్షన్ భద్రత",
+    "searchOrEnterUrl": "వెతకండి లేదా వెబ్‌సైట్ పేరు నమోదు చేయండి",
+    "bookmarks": "బుక్‌మార్కులు",
+    "options": "ఎంపికలు"
+  },
+  "tab": {
+    "settings": "సెట్టింగులు",
+    "history": "చరిత్ర",
+    "newTab": "కొత్త ట్యాబ్"
+  },
+  "urlBar": {
+    "placeholder": "వెతకండి లేదా వెబ్‌సైట్ పేరు నమోదు చేయండి",
+    "mobilePlaceholder": "వెతకండి లేదా వెబ్‌సైట్ నమోదు చేయండి",
+    "bookmarksGroup": "బుక్‌మార్కులు",
+    "historyGroup": "చరిత్ర"
+  },
+  "connection": {
+    "authenticated": "ధృవీకరించబడింది",
+    "authVerified": "పరస్పర ప్రమాణీకరణ ధృవీకరించబడింది",
+    "failed": "కనెక్షన్ విఫలమైంది",
+    "handshakeIncomplete": "హ్యాండ్‌షేక్ పూర్తికాలేదు",
+    "server": "సర్వర్",
+    "client": "క్లయింట్",
+    "ephemeral": "తాత్కాలిక",
+    "logLabel": "లాగ్"
+  },
+  "find": {
+    "placeholder": "పేజీలో వెతకండి…",
+    "noResults": "ఫలితాలు లేవు",
+    "countOf": "{{current}} / {{total}}",
+    "prevMatch": "మునుపటిది",
+    "nextMatch": "తదుపరిది",
+    "close": "శోధనను మూసివేయి"
+  },
+  "error": {
+    "timeout": "కనెక్షన్ సమయం ముగిసింది",
+    "timeoutHint": "సర్వర్ స్పందించడానికి చాలా సమయం పట్టింది. అది ఆఫ్‌లైన్‌లో ఉండవచ్చు.",
+    "cantConnect": "ఈ సైట్‌కు కనెక్ట్ చేయలేకపోయాను",
+    "cantConnectHint": "సర్వర్ కనెక్షన్‌ను తిరస్కరించింది లేదా చేరుకోలేకపోయింది.",
+    "authFailed": "ప్రమాణీకరణ విఫలమైంది",
+    "authFailedHint": "సర్వర్ యొక్క క్రిప్టోగ్రాఫిక్ గుర్తింపును ధృవీకరించడం సాధ్యపడలేదు.",
+    "serverNotFound": "సర్వర్ కనుగొనబడలేదు",
+    "serverNotFoundHint": "ఈ చిరునామాలో సర్వర్ లేదు లేదా చేరుకోలేకపోయింది. చిరునామాను తనిఖీ చేసి మళ్ళీ ప్రయత్నించండి.",
+    "identityError": "గుర్తింపు లోపం",
+    "identityErrorHint": "సైట్ గుర్తింపు స్థాపించడంలో సమస్య ఉంది.",
+    "protocolError": "ప్రోటోకాల్ లోపం",
+    "protocolErrorHint": "సర్వర్ అర్థం కాని ప్రతిస్పందన పంపింది.",
+    "genericError": "ఏదో తప్పు జరిగింది",
+    "genericErrorHint": "అనుకోని లోపం వల్ల పేజీ లోడ్ కాలేదు.",
+    "tryAgain": "మళ్ళీ ప్రయత్నించండి"
+  },
+  "history": {
+    "title": "చరిత్ర",
+    "clearAll": "అన్నీ తొలగించు",
+    "empty": "బ్రౌజింగ్ చరిత్ర లేదు",
+    "websiteColumn": "వెబ్‌సైట్",
+    "addressColumn": "చిరునామా",
+    "removeFromHistory": "చరిత్ర నుండి తొలగించు",
+    "labelToday": "ఈరోజు",
+    "labelYesterday": "నిన్న",
+    "labelEarlier": "ముందు"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "ఈ పేజీని బుక్‌మార్క్ చేయి",
+    "removeBookmark": "బుక్‌మార్క్ తొలగించు",
+    "bookmarkAllTabs": "అన్ని ట్యాబులను బుక్‌మార్క్ చేయి",
+    "addBookmark": "బుక్‌మార్క్ జోడించు",
+    "newFolder": "కొత్త ఫోల్డర్",
+    "addFolder": "ఫోల్డర్ జోడించు",
+    "add": "జోడించు",
+    "cancel": "రద్దు చేయి",
+    "save": "సేవ్ చేయి",
+    "noBookmarks": "ఇంకా బుక్‌మార్కులు లేవు",
+    "emptyFolder": "ఖాళీ ఫోల్డర్",
+    "folderNamePlaceholder": "ఫోల్డర్ పేరు",
+    "titlePlaceholder": "శీర్షిక",
+    "openFolder": "ఫోల్డర్ తెరువు",
+    "edit": "సవరించు",
+    "delete": "తొలగించు",
+    "goBack": "వెనుకకు వెళ్ళు",
+    "dropToMove": "{{label}}కు తరలించడానికి ఇక్కడ వదలండి",
+    "rootLabel": "మూలం",
+    "parentLabel": "మాతృ ఫోల్డర్"
+  },
+  "optionsMenu": {
+    "zoomOut": "జూమ్ అవుట్",
+    "zoomIn": "జూమ్ ఇన్",
+    "resetZoom": "జూమ్ రీసెట్ చేయి",
+    "findInPage": "పేజీలో వెతకండి",
+    "print": "ముద్రించు",
+    "history": "చరిత్ర",
+    "settings": "సెట్టింగులు",
+    "current": "ప్రస్తుత"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "లింక్‌ను కొత్త ట్యాబ్‌లో తెరువు",
+    "copyLinkAddress": "లింక్ చిరునామా కాపీ చేయి",
+    "cut": "కత్తిరించు",
+    "copy": "కాపీ చేయి",
+    "paste": "అతికించు",
+    "selectAll": "అన్నీ ఎంచుకో",
+    "back": "వెనుక",
+    "forward": "ముందు",
+    "reload": "మళ్ళీ లోడ్ చేయి",
+    "share": "షేర్ చేయి",
+    "savePageAs": "పేజీని ఇలా సేవ్ చేయి",
+    "print": "ముద్రించు",
+    "copyLink": "లింక్ కాపీ చేయి",
+    "copied": "కాపీ చేయబడింది!",
+    "copyProxyLink": "ప్రాక్సీ లింక్ కాపీ చేయి"
+  },
+  "windowControls": {
+    "minimize": "చిన్నదిగా చేయి",
+    "maximize": "పెద్దదిగా చేయి",
+    "close": "మూసివేయి"
+  },
+  "mobileStart": {
+    "favorites": "ఇష్టమైనవి",
+    "noFavoritesHint": "బుక్‌మార్కులు జోడించండి, అవి ఇక్కడ ఇష్టమైనవిగా కనిపిస్తాయి.",
+    "readingList": "చదవడానికి జాబితా",
+    "readingListHint": "తర్వాత చదవడానికి వెబ్‌పేజీలు మరియు లింకులు సేకరించడానికి చదవడానికి జాబితాను ఉపయోగించండి."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "ట్యాబులు వెతకండి",
+    "bookmarksBtn": "బుక్‌మార్కులు",
+    "newTabBtn": "కొత్త ట్యాబ్",
+    "reloadBtn": "మళ్ళీ లోడ్ చేయి",
+    "moreBtn": "మరిన్ని",
+    "closeTabTipTitle": "ట్యాబ్ మూసివేయి",
+    "closeTabTipBody": "ఏదైనా ట్యాబ్‌ను పైకి లాగి మూసివేయండి."
+  },
+  "mobileOptions": {
+    "cancelBtn": "రద్దు చేయి",
+    "back": "వెనుక",
+    "forward": "ముందు",
+    "stop": "ఆపు",
+    "reload": "మళ్ళీ లోడ్ చేయి",
+    "findInPage": "పేజీలో వెతకండి",
+    "print": "ముద్రించు",
+    "removeBookmark": "బుక్‌మార్క్ తొలగించు",
+    "addBookmark": "బుక్‌మార్క్ జోడించు",
+    "settings": "సెట్టింగులు"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "బుక్‌మార్కులు",
+    "historyTab": "చరిత్ర",
+    "searchBookmarks": "బుక్‌మార్కులు వెతకండి",
+    "searchHistory": "చరిత్ర వెతకండి",
+    "noBookmarks": "ఇంకా బుక్‌మార్కులు లేవు",
+    "noHistory": "చరిత్ర లేదు",
+    "editBookmark": "బుక్‌మార్క్ సవరించు",
+    "titleLabel": "శీర్షిక",
+    "urlLabel": "URL",
+    "save": "సేవ్ చేయి",
+    "deleteBookmark": "బుక్‌మార్క్ తొలగించు",
+    "cancel": "రద్దు చేయి"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "చిరునామా బార్",
+      "body": "వెతకడానికి లేదా URL టైప్ చేయడానికి నొక్కండి. ట్యాబుల మధ్య వెళ్ళడానికి స్వైప్ చేయండి."
+    },
+    "seeYourTabs": {
+      "title": "మీ ట్యాబులు చూడండి",
+      "body": "అన్ని తెరిచిన ట్యాబులు చూడటానికి చిరునామా బార్‌పై పైకి స్వైప్ చేయండి."
+    },
+    "bookmarksHistory": {
+      "title": "బుక్‌మార్కులు & చరిత్ర",
+      "body": "సేవ్ చేసిన పేజీలు చూడటానికి ఇక్కడ నొక్కండి."
+    },
+    "moreOptions": {
+      "title": "మరిన్ని ఎంపికలు",
+      "body": "సెట్టింగులు మరియు ఇతర బ్రౌజర్ నియంత్రణలను యాక్సెస్ చేయండి."
+    },
+    "newTab": {
+      "title": "కొత్త ట్యాబ్",
+      "body": "ఇది ఏమిటో మీకు ఇప్పటికే తెలుసు."
+    }
+  },
+  "onboarding": {
+    "skip": "దాటవేయి",
+    "continue": "కొనసాగించు",
+    "getStarted": "ప్రారంభించు",
+    "showMeAround": "నాకు చూపించు",
+    "iKnowWhatImDoing": "నేను ఏమి చేస్తున్నానో నాకు తెలుసు",
+    "steps": {
+      "welcome": {
+        "title": "Eclipse కి స్వాగతం",
+        "body": "NWEP పీర్-టు-పీర్ వెబ్ కోసం నిర్మించిన బ్రౌజర్ — సైట్లు రిమోట్ సర్వర్లపై కాదు, నేరుగా పరికరాలపై నడుస్తాయి."
+      },
+      "browse": {
+        "title": "NWEP వెబ్ బ్రౌజ్ చేయి",
+        "body": "NWEP సైట్లకు నేరుగా కనెక్ట్ కావడానికి URL బార్‌లో web:// చిరునామాలు టైప్ చేయండి."
+      },
+      "private": {
+        "title": "డిఫాల్ట్‌గా ప్రైవేట్",
+        "body": "ప్రతి కనెక్షన్ కొత్త తాత్కాలిక గుర్తింపును ఉపయోగిస్తుంది — ఎండ్-టు-ఎండ్ ఎన్‌క్రిప్టెడ్."
+      },
+      "allSet": {
+        "title": "మీరు సిద్ధంగా ఉన్నారు",
+        "body": "URL బార్‌లో web:// చిరునామా టైప్ చేయడం ద్వారా ప్రారంభించండి."
+      },
+      "tour": {
+        "title": "త్వరిత పర్యటన కావాలా?",
+        "body": "Eclipse ని సులభంగా నావిగేట్ చేయడానికి సంజ్ఞలు మరియు లక్షణాలు చూపిస్తాము."
+      }
+    }
+  },
+  "settings": {
+    "language": "భాష",
+    "general": "సాధారణ",
+    "appearance": "రూపం",
+    "privacy": "గోప్యత",
+    "developers": "డెవలపర్లు",
+    "newTab": "కొత్త ట్యాబ్",
+    "openNewTabsWith": "కొత్త ట్యాబులు తెరువు",
+    "empty": "ఖాళీ",
+    "homepage": "హోమ్‌పేజ్",
+    "homepageUrl": "హోమ్‌పేజ్ URL",
+    "homepageUrlActive": "కొత్త ట్యాబ్ తెరిచినప్పుడు లోడ్ అవుతుంది",
+    "homepageUrlInactive": "దీన్ని ఉపయోగించడానికి హోమ్‌పేజ్ మోడ్‌కు మారండి",
+    "addressBar": "చిరునామా బార్",
+    "searchBookmarks": "బుక్‌మార్కులు వెతకండి",
+    "searchBookmarksDesc": "టైప్ చేస్తున్నప్పుడు సరిపోలే బుక్‌మార్కులు చూపించు",
+    "searchHistory": "చరిత్ర వెతకండి",
+    "searchHistoryDesc": "టైప్ చేస్తున్నప్పుడు సరిపోలే చరిత్ర ఎంట్రీలు చూపించు",
+    "theme": "థీమ్",
+    "colorScheme": "రంగు పథకం",
+    "light": "లైట్",
+    "dark": "డార్క్",
+    "auto": "స్వయంచాలక",
+    "scaling": "స్కేలింగ్",
+    "browserUiScale": "బ్రౌజర్ UI స్కేల్",
+    "browserUiScaleDesc": "ట్యాబులు, టూల్‌బార్ మరియు బ్రౌజర్ UI స్కేల్ చేస్తుంది",
+    "defaultPageZoom": "డిఫాల్ట్ పేజ్ జూమ్",
+    "defaultPageZoomDesc": "కొత్త ట్యాబులు తెరిచినప్పుడు పేజ్ కంటెంట్ స్కేల్ చేస్తుంది",
+    "browsingData": "బ్రౌజింగ్ డేటా",
+    "recordBrowsingHistory": "బ్రౌజింగ్ చరిత్ర రికార్డ్ చేయి",
+    "recordBrowsingHistoryDesc": "సందర్శించిన పేజీలు మీ చరిత్రలో సేవ్ చేయి",
+    "browsingHistory": "బ్రౌజింగ్ చరిత్ర",
+    "browsingHistoryDesc": "మీ సేవ్ చేసిన చరిత్ర చూడండి లేదా తొలగించండి",
+    "viewBtn": "చూడు",
+    "clearBtn": "తొలగించు",
+    "clearedBtn": "తొలగించబడింది",
+    "interface": "ఇంటర్‌ఫేస్",
+    "mobileUi": "మొబైల్ UI",
+    "mobileUiDesc": "స్వయంచాలక ప్లాట్‌ఫారమ్ గుర్తింపును ఓవర్‌రైడ్ చేయి",
+    "mobileAuto": "స్వయంచాలక",
+    "mobileMobile": "మొబైల్",
+    "mobileDesktop": "డెస్క్‌టాప్",
+    "onboarding": "ఆన్‌బోర్డింగ్",
+    "resetWelcomeGuide": "స్వాగత గైడ్ రీసెట్ చేయి",
+    "resetWelcomeGuideDesc": "స్వాగత వాక్‌త్రూ వెంటనే మళ్ళీ చూపించు",
+    "resetBtn": "రీసెట్ చేయి",
+    "doneBtn": "పూర్తయింది",
+    "settingsTitle": "సెట్టింగులు",
+    "zoomDefault": "{{percent}}% (డిఫాల్ట్)"
+  },
+  "bookmarkManager": {
+    "title": "బుక్‌మార్కులు నిర్వహించు",
+    "titlePlaceholder": "శీర్షిక",
+    "urlPlaceholder": "URL (ఉదా. web://…)",
+    "folderNamePlaceholder": "ఫోల్డర్ పేరు",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "రద్దు చేయి",
+    "save": "సేవ్ చేయి",
+    "addBookmarkBtn": "బుక్‌మార్క్ జోడించు",
+    "addFolderBtn": "ఫోల్డర్ జోడించు",
+    "addBookmarkToolbar": "బుక్‌మార్క్ జోడించు",
+    "newFolderToolbar": "కొత్త ఫోల్డర్",
+    "noBookmarksRoot": "ఇంకా బుక్‌మార్కులు లేవు. దిగువ ఒకటి జోడించండి.",
+    "emptyFolder": "ఈ ఫోల్డర్ ఖాళీగా ఉంది.",
+    "openFolder": "ఫోల్డర్ తెరువు",
+    "rename": "పేరు మార్చు",
+    "delete": "తొలగించు"
+  }
+}

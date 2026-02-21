@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Назад",
+    "forward": "Вперед",
+    "stop": "Стоп",
+    "reload": "Оновити",
+    "newTab": "Нова вкладка",
+    "copyLink": "Копіювати посилання",
+    "connectionSecurity": "Безпека з'єднання",
+    "searchOrEnterUrl": "Пошук або адреса сайту",
+    "bookmarks": "Закладки",
+    "options": "Параметри"
+  },
+  "tab": {
+    "settings": "Налаштування",
+    "history": "Історія",
+    "newTab": "Нова вкладка"
+  },
+  "urlBar": {
+    "placeholder": "Пошук або адреса сайту",
+    "mobilePlaceholder": "Пошук або адреса сайту",
+    "bookmarksGroup": "Закладки",
+    "historyGroup": "Історія"
+  },
+  "connection": {
+    "authenticated": "Автентифіковано",
+    "authVerified": "Взаємну автентифікацію підтверджено",
+    "failed": "Помилка з'єднання",
+    "handshakeIncomplete": "Рукостискання не завершено",
+    "server": "сервер",
+    "client": "клієнт",
+    "ephemeral": "тимчасовий",
+    "logLabel": "лог"
+  },
+  "find": {
+    "placeholder": "Знайти на сторінці…",
+    "noResults": "Нічого не знайдено",
+    "countOf": "{{current}} з {{total}}",
+    "prevMatch": "Попередній збіг",
+    "nextMatch": "Наступний збіг",
+    "close": "Закрити панель пошуку"
+  },
+  "error": {
+    "timeout": "Час з'єднання вичерпано",
+    "timeoutHint": "Сервер надто довго не відповідав. Можливо, він недоступний або вимкнений.",
+    "cantConnect": "Не вдається підключитися до цього сайту",
+    "cantConnectHint": "Сервер відхилив з'єднання або недоступний.",
+    "authFailed": "Помилка автентифікації",
+    "authFailedHint": "Не вдалося перевірити криптографічну ідентичність сервера.",
+    "serverNotFound": "Сервер не знайдено",
+    "serverNotFoundHint": "Сервер за цією адресою не існує або недоступний. Перевірте адресу і спробуйте знову.",
+    "identityError": "Помилка ідентичності",
+    "identityErrorHint": "Виникла проблема із встановленням ідентичності сайту.",
+    "protocolError": "Помилка протоколу",
+    "protocolErrorHint": "Сервер надіслав відповідь, яку не вдалося розпізнати.",
+    "genericError": "Щось пішло не так",
+    "genericErrorHint": "Не вдалося завантажити сторінку через неочікувану помилку.",
+    "tryAgain": "Спробувати знову"
+  },
+  "history": {
+    "title": "Історія",
+    "clearAll": "Очистити все",
+    "empty": "Історія перегляду порожня",
+    "websiteColumn": "Сайт",
+    "addressColumn": "Адреса",
+    "removeFromHistory": "Видалити з історії",
+    "labelToday": "Сьогодні",
+    "labelYesterday": "Вчора",
+    "labelEarlier": "Раніше"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Додати до закладок",
+    "removeBookmark": "Видалити закладку",
+    "bookmarkAllTabs": "Додати всі вкладки до закладок",
+    "addBookmark": "Додати закладку",
+    "newFolder": "Нова папка",
+    "addFolder": "Додати папку",
+    "add": "Додати",
+    "cancel": "Скасувати",
+    "save": "Зберегти",
+    "noBookmarks": "Закладок поки немає",
+    "emptyFolder": "Порожня папка",
+    "folderNamePlaceholder": "Назва папки",
+    "titlePlaceholder": "Заголовок",
+    "openFolder": "Відкрити папку",
+    "edit": "Змінити",
+    "delete": "Видалити",
+    "goBack": "Назад",
+    "dropToMove": "Перетягніть сюди, щоб перемістити до {{label}}",
+    "rootLabel": "корінь",
+    "parentLabel": "батьківська"
+  },
+  "optionsMenu": {
+    "zoomOut": "Зменшити",
+    "zoomIn": "Збільшити",
+    "resetZoom": "Скинути масштаб",
+    "findInPage": "Знайти на сторінці",
+    "print": "Друк",
+    "history": "Історія",
+    "settings": "Налаштування",
+    "current": "Поточний"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Відкрити посилання в новій вкладці",
+    "copyLinkAddress": "Копіювати адресу посилання",
+    "cut": "Вирізати",
+    "copy": "Копіювати",
+    "paste": "Вставити",
+    "selectAll": "Вибрати все",
+    "back": "Назад",
+    "forward": "Вперед",
+    "reload": "Оновити",
+    "share": "Поділитися",
+    "savePageAs": "Зберегти сторінку як",
+    "print": "Друк",
+    "copyLink": "Копіювати посилання",
+    "copied": "Скопійовано!",
+    "copyProxyLink": "Копіювати проксі-посилання"
+  },
+  "windowControls": {
+    "minimize": "Згорнути",
+    "maximize": "Розгорнути",
+    "close": "Закрити"
+  },
+  "mobileStart": {
+    "favorites": "Вибране",
+    "noFavoritesHint": "Додайте закладки — вони з'являться тут як вибране.",
+    "readingList": "Список для читання",
+    "readingListHint": "Список для читання дозволяє зберігати сторінки та посилання на потім. Натисніть «Поділитися», щоб додати поточну сторінку."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Пошук вкладок",
+    "bookmarksBtn": "Закладки",
+    "newTabBtn": "Нова вкладка",
+    "reloadBtn": "Оновити",
+    "moreBtn": "Більше",
+    "closeTabTipTitle": "Закрити вкладку",
+    "closeTabTipBody": "Потягніть вкладку вгору, щоб закрити її."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Скасувати",
+    "back": "Назад",
+    "forward": "Вперед",
+    "stop": "Стоп",
+    "reload": "Оновити",
+    "findInPage": "Знайти на сторінці",
+    "print": "Друк",
+    "removeBookmark": "Видалити закладку",
+    "addBookmark": "Додати закладку",
+    "settings": "Налаштування"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Закладки",
+    "historyTab": "Історія",
+    "searchBookmarks": "Пошук закладок",
+    "searchHistory": "Пошук в історії",
+    "noBookmarks": "Закладок поки немає",
+    "noHistory": "Історія порожня",
+    "editBookmark": "Змінити закладку",
+    "titleLabel": "Заголовок",
+    "urlLabel": "URL",
+    "save": "Зберегти",
+    "deleteBookmark": "Видалити закладку",
+    "cancel": "Скасувати"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Адресний рядок",
+      "body": "Торкніться для пошуку або введіть URL. Проведіть ліворуч чи праворуч для перемикання між вкладками."
+    },
+    "seeYourTabs": {
+      "title": "Усі вкладки",
+      "body": "Проведіть вгору по адресному рядку, щоб побачити всі відкриті вкладки."
+    },
+    "bookmarksHistory": {
+      "title": "Закладки та історія",
+      "body": "Торкніться тут, щоб переглянути збережені сторінки та відвідані сайти."
+    },
+    "moreOptions": {
+      "title": "Більше параметрів",
+      "body": "Доступ до налаштувань, пошуку на сторінці та інших функцій браузера."
+    },
+    "newTab": {
+      "title": "Нова вкладка",
+      "body": "Ви вже знаєте, що це таке."
+    }
+  },
+  "onboarding": {
+    "skip": "Пропустити",
+    "continue": "Далі",
+    "getStarted": "Почати",
+    "showMeAround": "Покажіть мені все",
+    "iKnowWhatImDoing": "Я сам розберуся",
+    "steps": {
+      "welcome": {
+        "title": "Ласкаво просимо до Eclipse",
+        "body": "Браузер для децентралізованої мережі NWEP — де сайти працюють безпосередньо на пристроях, а не на віддалених серверах."
+      },
+      "browse": {
+        "title": "Перегляд мережі NWEP",
+        "body": "Введіть адресу web:// в адресному рядку для прямого підключення до сайтів NWEP. Без DNS, без посередників."
+      },
+      "private": {
+        "title": "Конфіденційність за замовчуванням",
+        "body": "Кожне з'єднання використовує нову тимчасову ідентичність — наскрізне шифрування без постійного відстеження."
+      },
+      "allSet": {
+        "title": "Все готово",
+        "body": "Почніть із введення адреси web:// в адресному рядку або дослідіть доступне в мережі."
+      },
+      "tour": {
+        "title": "Бажаєте швидке знайомство?",
+        "body": "Ми покажемо жести та функції, які спрощують навігацію в Eclipse."
+      }
+    }
+  },
+  "settings": {
+    "general": "Основні",
+    "appearance": "Зовнішній вигляд",
+    "privacy": "Конфіденційність",
+    "developers": "Розробникам",
+    "newTab": "Нова вкладка",
+    "openNewTabsWith": "Відкривати нові вкладки з",
+    "empty": "Порожня сторінка",
+    "homepage": "Домашня сторінка",
+    "homepageUrl": "URL домашньої сторінки",
+    "homepageUrlActive": "Завантажується при відкритті нової вкладки",
+    "homepageUrlInactive": "Перейдіть у режим домашньої сторінки, щоб використати це",
+    "addressBar": "Адресний рядок",
+    "searchBookmarks": "Пошук закладок",
+    "searchBookmarksDesc": "Показувати відповідні закладки під час введення",
+    "searchHistory": "Пошук в історії",
+    "searchHistoryDesc": "Показувати відповідні записи історії під час введення",
+    "theme": "Тема",
+    "colorScheme": "Колірна схема",
+    "light": "Світла",
+    "dark": "Темна",
+    "auto": "Авто",
+    "scaling": "Масштабування",
+    "browserUiScale": "Масштаб інтерфейсу браузера",
+    "browserUiScaleDesc": "Масштабує вкладки, панель інструментів і елементи браузера",
+    "defaultPageZoom": "Масштаб сторінки за замовчуванням",
+    "defaultPageZoomDesc": "Масштабує вміст сторінки при відкритті нових вкладок",
+    "browsingData": "Дані перегляду",
+    "recordBrowsingHistory": "Записувати історію перегляду",
+    "recordBrowsingHistoryDesc": "Зберігати відвідані сторінки в історію",
+    "browsingHistory": "Історія перегляду",
+    "browsingHistoryDesc": "Переглянути або очистити збережену історію",
+    "viewBtn": "Переглянути",
+    "clearBtn": "Очистити",
+    "clearedBtn": "Очищено",
+    "interface": "Інтерфейс",
+    "mobileUi": "Мобільний інтерфейс",
+    "mobileUiDesc": "Замінити автоматичне визначення платформи",
+    "mobileAuto": "Авто",
+    "mobileMobile": "Мобільний",
+    "mobileDesktop": "Комп'ютер",
+    "onboarding": "Знайомство",
+    "resetWelcomeGuide": "Скинути вітальний посібник",
+    "resetWelcomeGuideDesc": "Показати вітальний посібник знову негайно",
+    "resetBtn": "Скинути",
+    "doneBtn": "Готово",
+    "settingsTitle": "Налаштування",
+    "zoomDefault": "{{percent}}% (за замовчуванням)"
+  },
+  "bookmarkManager": {
+    "title": "Керування закладками",
+    "titlePlaceholder": "Заголовок",
+    "urlPlaceholder": "URL (напр. web://…)",
+    "folderNamePlaceholder": "Назва папки",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Скасувати",
+    "save": "Зберегти",
+    "addBookmarkBtn": "Додати закладку",
+    "addFolderBtn": "Додати папку",
+    "addBookmarkToolbar": "Додати закладку",
+    "newFolderToolbar": "Нова папка",
+    "noBookmarksRoot": "Закладок поки немає. Додайте нижче.",
+    "emptyFolder": "Ця папка порожня.",
+    "openFolder": "Відкрити папку",
+    "rename": "Перейменувати",
+    "delete": "Видалити"
+  }
+}

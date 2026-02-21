@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "戻る",
+    "forward": "進む",
+    "stop": "停止",
+    "reload": "再読み込み",
+    "newTab": "新しいタブ",
+    "copyLink": "リンクをコピー",
+    "connectionSecurity": "接続のセキュリティ",
+    "searchOrEnterUrl": "検索またはURLを入力",
+    "bookmarks": "ブックマーク",
+    "options": "オプション"
+  },
+  "tab": {
+    "settings": "設定",
+    "history": "履歴",
+    "newTab": "新しいタブ"
+  },
+  "urlBar": {
+    "placeholder": "検索またはURLを入力",
+    "mobilePlaceholder": "検索またはURLを入力",
+    "bookmarksGroup": "ブックマーク",
+    "historyGroup": "履歴"
+  },
+  "connection": {
+    "authenticated": "認証済み",
+    "authVerified": "相互認証を確認済み",
+    "failed": "接続失敗",
+    "handshakeIncomplete": "ハンドシェイクが完了しませんでした",
+    "server": "サーバー",
+    "client": "クライアント",
+    "ephemeral": "一時的",
+    "logLabel": "ログ"
+  },
+  "find": {
+    "placeholder": "ページ内を検索…",
+    "noResults": "結果なし",
+    "countOf": "{{total}} 件中 {{current}} 件目",
+    "prevMatch": "前へ",
+    "nextMatch": "次へ",
+    "close": "検索バーを閉じる"
+  },
+  "error": {
+    "timeout": "接続がタイムアウトしました",
+    "timeoutHint": "サーバーの応答に時間がかかりすぎています。オフラインか到達できない可能性があります。",
+    "cantConnect": "このサイトに接続できません",
+    "cantConnectHint": "サーバーが接続を拒否したか、到達できませんでした。",
+    "authFailed": "認証に失敗しました",
+    "authFailedHint": "サーバーの暗号化IDを確認できませんでした。",
+    "serverNotFound": "サーバーが見つかりません",
+    "serverNotFoundHint": "このアドレスのサーバーが存在しないか、到達できません。アドレスを確認してもう一度お試しください。",
+    "identityError": "IDエラー",
+    "identityErrorHint": "サイトのIDを確立する際に問題が発生しました。",
+    "protocolError": "プロトコルエラー",
+    "protocolErrorHint": "サーバーから解析できないレスポンスが返されました。",
+    "genericError": "エラーが発生しました",
+    "genericErrorHint": "予期しないエラーによりページを読み込めませんでした。",
+    "tryAgain": "再試行"
+  },
+  "history": {
+    "title": "履歴",
+    "clearAll": "すべて削除",
+    "empty": "閲覧履歴はありません",
+    "websiteColumn": "ウェブサイト",
+    "addressColumn": "アドレス",
+    "removeFromHistory": "履歴から削除",
+    "labelToday": "今日",
+    "labelYesterday": "昨日",
+    "labelEarlier": "それ以前"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "このページをブックマーク",
+    "removeBookmark": "ブックマークを削除",
+    "bookmarkAllTabs": "すべてのタブをブックマーク",
+    "addBookmark": "ブックマークを追加",
+    "newFolder": "新しいフォルダ",
+    "addFolder": "フォルダを追加",
+    "add": "追加",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "noBookmarks": "ブックマークはまだありません",
+    "emptyFolder": "空のフォルダ",
+    "folderNamePlaceholder": "フォルダ名",
+    "titlePlaceholder": "タイトル",
+    "openFolder": "フォルダを開く",
+    "edit": "編集",
+    "delete": "削除",
+    "goBack": "戻る",
+    "dropToMove": "ここにドロップして{{label}}へ移動",
+    "rootLabel": "ルート",
+    "parentLabel": "上位"
+  },
+  "optionsMenu": {
+    "zoomOut": "縮小",
+    "zoomIn": "拡大",
+    "resetZoom": "ズームをリセット",
+    "findInPage": "ページ内を検索",
+    "print": "印刷",
+    "history": "履歴",
+    "settings": "設定",
+    "current": "現在"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "リンクを新しいタブで開く",
+    "copyLinkAddress": "リンクのアドレスをコピー",
+    "cut": "切り取り",
+    "copy": "コピー",
+    "paste": "貼り付け",
+    "selectAll": "すべて選択",
+    "back": "戻る",
+    "forward": "進む",
+    "reload": "再読み込み",
+    "share": "共有",
+    "savePageAs": "名前を付けて保存",
+    "print": "印刷",
+    "copyLink": "リンクをコピー",
+    "copied": "コピーしました！",
+    "copyProxyLink": "プロキシリンクをコピー"
+  },
+  "windowControls": {
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "close": "閉じる"
+  },
+  "mobileStart": {
+    "favorites": "お気に入り",
+    "noFavoritesHint": "ブックマークを追加すると、ここにお気に入りとして表示されます。",
+    "readingList": "リーディングリスト",
+    "readingListHint": "リーディングリストにウェブページやリンクを保存して後で読めます。共有ボタンをタップして現在のページを追加してください。"
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "タブを検索",
+    "bookmarksBtn": "ブックマーク",
+    "newTabBtn": "新しいタブ",
+    "reloadBtn": "再読み込み",
+    "moreBtn": "その他",
+    "closeTabTipTitle": "タブを閉じる",
+    "closeTabTipBody": "タブを上にドラッグすると閉じることができます。"
+  },
+  "mobileOptions": {
+    "cancelBtn": "キャンセル",
+    "back": "戻る",
+    "forward": "進む",
+    "stop": "停止",
+    "reload": "再読み込み",
+    "findInPage": "ページ内を検索",
+    "print": "印刷",
+    "removeBookmark": "ブックマークを削除",
+    "addBookmark": "ブックマークを追加",
+    "settings": "設定"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "ブックマーク",
+    "historyTab": "履歴",
+    "searchBookmarks": "ブックマークを検索",
+    "searchHistory": "履歴を検索",
+    "noBookmarks": "ブックマークはまだありません",
+    "noHistory": "履歴はありません",
+    "editBookmark": "ブックマークを編集",
+    "titleLabel": "タイトル",
+    "urlLabel": "URL",
+    "save": "保存",
+    "deleteBookmark": "ブックマークを削除",
+    "cancel": "キャンセル"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "アドレスバー",
+      "body": "タップして検索またはURLを入力。左右にスワイプしてタブを切り替えられます。"
+    },
+    "seeYourTabs": {
+      "title": "タブを表示",
+      "body": "アドレスバーを上にスワイプすると、開いているすべてのタブを確認できます。"
+    },
+    "bookmarksHistory": {
+      "title": "ブックマークと履歴",
+      "body": "ここをタップして保存済みのページを閲覧したり、過去に訪れたサイトに戻れます。"
+    },
+    "moreOptions": {
+      "title": "その他のオプション",
+      "body": "設定、ページ内検索、その他のブラウザ機能にアクセスできます。"
+    },
+    "newTab": {
+      "title": "新しいタブ",
+      "body": "何のボタンかはご存知ですよね。"
+    }
+  },
+  "onboarding": {
+    "skip": "スキップ",
+    "continue": "続ける",
+    "getStarted": "はじめる",
+    "showMeAround": "案内してください",
+    "iKnowWhatImDoing": "使い方はわかっています",
+    "steps": {
+      "welcome": {
+        "title": "Eclipse へようこそ",
+        "body": "NWEP ピアツーピアウェブ向けのブラウザです。サイトはリモートサーバーではなく、デバイス上で直接動作します。"
+      },
+      "browse": {
+        "title": "NWEP ウェブを閲覧",
+        "body": "URLバーに web:// アドレスを入力して NWEP サイトに直接接続できます。DNS不要、中間業者なし。"
+      },
+      "private": {
+        "title": "デフォルトでプライベート",
+        "body": "接続ごとに新しい一時IDを使用します。エンドツーエンド暗号化で、継続的なトラッキングはありません。"
+      },
+      "allSet": {
+        "title": "準備完了",
+        "body": "URLバーに web:// アドレスを入力して始めるか、ネットワーク上で利用可能なコンテンツを探索してください。"
+      },
+      "tour": {
+        "title": "簡単なツアーを見ますか？",
+        "body": "Eclipse を使いやすくするジェスチャーと機能をご案内します。"
+      }
+    }
+  },
+  "settings": {
+    "general": "一般",
+    "appearance": "外観",
+    "privacy": "プライバシー",
+    "developers": "開発者",
+    "newTab": "新しいタブ",
+    "openNewTabsWith": "新しいタブの表示内容",
+    "empty": "空白",
+    "homepage": "ホームページ",
+    "homepageUrl": "ホームページURL",
+    "homepageUrlActive": "新しいタブを開くときに読み込む",
+    "homepageUrlInactive": "ホームページモードに切り替えると有効になります",
+    "addressBar": "アドレスバー",
+    "searchBookmarks": "ブックマークを検索",
+    "searchBookmarksDesc": "入力中に一致するブックマークを表示",
+    "searchHistory": "履歴を検索",
+    "searchHistoryDesc": "入力中に一致する履歴を表示",
+    "theme": "テーマ",
+    "colorScheme": "カラースキーム",
+    "light": "ライト",
+    "dark": "ダーク",
+    "auto": "自動",
+    "scaling": "スケーリング",
+    "browserUiScale": "ブラウザUIスケール",
+    "browserUiScaleDesc": "タブ、ツールバー、ブラウザフレームをスケーリング",
+    "defaultPageZoom": "デフォルトのページズーム",
+    "defaultPageZoomDesc": "新しいタブを開くときにページコンテンツをスケーリング",
+    "browsingData": "閲覧データ",
+    "recordBrowsingHistory": "閲覧履歴を記録",
+    "recordBrowsingHistoryDesc": "訪問したページを履歴に保存する",
+    "browsingHistory": "閲覧履歴",
+    "browsingHistoryDesc": "保存済みの履歴を表示または削除",
+    "viewBtn": "表示",
+    "clearBtn": "削除",
+    "clearedBtn": "削除済み",
+    "interface": "インターフェース",
+    "mobileUi": "モバイルUI",
+    "mobileUiDesc": "自動プラットフォーム検出を上書き",
+    "mobileAuto": "自動",
+    "mobileMobile": "モバイル",
+    "mobileDesktop": "デスクトップ",
+    "onboarding": "オンボーディング",
+    "resetWelcomeGuide": "ウェルカムガイドをリセット",
+    "resetWelcomeGuideDesc": "ウェルカムガイドをすぐに再表示する",
+    "resetBtn": "リセット",
+    "doneBtn": "完了",
+    "settingsTitle": "設定",
+    "zoomDefault": "{{percent}}%（デフォルト）"
+  },
+  "bookmarkManager": {
+    "title": "ブックマークを管理",
+    "titlePlaceholder": "タイトル",
+    "urlPlaceholder": "URL（例：web://…）",
+    "folderNamePlaceholder": "フォルダ名",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "addBookmarkBtn": "ブックマークを追加",
+    "addFolderBtn": "フォルダを追加",
+    "addBookmarkToolbar": "ブックマークを追加",
+    "newFolderToolbar": "新しいフォルダ",
+    "noBookmarksRoot": "ブックマークはまだありません。下から追加してください。",
+    "emptyFolder": "このフォルダは空です。",
+    "openFolder": "フォルダを開く",
+    "rename": "名前を変更",
+    "delete": "削除"
+  }
+}

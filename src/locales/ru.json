@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Назад",
+    "forward": "Вперёд",
+    "stop": "Стоп",
+    "reload": "Обновить",
+    "newTab": "Новая вкладка",
+    "copyLink": "Копировать ссылку",
+    "connectionSecurity": "Безопасность соединения",
+    "searchOrEnterUrl": "Поиск или адрес сайта",
+    "bookmarks": "Закладки",
+    "options": "Параметры"
+  },
+  "tab": {
+    "settings": "Настройки",
+    "history": "История",
+    "newTab": "Новая вкладка"
+  },
+  "urlBar": {
+    "placeholder": "Поиск или адрес сайта",
+    "mobilePlaceholder": "Поиск или адрес сайта",
+    "bookmarksGroup": "Закладки",
+    "historyGroup": "История"
+  },
+  "connection": {
+    "authenticated": "Аутентифицировано",
+    "authVerified": "Взаимная аутентификация подтверждена",
+    "failed": "Ошибка соединения",
+    "handshakeIncomplete": "Рукопожатие не завершено",
+    "server": "сервер",
+    "client": "клиент",
+    "ephemeral": "временный",
+    "logLabel": "лог"
+  },
+  "find": {
+    "placeholder": "Найти на странице…",
+    "noResults": "Ничего не найдено",
+    "countOf": "{{current}} из {{total}}",
+    "prevMatch": "Предыдущее совпадение",
+    "nextMatch": "Следующее совпадение",
+    "close": "Закрыть панель поиска"
+  },
+  "error": {
+    "timeout": "Превышено время ожидания",
+    "timeoutHint": "Сервер слишком долго не отвечал. Возможно, он недоступен или отключён.",
+    "cantConnect": "Не удаётся подключиться к этому сайту",
+    "cantConnectHint": "Сервер отклонил соединение или недоступен.",
+    "authFailed": "Ошибка аутентификации",
+    "authFailedHint": "Не удалось проверить криптографическую идентичность сервера.",
+    "serverNotFound": "Сервер не найден",
+    "serverNotFoundHint": "Сервер по этому адресу не существует или недоступен. Проверьте адрес и попробуйте снова.",
+    "identityError": "Ошибка идентификации",
+    "identityErrorHint": "Возникла проблема при установлении идентичности сайта.",
+    "protocolError": "Ошибка протокола",
+    "protocolErrorHint": "Сервер вернул ответ, который не удалось распознать.",
+    "genericError": "Что-то пошло не так",
+    "genericErrorHint": "Страницу не удалось загрузить из-за непредвиденной ошибки.",
+    "tryAgain": "Повторить"
+  },
+  "history": {
+    "title": "История",
+    "clearAll": "Очистить всё",
+    "empty": "История просмотров пуста",
+    "websiteColumn": "Сайт",
+    "addressColumn": "Адрес",
+    "removeFromHistory": "Удалить из истории",
+    "labelToday": "Сегодня",
+    "labelYesterday": "Вчера",
+    "labelEarlier": "Раньше"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Добавить в закладки",
+    "removeBookmark": "Удалить закладку",
+    "bookmarkAllTabs": "Добавить все вкладки в закладки",
+    "addBookmark": "Добавить закладку",
+    "newFolder": "Новая папка",
+    "addFolder": "Добавить папку",
+    "add": "Добавить",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "noBookmarks": "Закладок пока нет",
+    "emptyFolder": "Пустая папка",
+    "folderNamePlaceholder": "Название папки",
+    "titlePlaceholder": "Заголовок",
+    "openFolder": "Открыть папку",
+    "edit": "Изменить",
+    "delete": "Удалить",
+    "goBack": "Назад",
+    "dropToMove": "Перетащите сюда, чтобы переместить в {{label}}",
+    "rootLabel": "корень",
+    "parentLabel": "родитель"
+  },
+  "optionsMenu": {
+    "zoomOut": "Уменьшить",
+    "zoomIn": "Увеличить",
+    "resetZoom": "Сбросить масштаб",
+    "findInPage": "Найти на странице",
+    "print": "Печать",
+    "history": "История",
+    "settings": "Настройки",
+    "current": "Текущий"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Открыть ссылку в новой вкладке",
+    "copyLinkAddress": "Копировать адрес ссылки",
+    "cut": "Вырезать",
+    "copy": "Копировать",
+    "paste": "Вставить",
+    "selectAll": "Выбрать всё",
+    "back": "Назад",
+    "forward": "Вперёд",
+    "reload": "Обновить",
+    "share": "Поделиться",
+    "savePageAs": "Сохранить страницу как",
+    "print": "Печать",
+    "copyLink": "Копировать ссылку",
+    "copied": "Скопировано!",
+    "copyProxyLink": "Копировать прокси-ссылку"
+  },
+  "windowControls": {
+    "minimize": "Свернуть",
+    "maximize": "Развернуть",
+    "close": "Закрыть"
+  },
+  "mobileStart": {
+    "favorites": "Избранное",
+    "noFavoritesHint": "Добавьте закладки — они появятся здесь как избранное.",
+    "readingList": "Список для чтения",
+    "readingListHint": "Список для чтения позволяет сохранять страницы и ссылки на потом. Нажмите «Поделиться», чтобы добавить текущую страницу."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Поиск вкладок",
+    "bookmarksBtn": "Закладки",
+    "newTabBtn": "Новая вкладка",
+    "reloadBtn": "Обновить",
+    "moreBtn": "Ещё",
+    "closeTabTipTitle": "Закрыть вкладку",
+    "closeTabTipBody": "Потяните вкладку вверх, чтобы закрыть её."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Отмена",
+    "back": "Назад",
+    "forward": "Вперёд",
+    "stop": "Стоп",
+    "reload": "Обновить",
+    "findInPage": "Найти на странице",
+    "print": "Печать",
+    "removeBookmark": "Удалить закладку",
+    "addBookmark": "Добавить закладку",
+    "settings": "Настройки"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Закладки",
+    "historyTab": "История",
+    "searchBookmarks": "Поиск закладок",
+    "searchHistory": "Поиск в истории",
+    "noBookmarks": "Закладок пока нет",
+    "noHistory": "История пуста",
+    "editBookmark": "Изменить закладку",
+    "titleLabel": "Заголовок",
+    "urlLabel": "URL",
+    "save": "Сохранить",
+    "deleteBookmark": "Удалить закладку",
+    "cancel": "Отмена"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Адресная строка",
+      "body": "Нажмите для поиска или введите URL. Проведите влево или вправо для переключения между вкладками."
+    },
+    "seeYourTabs": {
+      "title": "Все вкладки",
+      "body": "Проведите вверх по адресной строке, чтобы увидеть все открытые вкладки."
+    },
+    "bookmarksHistory": {
+      "title": "Закладки и история",
+      "body": "Нажмите здесь, чтобы просмотреть сохранённые страницы и посещённые сайты."
+    },
+    "moreOptions": {
+      "title": "Дополнительно",
+      "body": "Доступ к настройкам, поиску на странице и другим функциям браузера."
+    },
+    "newTab": {
+      "title": "Новая вкладка",
+      "body": "Вы и так знаете, что это такое."
+    }
+  },
+  "onboarding": {
+    "skip": "Пропустить",
+    "continue": "Далее",
+    "getStarted": "Начать",
+    "showMeAround": "Покажите мне всё",
+    "iKnowWhatImDoing": "Я разберусь сам",
+    "steps": {
+      "welcome": {
+        "title": "Добро пожаловать в Eclipse",
+        "body": "Браузер для децентрализованной сети NWEP — где сайты работают прямо на устройствах, а не на удалённых серверах."
+      },
+      "browse": {
+        "title": "Сёрфинг в сети NWEP",
+        "body": "Введите адрес web:// в адресной строке для прямого подключения к сайтам NWEP. Без DNS, без посредников."
+      },
+      "private": {
+        "title": "Конфиденциальность по умолчанию",
+        "body": "Каждое соединение использует новую временную идентичность — сквозное шифрование без постоянного отслеживания."
+      },
+      "allSet": {
+        "title": "Всё готово",
+        "body": "Введите адрес web:// в адресной строке или исследуйте доступные ресурсы в сети."
+      },
+      "tour": {
+        "title": "Хотите быстрое знакомство?",
+        "body": "Мы покажем жесты и функции, которые упрощают навигацию в Eclipse."
+      }
+    }
+  },
+  "settings": {
+    "general": "Основные",
+    "appearance": "Внешний вид",
+    "privacy": "Конфиденциальность",
+    "developers": "Разработчикам",
+    "newTab": "Новая вкладка",
+    "openNewTabsWith": "Открывать новые вкладки с",
+    "empty": "Пустая страница",
+    "homepage": "Домашняя страница",
+    "homepageUrl": "URL домашней страницы",
+    "homepageUrlActive": "Загружается при открытии новой вкладки",
+    "homepageUrlInactive": "Переключитесь в режим домашней страницы, чтобы использовать это",
+    "addressBar": "Адресная строка",
+    "searchBookmarks": "Поиск по закладкам",
+    "searchBookmarksDesc": "Показывать подходящие закладки при вводе",
+    "searchHistory": "Поиск по истории",
+    "searchHistoryDesc": "Показывать подходящие записи истории при вводе",
+    "theme": "Тема",
+    "colorScheme": "Цветовая схема",
+    "light": "Светлая",
+    "dark": "Тёмная",
+    "auto": "Авто",
+    "scaling": "Масштабирование",
+    "browserUiScale": "Масштаб интерфейса браузера",
+    "browserUiScaleDesc": "Масштабирует вкладки, панель инструментов и элементы браузера",
+    "defaultPageZoom": "Масштаб страницы по умолчанию",
+    "defaultPageZoomDesc": "Масштабирует содержимое страницы при открытии новых вкладок",
+    "browsingData": "Данные браузера",
+    "recordBrowsingHistory": "Записывать историю просмотров",
+    "recordBrowsingHistoryDesc": "Сохранять посещённые страницы в историю",
+    "browsingHistory": "История просмотров",
+    "browsingHistoryDesc": "Просматривать или очищать сохранённую историю",
+    "viewBtn": "Просмотр",
+    "clearBtn": "Очистить",
+    "clearedBtn": "Очищено",
+    "interface": "Интерфейс",
+    "mobileUi": "Мобильный интерфейс",
+    "mobileUiDesc": "Переопределить автоматическое определение платформы",
+    "mobileAuto": "Авто",
+    "mobileMobile": "Мобильный",
+    "mobileDesktop": "Настольный",
+    "onboarding": "Знакомство",
+    "resetWelcomeGuide": "Сбросить приветственное руководство",
+    "resetWelcomeGuideDesc": "Показать приветственное руководство снова немедленно",
+    "resetBtn": "Сбросить",
+    "doneBtn": "Готово",
+    "settingsTitle": "Настройки",
+    "zoomDefault": "{{percent}}% (по умолчанию)"
+  },
+  "bookmarkManager": {
+    "title": "Управление закладками",
+    "titlePlaceholder": "Заголовок",
+    "urlPlaceholder": "URL (например, web://…)",
+    "folderNamePlaceholder": "Название папки",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "addBookmarkBtn": "Добавить закладку",
+    "addFolderBtn": "Добавить папку",
+    "addBookmarkToolbar": "Добавить закладку",
+    "newFolderToolbar": "Новая папка",
+    "noBookmarksRoot": "Закладок пока нет. Добавьте ниже.",
+    "emptyFolder": "Эта папка пуста.",
+    "openFolder": "Открыть папку",
+    "rename": "Переименовать",
+    "delete": "Удалить"
+  }
+}

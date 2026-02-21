@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Quay lại",
+    "forward": "Tiến tới",
+    "stop": "Dừng",
+    "reload": "Tải lại",
+    "newTab": "Tab mới",
+    "copyLink": "Sao chép liên kết",
+    "connectionSecurity": "Bảo mật kết nối",
+    "searchOrEnterUrl": "Tìm kiếm hoặc nhập địa chỉ trang web",
+    "bookmarks": "Dấu trang",
+    "options": "Tùy chọn"
+  },
+  "tab": {
+    "settings": "Cài đặt",
+    "history": "Lịch sử",
+    "newTab": "Tab mới"
+  },
+  "urlBar": {
+    "placeholder": "Tìm kiếm hoặc nhập địa chỉ trang web",
+    "mobilePlaceholder": "Tìm kiếm hoặc nhập địa chỉ",
+    "bookmarksGroup": "Dấu trang",
+    "historyGroup": "Lịch sử"
+  },
+  "connection": {
+    "authenticated": "Đã xác thực",
+    "authVerified": "Xác thực hai chiều đã được xác minh",
+    "failed": "Kết nối thất bại",
+    "handshakeIncomplete": "Bắt tay không hoàn tất",
+    "server": "máy chủ",
+    "client": "máy khách",
+    "ephemeral": "tạm thời",
+    "logLabel": "nhật ký"
+  },
+  "find": {
+    "placeholder": "Tìm trong trang…",
+    "noResults": "Không có kết quả",
+    "countOf": "{{current}} / {{total}}",
+    "prevMatch": "Kết quả trước",
+    "nextMatch": "Kết quả tiếp theo",
+    "close": "Đóng thanh tìm kiếm"
+  },
+  "error": {
+    "timeout": "Kết nối hết thời gian chờ",
+    "timeoutHint": "Máy chủ phản hồi quá chậm. Có thể đang ngoại tuyến hoặc không thể truy cập.",
+    "cantConnect": "Không thể kết nối đến trang này",
+    "cantConnectHint": "Máy chủ từ chối kết nối hoặc không thể truy cập.",
+    "authFailed": "Xác thực thất bại",
+    "authFailedHint": "Không thể xác minh danh tính mã hóa của máy chủ.",
+    "serverNotFound": "Không tìm thấy máy chủ",
+    "serverNotFoundHint": "Máy chủ tại địa chỉ này không tồn tại hoặc không thể truy cập. Kiểm tra lại địa chỉ và thử lại.",
+    "identityError": "Lỗi danh tính",
+    "identityErrorHint": "Có sự cố khi xác minh danh tính trang web.",
+    "protocolError": "Lỗi giao thức",
+    "protocolErrorHint": "Máy chủ gửi phản hồi không thể hiểu được.",
+    "genericError": "Đã xảy ra lỗi",
+    "genericErrorHint": "Không thể tải trang do lỗi không mong đợi.",
+    "tryAgain": "Thử lại"
+  },
+  "history": {
+    "title": "Lịch sử",
+    "clearAll": "Xóa tất cả",
+    "empty": "Không có lịch sử duyệt web",
+    "websiteColumn": "Trang web",
+    "addressColumn": "Địa chỉ",
+    "removeFromHistory": "Xóa khỏi lịch sử",
+    "labelToday": "Hôm nay",
+    "labelYesterday": "Hôm qua",
+    "labelEarlier": "Trước đó"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Đánh dấu trang này",
+    "removeBookmark": "Xóa dấu trang",
+    "bookmarkAllTabs": "Đánh dấu tất cả tab",
+    "addBookmark": "Thêm dấu trang",
+    "newFolder": "Thư mục mới",
+    "addFolder": "Thêm thư mục",
+    "add": "Thêm",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "noBookmarks": "Chưa có dấu trang nào",
+    "emptyFolder": "Thư mục trống",
+    "folderNamePlaceholder": "Tên thư mục",
+    "titlePlaceholder": "Tiêu đề",
+    "openFolder": "Mở thư mục",
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa",
+    "goBack": "Quay lại",
+    "dropToMove": "Thả vào đây để di chuyển đến {{label}}",
+    "rootLabel": "gốc",
+    "parentLabel": "thư mục cha"
+  },
+  "optionsMenu": {
+    "zoomOut": "Thu nhỏ",
+    "zoomIn": "Phóng to",
+    "resetZoom": "Đặt lại thu phóng",
+    "findInPage": "Tìm trong trang",
+    "print": "In",
+    "history": "Lịch sử",
+    "settings": "Cài đặt",
+    "current": "Hiện tại"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Mở liên kết trong tab mới",
+    "copyLinkAddress": "Sao chép địa chỉ liên kết",
+    "cut": "Cắt",
+    "copy": "Sao chép",
+    "paste": "Dán",
+    "selectAll": "Chọn tất cả",
+    "back": "Quay lại",
+    "forward": "Tiến tới",
+    "reload": "Tải lại",
+    "share": "Chia sẻ",
+    "savePageAs": "Lưu trang dưới dạng",
+    "print": "In",
+    "copyLink": "Sao chép liên kết",
+    "copied": "Đã sao chép!",
+    "copyProxyLink": "Sao chép liên kết proxy"
+  },
+  "windowControls": {
+    "minimize": "Thu nhỏ",
+    "maximize": "Phóng to",
+    "close": "Đóng"
+  },
+  "mobileStart": {
+    "favorites": "Yêu thích",
+    "noFavoritesHint": "Thêm dấu trang và chúng sẽ xuất hiện ở đây dưới dạng mục yêu thích.",
+    "readingList": "Danh sách đọc",
+    "readingListHint": "Danh sách đọc cho phép bạn lưu các trang web và liên kết để đọc sau. Nhấn nút Chia sẻ để thêm trang hiện tại."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Tìm kiếm tab",
+    "bookmarksBtn": "Dấu trang",
+    "newTabBtn": "Tab mới",
+    "reloadBtn": "Tải lại",
+    "moreBtn": "Thêm",
+    "closeTabTipTitle": "Đóng tab",
+    "closeTabTipBody": "Vuốt tab lên để đóng."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Hủy",
+    "back": "Quay lại",
+    "forward": "Tiến tới",
+    "stop": "Dừng",
+    "reload": "Tải lại",
+    "findInPage": "Tìm trong trang",
+    "print": "In",
+    "removeBookmark": "Xóa dấu trang",
+    "addBookmark": "Thêm dấu trang",
+    "settings": "Cài đặt"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Dấu trang",
+    "historyTab": "Lịch sử",
+    "searchBookmarks": "Tìm kiếm dấu trang",
+    "searchHistory": "Tìm kiếm lịch sử",
+    "noBookmarks": "Chưa có dấu trang nào",
+    "noHistory": "Không có lịch sử",
+    "editBookmark": "Chỉnh sửa dấu trang",
+    "titleLabel": "Tiêu đề",
+    "urlLabel": "URL",
+    "save": "Lưu",
+    "deleteBookmark": "Xóa dấu trang",
+    "cancel": "Hủy"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Thanh địa chỉ",
+      "body": "Nhấn để tìm kiếm hoặc nhập URL. Vuốt sang trái hoặc phải để chuyển đổi giữa các tab."
+    },
+    "seeYourTabs": {
+      "title": "Xem các tab của bạn",
+      "body": "Vuốt lên trên thanh địa chỉ để xem tất cả các tab đang mở."
+    },
+    "bookmarksHistory": {
+      "title": "Dấu trang & Lịch sử",
+      "body": "Nhấn vào đây để duyệt các trang đã lưu và xem lại các trang đã truy cập."
+    },
+    "moreOptions": {
+      "title": "Tùy chọn khác",
+      "body": "Truy cập cài đặt, tìm trong trang và các điều khiển trình duyệt khác."
+    },
+    "newTab": {
+      "title": "Tab mới",
+      "body": "Bạn chắc chắn đã biết cái này dùng để làm gì rồi."
+    }
+  },
+  "onboarding": {
+    "skip": "Bỏ qua",
+    "continue": "Tiếp tục",
+    "getStarted": "Bắt đầu",
+    "showMeAround": "Hướng dẫn tôi",
+    "iKnowWhatImDoing": "Tôi đã biết cách dùng",
+    "steps": {
+      "welcome": {
+        "title": "Chào mừng đến với Eclipse",
+        "body": "Trình duyệt được xây dựng cho web ngang hàng NWEP — nơi các trang web chạy trực tiếp trên thiết bị, không qua máy chủ từ xa."
+      },
+      "browse": {
+        "title": "Duyệt web NWEP",
+        "body": "Nhập địa chỉ web:// vào thanh URL để kết nối trực tiếp với các trang NWEP. Không DNS, không trung gian."
+      },
+      "private": {
+        "title": "Riêng tư theo mặc định",
+        "body": "Mỗi kết nối sử dụng một danh tính tạm thời mới — mã hóa đầu cuối mà không có theo dõi lâu dài."
+      },
+      "allSet": {
+        "title": "Bạn đã sẵn sàng",
+        "body": "Bắt đầu bằng cách nhập địa chỉ web:// vào thanh URL hoặc khám phá những gì có sẵn trên mạng."
+      },
+      "tour": {
+        "title": "Muốn xem hướng dẫn nhanh?",
+        "body": "Chúng tôi sẽ giới thiệu các thao tác và tính năng giúp Eclipse dễ sử dụng."
+      }
+    }
+  },
+  "settings": {
+    "general": "Chung",
+    "appearance": "Giao diện",
+    "privacy": "Quyền riêng tư",
+    "developers": "Nhà phát triển",
+    "newTab": "Tab mới",
+    "openNewTabsWith": "Mở tab mới với",
+    "empty": "Trống",
+    "homepage": "Trang chủ",
+    "homepageUrl": "URL trang chủ",
+    "homepageUrlActive": "Được tải khi mở tab mới",
+    "homepageUrlInactive": "Chuyển sang chế độ Trang chủ để sử dụng",
+    "addressBar": "Thanh địa chỉ",
+    "searchBookmarks": "Tìm dấu trang",
+    "searchBookmarksDesc": "Hiển thị dấu trang phù hợp khi bạn gõ",
+    "searchHistory": "Tìm lịch sử",
+    "searchHistoryDesc": "Hiển thị mục lịch sử phù hợp khi bạn gõ",
+    "theme": "Chủ đề",
+    "colorScheme": "Bảng màu",
+    "light": "Sáng",
+    "dark": "Tối",
+    "auto": "Tự động",
+    "scaling": "Tỷ lệ",
+    "browserUiScale": "Tỷ lệ giao diện trình duyệt",
+    "browserUiScaleDesc": "Điều chỉnh tỷ lệ tab, thanh công cụ và chrome trình duyệt",
+    "defaultPageZoom": "Thu phóng trang mặc định",
+    "defaultPageZoomDesc": "Điều chỉnh tỷ lệ nội dung trang khi mở tab mới",
+    "browsingData": "Dữ liệu duyệt web",
+    "recordBrowsingHistory": "Ghi lịch sử duyệt web",
+    "recordBrowsingHistoryDesc": "Lưu các trang đã truy cập vào lịch sử",
+    "browsingHistory": "Lịch sử duyệt web",
+    "browsingHistoryDesc": "Xem hoặc xóa lịch sử đã lưu",
+    "viewBtn": "Xem",
+    "clearBtn": "Xóa",
+    "clearedBtn": "Đã xóa",
+    "interface": "Giao diện",
+    "mobileUi": "Giao diện di động",
+    "mobileUiDesc": "Ghi đè tính năng phát hiện nền tảng tự động",
+    "mobileAuto": "Tự động",
+    "mobileMobile": "Di động",
+    "mobileDesktop": "Máy tính",
+    "onboarding": "Hướng dẫn ban đầu",
+    "resetWelcomeGuide": "Đặt lại hướng dẫn chào mừng",
+    "resetWelcomeGuideDesc": "Hiển thị lại hướng dẫn chào mừng ngay lập tức",
+    "resetBtn": "Đặt lại",
+    "doneBtn": "Xong",
+    "settingsTitle": "Cài đặt",
+    "zoomDefault": "{{percent}}% (mặc định)"
+  },
+  "bookmarkManager": {
+    "title": "Quản lý dấu trang",
+    "titlePlaceholder": "Tiêu đề",
+    "urlPlaceholder": "URL (vd: web://…)",
+    "folderNamePlaceholder": "Tên thư mục",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "addBookmarkBtn": "Thêm dấu trang",
+    "addFolderBtn": "Thêm thư mục",
+    "addBookmarkToolbar": "Thêm dấu trang",
+    "newFolderToolbar": "Thư mục mới",
+    "noBookmarksRoot": "Chưa có dấu trang nào. Thêm bên dưới.",
+    "emptyFolder": "Thư mục này trống.",
+    "openFolder": "Mở thư mục",
+    "rename": "Đổi tên",
+    "delete": "Xóa"
+  }
+}

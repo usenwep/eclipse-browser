@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Bakåt",
+    "forward": "Framåt",
+    "stop": "Stoppa",
+    "reload": "Ladda om",
+    "newTab": "Ny flik",
+    "copyLink": "Kopiera länk",
+    "connectionSecurity": "Anslutningssäkerhet",
+    "searchOrEnterUrl": "Sök eller ange webbplatsnamn",
+    "bookmarks": "Bokmärken",
+    "options": "Alternativ"
+  },
+  "tab": {
+    "settings": "Inställningar",
+    "history": "Historik",
+    "newTab": "Ny flik"
+  },
+  "urlBar": {
+    "placeholder": "Sök eller ange webbplatsnamn",
+    "mobilePlaceholder": "Sök eller ange webbplats",
+    "bookmarksGroup": "Bokmärken",
+    "historyGroup": "Historik"
+  },
+  "connection": {
+    "authenticated": "Autentiserad",
+    "authVerified": "Ömsesidig autentisering verifierad",
+    "failed": "Anslutningen misslyckades",
+    "handshakeIncomplete": "Handskakning slutfördes inte",
+    "server": "server",
+    "client": "klient",
+    "ephemeral": "tillfällig",
+    "logLabel": "logg"
+  },
+  "find": {
+    "placeholder": "Sök på sidan…",
+    "noResults": "Inga resultat",
+    "countOf": "{{current}} av {{total}}",
+    "prevMatch": "Föregående träff",
+    "nextMatch": "Nästa träff",
+    "close": "Stäng sökfältet"
+  },
+  "error": {
+    "timeout": "Anslutningen tog för lång tid",
+    "timeoutHint": "Servern svarade för långsamt. Den kan vara offline eller otillgänglig.",
+    "cantConnect": "Kan inte ansluta till den här webbplatsen",
+    "cantConnectHint": "Servern nekade anslutningen eller kunde inte nås.",
+    "authFailed": "Autentisering misslyckades",
+    "authFailedHint": "Serverns kryptografiska identitet kunde inte verifieras.",
+    "serverNotFound": "Servern hittades inte",
+    "serverNotFoundHint": "Servern på den här adressen finns inte eller kunde inte nås. Kontrollera adressen och försök igen.",
+    "identityError": "Identitetsfel",
+    "identityErrorHint": "Det uppstod ett problem vid fastställandet av webbplatsens identitet.",
+    "protocolError": "Protokollfel",
+    "protocolErrorHint": "Servern skickade ett svar som inte kunde tolkas.",
+    "genericError": "Något gick fel",
+    "genericErrorHint": "Sidan kunde inte laddas på grund av ett oväntat fel.",
+    "tryAgain": "Försök igen"
+  },
+  "history": {
+    "title": "Historik",
+    "clearAll": "Rensa allt",
+    "empty": "Ingen webbläsarhistorik",
+    "websiteColumn": "Webbplats",
+    "addressColumn": "Adress",
+    "removeFromHistory": "Ta bort från historik",
+    "labelToday": "Idag",
+    "labelYesterday": "Igår",
+    "labelEarlier": "Tidigare"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Bokmärk den här sidan",
+    "removeBookmark": "Ta bort bokmärke",
+    "bookmarkAllTabs": "Bokmärk alla flikar",
+    "addBookmark": "Lägg till bokmärke",
+    "newFolder": "Ny mapp",
+    "addFolder": "Lägg till mapp",
+    "add": "Lägg till",
+    "cancel": "Avbryt",
+    "save": "Spara",
+    "noBookmarks": "Inga bokmärken än",
+    "emptyFolder": "Tom mapp",
+    "folderNamePlaceholder": "Mappnamn",
+    "titlePlaceholder": "Titel",
+    "openFolder": "Öppna mapp",
+    "edit": "Redigera",
+    "delete": "Ta bort",
+    "goBack": "Gå tillbaka",
+    "dropToMove": "Släpp här för att flytta till {{label}}",
+    "rootLabel": "rot",
+    "parentLabel": "överordnad"
+  },
+  "optionsMenu": {
+    "zoomOut": "Zooma ut",
+    "zoomIn": "Zooma in",
+    "resetZoom": "Återställ zoom",
+    "findInPage": "Sök på sidan",
+    "print": "Skriv ut",
+    "history": "Historik",
+    "settings": "Inställningar",
+    "current": "Aktuell"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Öppna länk i ny flik",
+    "copyLinkAddress": "Kopiera länkadress",
+    "cut": "Klipp ut",
+    "copy": "Kopiera",
+    "paste": "Klistra in",
+    "selectAll": "Markera allt",
+    "back": "Bakåt",
+    "forward": "Framåt",
+    "reload": "Ladda om",
+    "share": "Dela",
+    "savePageAs": "Spara sida som",
+    "print": "Skriv ut",
+    "copyLink": "Kopiera länk",
+    "copied": "Kopierat!",
+    "copyProxyLink": "Kopiera proxylänk"
+  },
+  "windowControls": {
+    "minimize": "Minimera",
+    "maximize": "Maximera",
+    "close": "Stäng"
+  },
+  "mobileStart": {
+    "favorites": "Favoriter",
+    "noFavoritesHint": "Lägg till bokmärken så visas de här som favoriter.",
+    "readingList": "Läslista",
+    "readingListHint": "Med läslistan kan du samla webbsidor och länkar att läsa senare. Tryck på Dela för att lägga till den aktuella sidan."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Sök bland flikar",
+    "bookmarksBtn": "Bokmärken",
+    "newTabBtn": "Ny flik",
+    "reloadBtn": "Ladda om",
+    "moreBtn": "Mer",
+    "closeTabTipTitle": "Stäng en flik",
+    "closeTabTipBody": "Dra en flik uppåt för att stänga den."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Avbryt",
+    "back": "Bakåt",
+    "forward": "Framåt",
+    "stop": "Stoppa",
+    "reload": "Ladda om",
+    "findInPage": "Sök på sidan",
+    "print": "Skriv ut",
+    "removeBookmark": "Ta bort bokmärke",
+    "addBookmark": "Lägg till bokmärke",
+    "settings": "Inställningar"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Bokmärken",
+    "historyTab": "Historik",
+    "searchBookmarks": "Sök bland bokmärken",
+    "searchHistory": "Sök i historik",
+    "noBookmarks": "Inga bokmärken än",
+    "noHistory": "Ingen historik",
+    "editBookmark": "Redigera bokmärke",
+    "titleLabel": "Titel",
+    "urlLabel": "URL",
+    "save": "Spara",
+    "deleteBookmark": "Ta bort bokmärke",
+    "cancel": "Avbryt"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Adressfältet",
+      "body": "Tryck för att söka eller ange en URL. Svep åt vänster eller höger för att byta flik."
+    },
+    "seeYourTabs": {
+      "title": "Se dina flikar",
+      "body": "Svep uppåt i adressfältet för att se alla dina öppna flikar."
+    },
+    "bookmarksHistory": {
+      "title": "Bokmärken och historik",
+      "body": "Tryck här för att bläddra bland dina sparade sidor och återbesöka webbplatser."
+    },
+    "moreOptions": {
+      "title": "Fler alternativ",
+      "body": "Öppna inställningar, sök på sidan och andra webbläsarkontroller."
+    },
+    "newTab": {
+      "title": "Ny flik",
+      "body": "Det vet du redan vad det är."
+    }
+  },
+  "onboarding": {
+    "skip": "Hoppa över",
+    "continue": "Fortsätt",
+    "getStarted": "Kom igång",
+    "showMeAround": "Visa mig runt",
+    "iKnowWhatImDoing": "Jag vet vad jag gör",
+    "steps": {
+      "welcome": {
+        "title": "Välkommen till Eclipse",
+        "body": "En webbläsare byggd för NWEP:s peer-to-peer-webb — där webbplatser körs direkt på enheter, inte på fjärrservrar."
+      },
+      "browse": {
+        "title": "Surfa på NWEP-webben",
+        "body": "Skriv web://-adresser i URL-fältet för att ansluta direkt till NWEP-webbplatser. Ingen DNS, inga mellanhänder."
+      },
+      "private": {
+        "title": "Privat som standard",
+        "body": "Varje anslutning använder en ny tillfällig identitet — end-to-end-krypterad utan beständig spårning."
+      },
+      "allSet": {
+        "title": "Du är redo",
+        "body": "Börja med att skriva en web://-adress i URL-fältet eller utforska vad som finns tillgängligt på nätverket."
+      },
+      "tour": {
+        "title": "Vill du ha en snabb rundtur?",
+        "body": "Vi visar dig gesterna och funktionerna som gör Eclipse enkelt att navigera."
+      }
+    }
+  },
+  "settings": {
+    "general": "Allmänt",
+    "appearance": "Utseende",
+    "privacy": "Integritet",
+    "developers": "Utvecklare",
+    "newTab": "Ny flik",
+    "openNewTabsWith": "Öppna nya flikar med",
+    "empty": "Tom",
+    "homepage": "Startsida",
+    "homepageUrl": "Startsidans URL",
+    "homepageUrlActive": "Laddas när en ny flik öppnas",
+    "homepageUrlInactive": "Byt till startsideläge för att använda detta",
+    "addressBar": "Adressfält",
+    "searchBookmarks": "Sök bland bokmärken",
+    "searchBookmarksDesc": "Visa matchande bokmärken medan du skriver",
+    "searchHistory": "Sök i historik",
+    "searchHistoryDesc": "Visa matchande historikposter medan du skriver",
+    "theme": "Tema",
+    "colorScheme": "Färgschema",
+    "light": "Ljust",
+    "dark": "Mörkt",
+    "auto": "Automatiskt",
+    "scaling": "Skalning",
+    "browserUiScale": "Webbläsargränssnitts skala",
+    "browserUiScaleDesc": "Skalar flikar, verktygsfält och webbläsarens gränssnitt",
+    "defaultPageZoom": "Standard sidstorlek",
+    "defaultPageZoomDesc": "Skalar sidinnehåll vid öppning av nya flikar",
+    "browsingData": "Webbläsardata",
+    "recordBrowsingHistory": "Registrera webbläsarhistorik",
+    "recordBrowsingHistoryDesc": "Spara besökta sidor i historiken",
+    "browsingHistory": "Webbläsarhistorik",
+    "browsingHistoryDesc": "Visa eller rensa din sparade historik",
+    "viewBtn": "Visa",
+    "clearBtn": "Rensa",
+    "clearedBtn": "Rensat",
+    "interface": "Gränssnitt",
+    "mobileUi": "Mobilt gränssnitt",
+    "mobileUiDesc": "Åsidosätt automatisk plattformsdetektering",
+    "mobileAuto": "Automatiskt",
+    "mobileMobile": "Mobil",
+    "mobileDesktop": "Skrivbord",
+    "onboarding": "Introduktion",
+    "resetWelcomeGuide": "Återställ välkomstguiden",
+    "resetWelcomeGuideDesc": "Visa välkomstgenomgången igen direkt",
+    "resetBtn": "Återställ",
+    "doneBtn": "Klar",
+    "settingsTitle": "Inställningar",
+    "zoomDefault": "{{percent}}% (standard)"
+  },
+  "bookmarkManager": {
+    "title": "Hantera bokmärken",
+    "titlePlaceholder": "Titel",
+    "urlPlaceholder": "URL (t.ex. web://…)",
+    "folderNamePlaceholder": "Mappnamn",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Avbryt",
+    "save": "Spara",
+    "addBookmarkBtn": "Lägg till bokmärke",
+    "addFolderBtn": "Lägg till mapp",
+    "addBookmarkToolbar": "Lägg till bokmärke",
+    "newFolderToolbar": "Ny mapp",
+    "noBookmarksRoot": "Inga bokmärken än. Lägg till ett nedan.",
+    "emptyFolder": "Den här mappen är tom.",
+    "openFolder": "Öppna mapp",
+    "rename": "Byt namn",
+    "delete": "Ta bort"
+  }
+}

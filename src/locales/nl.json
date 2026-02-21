@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Terug",
+    "forward": "Vooruit",
+    "stop": "Stoppen",
+    "reload": "Herladen",
+    "newTab": "Nieuw tabblad",
+    "copyLink": "Link kopiëren",
+    "connectionSecurity": "Verbindingsbeveiliging",
+    "searchOrEnterUrl": "Zoeken of websitenaam invoeren",
+    "bookmarks": "Bladwijzers",
+    "options": "Opties"
+  },
+  "tab": {
+    "settings": "Instellingen",
+    "history": "Geschiedenis",
+    "newTab": "Nieuw tabblad"
+  },
+  "urlBar": {
+    "placeholder": "Zoeken of websitenaam invoeren",
+    "mobilePlaceholder": "Zoeken of website invoeren",
+    "bookmarksGroup": "Bladwijzers",
+    "historyGroup": "Geschiedenis"
+  },
+  "connection": {
+    "authenticated": "Geverifieerd",
+    "authVerified": "Wederzijdse verificatie bevestigd",
+    "failed": "Verbinding mislukt",
+    "handshakeIncomplete": "Handshake niet voltooid",
+    "server": "server",
+    "client": "client",
+    "ephemeral": "tijdelijk",
+    "logLabel": "log"
+  },
+  "find": {
+    "placeholder": "Zoeken op pagina…",
+    "noResults": "Geen resultaten",
+    "countOf": "{{current}} van {{total}}",
+    "prevMatch": "Vorige overeenkomst",
+    "nextMatch": "Volgende overeenkomst",
+    "close": "Zoekbalk sluiten"
+  },
+  "error": {
+    "timeout": "Verbinding verlopen",
+    "timeoutHint": "De server reageerde te traag. Mogelijk is hij offline of onbereikbaar.",
+    "cantConnect": "Kan geen verbinding maken met deze site",
+    "cantConnectHint": "De server heeft de verbinding geweigerd of is niet bereikbaar.",
+    "authFailed": "Verificatie mislukt",
+    "authFailedHint": "De cryptografische identiteit van de server kon niet worden geverifieerd.",
+    "serverNotFound": "Server niet gevonden",
+    "serverNotFoundHint": "De server op dit adres bestaat niet of is niet bereikbaar. Controleer het adres en probeer opnieuw.",
+    "identityError": "Identiteitsfout",
+    "identityErrorHint": "Er was een probleem bij het vaststellen van de identiteit van de site.",
+    "protocolError": "Protocolfout",
+    "protocolErrorHint": "De server stuurde een antwoord dat niet begrepen kon worden.",
+    "genericError": "Er ging iets mis",
+    "genericErrorHint": "De pagina kon niet worden geladen vanwege een onverwachte fout.",
+    "tryAgain": "Opnieuw proberen"
+  },
+  "history": {
+    "title": "Geschiedenis",
+    "clearAll": "Alles wissen",
+    "empty": "Geen browsegeschiedenis",
+    "websiteColumn": "Website",
+    "addressColumn": "Adres",
+    "removeFromHistory": "Verwijderen uit geschiedenis",
+    "labelToday": "Vandaag",
+    "labelYesterday": "Gisteren",
+    "labelEarlier": "Eerder"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Pagina als bladwijzer opslaan",
+    "removeBookmark": "Bladwijzer verwijderen",
+    "bookmarkAllTabs": "Alle tabbladen als bladwijzer opslaan",
+    "addBookmark": "Bladwijzer toevoegen",
+    "newFolder": "Nieuwe map",
+    "addFolder": "Map toevoegen",
+    "add": "Toevoegen",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "noBookmarks": "Nog geen bladwijzers",
+    "emptyFolder": "Lege map",
+    "folderNamePlaceholder": "Mapnaam",
+    "titlePlaceholder": "Titel",
+    "openFolder": "Map openen",
+    "edit": "Bewerken",
+    "delete": "Verwijderen",
+    "goBack": "Terug",
+    "dropToMove": "Hier neerzetten om naar {{label}} te verplaatsen",
+    "rootLabel": "root",
+    "parentLabel": "bovenliggend"
+  },
+  "optionsMenu": {
+    "zoomOut": "Uitzoomen",
+    "zoomIn": "Inzoomen",
+    "resetZoom": "Zoom resetten",
+    "findInPage": "Zoeken op pagina",
+    "print": "Afdrukken",
+    "history": "Geschiedenis",
+    "settings": "Instellingen",
+    "current": "Huidig"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Link in nieuw tabblad openen",
+    "copyLinkAddress": "Linkadres kopiëren",
+    "cut": "Knippen",
+    "copy": "Kopiëren",
+    "paste": "Plakken",
+    "selectAll": "Alles selecteren",
+    "back": "Terug",
+    "forward": "Vooruit",
+    "reload": "Herladen",
+    "share": "Delen",
+    "savePageAs": "Pagina opslaan als",
+    "print": "Afdrukken",
+    "copyLink": "Link kopiëren",
+    "copied": "Gekopieerd!",
+    "copyProxyLink": "Proxylink kopiëren"
+  },
+  "windowControls": {
+    "minimize": "Minimaliseren",
+    "maximize": "Maximaliseren",
+    "close": "Sluiten"
+  },
+  "mobileStart": {
+    "favorites": "Favorieten",
+    "noFavoritesHint": "Voeg bladwijzers toe en ze verschijnen hier als favorieten.",
+    "readingList": "Leeslijst",
+    "readingListHint": "Met de leeslijst kun je webpagina's en links bewaren om later te lezen. Tik op Delen om de huidige pagina toe te voegen."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Tabbladen zoeken",
+    "bookmarksBtn": "Bladwijzers",
+    "newTabBtn": "Nieuw tabblad",
+    "reloadBtn": "Herladen",
+    "moreBtn": "Meer",
+    "closeTabTipTitle": "Tabblad sluiten",
+    "closeTabTipBody": "Veeg een tabblad omhoog om het te sluiten."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Annuleren",
+    "back": "Terug",
+    "forward": "Vooruit",
+    "stop": "Stoppen",
+    "reload": "Herladen",
+    "findInPage": "Zoeken op pagina",
+    "print": "Afdrukken",
+    "removeBookmark": "Bladwijzer verwijderen",
+    "addBookmark": "Bladwijzer toevoegen",
+    "settings": "Instellingen"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Bladwijzers",
+    "historyTab": "Geschiedenis",
+    "searchBookmarks": "Bladwijzers zoeken",
+    "searchHistory": "Geschiedenis zoeken",
+    "noBookmarks": "Nog geen bladwijzers",
+    "noHistory": "Geen geschiedenis",
+    "editBookmark": "Bladwijzer bewerken",
+    "titleLabel": "Titel",
+    "urlLabel": "URL",
+    "save": "Opslaan",
+    "deleteBookmark": "Bladwijzer verwijderen",
+    "cancel": "Annuleren"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Adresbalk",
+      "body": "Tik om te zoeken of een URL in te typen. Veeg links of rechts om tussen tabbladen te wisselen."
+    },
+    "seeYourTabs": {
+      "title": "Tabbladen bekijken",
+      "body": "Veeg omhoog op de adresbalk om al je open tabbladen te zien."
+    },
+    "bookmarksHistory": {
+      "title": "Bladwijzers en geschiedenis",
+      "body": "Tik hier om je opgeslagen pagina's te bekijken en eerder bezochte sites opnieuw te bezoeken."
+    },
+    "moreOptions": {
+      "title": "Meer opties",
+      "body": "Toegang tot instellingen, zoeken op pagina en andere browserbediening."
+    },
+    "newTab": {
+      "title": "Nieuw tabblad",
+      "body": "Dit spreekt voor zich."
+    }
+  },
+  "onboarding": {
+    "skip": "Overslaan",
+    "continue": "Doorgaan",
+    "getStarted": "Aan de slag",
+    "showMeAround": "Laat me rondkijken",
+    "iKnowWhatImDoing": "Ik weet wat ik doe",
+    "steps": {
+      "welcome": {
+        "title": "Welkom bij Eclipse",
+        "body": "Een browser gemaakt voor het NWEP peer-to-peer web — waar sites rechtstreeks op apparaten draaien, niet op externe servers."
+      },
+      "browse": {
+        "title": "Surf op het NWEP-web",
+        "body": "Typ web://-adressen in de URL-balk om direct verbinding te maken met NWEP-sites. Geen DNS, geen tussenpersonen."
+      },
+      "private": {
+        "title": "Standaard privé",
+        "body": "Elke verbinding gebruikt een nieuwe tijdelijke identiteit — end-to-end versleuteld zonder aanhoudende tracking."
+      },
+      "allSet": {
+        "title": "Je bent klaar",
+        "body": "Begin door een web://-adres in de URL-balk te typen of verken wat er beschikbaar is op het netwerk."
+      },
+      "tour": {
+        "title": "Wil je een rondleiding?",
+        "body": "We laten je de gebaren en functies zien die Eclipse eenvoudig te gebruiken maken."
+      }
+    }
+  },
+  "settings": {
+    "general": "Algemeen",
+    "appearance": "Weergave",
+    "privacy": "Privacy",
+    "developers": "Ontwikkelaars",
+    "newTab": "Nieuw tabblad",
+    "openNewTabsWith": "Nieuwe tabbladen openen met",
+    "empty": "Leeg",
+    "homepage": "Startpagina",
+    "homepageUrl": "URL startpagina",
+    "homepageUrlActive": "Geladen bij het openen van een nieuw tabblad",
+    "homepageUrlInactive": "Schakel over naar Startpaginamodus om dit te gebruiken",
+    "addressBar": "Adresbalk",
+    "searchBookmarks": "Bladwijzers doorzoeken",
+    "searchBookmarksDesc": "Overeenkomende bladwijzers tonen tijdens het typen",
+    "searchHistory": "Geschiedenis doorzoeken",
+    "searchHistoryDesc": "Overeenkomende geschiedenis tonen tijdens het typen",
+    "theme": "Thema",
+    "colorScheme": "Kleurenschema",
+    "light": "Licht",
+    "dark": "Donker",
+    "auto": "Automatisch",
+    "scaling": "Schaling",
+    "browserUiScale": "Browserinterface schalen",
+    "browserUiScaleDesc": "Schaalt de tabbladen, werkbalk en browserchrome",
+    "defaultPageZoom": "Standaard paginazoom",
+    "defaultPageZoomDesc": "Schaalt pagina-inhoud bij het openen van nieuwe tabbladen",
+    "browsingData": "Browsegegevens",
+    "recordBrowsingHistory": "Browsegeschiedenis bijhouden",
+    "recordBrowsingHistoryDesc": "Bezochte pagina's opslaan in je geschiedenis",
+    "browsingHistory": "Browsegeschiedenis",
+    "browsingHistoryDesc": "Je opgeslagen geschiedenis bekijken of wissen",
+    "viewBtn": "Bekijken",
+    "clearBtn": "Wissen",
+    "clearedBtn": "Gewist",
+    "interface": "Interface",
+    "mobileUi": "Mobiele interface",
+    "mobileUiDesc": "Automatische platformdetectie overschrijven",
+    "mobileAuto": "Automatisch",
+    "mobileMobile": "Mobiel",
+    "mobileDesktop": "Desktop",
+    "onboarding": "Introductie",
+    "resetWelcomeGuide": "Welkomstgids resetten",
+    "resetWelcomeGuideDesc": "De welkomstrondleiding direct opnieuw tonen",
+    "resetBtn": "Resetten",
+    "doneBtn": "Klaar",
+    "settingsTitle": "Instellingen",
+    "zoomDefault": "{{percent}}% (standaard)"
+  },
+  "bookmarkManager": {
+    "title": "Bladwijzers beheren",
+    "titlePlaceholder": "Titel",
+    "urlPlaceholder": "URL (bijv. web://…)",
+    "folderNamePlaceholder": "Mapnaam",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "addBookmarkBtn": "Bladwijzer toevoegen",
+    "addFolderBtn": "Map toevoegen",
+    "addBookmarkToolbar": "Bladwijzer toevoegen",
+    "newFolderToolbar": "Nieuwe map",
+    "noBookmarksRoot": "Nog geen bladwijzers. Voeg er hieronder een toe.",
+    "emptyFolder": "Deze map is leeg.",
+    "openFolder": "Map openen",
+    "rename": "Hernoemen",
+    "delete": "Verwijderen"
+  }
+}

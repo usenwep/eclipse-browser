@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Indietro",
+    "forward": "Avanti",
+    "stop": "Interrompi",
+    "reload": "Ricarica",
+    "newTab": "Nuova scheda",
+    "copyLink": "Copia link",
+    "connectionSecurity": "Sicurezza della connessione",
+    "searchOrEnterUrl": "Cerca o inserisci un indirizzo",
+    "bookmarks": "Segnalibri",
+    "options": "Opzioni"
+  },
+  "tab": {
+    "settings": "Impostazioni",
+    "history": "Cronologia",
+    "newTab": "Nuova scheda"
+  },
+  "urlBar": {
+    "placeholder": "Cerca o inserisci un indirizzo",
+    "mobilePlaceholder": "Cerca o inserisci un sito",
+    "bookmarksGroup": "Segnalibri",
+    "historyGroup": "Cronologia"
+  },
+  "connection": {
+    "authenticated": "Autenticato",
+    "authVerified": "Autenticazione reciproca verificata",
+    "failed": "Connessione fallita",
+    "handshakeIncomplete": "Handshake non completato",
+    "server": "server",
+    "client": "client",
+    "ephemeral": "effimero",
+    "logLabel": "registro"
+  },
+  "find": {
+    "placeholder": "Cerca nella pagina…",
+    "noResults": "Nessun risultato",
+    "countOf": "{{current}} di {{total}}",
+    "prevMatch": "Corrispondenza precedente",
+    "nextMatch": "Corrispondenza successiva",
+    "close": "Chiudi barra di ricerca"
+  },
+  "error": {
+    "timeout": "Connessione scaduta",
+    "timeoutHint": "Il server ha impiegato troppo tempo a rispondere. Potrebbe essere offline o irraggiungibile.",
+    "cantConnect": "Impossibile connettersi a questo sito",
+    "cantConnectHint": "Il server ha rifiutato la connessione o non è stato raggiungibile.",
+    "authFailed": "Autenticazione fallita",
+    "authFailedHint": "Impossibile verificare l'identità crittografica del server.",
+    "serverNotFound": "Server non trovato",
+    "serverNotFoundHint": "Il server a questo indirizzo non esiste o non è stato raggiungibile. Controlla l'indirizzo e riprova.",
+    "identityError": "Errore di identità",
+    "identityErrorHint": "Si è verificato un problema nel verificare l'identità del sito.",
+    "protocolError": "Errore di protocollo",
+    "protocolErrorHint": "Il server ha inviato una risposta incomprensibile.",
+    "genericError": "Qualcosa è andato storto",
+    "genericErrorHint": "La pagina non ha potuto essere caricata a causa di un errore imprevisto.",
+    "tryAgain": "Riprova"
+  },
+  "history": {
+    "title": "Cronologia",
+    "clearAll": "Cancella tutto",
+    "empty": "Nessuna cronologia di navigazione",
+    "websiteColumn": "Sito web",
+    "addressColumn": "Indirizzo",
+    "removeFromHistory": "Rimuovi dalla cronologia",
+    "labelToday": "Oggi",
+    "labelYesterday": "Ieri",
+    "labelEarlier": "Prima"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Aggiungi ai segnalibri",
+    "removeBookmark": "Rimuovi segnalibro",
+    "bookmarkAllTabs": "Aggiungi tutte le schede",
+    "addBookmark": "Aggiungi segnalibro",
+    "newFolder": "Nuova cartella",
+    "addFolder": "Aggiungi cartella",
+    "add": "Aggiungi",
+    "cancel": "Annulla",
+    "save": "Salva",
+    "noBookmarks": "Nessun segnalibro ancora",
+    "emptyFolder": "Cartella vuota",
+    "folderNamePlaceholder": "Nome cartella",
+    "titlePlaceholder": "Titolo",
+    "openFolder": "Apri cartella",
+    "edit": "Modifica",
+    "delete": "Elimina",
+    "goBack": "Indietro",
+    "dropToMove": "Rilascia qui per spostare in {{label}}",
+    "rootLabel": "radice",
+    "parentLabel": "superiore"
+  },
+  "optionsMenu": {
+    "zoomOut": "Riduci zoom",
+    "zoomIn": "Aumenta zoom",
+    "resetZoom": "Ripristina zoom",
+    "findInPage": "Cerca nella pagina",
+    "print": "Stampa",
+    "history": "Cronologia",
+    "settings": "Impostazioni",
+    "current": "Corrente"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Apri link in nuova scheda",
+    "copyLinkAddress": "Copia indirizzo link",
+    "cut": "Taglia",
+    "copy": "Copia",
+    "paste": "Incolla",
+    "selectAll": "Seleziona tutto",
+    "back": "Indietro",
+    "forward": "Avanti",
+    "reload": "Ricarica",
+    "share": "Condividi",
+    "savePageAs": "Salva pagina come",
+    "print": "Stampa",
+    "copyLink": "Copia link",
+    "copied": "Copiato!",
+    "copyProxyLink": "Copia link proxy"
+  },
+  "windowControls": {
+    "minimize": "Riduci a icona",
+    "maximize": "Ingrandisci",
+    "close": "Chiudi"
+  },
+  "mobileStart": {
+    "favorites": "Preferiti",
+    "noFavoritesHint": "Aggiungi segnalibri e appariranno qui come preferiti.",
+    "readingList": "Lista di lettura",
+    "readingListHint": "La lista di lettura ti permette di raccogliere pagine e link da leggere in seguito. Tocca Condividi per aggiungere la pagina corrente."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Cerca schede",
+    "bookmarksBtn": "Segnalibri",
+    "newTabBtn": "Nuova scheda",
+    "reloadBtn": "Ricarica",
+    "moreBtn": "Altro",
+    "closeTabTipTitle": "Chiudi una scheda",
+    "closeTabTipBody": "Trascina una scheda verso l'alto per chiuderla."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Annulla",
+    "back": "Indietro",
+    "forward": "Avanti",
+    "stop": "Interrompi",
+    "reload": "Ricarica",
+    "findInPage": "Cerca nella pagina",
+    "print": "Stampa",
+    "removeBookmark": "Rimuovi segnalibro",
+    "addBookmark": "Aggiungi segnalibro",
+    "settings": "Impostazioni"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Segnalibri",
+    "historyTab": "Cronologia",
+    "searchBookmarks": "Cerca nei segnalibri",
+    "searchHistory": "Cerca nella cronologia",
+    "noBookmarks": "Nessun segnalibro ancora",
+    "noHistory": "Nessuna cronologia",
+    "editBookmark": "Modifica segnalibro",
+    "titleLabel": "Titolo",
+    "urlLabel": "URL",
+    "save": "Salva",
+    "deleteBookmark": "Elimina segnalibro",
+    "cancel": "Annulla"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Barra degli indirizzi",
+      "body": "Tocca per cercare o inserire un URL. Scorri a sinistra o destra per passare tra le schede."
+    },
+    "seeYourTabs": {
+      "title": "Vedi le tue schede",
+      "body": "Scorri verso l'alto sulla barra degli indirizzi per vedere tutte le schede aperte."
+    },
+    "bookmarksHistory": {
+      "title": "Segnalibri e cronologia",
+      "body": "Tocca qui per sfogliare le pagine salvate e rivisitare i siti già visitati."
+    },
+    "moreOptions": {
+      "title": "Altre opzioni",
+      "body": "Accedi alle impostazioni, alla ricerca nella pagina e agli altri controlli del browser."
+    },
+    "newTab": {
+      "title": "Nuova scheda",
+      "body": "Sai già a cosa serve."
+    }
+  },
+  "onboarding": {
+    "skip": "Salta",
+    "continue": "Continua",
+    "getStarted": "Inizia",
+    "showMeAround": "Mostrami come funziona",
+    "iKnowWhatImDoing": "So già cosa fare",
+    "steps": {
+      "welcome": {
+        "title": "Benvenuto in Eclipse",
+        "body": "Un browser progettato per il web peer-to-peer NWEP, dove i siti girano direttamente sui dispositivi, non su server remoti."
+      },
+      "browse": {
+        "title": "Naviga nel web NWEP",
+        "body": "Digita indirizzi web:// nella barra URL per connetterti direttamente ai siti NWEP. Niente DNS, niente intermediari."
+      },
+      "private": {
+        "title": "Privato per impostazione predefinita",
+        "body": "Ogni connessione usa una nuova identità effimera, con cifratura end-to-end e senza tracciamento persistente."
+      },
+      "allSet": {
+        "title": "Sei pronto",
+        "body": "Inizia digitando un indirizzo web:// nella barra URL o esplora ciò che è disponibile sulla rete."
+      },
+      "tour": {
+        "title": "Vuoi un tour rapido?",
+        "body": "Ti guideremo attraverso i gesti e le funzioni che rendono Eclipse facile da usare."
+      }
+    }
+  },
+  "settings": {
+    "general": "Generale",
+    "appearance": "Aspetto",
+    "privacy": "Privacy",
+    "developers": "Sviluppatori",
+    "newTab": "Nuova scheda",
+    "openNewTabsWith": "Apri nuove schede con",
+    "empty": "Vuoto",
+    "homepage": "Pagina iniziale",
+    "homepageUrl": "URL pagina iniziale",
+    "homepageUrlActive": "Caricata all'apertura di una nuova scheda",
+    "homepageUrlInactive": "Attiva la modalità Pagina iniziale per usarla",
+    "addressBar": "Barra degli indirizzi",
+    "searchBookmarks": "Cerca nei segnalibri",
+    "searchBookmarksDesc": "Mostra i segnalibri corrispondenti durante la digitazione",
+    "searchHistory": "Cerca nella cronologia",
+    "searchHistoryDesc": "Mostra le voci della cronologia corrispondenti durante la digitazione",
+    "theme": "Tema",
+    "colorScheme": "Schema colori",
+    "light": "Chiaro",
+    "dark": "Scuro",
+    "auto": "Auto",
+    "scaling": "Ridimensionamento",
+    "browserUiScale": "Scala interfaccia browser",
+    "browserUiScaleDesc": "Ridimensiona schede, barra degli strumenti e cornice del browser",
+    "defaultPageZoom": "Zoom pagina predefinito",
+    "defaultPageZoomDesc": "Ridimensiona il contenuto delle pagine all'apertura di nuove schede",
+    "browsingData": "Dati di navigazione",
+    "recordBrowsingHistory": "Registra cronologia di navigazione",
+    "recordBrowsingHistoryDesc": "Salva le pagine visitate nella cronologia",
+    "browsingHistory": "Cronologia di navigazione",
+    "browsingHistoryDesc": "Visualizza o cancella la cronologia salvata",
+    "viewBtn": "Visualizza",
+    "clearBtn": "Cancella",
+    "clearedBtn": "Cancellato",
+    "interface": "Interfaccia",
+    "mobileUi": "Interfaccia mobile",
+    "mobileUiDesc": "Ignora il rilevamento automatico della piattaforma",
+    "mobileAuto": "Auto",
+    "mobileMobile": "Mobile",
+    "mobileDesktop": "Desktop",
+    "onboarding": "Introduzione",
+    "resetWelcomeGuide": "Ripristina guida di benvenuto",
+    "resetWelcomeGuideDesc": "Mostra nuovamente la procedura guidata di benvenuto",
+    "resetBtn": "Ripristina",
+    "doneBtn": "Fine",
+    "settingsTitle": "Impostazioni",
+    "zoomDefault": "{{percent}}% (predefinito)"
+  },
+  "bookmarkManager": {
+    "title": "Gestisci segnalibri",
+    "titlePlaceholder": "Titolo",
+    "urlPlaceholder": "URL (es. web://…)",
+    "folderNamePlaceholder": "Nome cartella",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Annulla",
+    "save": "Salva",
+    "addBookmarkBtn": "Aggiungi segnalibro",
+    "addFolderBtn": "Aggiungi cartella",
+    "addBookmarkToolbar": "Aggiungi segnalibro",
+    "newFolderToolbar": "Nuova cartella",
+    "noBookmarksRoot": "Nessun segnalibro ancora. Aggiungine uno qui sotto.",
+    "emptyFolder": "Questa cartella è vuota.",
+    "openFolder": "Apri cartella",
+    "rename": "Rinomina",
+    "delete": "Elimina"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "צוריק",
+    "forward": "פֿאָרויס",
+    "stop": "אָפּשטעלן",
+    "reload": "נאָכאַמאָל לאָדן",
+    "newTab": "נײַ טאַב",
+    "copyLink": "קאָפּירן לינק",
+    "connectionSecurity": "פֿאַרבינדונג זיכערהייט",
+    "searchOrEnterUrl": "זוכן אָדער אַרײַנגעבן וועבזײַטנאָמען",
+    "bookmarks": "לצוואָרן",
+    "options": "אָפּציעס"
+  },
+  "tab": {
+    "settings": "סעטינגס",
+    "history": "געשיכטע",
+    "newTab": "נײַ טאַב"
+  },
+  "urlBar": {
+    "placeholder": "זוכן אָדער אַרײַנגעבן וועבזײַטנאָמען",
+    "mobilePlaceholder": "זוכן אָדער אַרײַנגעבן וועבזײַט",
+    "bookmarksGroup": "לצוואָרן",
+    "historyGroup": "געשיכטע"
+  },
+  "connection": {
+    "authenticated": "אָטענטיפֿיצירט",
+    "authVerified": "קעגנזײַטיקע אָטענטיפֿיקאַציע באַשטעטיקט",
+    "failed": "פֿאַרבינדונג דורכגעפֿאַלן",
+    "handshakeIncomplete": "האַנטשלאָג ניט פֿאַרענדיקט",
+    "server": "סערווער",
+    "client": "קליענט",
+    "ephemeral": "צײַטווײַליק",
+    "logLabel": "לאָג"
+  },
+  "find": {
+    "placeholder": "זוכן אױף בלאַט…",
+    "noResults": "קײַן רעזולטאַטן",
+    "countOf": "{{current}} פֿון {{total}}",
+    "prevMatch": "פֿריִערדיקער",
+    "nextMatch": "נאָכסטער",
+    "close": "פֿאַרמאַכן זוכלײַסט"
+  },
+  "error": {
+    "timeout": "פֿאַרבינדונג צײַט אױסגעגאַנגען",
+    "timeoutHint": "דער סערווער האָט צו לאַנג גענומען צו ענטפֿערן. ער קאַן זײַן אָפֿלײַן אָדער ניט צוטריטלעך.",
+    "cantConnect": "קאַן זיך ניט פֿאַרבינדן מיט דער זײַט",
+    "cantConnectHint": "דער סערווער האָט די פֿאַרבינדונג אָפּגעזאָגט אָדער ער איז ניט צוטריטלעך.",
+    "authFailed": "אָטענטיפֿיקאַציע דורכגעפֿאַלן",
+    "authFailedHint": "מע קאַן ניט באַשטעטיקן דעם סערווערס קריפּטאָגראַפֿישן אידענטיטעט.",
+    "serverNotFound": "סערווער ניט געפֿונען",
+    "serverNotFoundHint": "דער סערווער אױף דעם אַדרעס עקזיסטירט ניט אָדער איז ניט צוטריטלעך. טשעק דעם אַדרעס און פּרוּוּ נאָכאַמאָל.",
+    "identityError": "אידענטיטעט פֿעלער",
+    "identityErrorHint": "עס האָט זיך אַ פּראָבלעם געהאַט מיט פֿאַרזיכערן דעם זײַטס אידענטיטעט.",
+    "protocolError": "פּראָטאָקאָל פֿעלער",
+    "protocolErrorHint": "דער סערווער האָט אַן ענטפֿער געשיקט וואָס קאַן ניט פֿאַרשטאַנען ווערן.",
+    "genericError": "עפּעס איז שיף גייגאַנגען",
+    "genericErrorHint": "דאָס בלאַט האָט זיך ניט אַרײַנגעלאָדן צוליב אַן אומגעריכטן פֿעלער.",
+    "tryAgain": "פּרוּוּ נאָכאַמאָל"
+  },
+  "history": {
+    "title": "געשיכטע",
+    "clearAll": "אַלץ אויסמעקן",
+    "empty": "קײן בלעטער-איבערבליק ניטאָ",
+    "websiteColumn": "וועבזײַט",
+    "addressColumn": "אַדרעס",
+    "removeFromHistory": "אױסמעקן פֿון געשיכטע",
+    "labelToday": "הײַנט",
+    "labelYesterday": "נעכטן",
+    "labelEarlier": "פֿריִער"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "לצוואָרן דאָס בלאַט",
+    "removeBookmark": "אױסמעקן לצוואָר",
+    "bookmarkAllTabs": "לצוואָרן אַלע טאַבן",
+    "addBookmark": "צוגעבן לצוואָר",
+    "newFolder": "נײַ פֿאָלדער",
+    "addFolder": "צוגעבן פֿאָלדער",
+    "add": "צוגעבן",
+    "cancel": "אָפּזאָגן",
+    "save": "אָפּהיטן",
+    "noBookmarks": "נאָך קײן לצוואָרן ניטאָ",
+    "emptyFolder": "ליידיקן פֿאָלדער",
+    "folderNamePlaceholder": "פֿאָלדערנאָמען",
+    "titlePlaceholder": "טיטל",
+    "openFolder": "עפֿענען פֿאָלדער",
+    "edit": "רעדאַקטירן",
+    "delete": "אױסמעקן",
+    "goBack": "צוריק",
+    "dropToMove": "אַראָפּווואַרפֿן דאָ צו אַריבערטראָגן צו {{label}}",
+    "rootLabel": "וואָרצל",
+    "parentLabel": "עלטערן פֿאָלדער"
+  },
+  "optionsMenu": {
+    "zoomOut": "קלענערן",
+    "zoomIn": "גרעסערן",
+    "resetZoom": "אַנולירן זום",
+    "findInPage": "זוכן אױפֿן בלאַט",
+    "print": "דרוקן",
+    "history": "געשיכטע",
+    "settings": "סעטינגס",
+    "current": "אַקטועל"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "עפֿענען לינק אין נײַ טאַב",
+    "copyLinkAddress": "קאָפּירן לינק אַדרעס",
+    "cut": "אױסשנײַדן",
+    "copy": "קאָפּירן",
+    "paste": "פּאַסטן",
+    "selectAll": "אַלץ אױסקלײַבן",
+    "back": "צוריק",
+    "forward": "פֿאָרויס",
+    "reload": "נאָכאַמאָל לאָדן",
+    "share": "טיילן",
+    "savePageAs": "אָפּהיטן בלאַט ווי",
+    "print": "דרוקן",
+    "copyLink": "קאָפּירן לינק",
+    "copied": "קאָפּירט!",
+    "copyProxyLink": "קאָפּירן פּראָקסי לינק"
+  },
+  "windowControls": {
+    "minimize": "קלענערן",
+    "maximize": "גרעסערן",
+    "close": "פֿאַרמאַכן"
+  },
+  "mobileStart": {
+    "favorites": "פֿאַווריטן",
+    "noFavoritesHint": "צוגעבן לצוואָרן און זיי וועלן דאָ דערשײַנען ווי פֿאַווריטן.",
+    "readingList": "לייען-רשימה",
+    "readingListHint": "די לייען-רשימה לאָזט אײַך קלײַבן וועבבלעטער פֿאַר שפּעטערדיקן לייענען."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "זוכן טאַבן",
+    "bookmarksBtn": "לצוואָרן",
+    "newTabBtn": "נײַ טאַב",
+    "reloadBtn": "נאָכאַמאָל לאָדן",
+    "moreBtn": "מער",
+    "closeTabTipTitle": "פֿאַרמאַכן טאַב",
+    "closeTabTipBody": "שלעפּן יעדן טאַב אַרױף צו פֿאַרמאַכן."
+  },
+  "mobileOptions": {
+    "cancelBtn": "אָפּזאָגן",
+    "back": "צוריק",
+    "forward": "פֿאָרויס",
+    "stop": "אָפּשטעלן",
+    "reload": "נאָכאַמאָל לאָדן",
+    "findInPage": "זוכן אױפֿן בלאַט",
+    "print": "דרוקן",
+    "removeBookmark": "אױסמעקן לצוואָר",
+    "addBookmark": "צוגעבן לצוואָר",
+    "settings": "סעטינגס"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "לצוואָרן",
+    "historyTab": "געשיכטע",
+    "searchBookmarks": "זוכן לצוואָרן",
+    "searchHistory": "זוכן געשיכטע",
+    "noBookmarks": "נאָך קײן לצוואָרן ניטאָ",
+    "noHistory": "קײן געשיכטע ניטאָ",
+    "editBookmark": "רעדאַקטירן לצוואָר",
+    "titleLabel": "טיטל",
+    "urlLabel": "URL",
+    "save": "אָפּהיטן",
+    "deleteBookmark": "אױסמעקן לצוואָר",
+    "cancel": "אָפּזאָגן"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "אַדרעסלײַסט",
+      "body": "אָנטאַפּן צו זוכן אָדער אַרײַנשרײַבן URL. שלעפּן לינקס אָדער רעכטס צו וועקסלן צווישן טאַבן."
+    },
+    "seeYourTabs": {
+      "title": "זעט אײַערע טאַבן",
+      "body": "שלעפּן אַרױף אױפֿן אַדרעסלײַסט צו זען אַלע עפֿענע טאַבן."
+    },
+    "bookmarksHistory": {
+      "title": "לצוואָרן און געשיכטע",
+      "body": "אָנטאַפּן דאָ צו בלעטערן אין אָפּגעהיטענע בלעטער און זײ נאָכאַמאָל באַזוכן."
+    },
+    "moreOptions": {
+      "title": "מער אָפּציעס",
+      "body": "צוטריט צו סעטינגס, זוכן אױפֿן בלאַט און בלעטערש-קאָנטראָלן."
+    },
+    "newTab": {
+      "title": "נײַ טאַב",
+      "body": "איר ווייסט שוין וואָס דאָס איז."
+    }
+  },
+  "onboarding": {
+    "skip": "איבערשפּרינגען",
+    "continue": "ווײַטערגיין",
+    "getStarted": "אָנהייבן",
+    "showMeAround": "ווײַזט מיר",
+    "iKnowWhatImDoing": "איך ווייס וואָס איך טו",
+    "steps": {
+      "welcome": {
+        "title": "ברוכים הבאים צו Eclipse",
+        "body": "אַ בלעטערש אױסגעבויט פֿאַרן NWEP עמיתן-צו-עמיתן וועב — וווּ זײַטן לױפֿן גלײַך אױף מיטלען, ניט אױף ווײַטע סערווערס."
+      },
+      "browse": {
+        "title": "בלעטערן אין NWEP וועב",
+        "body": "שרײַבט web:// אַדרעסן אין דעם אַדרעסלײַסט צו פֿאַרבינדן זיך גלײַך מיט NWEP זײַטן. קײן DNS ניט, קײן מיטלמאַן ניט."
+      },
+      "private": {
+        "title": "פּריוואַט בעיקר",
+        "body": "יעדע פֿאַרבינדונג ניצט אַ נײַ צײַטווײַליקן אידענטיטעט — ענד-צו-ענד פֿאַרשליסלט אָן שטענדיקן נאָכפֿאָלגן."
+      },
+      "allSet": {
+        "title": "איר זײַט גרייט",
+        "body": "הייבט אָן דורך שרײַבן אַ web:// אַדרעס אין דעם אַדרעסלײַסט אָדער אַנטדעקט וואָס איז פֿאַראַן אין נעץ."
+      },
+      "tour": {
+        "title": "ווילט איר אַ קורצן טור?",
+        "body": "מיר וועלן אײַך פֿירן דורך די תנועות און פֿעיִקייטן וואָס מאַכן נאַוויגאַציע אין Eclipse גרינג."
+      }
+    }
+  },
+  "settings": {
+    "language": "שפּראַך",
+    "general": "אַלגעמיין",
+    "appearance": "אױסזען",
+    "privacy": "פּריוואַטקייט",
+    "developers": "דעוועלאָפּערס",
+    "newTab": "נײַ טאַב",
+    "openNewTabsWith": "עפֿענען נײַע טאַבן מיט",
+    "empty": "ליידיק",
+    "homepage": "היימבלאַט",
+    "homepageUrl": "היימבלאַט URL",
+    "homepageUrlActive": "לאָדט זיך בעת עפֿענען אַ נײַן טאַב",
+    "homepageUrlInactive": "גיי צו היימבלאַט-מאָד צו ניצן דאָס",
+    "addressBar": "אַדרעסלײַסט",
+    "searchBookmarks": "זוכן לצוואָרן",
+    "searchBookmarksDesc": "ווײַזן פּאַסנדיקע לצוואָרן בעת שרײַבן",
+    "searchHistory": "זוכן געשיכטע",
+    "searchHistoryDesc": "ווײַזן פּאַסנדיקע פּאָזיציעס פֿון געשיכטע בעת שרײַבן",
+    "theme": "טעמע",
+    "colorScheme": "קאָלירסכעמע",
+    "light": "ליכטיק",
+    "dark": "טונקל",
+    "auto": "אָטאָמאַטיש",
+    "scaling": "סקאַלירן",
+    "browserUiScale": "בלעטערש UI סקאַל",
+    "browserUiScaleDesc": "סקאַלירט טאַבן, טולבאַר און בלעטערש-צנותפֿל",
+    "defaultPageZoom": "פֿאַרנישטיקטער בלאַט-זום",
+    "defaultPageZoomDesc": "סקאַלירט בלאַטאינהאַלט בעת עפֿענען נײַע טאַבן",
+    "browsingData": "בלעטערן-דאַטע",
+    "recordBrowsingHistory": "אַרײַנשרײַבן בלעטער-געשיכטע",
+    "recordBrowsingHistoryDesc": "אָפּהיטן באַזוכטע בלעטער אין אײַער געשיכטע",
+    "browsingHistory": "בלעטערן-געשיכטע",
+    "browsingHistoryDesc": "זעט אָדער מעקט אױס אײַער אָפּגעהיטענע געשיכטע",
+    "viewBtn": "זען",
+    "clearBtn": "אױסמעקן",
+    "clearedBtn": "אױסגעמעקט",
+    "interface": "צנותפֿל",
+    "mobileUi": "מאָבילן UI",
+    "mobileUiDesc": "אױסשאַלטן אָטאָמאַטישע פּלאַטפֿאָרם-דעטעקציע",
+    "mobileAuto": "אָטאָמאַטיש",
+    "mobileMobile": "מאָביל",
+    "mobileDesktop": "דעסקטאַפּ",
+    "onboarding": "אָנבאָרדינג",
+    "resetWelcomeGuide": "אַנולירן ברוכים-הבאים-פֿירער",
+    "resetWelcomeGuideDesc": "ווײַזט גלײַך נאָכאַמאָל דעם ברוכים-הבאים-טור",
+    "resetBtn": "אַנולירן",
+    "doneBtn": "פֿאַרטיק",
+    "settingsTitle": "סעטינגס",
+    "zoomDefault": "{{percent}}% (פֿאַרנישטיקט)"
+  },
+  "bookmarkManager": {
+    "title": "פֿאַרוואַלטן לצוואָרן",
+    "titlePlaceholder": "טיטל",
+    "urlPlaceholder": "URL (למשל web://…)",
+    "folderNamePlaceholder": "פֿאָלדערנאָמען",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "אָפּזאָגן",
+    "save": "אָפּהיטן",
+    "addBookmarkBtn": "צוגעבן לצוואָר",
+    "addFolderBtn": "צוגעבן פֿאָלדער",
+    "addBookmarkToolbar": "צוגעבן לצוואָר",
+    "newFolderToolbar": "נײַ פֿאָלדער",
+    "noBookmarksRoot": "נאָך קײן לצוואָרן ניטאָ. צוגעבן אײנס אונטן.",
+    "emptyFolder": "דאָס פֿאָלדער איז ליידיק.",
+    "openFolder": "עפֿענען פֿאָלדער",
+    "rename": "אומבענענען",
+    "delete": "אױסמעקן"
+  }
+}

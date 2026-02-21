@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "كەينىگە",
+    "forward": "ئالدىغا",
+    "stop": "توختىتىش",
+    "reload": "قايتا يۈكلەش",
+    "newTab": "يېڭى بەتكۈچ",
+    "copyLink": "ئۇلانمىنى كۆچۈرۈش",
+    "connectionSecurity": "ئۇلىنىش بىخەتەرلىكى",
+    "searchOrEnterUrl": "ئىزدەڭ ياكى تور بېكەت ئادرېسىنى كىرگۈزۈڭ",
+    "bookmarks": "خەتكۈچلەر",
+    "options": "تاللانمىلار"
+  },
+  "tab": {
+    "settings": "تەڭشەكلەر",
+    "history": "تارىخ",
+    "newTab": "يېڭى بەتكۈچ"
+  },
+  "urlBar": {
+    "placeholder": "ئىزدەڭ ياكى تور بېكەت ئادرېسىنى كىرگۈزۈڭ",
+    "mobilePlaceholder": "ئىزدەڭ ياكى تور بېكەت ئادرېسى كىرگۈزۈڭ",
+    "bookmarksGroup": "خەتكۈچلەر",
+    "historyGroup": "تارىخ"
+  },
+  "connection": {
+    "authenticated": "دەلىللەندى",
+    "authVerified": "ئۆز ئارا دەلىللەش جەزملەندى",
+    "failed": "ئۇلىنىش مەغلۇپ بولدى",
+    "handshakeIncomplete": "قول سىلىشىش تاماملانمىدى",
+    "server": "مۇلازىمىتىر",
+    "client": "خېرىدار",
+    "ephemeral": "ۋاقتىلىق",
+    "logLabel": "خاتىرە"
+  },
+  "find": {
+    "placeholder": "بەتتە ئىزدەش…",
+    "noResults": "نەتىجە يوق",
+    "countOf": "{{total}} دىن {{current}}",
+    "prevMatch": "ئالدىنقى",
+    "nextMatch": "كەينىنقى",
+    "close": "ئىزدەش ستونىنى تاقاش"
+  },
+  "error": {
+    "timeout": "ئۇلىنىش ۋاقتى ئۆتتى",
+    "timeoutHint": "مۇلازىمىتىر جاۋاپ بېرىشكە بەك ئۇزاق ۋاقىت كەتتى. ئۇ ئوف لايىن ياكى يولۇقماس بولۇشى مۇمكىن.",
+    "cantConnect": "بۇ تور بېكەتكە ئۇلىنالمايدۇ",
+    "cantConnectHint": "مۇلازىمىتىر ئۇلىنىشنى رەت قىلدى ياكى يولۇقماس ئىدى.",
+    "authFailed": "دەلىللەش مەغلۇپ بولدى",
+    "authFailedHint": "مۇلازىمىتىرنىڭ كىرىپتوگرافىك كىملىكىنى جەزملەندۈرگىلى بولمىدى.",
+    "serverNotFound": "مۇلازىمىتىر تېپىلمىدى",
+    "serverNotFoundHint": "بۇ ئادرېستىكى مۇلازىمىتىر مەۋجۇت ئەمەس ياكى يولۇقماس. ئادرېسنى تەكشۈرۈپ قايتا سىناڭ.",
+    "identityError": "كىملىك خاتالىقى",
+    "identityErrorHint": "تور بېكەتنىڭ كىملىكىنى ئورنىتىشتا مەسىلە كۆرۈلدى.",
+    "protocolError": "ئۇسۇل خاتالىقى",
+    "protocolErrorHint": "مۇلازىمىتىر چۈشىنىشكە بولمايدىغان جاۋاپ يوللىدى.",
+    "genericError": "مەسىلە كۆرۈلدى",
+    "genericErrorHint": "بەت كۈتۈلمىگەن خاتالىق سەۋەبىدىن يۈكلەنمىدى.",
+    "tryAgain": "قايتا سىناڭ"
+  },
+  "history": {
+    "title": "تارىخ",
+    "clearAll": "ھەممىنى تازىلاش",
+    "empty": "كۆرۈش تارىخى يوق",
+    "websiteColumn": "تور بېكەت",
+    "addressColumn": "ئادرېس",
+    "removeFromHistory": "تارىختىن ئۆچۈرۈش",
+    "labelToday": "بۈگۈن",
+    "labelYesterday": "تۈنۈگۈن",
+    "labelEarlier": "ئىلگىرى"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "بۇ بەتنى خەتكۈچ قىلىش",
+    "removeBookmark": "خەتكۈچنى ئۆچۈرۈش",
+    "bookmarkAllTabs": "ھەممە بەتكۈچلەرنى خەتكۈچ قىلىش",
+    "addBookmark": "خەتكۈچ قوشۇش",
+    "newFolder": "يېڭى قىسقۇچ",
+    "addFolder": "قىسقۇچ قوشۇش",
+    "add": "قوشۇش",
+    "cancel": "بىكار قىلىش",
+    "save": "ساقلاش",
+    "noBookmarks": "ھازىرچە خەتكۈچ يوق",
+    "emptyFolder": "قۇرۇق قىسقۇچ",
+    "folderNamePlaceholder": "قىسقۇچ ئاتى",
+    "titlePlaceholder": "تېمىسى",
+    "openFolder": "قىسقۇچنى ئېچىش",
+    "edit": "تەھرىرلەش",
+    "delete": "ئۆچۈرۈش",
+    "goBack": "كەينىگە",
+    "dropToMove": "{{label}} غا يۆتكەش ئۈچۈن بۇ يەرگە تاشلاڭ",
+    "rootLabel": "يىلتىز",
+    "parentLabel": "ئاتا قىسقۇچ"
+  },
+  "optionsMenu": {
+    "zoomOut": "كىچىكلىتىش",
+    "zoomIn": "چوڭلىتىش",
+    "resetZoom": "چوڭلىتىشنى ئەسلىگە كەلتۈرۈش",
+    "findInPage": "بەتتە ئىزدەش",
+    "print": "بېسىپ چىقىرىش",
+    "history": "تارىخ",
+    "settings": "تەڭشەكلەر",
+    "current": "نۆۋەتتىكى"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "ئۇلانمىنى يېڭى بەتكۈچتە ئېچىش",
+    "copyLinkAddress": "ئۇلانما ئادرېسىنى كۆچۈرۈش",
+    "cut": "كېسىش",
+    "copy": "كۆچۈرۈش",
+    "paste": "چاپلاش",
+    "selectAll": "ھەممىنى تاللاش",
+    "back": "كەينىگە",
+    "forward": "ئالدىغا",
+    "reload": "قايتا يۈكلەش",
+    "share": "ھەمبەھىرلەش",
+    "savePageAs": "بەتنى باشقا ئات بىلەن ساقلاش",
+    "print": "بېسىپ چىقىرىش",
+    "copyLink": "ئۇلانمىنى كۆچۈرۈش",
+    "copied": "كۆچۈرۈلدى!",
+    "copyProxyLink": "ۋەكىل ئۇلانمىسىنى كۆچۈرۈش"
+  },
+  "windowControls": {
+    "minimize": "كىچىكلىتىش",
+    "maximize": "چوڭلىتىش",
+    "close": "تاقاش"
+  },
+  "mobileStart": {
+    "favorites": "مەۋھۇملار",
+    "noFavoritesHint": "خەتكۈچ قوشۇڭ، ئۇلار بۇ يەردە مەۋھۇم سۈپىتىدە كۆرۈنىدۇ.",
+    "readingList": "ئوقۇش تىزىملىكى",
+    "readingListHint": "ئوقۇش تىزىملىكى كېيىن ئوقۇش ئۈچۈن تور بەتلىرىنى توپلاشقا يول قويىدۇ."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "بەتكۈچ ئىزدەش",
+    "bookmarksBtn": "خەتكۈچلەر",
+    "newTabBtn": "يېڭى بەتكۈچ",
+    "reloadBtn": "قايتا يۈكلەش",
+    "moreBtn": "تېخىمۇ كۆپ",
+    "closeTabTipTitle": "بەتكۈچنى تاقاش",
+    "closeTabTipBody": "تاقاش ئۈچۈن ھەر قانداق بەتكۈچنى يۇقىرى سۈرۈڭ."
+  },
+  "mobileOptions": {
+    "cancelBtn": "بىكار قىلىش",
+    "back": "كەينىگە",
+    "forward": "ئالدىغا",
+    "stop": "توختىتىش",
+    "reload": "قايتا يۈكلەش",
+    "findInPage": "بەتتە ئىزدەش",
+    "print": "بېسىپ چىقىرىش",
+    "removeBookmark": "خەتكۈچنى ئۆچۈرۈش",
+    "addBookmark": "خەتكۈچ قوشۇش",
+    "settings": "تەڭشەكلەر"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "خەتكۈچلەر",
+    "historyTab": "تارىخ",
+    "searchBookmarks": "خەتكۈچ ئىزدەش",
+    "searchHistory": "تارىخ ئىزدەش",
+    "noBookmarks": "ھازىرچە خەتكۈچ يوق",
+    "noHistory": "تارىخ يوق",
+    "editBookmark": "خەتكۈچنى تەھرىرلەش",
+    "titleLabel": "تېمىسى",
+    "urlLabel": "URL",
+    "save": "ساقلاش",
+    "deleteBookmark": "خەتكۈچنى ئۆچۈرۈش",
+    "cancel": "بىكار قىلىش"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "ئادرېس ستونى",
+      "body": "ئىزدەش ياكى URL كىرگۈزۈش ئۈچۈن چېكىڭ. بەتكۈچلەر ئارىسىدا ئالماشتۇرۇش ئۈچۈن سولغا ياكى ئوڭغا سىيرىڭ."
+    },
+    "seeYourTabs": {
+      "title": "بەتكۈچلىرىڭىزنى كۆرۈڭ",
+      "body": "ھەممە ئوچۇق بەتكۈچلەرنى كۆرۈش ئۈچۈن ئادرېس ستونىنى يۇقىرى سۈرۈڭ."
+    },
+    "bookmarksHistory": {
+      "title": "خەتكۈچلەر ۋە تارىخ",
+      "body": "ساقلانغان بەتلەرنى كۆرۈش ۋە تور بېكەتلەرگە قايتىش ئۈچۈن بۇ يەرنى چېكىڭ."
+    },
+    "moreOptions": {
+      "title": "تېخىمۇ كۆپ تاللانمىلار",
+      "body": "تەڭشەكلەر، بەتتە ئىزدەش ۋە توركۆزگۈ كونتروللىرىغا كىرىش."
+    },
+    "newTab": {
+      "title": "يېڭى بەتكۈچ",
+      "body": "بۇنىڭ نېمە ئىكەنلىكىنى بىلىسىز."
+    }
+  },
+  "onboarding": {
+    "skip": "ئاتلاش",
+    "continue": "داۋاملاشتۇرۇش",
+    "getStarted": "باشلاش",
+    "showMeAround": "ماڭا كۆرسەت",
+    "iKnowWhatImDoing": "مەن نېمە قىلىۋاتقانلىقىمنى بىلىمەن",
+    "steps": {
+      "welcome": {
+        "title": "Eclipse غا خۇش كەپسىز",
+        "body": "NWEP تۇتۇشلۇق تور ئۈچۈن ياسالغان توركۆزگۈ — تور بېكەتلەر بىۋاسىتە ئۈسكۈنىلەردە ئىشلەيدۇ، يىراق مۇلازىمىتىرلاردا ئەمەس."
+      },
+      "browse": {
+        "title": "NWEP تورىدا كۆرۈش",
+        "body": "NWEP تور بېكەتلىرىگە بىۋاسىتە ئۇلىنىش ئۈچۈن ئادرېس ستونىغا web:// ئادرېس كىرگۈزۈڭ. DNS يوق، ۋاسىتىچى يوق."
+      },
+      "private": {
+        "title": "كۆڈالدىدىن شەخسىي",
+        "body": "ھەر ئۇلىنىش يېڭى ۋاقتىلىق كىملىك ئىشلىتىدۇ — مەڭگۈلۈك ئىز قوغلاشسىز ئۇچىدىن ئۇچىغىچە شىفىرلانغان."
+      },
+      "allSet": {
+        "title": "سىز تەييار",
+        "body": "ئادرېس ستونىغا web:// ئادرېس كىرگۈزۈش ئارقىلىق باشلاڭ ياكى تورداقى نەرسىلەرنى ئىزدەڭ."
+      },
+      "tour": {
+        "title": "قىسقىچە ساياھەت قىلامسىز؟",
+        "body": "Eclipse دا يۆنىلىشنى ئاسانلاشتۇرىدىغان ھەرىكەتلەر ۋە ئىقتىدارلار بىلەن تونۇشتۇرىمىز."
+      }
+    }
+  },
+  "settings": {
+    "language": "تىل",
+    "general": "ئادەتتىكى",
+    "appearance": "كۆرۈنۈش",
+    "privacy": "شەخسىيلىك",
+    "developers": "ئىشلەپچىقارغۇچىلار",
+    "newTab": "يېڭى بەتكۈچ",
+    "openNewTabsWith": "يېڭى بەتكۈچلەرنى مۇنداق ئاچىش",
+    "empty": "قۇرۇق",
+    "homepage": "باش بەت",
+    "homepageUrl": "باش بەت URL",
+    "homepageUrlActive": "يېڭى بەتكۈچ ئاچقاندا يۈكلىنىدۇ",
+    "homepageUrlInactive": "بۇنى ئىشلىتىش ئۈچۈن باش بەت ھالىتىگە ئۆتۈڭ",
+    "addressBar": "ئادرېس ستونى",
+    "searchBookmarks": "خەتكۈچ ئىزدەش",
+    "searchBookmarksDesc": "كىرگۈزۈۋاتقاندا ماس خەتكۈچلەرنى كۆرسىتىش",
+    "searchHistory": "تارىخ ئىزدەش",
+    "searchHistoryDesc": "كىرگۈزۈۋاتقاندا ماس تارىخ خاتىرىلىرىنى كۆرسىتىش",
+    "theme": "ئۇسلۇب",
+    "colorScheme": "رەڭ لايىھىسى",
+    "light": "يورۇق",
+    "dark": "قاراڭغۇ",
+    "auto": "ئاپتوماتىك",
+    "scaling": "چوڭ-كىچىك",
+    "browserUiScale": "توركۆزگۈ UI چوڭلۇقى",
+    "browserUiScaleDesc": "بەتكۈچلەر، قورال ستونى ۋە توركۆزگۈ كۆرۈنمىسىنى مىقياس قىلىش",
+    "defaultPageZoom": "كۆڈالدىدىن بەت چوڭلىتىش",
+    "defaultPageZoomDesc": "يېڭى بەتكۈچلەرنى ئاچقاندا بەت مەزمۇنىنى مىقياس قىلىش",
+    "browsingData": "كۆرۈش سانلىق مەلۇماتى",
+    "recordBrowsingHistory": "كۆرۈش تارىخىنى خاتىرىلەش",
+    "recordBrowsingHistoryDesc": "زىيارەت قىلىنغان بەتلەرنى تارىخىڭىزدا ساقلاش",
+    "browsingHistory": "كۆرۈش تارىخى",
+    "browsingHistoryDesc": "ساقلانغان تارىخىڭىزنى كۆرۈش ياكى تازىلاش",
+    "viewBtn": "كۆرۈش",
+    "clearBtn": "تازىلاش",
+    "clearedBtn": "تازىلاندى",
+    "interface": "كۆرۈنمە",
+    "mobileUi": "يانفون UI",
+    "mobileUiDesc": "ئاپتوماتىك سۈپەت بايقاشنى ئۆتكۈزۈش",
+    "mobileAuto": "ئاپتوماتىك",
+    "mobileMobile": "يانفون",
+    "mobileDesktop": "ئۈستەل يۈزى",
+    "onboarding": "باشلانغۇچ تونۇشتۇرۇش",
+    "resetWelcomeGuide": "خۇش كەلدىڭىز قوللانمىسىنى ئەسلىگە كەلتۈرۈش",
+    "resetWelcomeGuideDesc": "دەرھال خۇش كەلدىڭىز سايالىتىنى قايتا كۆرسىتىش",
+    "resetBtn": "ئەسلىگە كەلتۈرۈش",
+    "doneBtn": "تامام",
+    "settingsTitle": "تەڭشەكلەر",
+    "zoomDefault": "{{percent}}٪ (كۆڈالدىدىن)"
+  },
+  "bookmarkManager": {
+    "title": "خەتكۈچ باشقۇرۇش",
+    "titlePlaceholder": "تېمىسى",
+    "urlPlaceholder": "URL (مەسىلەن web://…)",
+    "folderNamePlaceholder": "قىسقۇچ ئاتى",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "بىكار قىلىش",
+    "save": "ساقلاش",
+    "addBookmarkBtn": "خەتكۈچ قوشۇش",
+    "addFolderBtn": "قىسقۇچ قوشۇش",
+    "addBookmarkToolbar": "خەتكۈچ قوشۇش",
+    "newFolderToolbar": "يېڭى قىسقۇچ",
+    "noBookmarksRoot": "ھازىرچە خەتكۈچ يوق. تۆۋەندە بىر قوشۇڭ.",
+    "emptyFolder": "بۇ قىسقۇچ قۇرۇق.",
+    "openFolder": "قىسقۇچنى ئېچىش",
+    "rename": "ئات ئۆزگەرتىش",
+    "delete": "ئۆچۈرۈش"
+  }
+}

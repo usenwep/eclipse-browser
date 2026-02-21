@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "شاته",
+    "forward": "مخکې",
+    "stop": "ودریږه",
+    "reload": "بیا ځای پر ځای کړه",
+    "newTab": "نوی ټب",
+    "copyLink": "لینک کاپي کړه",
+    "connectionSecurity": "د اتصال امنیت",
+    "searchOrEnterUrl": "لټون وکړه یا د ویب پته دننه کړه",
+    "bookmarks": "بک مارکونه",
+    "options": "اختیارونه"
+  },
+  "tab": {
+    "settings": "ترتیبونه",
+    "history": "تاریخچه",
+    "newTab": "نوی ټب"
+  },
+  "urlBar": {
+    "placeholder": "لټون وکړه یا د ویب پته دننه کړه",
+    "mobilePlaceholder": "لټون وکړه یا ویب پته دننه کړه",
+    "bookmarksGroup": "بک مارکونه",
+    "historyGroup": "تاریخچه"
+  },
+  "connection": {
+    "authenticated": "تصدیق شوی",
+    "authVerified": "متقابل تصدیق تایید شو",
+    "failed": "اتصال ناکام شو",
+    "handshakeIncomplete": "لاسوهنه ناقصه ده",
+    "server": "سرور",
+    "client": "کارونکی",
+    "ephemeral": "لنډمهاله",
+    "logLabel": "لاګ"
+  },
+  "find": {
+    "placeholder": "پاڼه کې لټون وکړه…",
+    "noResults": "هیڅ پایله نشته",
+    "countOf": "{{current}} له {{total}} څخه",
+    "prevMatch": "تیر",
+    "nextMatch": "بل",
+    "close": "د لټون بار وتړه"
+  },
+  "error": {
+    "timeout": "د اتصال وخت ختم شو",
+    "timeoutHint": "سرور د ځواب ویلو لپاره ډیر وخت واخیست. ممکن آفلاین یا نه شته وي.",
+    "cantConnect": "دې سایټ سره اتصال ممکن نه دی",
+    "cantConnectHint": "سرور اتصال رد کړ یا نه دی لاسرس.",
+    "authFailed": "تصدیق ناکام شو",
+    "authFailedHint": "د سرور کریپتوګرافیک پیژندنه تایید نشوه.",
+    "serverNotFound": "سرور ونه موندل شو",
+    "serverNotFoundHint": "د دې پتې سرور شته نه دی یا لاسرس نه لري. پته وڅیړه او بیا هڅه وکړه.",
+    "identityError": "د پیژندنې تېروتنه",
+    "identityErrorHint": "د سایټ پیژندنې تایید کولو کې ستونزه وه.",
+    "protocolError": "د پروتوکول تېروتنه",
+    "protocolErrorHint": "سرور داسې ځواب واستاوه چې پوهیدل ممکن نه وو.",
+    "genericError": "یوه ستونزه رامنځته شوه",
+    "genericErrorHint": "پاڼه د ناڅاپي تېروتنې له امله بارنشوه.",
+    "tryAgain": "بیا هڅه وکړه"
+  },
+  "history": {
+    "title": "تاریخچه",
+    "clearAll": "ټول پاک کړه",
+    "empty": "د لټون تاریخچه شته نه ده",
+    "websiteColumn": "ویب سایټ",
+    "addressColumn": "پته",
+    "removeFromHistory": "له تاریخچې لرې کړه",
+    "labelToday": "نن",
+    "labelYesterday": "پرون",
+    "labelEarlier": "مخکې"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "دا پاڼه بک مارک کړه",
+    "removeBookmark": "بک مارک لرې کړه",
+    "bookmarkAllTabs": "ټول ټبونه بک مارک کړه",
+    "addBookmark": "بک مارک اضافه کړه",
+    "newFolder": "نوی فولډر",
+    "addFolder": "فولډر اضافه کړه",
+    "add": "اضافه کړه",
+    "cancel": "لغو کړه",
+    "save": "خوندي کړه",
+    "noBookmarks": "لاهم بک مارک شته نه دی",
+    "emptyFolder": "خالي فولډر",
+    "folderNamePlaceholder": "د فولډر نوم",
+    "titlePlaceholder": "سرلیک",
+    "openFolder": "فولډر خلاص کړه",
+    "edit": "سمون",
+    "delete": "ړنګ کړه",
+    "goBack": "شاته",
+    "dropToMove": "دلته راوغورځوه ترڅو {{label}} ته لیږدول شي",
+    "rootLabel": "ریښه",
+    "parentLabel": "مور فولډر"
+  },
+  "optionsMenu": {
+    "zoomOut": "کوچني کړه",
+    "zoomIn": "لوی کړه",
+    "resetZoom": "زوم بیا تنظیم کړه",
+    "findInPage": "پاڼه کې لټون وکړه",
+    "print": "چاپ",
+    "history": "تاریخچه",
+    "settings": "ترتیبونه",
+    "current": "اوسني"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "لینک نوي ټب کې خلاص کړه",
+    "copyLinkAddress": "د لینک پته کاپي کړه",
+    "cut": "کاته",
+    "copy": "کاپي",
+    "paste": "پیسټ",
+    "selectAll": "ټول وټاکه",
+    "back": "شاته",
+    "forward": "مخکې",
+    "reload": "بیا ځای پر ځای کړه",
+    "share": "شریک کړه",
+    "savePageAs": "پاڼه داسې خوندي کړه",
+    "print": "چاپ",
+    "copyLink": "لینک کاپي کړه",
+    "copied": "کاپي شو!",
+    "copyProxyLink": "د پروکسي لینک کاپي کړه"
+  },
+  "windowControls": {
+    "minimize": "کوچني کړه",
+    "maximize": "لوی کړه",
+    "close": "وتړه"
+  },
+  "mobileStart": {
+    "favorites": "خوښي",
+    "noFavoritesHint": "بک مارکونه اضافه کړه ترڅو دلته د خوښو په توګه ښکاره شي.",
+    "readingList": "د لوستلو لیست",
+    "readingListHint": "د لوستلو لیست تاسو ته اجازه درکوي چې د وروسته لوستلو لپاره ویب پاڼې راټول کړئ."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "ټبونه لټوه",
+    "bookmarksBtn": "بک مارکونه",
+    "newTabBtn": "نوی ټب",
+    "reloadBtn": "بیا ځای پر ځای کړه",
+    "moreBtn": "نور",
+    "closeTabTipTitle": "ټب وتړه",
+    "closeTabTipBody": "هر ټب پورته کش کړه ترڅو وتړل شي."
+  },
+  "mobileOptions": {
+    "cancelBtn": "لغو کړه",
+    "back": "شاته",
+    "forward": "مخکې",
+    "stop": "ودریږه",
+    "reload": "بیا ځای پر ځای کړه",
+    "findInPage": "پاڼه کې لټون وکړه",
+    "print": "چاپ",
+    "removeBookmark": "بک مارک لرې کړه",
+    "addBookmark": "بک مارک اضافه کړه",
+    "settings": "ترتیبونه"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "بک مارکونه",
+    "historyTab": "تاریخچه",
+    "searchBookmarks": "بک مارکونه لټوه",
+    "searchHistory": "تاریخچه لټوه",
+    "noBookmarks": "لاهم بک مارک شته نه دی",
+    "noHistory": "تاریخچه شته نه ده",
+    "editBookmark": "بک مارک سم کړه",
+    "titleLabel": "سرلیک",
+    "urlLabel": "URL",
+    "save": "خوندي کړه",
+    "deleteBookmark": "بک مارک ړنګ کړه",
+    "cancel": "لغو کړه"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "د پتې بار",
+      "body": "د لټون یا URL لیکلو لپاره لمس وکړه. د ټبونو تر منځ د لیږدیدو لپاره کیڼ یا ښي کش کړه."
+    },
+    "seeYourTabs": {
+      "title": "خپل ټبونه وګوره",
+      "body": "د ټولو خلاصو ټبونو لیدلو لپاره د پتې بار پورته کش کړه."
+    },
+    "bookmarksHistory": {
+      "title": "بک مارکونه او تاریخچه",
+      "body": "خوندي شوې پاڼې او لیدل شوي سایټونه د بیا لیدلو لپاره دلته لمس وکړه."
+    },
+    "moreOptions": {
+      "title": "نور اختیارونه",
+      "body": "ترتیبونو، پاڼه کې لټون او د براوزر کنټرولونو ته لاسرسی ومومه."
+    },
+    "newTab": {
+      "title": "نوی ټب",
+      "body": "ته پوهیږې دا څه دي."
+    }
+  },
+  "onboarding": {
+    "skip": "پریږده",
+    "continue": "دوام",
+    "getStarted": "پیل کړه",
+    "showMeAround": "راوښایه",
+    "iKnowWhatImDoing": "زه پوهیږم چې څه کوم",
+    "steps": {
+      "welcome": {
+        "title": "Eclipse ته ښه راغلاست",
+        "body": "NWEP د همتا-تر-همتا ویب لپاره جوړ شوی براوزر — چیرې چې سایټونه مستقیماً د وسیلو پر مخ چلیږي، لرې سرورونه نه."
+      },
+      "browse": {
+        "title": "NWEP ویب ولټوه",
+        "body": "د NWEP سایټونو سره د مستقیم اتصال لپاره د پتې بار کې web:// پتې ولیکه. DNS نشته، منځګړیتوب نشته."
+      },
+      "private": {
+        "title": "د پیل نه خصوصي",
+        "body": "هر اتصال یوه نوې لنډمهاله پیژندنه کاروي — د دوامداره تعقیب پرته له سره تر سره پوښتنه."
+      },
+      "allSet": {
+        "title": "تاسو چمتو یاست",
+        "body": "د پتې بار کې د web:// پته لیکلو سره پیل وکړه یا وکتله چې شبکه کې څه شته."
+      },
+      "tour": {
+        "title": "ایا غواړئ لنډ سیر وکړئ؟",
+        "body": "موږ به تاسو د حرکتونو او ځانګړتیاوو له لارې لارښود کړو چې Eclipse کې ناوبري آسانه کوي."
+      }
+    }
+  },
+  "settings": {
+    "language": "ژبه",
+    "general": "عمومي",
+    "appearance": "بڼه",
+    "privacy": "خصوصیت",
+    "developers": "پراختیاکاران",
+    "newTab": "نوی ټب",
+    "openNewTabsWith": "نوي ټبونه پرانیزه له",
+    "empty": "خالي",
+    "homepage": "کور پاڼه",
+    "homepageUrl": "د کور پاڼې URL",
+    "homepageUrlActive": "د نوي ټب د خلاصولو پرمهال بار کیږي",
+    "homepageUrlInactive": "د دې کارولو لپاره د کور پاڼې حالت ته لاړ شه",
+    "addressBar": "د پتې بار",
+    "searchBookmarks": "بک مارکونه لټوه",
+    "searchBookmarksDesc": "د ټایپ کولو پرمهال سمون لرونکي بک مارکونه ښکاره کړه",
+    "searchHistory": "تاریخچه لټوه",
+    "searchHistoryDesc": "د ټایپ کولو پرمهال سمون لرونکي تاریخچه ورودي ښکاره کړه",
+    "theme": "تیم",
+    "colorScheme": "د رنګ سکیم",
+    "light": "رڼا",
+    "dark": "تیاره",
+    "auto": "اتوماتیک",
+    "scaling": "اندازه کول",
+    "browserUiScale": "د براوزر UI سکیل",
+    "browserUiScaleDesc": "ټبونه، تول بار او د براوزر انٹرفیس اندازه کوي",
+    "defaultPageZoom": "د پاڼې ډیفالټ زوم",
+    "defaultPageZoomDesc": "د نوي ټبونو خلاصولو پرمهال د پاڼې منځپانګه اندازه کوي",
+    "browsingData": "د لټون ډاټا",
+    "recordBrowsingHistory": "د لټون تاریخچه ثبت کړه",
+    "recordBrowsingHistoryDesc": "لیدل شوې پاڼې خپلې تاریخچه کې خوندي کړه",
+    "browsingHistory": "د لټون تاریخچه",
+    "browsingHistoryDesc": "خپله خوندي شوې تاریخچه وګوره یا پاکه یې کړه",
+    "viewBtn": "وګوره",
+    "clearBtn": "پاکه کړه",
+    "clearedBtn": "پاکه شوه",
+    "interface": "انٹرفیس",
+    "mobileUi": "د ګرځنده وسیلې UI",
+    "mobileUiDesc": "د اتوماتیک پلیټفارم کشف له پامه غورځوه",
+    "mobileAuto": "اتوماتیک",
+    "mobileMobile": "ګرځنده",
+    "mobileDesktop": "ډیسک ټاپ",
+    "onboarding": "پیل کول",
+    "resetWelcomeGuide": "د ښه راغلاست لارښود بیا تنظیم کړه",
+    "resetWelcomeGuideDesc": "سمدستي د ښه راغلاست سیر بیا ښکاره کړه",
+    "resetBtn": "بیا تنظیم کړه",
+    "doneBtn": "سر ته ورسیده",
+    "settingsTitle": "ترتیبونه",
+    "zoomDefault": "{{percent}}٪ (ډیفالټ)"
+  },
+  "bookmarkManager": {
+    "title": "د بک مارکونو مدیریت",
+    "titlePlaceholder": "سرلیک",
+    "urlPlaceholder": "URL (د مثال web://…)",
+    "folderNamePlaceholder": "د فولډر نوم",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "لغو کړه",
+    "save": "خوندي کړه",
+    "addBookmarkBtn": "بک مارک اضافه کړه",
+    "addFolderBtn": "فولډر اضافه کړه",
+    "addBookmarkToolbar": "بک مارک اضافه کړه",
+    "newFolderToolbar": "نوی فولډر",
+    "noBookmarksRoot": "لاهم بک مارک شته نه دی. لاندې یو اضافه کړه.",
+    "emptyFolder": "دا فولډر خالي دی.",
+    "openFolder": "فولډر خلاص کړه",
+    "rename": "بیا نومول",
+    "delete": "ړنګ کړه"
+  }
+}

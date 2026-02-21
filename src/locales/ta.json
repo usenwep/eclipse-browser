@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "பின்செல்",
+    "forward": "முன்செல்",
+    "stop": "நிறுத்து",
+    "reload": "மீண்டும் ஏற்று",
+    "newTab": "புதிய தாவல்",
+    "copyLink": "இணைப்பை நகலெடு",
+    "connectionSecurity": "இணைப்பு பாதுகாப்பு",
+    "searchOrEnterUrl": "தேடு அல்லது வலைத்தள பெயரை உள்ளிடு",
+    "bookmarks": "புக்மார்க்குகள்",
+    "options": "விருப்பங்கள்"
+  },
+  "tab": {
+    "settings": "அமைப்புகள்",
+    "history": "வரலாறு",
+    "newTab": "புதிய தாவல்"
+  },
+  "urlBar": {
+    "placeholder": "தேடு அல்லது வலைத்தள பெயரை உள்ளிடு",
+    "mobilePlaceholder": "தேடு அல்லது வலைத்தளத்தை உள்ளிடு",
+    "bookmarksGroup": "புக்மார்க்குகள்",
+    "historyGroup": "வரலாறு"
+  },
+  "connection": {
+    "authenticated": "சரிபார்க்கப்பட்டது",
+    "authVerified": "பரஸ்பர அங்கீகாரம் சரிபார்க்கப்பட்டது",
+    "failed": "இணைப்பு தோல்வியடைந்தது",
+    "handshakeIncomplete": "கைகுலுக்கல் நிறைவடையவில்லை",
+    "server": "சேவையகம்",
+    "client": "கிளையன்",
+    "ephemeral": "தற்காலிக",
+    "logLabel": "பதிவு"
+  },
+  "find": {
+    "placeholder": "பக்கத்தில் தேடு…",
+    "noResults": "முடிவுகள் இல்லை",
+    "countOf": "{{current}} / {{total}}",
+    "prevMatch": "முந்தையது",
+    "nextMatch": "அடுத்தது",
+    "close": "தேடலை மூடு"
+  },
+  "error": {
+    "timeout": "இணைப்பு நேரம் முடிந்தது",
+    "timeoutHint": "சேவையகம் பதிலளிக்க அதிக நேரம் எடுத்தது. அது ஆஃப்லைனில் இருக்கலாம்.",
+    "cantConnect": "இந்த தளத்துடன் இணைக்க முடியவில்லை",
+    "cantConnectHint": "சேவையகம் இணைப்பை மறுத்தது அல்லது எட்டவில்லை.",
+    "authFailed": "அங்கீகாரம் தோல்வியடைந்தது",
+    "authFailedHint": "சேவையகத்தின் கிரிப்டோகிராஃபிக் அடையாளத்தை சரிபார்க்க முடியவில்லை.",
+    "serverNotFound": "சேவையகம் கிடைக்கவில்லை",
+    "serverNotFoundHint": "இந்த முகவரியில் சேவையகம் இல்லை அல்லது எட்டவில்லை. முகவரியை சரிபார்த்து மீண்டும் முயற்சிக்கவும்.",
+    "identityError": "அடையாள பிழை",
+    "identityErrorHint": "தளத்தின் அடையாளத்தை நிறுவுவதில் சிக்கல் ஏற்பட்டது.",
+    "protocolError": "நெறிமுறை பிழை",
+    "protocolErrorHint": "சேவையகம் புரிந்துகொள்ள முடியாத பதிலை அனுப்பியது.",
+    "genericError": "ஏதோ தவறாகிவிட்டது",
+    "genericErrorHint": "எதிர்பாராத பிழையால் பக்கம் ஏற்றப்படவில்லை.",
+    "tryAgain": "மீண்டும் முயற்சிக்கவும்"
+  },
+  "history": {
+    "title": "வரலாறு",
+    "clearAll": "அனைத்தையும் அழி",
+    "empty": "உலாவல் வரலாறு இல்லை",
+    "websiteColumn": "வலைத்தளம்",
+    "addressColumn": "முகவரி",
+    "removeFromHistory": "வரலாற்றிலிருந்து அகற்று",
+    "labelToday": "இன்று",
+    "labelYesterday": "நேற்று",
+    "labelEarlier": "முன்பு"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "இந்த பக்கத்தை புக்மார்க் செய்",
+    "removeBookmark": "புக்மார்க்கை அகற்று",
+    "bookmarkAllTabs": "அனைத்து தாவல்களையும் புக்மார்க் செய்",
+    "addBookmark": "புக்மார்க் சேர்",
+    "newFolder": "புதிய கோப்புறை",
+    "addFolder": "கோப்புறை சேர்",
+    "add": "சேர்",
+    "cancel": "ரத்து செய்",
+    "save": "சேமி",
+    "noBookmarks": "இன்னும் புக்மார்க்குகள் இல்லை",
+    "emptyFolder": "காலி கோப்புறை",
+    "folderNamePlaceholder": "கோப்புறை பெயர்",
+    "titlePlaceholder": "தலைப்பு",
+    "openFolder": "கோப்புறையை திற",
+    "edit": "திருத்து",
+    "delete": "நீக்கு",
+    "goBack": "பின் செல்",
+    "dropToMove": "{{label}}-க்கு நகர்த்த இங்கே விடு",
+    "rootLabel": "மூல",
+    "parentLabel": "பெற்றோர்"
+  },
+  "optionsMenu": {
+    "zoomOut": "சிறிதாக்கு",
+    "zoomIn": "பெரிதாக்கு",
+    "resetZoom": "அளவை மீட்டமை",
+    "findInPage": "பக்கத்தில் தேடு",
+    "print": "அச்சிடு",
+    "history": "வரலாறு",
+    "settings": "அமைப்புகள்",
+    "current": "தற்போதைய"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "இணைப்பை புதிய தாவலில் திற",
+    "copyLinkAddress": "இணைப்பு முகவரியை நகலெடு",
+    "cut": "வெட்டு",
+    "copy": "நகலெடு",
+    "paste": "ஒட்டு",
+    "selectAll": "அனைத்தையும் தேர்ந்தெடு",
+    "back": "பின்",
+    "forward": "முன்",
+    "reload": "மீண்டும் ஏற்று",
+    "share": "பகிர்",
+    "savePageAs": "பக்கத்தை இவ்வாறு சேமி",
+    "print": "அச்சிடு",
+    "copyLink": "இணைப்பை நகலெடு",
+    "copied": "நகலெடுக்கப்பட்டது!",
+    "copyProxyLink": "பதிலாள் இணைப்பை நகலெடு"
+  },
+  "windowControls": {
+    "minimize": "சிறிதாக்கு",
+    "maximize": "பெரிதாக்கு",
+    "close": "மூடு"
+  },
+  "mobileStart": {
+    "favorites": "விருப்பங்கள்",
+    "noFavoritesHint": "புக்மார்க்குகளை சேர்க்கவும், அவை இங்கே தோன்றும்.",
+    "readingList": "படிக்கும் பட்டியல்",
+    "readingListHint": "படிக்கும் பட்டியல் பின்னர் படிக்க வலைப்பக்கங்களை சேமிக்க உதவுகிறது."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "தாவல்களை தேடு",
+    "bookmarksBtn": "புக்மார்க்குகள்",
+    "newTabBtn": "புதிய தாவல்",
+    "reloadBtn": "மீண்டும் ஏற்று",
+    "moreBtn": "மேலும்",
+    "closeTabTipTitle": "தாவலை மூடு",
+    "closeTabTipBody": "எந்த தாவலையும் மேலே இழுத்து மூடவும்."
+  },
+  "mobileOptions": {
+    "cancelBtn": "ரத்து செய்",
+    "back": "பின்",
+    "forward": "முன்",
+    "stop": "நிறுத்து",
+    "reload": "மீண்டும் ஏற்று",
+    "findInPage": "பக்கத்தில் தேடு",
+    "print": "அச்சிடு",
+    "removeBookmark": "புக்மார்க்கை அகற்று",
+    "addBookmark": "புக்மார்க் சேர்",
+    "settings": "அமைப்புகள்"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "புக்மார்க்குகள்",
+    "historyTab": "வரலாறு",
+    "searchBookmarks": "புக்மார்க்குகளை தேடு",
+    "searchHistory": "வரலாற்றை தேடு",
+    "noBookmarks": "இன்னும் புக்மார்க்குகள் இல்லை",
+    "noHistory": "வரலாறு இல்லை",
+    "editBookmark": "புக்மார்க்கை திருத்து",
+    "titleLabel": "தலைப்பு",
+    "urlLabel": "URL",
+    "save": "சேமி",
+    "deleteBookmark": "புக்மார்க்கை நீக்கு",
+    "cancel": "ரத்து செய்"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "முகவரி பட்டை",
+      "body": "தேட அல்லது URL தட்டச்சு செய்ய தட்டவும். தாவல்களுக்கு இடையே செல்ல ஸ்வைப் செய்யவும்."
+    },
+    "seeYourTabs": {
+      "title": "உங்கள் தாவல்களை பாருங்கள்",
+      "body": "அனைத்து திறந்த தாவல்களையும் பார்க்க முகவரி பட்டையில் மேலே ஸ்வைப் செய்யவும்."
+    },
+    "bookmarksHistory": {
+      "title": "புக்மார்க்குகள் & வரலாறு",
+      "body": "சேமித்த பக்கங்களை பார்க்க இங்கே தட்டவும்."
+    },
+    "moreOptions": {
+      "title": "மேலும் விருப்பங்கள்",
+      "body": "அமைப்புகள் மற்றும் உலாவி கட்டுப்பாடுகளை அணுகவும்."
+    },
+    "newTab": {
+      "title": "புதிய தாவல்",
+      "body": "இது என்னவென்று உங்களுக்கு ஏற்கனவே தெரியும்."
+    }
+  },
+  "onboarding": {
+    "skip": "தவிர்",
+    "continue": "தொடர்",
+    "getStarted": "தொடங்கு",
+    "showMeAround": "எனக்கு காட்டு",
+    "iKnowWhatImDoing": "நான் என்ன செய்கிறேன் என்று எனக்குத் தெரியும்",
+    "steps": {
+      "welcome": {
+        "title": "Eclipse-க்கு வரவேற்கிறோம்",
+        "body": "NWEP பியர்-டு-பியர் வலைக்காக கட்டப்பட்ட உலாவி — தளங்கள் தொலை சேவையகங்களில் அல்ல, நேரடியாக சாதனங்களில் இயங்கும்."
+      },
+      "browse": {
+        "title": "NWEP வலையை உலாவு",
+        "body": "URL பட்டையில் web:// முகவரிகளை தட்டச்சு செய்யவும். DNS இல்லை, இடைத்தரகர் இல்லை."
+      },
+      "private": {
+        "title": "இயல்பாகவே தனிப்பட்டது",
+        "body": "ஒவ்வொரு இணைப்பும் புதிய தற்காலிக அடையாளத்தை பயன்படுத்துகிறது — முனைக்கு முனை குறியாக்கம்."
+      },
+      "allSet": {
+        "title": "நீங்கள் தயார்",
+        "body": "URL பட்டையில் web:// முகவரியை தட்டச்சு செய்து தொடங்கவும்."
+      },
+      "tour": {
+        "title": "விரைவான சுற்றுப்பயணம் வேண்டுமா?",
+        "body": "Eclipse-ஐ எளிதாக வழிசெலுத்த சைகைகளையும் அம்சங்களையும் காட்டுவோம்."
+      }
+    }
+  },
+  "settings": {
+    "language": "மொழி",
+    "general": "பொது",
+    "appearance": "தோற்றம்",
+    "privacy": "தனியுரிமை",
+    "developers": "டெவலப்பர்கள்",
+    "newTab": "புதிய தாவல்",
+    "openNewTabsWith": "புதிய தாவல்களை திற",
+    "empty": "காலி",
+    "homepage": "முகப்பு பக்கம்",
+    "homepageUrl": "முகப்பு பக்க URL",
+    "homepageUrlActive": "புதிய தாவல் திறக்கும்போது ஏற்றப்படும்",
+    "homepageUrlInactive": "இதை பயன்படுத்த முகப்பு பக்க முறைக்கு மாறவும்",
+    "addressBar": "முகவரி பட்டை",
+    "searchBookmarks": "புக்மார்க்குகளை தேடு",
+    "searchBookmarksDesc": "தட்டச்சு செய்யும்போது பொருந்தும் புக்மார்க்குகளை காட்டு",
+    "searchHistory": "வரலாற்றை தேடு",
+    "searchHistoryDesc": "தட்டச்சு செய்யும்போது பொருந்தும் வரலாற்று பதிவுகளை காட்டு",
+    "theme": "தீம்",
+    "colorScheme": "வண்ண திட்டம்",
+    "light": "வெளிர்",
+    "dark": "இருள்",
+    "auto": "தானியங்கி",
+    "scaling": "அளவிடல்",
+    "browserUiScale": "உலாவி UI அளவு",
+    "browserUiScaleDesc": "தாவல்கள், கருவிப்பட்டை மற்றும் உலாவி UI-ஐ அளவிடுகிறது",
+    "defaultPageZoom": "இயல்புநிலை பக்க பெரிதாக்கல்",
+    "defaultPageZoomDesc": "புதிய தாவல்கள் திறக்கும்போது பக்க உள்ளடக்கத்தை அளவிடுகிறது",
+    "browsingData": "உலாவல் தரவு",
+    "recordBrowsingHistory": "உலாவல் வரலாற்றை பதிவு செய்",
+    "recordBrowsingHistoryDesc": "பார்வையிட்ட பக்கங்களை உங்கள் வரலாற்றில் சேமி",
+    "browsingHistory": "உலாவல் வரலாறு",
+    "browsingHistoryDesc": "உங்கள் சேமித்த வரலாற்றை பார் அல்லது அழி",
+    "viewBtn": "பார்",
+    "clearBtn": "அழி",
+    "clearedBtn": "அழிக்கப்பட்டது",
+    "interface": "இடைமுகம்",
+    "mobileUi": "மொபைல் UI",
+    "mobileUiDesc": "தானியங்கி தளம் கண்டறிதலை மேலெழுது",
+    "mobileAuto": "தானியங்கி",
+    "mobileMobile": "மொபைல்",
+    "mobileDesktop": "டெஸ்க்டாப்",
+    "onboarding": "ஆன்போர்டிங்",
+    "resetWelcomeGuide": "வரவேற்பு வழிகாட்டியை மீட்டமை",
+    "resetWelcomeGuideDesc": "வரவேற்பு நடைப்பயிற்சியை உடனடியாக மீண்டும் காட்டு",
+    "resetBtn": "மீட்டமை",
+    "doneBtn": "முடிந்தது",
+    "settingsTitle": "அமைப்புகள்",
+    "zoomDefault": "{{percent}}% (இயல்புநிலை)"
+  },
+  "bookmarkManager": {
+    "title": "புக்மார்க்குகளை நிர்வகி",
+    "titlePlaceholder": "தலைப்பு",
+    "urlPlaceholder": "URL (எ.கா. web://…)",
+    "folderNamePlaceholder": "கோப்புறை பெயர்",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "ரத்து செய்",
+    "save": "சேமி",
+    "addBookmarkBtn": "புக்மார்க் சேர்",
+    "addFolderBtn": "கோப்புறை சேர்",
+    "addBookmarkToolbar": "புக்மார்க் சேர்",
+    "newFolderToolbar": "புதிய கோப்புறை",
+    "noBookmarksRoot": "இன்னும் புக்மார்க்குகள் இல்லை. கீழே ஒன்று சேர்க்கவும்.",
+    "emptyFolder": "இந்த கோப்புறை காலியாக உள்ளது.",
+    "openFolder": "கோப்புறையை திற",
+    "rename": "மறுபெயரிடு",
+    "delete": "நீக்கு"
+  }
+}

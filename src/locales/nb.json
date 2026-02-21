@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Tilbake",
+    "forward": "Fremover",
+    "stop": "Stopp",
+    "reload": "Last inn på nytt",
+    "newTab": "Ny fane",
+    "copyLink": "Kopier lenke",
+    "connectionSecurity": "Tilkoblingssikkerhet",
+    "searchOrEnterUrl": "Søk eller skriv inn nettsidennavn",
+    "bookmarks": "Bokmerker",
+    "options": "Alternativer"
+  },
+  "tab": {
+    "settings": "Innstillinger",
+    "history": "Historikk",
+    "newTab": "Ny fane"
+  },
+  "urlBar": {
+    "placeholder": "Søk eller skriv inn nettstedsnavn",
+    "mobilePlaceholder": "Søk eller skriv inn nettsted",
+    "bookmarksGroup": "Bokmerker",
+    "historyGroup": "Historikk"
+  },
+  "connection": {
+    "authenticated": "Autentisert",
+    "authVerified": "Gjensidig autentisering bekreftet",
+    "failed": "Tilkobling mislyktes",
+    "handshakeIncomplete": "Håndtrykk ble ikke fullført",
+    "server": "server",
+    "client": "klient",
+    "ephemeral": "midlertidig",
+    "logLabel": "logg"
+  },
+  "find": {
+    "placeholder": "Søk på siden…",
+    "noResults": "Ingen resultater",
+    "countOf": "{{current}} av {{total}}",
+    "prevMatch": "Forrige treff",
+    "nextMatch": "Neste treff",
+    "close": "Lukk søkefelt"
+  },
+  "error": {
+    "timeout": "Tilkoblingen ble tidsavbrutt",
+    "timeoutHint": "Serveren brukte for lang tid på å svare. Den kan være frakoblet eller utilgjengelig.",
+    "cantConnect": "Kan ikke koble til dette nettstedet",
+    "cantConnectHint": "Serveren nektet tilkoblingen eller kunne ikke nås.",
+    "authFailed": "Autentisering mislyktes",
+    "authFailedHint": "Serverens kryptografiske identitet kunne ikke bekreftes.",
+    "serverNotFound": "Serveren ble ikke funnet",
+    "serverNotFoundHint": "Serveren på denne adressen finnes ikke eller kunne ikke nås. Sjekk adressen og prøv igjen.",
+    "identityError": "Identitetsfeil",
+    "identityErrorHint": "Det oppstod et problem ved fastslåelse av nettstedets identitet.",
+    "protocolError": "Protokollfeil",
+    "protocolErrorHint": "Serveren sendte et svar som ikke kunne forstås.",
+    "genericError": "Noe gikk galt",
+    "genericErrorHint": "Siden kunne ikke lastes på grunn av en uventet feil.",
+    "tryAgain": "Prøv igjen"
+  },
+  "history": {
+    "title": "Historikk",
+    "clearAll": "Slett alt",
+    "empty": "Ingen nettleserhistorikk",
+    "websiteColumn": "Nettsted",
+    "addressColumn": "Adresse",
+    "removeFromHistory": "Fjern fra historikk",
+    "labelToday": "I dag",
+    "labelYesterday": "I går",
+    "labelEarlier": "Tidligere"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Bokmerk denne siden",
+    "removeBookmark": "Fjern bokmerke",
+    "bookmarkAllTabs": "Bokmerk alle faner",
+    "addBookmark": "Legg til bokmerke",
+    "newFolder": "Ny mappe",
+    "addFolder": "Legg til mappe",
+    "add": "Legg til",
+    "cancel": "Avbryt",
+    "save": "Lagre",
+    "noBookmarks": "Ingen bokmerker ennå",
+    "emptyFolder": "Tom mappe",
+    "folderNamePlaceholder": "Mappenavn",
+    "titlePlaceholder": "Tittel",
+    "openFolder": "Åpne mappe",
+    "edit": "Rediger",
+    "delete": "Slett",
+    "goBack": "Gå tilbake",
+    "dropToMove": "Slipp her for å flytte til {{label}}",
+    "rootLabel": "rot",
+    "parentLabel": "overordnet"
+  },
+  "optionsMenu": {
+    "zoomOut": "Zoom ut",
+    "zoomIn": "Zoom inn",
+    "resetZoom": "Tilbakestill zoom",
+    "findInPage": "Søk på siden",
+    "print": "Skriv ut",
+    "history": "Historikk",
+    "settings": "Innstillinger",
+    "current": "Gjeldende"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Åpne lenke i ny fane",
+    "copyLinkAddress": "Kopier lenkeadresse",
+    "cut": "Klipp ut",
+    "copy": "Kopier",
+    "paste": "Lim inn",
+    "selectAll": "Merk alt",
+    "back": "Tilbake",
+    "forward": "Fremover",
+    "reload": "Last inn på nytt",
+    "share": "Del",
+    "savePageAs": "Lagre side som",
+    "print": "Skriv ut",
+    "copyLink": "Kopier lenke",
+    "copied": "Kopiert!",
+    "copyProxyLink": "Kopier proxy-lenke"
+  },
+  "windowControls": {
+    "minimize": "Minimer",
+    "maximize": "Maksimer",
+    "close": "Lukk"
+  },
+  "mobileStart": {
+    "favorites": "Favoritter",
+    "noFavoritesHint": "Legg til bokmerker, så vises de her som favoritter.",
+    "readingList": "Leseliste",
+    "readingListHint": "Med leselisten kan du samle nettsider og lenker for å lese senere. Trykk på Del for å legge til den gjeldende siden."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Søk i faner",
+    "bookmarksBtn": "Bokmerker",
+    "newTabBtn": "Ny fane",
+    "reloadBtn": "Last inn på nytt",
+    "moreBtn": "Mer",
+    "closeTabTipTitle": "Lukk en fane",
+    "closeTabTipBody": "Dra en fane oppover for å lukke den."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Avbryt",
+    "back": "Tilbake",
+    "forward": "Fremover",
+    "stop": "Stopp",
+    "reload": "Last inn på nytt",
+    "findInPage": "Søk på siden",
+    "print": "Skriv ut",
+    "removeBookmark": "Fjern bokmerke",
+    "addBookmark": "Legg til bokmerke",
+    "settings": "Innstillinger"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Bokmerker",
+    "historyTab": "Historikk",
+    "searchBookmarks": "Søk i bokmerker",
+    "searchHistory": "Søk i historikk",
+    "noBookmarks": "Ingen bokmerker ennå",
+    "noHistory": "Ingen historikk",
+    "editBookmark": "Rediger bokmerke",
+    "titleLabel": "Tittel",
+    "urlLabel": "URL",
+    "save": "Lagre",
+    "deleteBookmark": "Slett bokmerke",
+    "cancel": "Avbryt"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Adressefeltet",
+      "body": "Trykk for å søke eller skrive inn en URL. Sveip til venstre eller høyre for å bytte fane."
+    },
+    "seeYourTabs": {
+      "title": "Se fanene dine",
+      "body": "Sveip opp på adressefeltet for å se alle åpne faner."
+    },
+    "bookmarksHistory": {
+      "title": "Bokmerker og historikk",
+      "body": "Trykk her for å bla gjennom lagrede sider og gjenbesøke nettsteder."
+    },
+    "moreOptions": {
+      "title": "Flere alternativer",
+      "body": "Åpne innstillinger, søk på siden og andre nettleserkontroller."
+    },
+    "newTab": {
+      "title": "Ny fane",
+      "body": "Du vet allerede hva dette er."
+    }
+  },
+  "onboarding": {
+    "skip": "Hopp over",
+    "continue": "Fortsett",
+    "getStarted": "Kom i gang",
+    "showMeAround": "Vis meg rundt",
+    "iKnowWhatImDoing": "Jeg vet hva jeg gjør",
+    "steps": {
+      "welcome": {
+        "title": "Velkommen til Eclipse",
+        "body": "En nettleser bygget for NWEP peer-to-peer-nettet — der nettsteder kjører direkte på enheter, ikke på eksterne servere."
+      },
+      "browse": {
+        "title": "Surf på NWEP-nettet",
+        "body": "Skriv web://-adresser i URL-feltet for å koble direkte til NWEP-nettsteder. Ingen DNS, ingen mellomledd."
+      },
+      "private": {
+        "title": "Privat som standard",
+        "body": "Hver tilkobling bruker en ny midlertidig identitet — ende-til-ende-kryptert uten vedvarende sporing."
+      },
+      "allSet": {
+        "title": "Du er klar",
+        "body": "Start med å skrive en web://-adresse i URL-feltet, eller utforsk hva som er tilgjengelig på nettverket."
+      },
+      "tour": {
+        "title": "Vil du ha en rask omvisning?",
+        "body": "Vi viser deg gestene og funksjonene som gjør Eclipse enkelt å bruke."
+      }
+    }
+  },
+  "settings": {
+    "general": "Generelt",
+    "appearance": "Utseende",
+    "privacy": "Personvern",
+    "developers": "Utviklere",
+    "newTab": "Ny fane",
+    "openNewTabsWith": "Åpne nye faner med",
+    "empty": "Tom",
+    "homepage": "Startside",
+    "homepageUrl": "Startsidenes URL",
+    "homepageUrlActive": "Lastes når en ny fane åpnes",
+    "homepageUrlInactive": "Bytt til Startsidemodussen for å bruke dette",
+    "addressBar": "Adressefelt",
+    "searchBookmarks": "Søk i bokmerker",
+    "searchBookmarksDesc": "Vis samsvarende bokmerker mens du skriver",
+    "searchHistory": "Søk i historikk",
+    "searchHistoryDesc": "Vis samsvarende historikkoppføringer mens du skriver",
+    "theme": "Tema",
+    "colorScheme": "Fargevalg",
+    "light": "Lyst",
+    "dark": "Mørkt",
+    "auto": "Automatisk",
+    "scaling": "Skalering",
+    "browserUiScale": "Nettlesergrensesnitt-skala",
+    "browserUiScaleDesc": "Skalerer faner, verktøylinje og nettlesergrensesnitt",
+    "defaultPageZoom": "Standard sidezoom",
+    "defaultPageZoomDesc": "Skalerer sideinnhold når nye faner åpnes",
+    "browsingData": "Nettleserdata",
+    "recordBrowsingHistory": "Registrer nettleserhistorikk",
+    "recordBrowsingHistoryDesc": "Lagre besøkte sider i historikken",
+    "browsingHistory": "Nettleserhistorikk",
+    "browsingHistoryDesc": "Vis eller slett lagret historikk",
+    "viewBtn": "Vis",
+    "clearBtn": "Slett",
+    "clearedBtn": "Slettet",
+    "interface": "Grensesnitt",
+    "mobileUi": "Mobilt grensesnitt",
+    "mobileUiDesc": "Overstyr automatisk plattformdeteksjon",
+    "mobileAuto": "Automatisk",
+    "mobileMobile": "Mobil",
+    "mobileDesktop": "Skrivebord",
+    "onboarding": "Introduksjon",
+    "resetWelcomeGuide": "Tilbakestill velkomstguiden",
+    "resetWelcomeGuideDesc": "Vis velkomstgjennomgangen igjen umiddelbart",
+    "resetBtn": "Tilbakestill",
+    "doneBtn": "Ferdig",
+    "settingsTitle": "Innstillinger",
+    "zoomDefault": "{{percent}}% (standard)"
+  },
+  "bookmarkManager": {
+    "title": "Administrer bokmerker",
+    "titlePlaceholder": "Tittel",
+    "urlPlaceholder": "URL (f.eks. web://…)",
+    "folderNamePlaceholder": "Mappenavn",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Avbryt",
+    "save": "Lagre",
+    "addBookmarkBtn": "Legg til bokmerke",
+    "addFolderBtn": "Legg til mappe",
+    "addBookmarkToolbar": "Legg til bokmerke",
+    "newFolderToolbar": "Ny mappe",
+    "noBookmarksRoot": "Ingen bokmerker ennå. Legg til ett nedenfor.",
+    "emptyFolder": "Denne mappen er tom.",
+    "openFolder": "Åpne mappe",
+    "rename": "Gi nytt navn",
+    "delete": "Slett"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "পিছনে যান",
+    "forward": "এগিয়ে যান",
+    "stop": "থামুন",
+    "reload": "পুনরায় লোড করুন",
+    "newTab": "নতুন ট্যাব",
+    "copyLink": "লিঙ্ক কপি করুন",
+    "connectionSecurity": "সংযোগ নিরাপত্তা",
+    "searchOrEnterUrl": "অনুসন্ধান করুন বা ওয়েবসাইটের নাম লিখুন",
+    "bookmarks": "বুকমার্ক",
+    "options": "বিকল্প"
+  },
+  "tab": {
+    "settings": "সেটিংস",
+    "history": "ইতিহাস",
+    "newTab": "নতুন ট্যাব"
+  },
+  "urlBar": {
+    "placeholder": "অনুসন্ধান করুন বা ওয়েবসাইটের নাম লিখুন",
+    "mobilePlaceholder": "অনুসন্ধান করুন বা ওয়েবসাইট লিখুন",
+    "bookmarksGroup": "বুকমার্ক",
+    "historyGroup": "ইতিহাস"
+  },
+  "connection": {
+    "authenticated": "প্রমাণিত",
+    "authVerified": "পারস্পরিক প্রমাণীকরণ যাচাই করা হয়েছে",
+    "failed": "সংযোগ ব্যর্থ হয়েছে",
+    "handshakeIncomplete": "হ্যান্ডশেক সম্পন্ন হয়নি",
+    "server": "সার্ভার",
+    "client": "ক্লায়েন্ট",
+    "ephemeral": "অস্থায়ী",
+    "logLabel": "লগ"
+  },
+  "find": {
+    "placeholder": "পৃষ্ঠায় খুঁজুন…",
+    "noResults": "কোনো ফলাফল নেই",
+    "countOf": "{{current}} / {{total}}",
+    "prevMatch": "আগের মিল",
+    "nextMatch": "পরের মিল",
+    "close": "খোঁজার বার বন্ধ করুন"
+  },
+  "error": {
+    "timeout": "সংযোগের সময় শেষ",
+    "timeoutHint": "সার্ভার সাড়া দিতে অনেক সময় নিয়েছে। এটি অফলাইন বা অনুপলব্ধ হতে পারে।",
+    "cantConnect": "এই সাইটে সংযোগ করা যাচ্ছে না",
+    "cantConnectHint": "সার্ভার সংযোগ প্রত্যাখ্যান করেছে বা পৌঁছানো যায়নি।",
+    "authFailed": "প্রমাণীকরণ ব্যর্থ হয়েছে",
+    "authFailedHint": "সার্ভারের ক্রিপ্টোগ্রাফিক পরিচয় যাচাই করা যায়নি।",
+    "serverNotFound": "সার্ভার পাওয়া যায়নি",
+    "serverNotFoundHint": "এই ঠিকানায় সার্ভার নেই বা পৌঁছানো যায়নি। ঠিকানা পরীক্ষা করুন এবং আবার চেষ্টা করুন।",
+    "identityError": "পরিচয় ত্রুটি",
+    "identityErrorHint": "সাইটের পরিচয় প্রতিষ্ঠায় সমস্যা হয়েছে।",
+    "protocolError": "প্রোটোকল ত্রুটি",
+    "protocolErrorHint": "সার্ভার এমন একটি প্রতিক্রিয়া পাঠিয়েছে যা বোঝা যায়নি।",
+    "genericError": "কিছু ভুল হয়েছে",
+    "genericErrorHint": "একটি অপ্রত্যাশিত ত্রুটির কারণে পৃষ্ঠা লোড হয়নি।",
+    "tryAgain": "আবার চেষ্টা করুন"
+  },
+  "history": {
+    "title": "ইতিহাস",
+    "clearAll": "সব মুছুন",
+    "empty": "কোনো ব্রাউজিং ইতিহাস নেই",
+    "websiteColumn": "ওয়েবসাইট",
+    "addressColumn": "ঠিকানা",
+    "removeFromHistory": "ইতিহাস থেকে সরান",
+    "labelToday": "আজ",
+    "labelYesterday": "গতকাল",
+    "labelEarlier": "আগে"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "এই পৃষ্ঠা বুকমার্ক করুন",
+    "removeBookmark": "বুকমার্ক সরান",
+    "bookmarkAllTabs": "সব ট্যাব বুকমার্ক করুন",
+    "addBookmark": "বুকমার্ক যোগ করুন",
+    "newFolder": "নতুন ফোল্ডার",
+    "addFolder": "ফোল্ডার যোগ করুন",
+    "add": "যোগ করুন",
+    "cancel": "বাতিল করুন",
+    "save": "সংরক্ষণ করুন",
+    "noBookmarks": "এখনো কোনো বুকমার্ক নেই",
+    "emptyFolder": "খালি ফোল্ডার",
+    "folderNamePlaceholder": "ফোল্ডারের নাম",
+    "titlePlaceholder": "শিরোনাম",
+    "openFolder": "ফোল্ডার খুলুন",
+    "edit": "সম্পাদনা করুন",
+    "delete": "মুছুন",
+    "goBack": "পিছনে যান",
+    "dropToMove": "{{label}}-এ নিয়ে যেতে এখানে ছেড়ে দিন",
+    "rootLabel": "মূল",
+    "parentLabel": "প্যারেন্ট"
+  },
+  "optionsMenu": {
+    "zoomOut": "জুম আউট",
+    "zoomIn": "জুম ইন",
+    "resetZoom": "জুম রিসেট করুন",
+    "findInPage": "পৃষ্ঠায় খুঁজুন",
+    "print": "প্রিন্ট করুন",
+    "history": "ইতিহাস",
+    "settings": "সেটিংস",
+    "current": "বর্তমান"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "নতুন ট্যাবে লিঙ্ক খুলুন",
+    "copyLinkAddress": "লিঙ্কের ঠিকানা কপি করুন",
+    "cut": "কাটুন",
+    "copy": "কপি করুন",
+    "paste": "পেস্ট করুন",
+    "selectAll": "সব নির্বাচন করুন",
+    "back": "পিছনে",
+    "forward": "এগিয়ে",
+    "reload": "পুনরায় লোড করুন",
+    "share": "শেয়ার করুন",
+    "savePageAs": "পৃষ্ঠা হিসেবে সংরক্ষণ করুন",
+    "print": "প্রিন্ট করুন",
+    "copyLink": "লিঙ্ক কপি করুন",
+    "copied": "কপি হয়েছে!",
+    "copyProxyLink": "প্রক্সি লিঙ্ক কপি করুন"
+  },
+  "windowControls": {
+    "minimize": "ছোট করুন",
+    "maximize": "বড় করুন",
+    "close": "বন্ধ করুন"
+  },
+  "mobileStart": {
+    "favorites": "পছন্দের",
+    "noFavoritesHint": "বুকমার্ক যোগ করুন এবং সেগুলো এখানে পছন্দের হিসেবে দেখাবে।",
+    "readingList": "পড়ার তালিকা",
+    "readingListHint": "পড়ার তালিকা আপনাকে পরে পড়ার জন্য ওয়েবপেজ ও লিঙ্ক সংগ্রহ করতে দেয়। বর্তমান পৃষ্ঠা যোগ করতে শেয়ার বোতাম চাপুন।"
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "ট্যাব অনুসন্ধান করুন",
+    "bookmarksBtn": "বুকমার্ক",
+    "newTabBtn": "নতুন ট্যাব",
+    "reloadBtn": "পুনরায় লোড করুন",
+    "moreBtn": "আরো",
+    "closeTabTipTitle": "ট্যাব বন্ধ করুন",
+    "closeTabTipBody": "যেকোনো ট্যাব উপরে টেনে বন্ধ করুন।"
+  },
+  "mobileOptions": {
+    "cancelBtn": "বাতিল করুন",
+    "back": "পিছনে",
+    "forward": "এগিয়ে",
+    "stop": "থামুন",
+    "reload": "পুনরায় লোড করুন",
+    "findInPage": "পৃষ্ঠায় খুঁজুন",
+    "print": "প্রিন্ট করুন",
+    "removeBookmark": "বুকমার্ক সরান",
+    "addBookmark": "বুকমার্ক যোগ করুন",
+    "settings": "সেটিংস"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "বুকমার্ক",
+    "historyTab": "ইতিহাস",
+    "searchBookmarks": "বুকমার্ক অনুসন্ধান করুন",
+    "searchHistory": "ইতিহাস অনুসন্ধান করুন",
+    "noBookmarks": "এখনো কোনো বুকমার্ক নেই",
+    "noHistory": "কোনো ইতিহাস নেই",
+    "editBookmark": "বুকমার্ক সম্পাদনা করুন",
+    "titleLabel": "শিরোনাম",
+    "urlLabel": "URL",
+    "save": "সংরক্ষণ করুন",
+    "deleteBookmark": "বুকমার্ক মুছুন",
+    "cancel": "বাতিল করুন"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "ঠিকানা বার",
+      "body": "অনুসন্ধান করতে বা URL টাইপ করতে ট্যাপ করুন। ট্যাবের মধ্যে যেতে বাম বা ডানে সোয়াইপ করুন।"
+    },
+    "seeYourTabs": {
+      "title": "আপনার ট্যাব দেখুন",
+      "body": "সব খোলা ট্যাব দেখতে ঠিকানা বারে উপরে সোয়াইপ করুন।"
+    },
+    "bookmarksHistory": {
+      "title": "বুকমার্ক ও ইতিহাস",
+      "body": "আপনার সংরক্ষিত পৃষ্ঠা দেখতে এবং পরিদর্শন করা সাইটে ফিরে যেতে এখানে ট্যাপ করুন।"
+    },
+    "moreOptions": {
+      "title": "আরো বিকল্প",
+      "body": "সেটিংস, পৃষ্ঠায় খুঁজুন এবং অন্যান্য ব্রাউজার নিয়ন্ত্রণ অ্যাক্সেস করুন।"
+    },
+    "newTab": {
+      "title": "নতুন ট্যাব",
+      "body": "এটা কী আপনি ইতিমধ্যে জানেন।"
+    }
+  },
+  "onboarding": {
+    "skip": "এড়িয়ে যান",
+    "continue": "চালিয়ে যান",
+    "getStarted": "শুরু করুন",
+    "showMeAround": "আমাকে ঘুরিয়ে দেখান",
+    "iKnowWhatImDoing": "আমি জানি আমি কী করছি",
+    "steps": {
+      "welcome": {
+        "title": "Eclipse-এ স্বাগতম",
+        "body": "NWEP পিয়ার-টু-পিয়ার ওয়েবের জন্য নির্মিত একটি ব্রাউজার — যেখানে সাইটগুলি দূরবর্তী সার্ভারে নয়, সরাসরি ডিভাইসে চলে।"
+      },
+      "browse": {
+        "title": "NWEP ওয়েব ব্রাউজ করুন",
+        "body": "NWEP সাইটে সরাসরি সংযোগ করতে URL বারে web:// ঠিকানা টাইপ করুন। কোনো DNS নেই, কোনো মধ্যস্থতাকারী নেই।"
+      },
+      "private": {
+        "title": "ডিফল্টরূপে ব্যক্তিগত",
+        "body": "প্রতিটি সংযোগ একটি নতুন অস্থায়ী পরিচয় ব্যবহার করে — এন্ড-টু-এন্ড এনক্রিপ্টেড, কোনো স্থায়ী ট্র্যাকিং ছাড়া।"
+      },
+      "allSet": {
+        "title": "আপনি প্রস্তুত",
+        "body": "URL বারে web:// ঠিকানা টাইপ করে শুরু করুন বা নেটওয়ার্কে কী পাওয়া যায় তা অন্বেষণ করুন।"
+      },
+      "tour": {
+        "title": "একটি দ্রুত পরিচিতি চান?",
+        "body": "আমরা আপনাকে Eclipse সহজে নেভিগেট করার ইশারা ও বৈশিষ্ট্যগুলি দেখাব।"
+      }
+    }
+  },
+  "settings": {
+    "language": "ভাষা",
+    "general": "সাধারণ",
+    "appearance": "চেহারা",
+    "privacy": "গোপনীয়তা",
+    "developers": "ডেভেলপার",
+    "newTab": "নতুন ট্যাব",
+    "openNewTabsWith": "নতুন ট্যাব খুলুন দিয়ে",
+    "empty": "খালি",
+    "homepage": "হোমপেজ",
+    "homepageUrl": "হোমপেজ URL",
+    "homepageUrlActive": "নতুন ট্যাব খোলার সময় লোড হয়",
+    "homepageUrlInactive": "এটি ব্যবহার করতে হোমপেজ মোডে স্যুইচ করুন",
+    "addressBar": "ঠিকানা বার",
+    "searchBookmarks": "বুকমার্ক অনুসন্ধান করুন",
+    "searchBookmarksDesc": "টাইপ করার সময় মিলে যাওয়া বুকমার্ক দেখান",
+    "searchHistory": "ইতিহাস অনুসন্ধান করুন",
+    "searchHistoryDesc": "টাইপ করার সময় মিলে যাওয়া ইতিহাস এন্ট্রি দেখান",
+    "theme": "থিম",
+    "colorScheme": "রঙ স্কিম",
+    "light": "হালকা",
+    "dark": "অন্ধকার",
+    "auto": "স্বয়ংক্রিয়",
+    "scaling": "স্কেলিং",
+    "browserUiScale": "ব্রাউজার UI স্কেল",
+    "browserUiScaleDesc": "ট্যাব, টুলবার এবং ব্রাউজার ক্রোম স্কেল করে",
+    "defaultPageZoom": "ডিফল্ট পৃষ্ঠা জুম",
+    "defaultPageZoomDesc": "নতুন ট্যাব খোলার সময় পৃষ্ঠার বিষয়বস্তু স্কেল করে",
+    "browsingData": "ব্রাউজিং ডেটা",
+    "recordBrowsingHistory": "ব্রাউজিং ইতিহাস রেকর্ড করুন",
+    "recordBrowsingHistoryDesc": "পরিদর্শন করা পৃষ্ঠাগুলি আপনার ইতিহাসে সংরক্ষণ করুন",
+    "browsingHistory": "ব্রাউজিং ইতিহাস",
+    "browsingHistoryDesc": "আপনার সংরক্ষিত ইতিহাস দেখুন বা মুছুন",
+    "viewBtn": "দেখুন",
+    "clearBtn": "মুছুন",
+    "clearedBtn": "মোছা হয়েছে",
+    "interface": "ইন্টারফেস",
+    "mobileUi": "মোবাইল UI",
+    "mobileUiDesc": "স্বয়ংক্রিয় প্ল্যাটফর্ম সনাক্তকরণ ওভাররাইড করুন",
+    "mobileAuto": "স্বয়ংক্রিয়",
+    "mobileMobile": "মোবাইল",
+    "mobileDesktop": "ডেস্কটপ",
+    "onboarding": "অনবোর্ডিং",
+    "resetWelcomeGuide": "স্বাগত গাইড রিসেট করুন",
+    "resetWelcomeGuideDesc": "তাৎক্ষণিকভাবে আবার স্বাগত ওয়াকথ্রু দেখান",
+    "resetBtn": "রিসেট করুন",
+    "doneBtn": "সম্পন্ন",
+    "settingsTitle": "সেটিংস",
+    "zoomDefault": "{{percent}}% (ডিফল্ট)"
+  },
+  "bookmarkManager": {
+    "title": "বুকমার্ক পরিচালনা করুন",
+    "titlePlaceholder": "শিরোনাম",
+    "urlPlaceholder": "URL (যেমন web://…)",
+    "folderNamePlaceholder": "ফোল্ডারের নাম",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "বাতিল করুন",
+    "save": "সংরক্ষণ করুন",
+    "addBookmarkBtn": "বুকমার্ক যোগ করুন",
+    "addFolderBtn": "ফোল্ডার যোগ করুন",
+    "addBookmarkToolbar": "বুকমার্ক যোগ করুন",
+    "newFolderToolbar": "নতুন ফোল্ডার",
+    "noBookmarksRoot": "এখনো কোনো বুকমার্ক নেই। নিচে একটি যোগ করুন।",
+    "emptyFolder": "এই ফোল্ডারটি খালি।",
+    "openFolder": "ফোল্ডার খুলুন",
+    "rename": "নাম পরিবর্তন করুন",
+    "delete": "মুছুন"
+  }
+}

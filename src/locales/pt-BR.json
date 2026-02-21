@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Voltar",
+    "forward": "Avançar",
+    "stop": "Parar",
+    "reload": "Recarregar",
+    "newTab": "Nova aba",
+    "copyLink": "Copiar link",
+    "connectionSecurity": "Segurança da conexão",
+    "searchOrEnterUrl": "Pesquise ou insira o nome do site",
+    "bookmarks": "Favoritos",
+    "options": "Opções"
+  },
+  "tab": {
+    "settings": "Configurações",
+    "history": "Histórico",
+    "newTab": "Nova aba"
+  },
+  "urlBar": {
+    "placeholder": "Pesquise ou insira o nome do site",
+    "mobilePlaceholder": "Pesquise ou insira um site",
+    "bookmarksGroup": "Favoritos",
+    "historyGroup": "Histórico"
+  },
+  "connection": {
+    "authenticated": "Autenticado",
+    "authVerified": "Autenticação mútua verificada",
+    "failed": "Conexão falhou",
+    "handshakeIncomplete": "Handshake não concluído",
+    "server": "servidor",
+    "client": "cliente",
+    "ephemeral": "efêmero",
+    "logLabel": "log"
+  },
+  "find": {
+    "placeholder": "Localizar na página…",
+    "noResults": "Sem resultados",
+    "countOf": "{{current}} de {{total}}",
+    "prevMatch": "Correspondência anterior",
+    "nextMatch": "Próxima correspondência",
+    "close": "Fechar barra de pesquisa"
+  },
+  "error": {
+    "timeout": "Tempo limite de conexão esgotado",
+    "timeoutHint": "O servidor demorou muito para responder. Pode estar offline ou inacessível.",
+    "cantConnect": "Não foi possível conectar a este site",
+    "cantConnectHint": "O servidor recusou a conexão ou não pôde ser alcançado.",
+    "authFailed": "Falha na autenticação",
+    "authFailedHint": "Não foi possível verificar a identidade criptográfica do servidor.",
+    "serverNotFound": "Servidor não encontrado",
+    "serverNotFoundHint": "O servidor neste endereço não existe ou não pôde ser alcançado. Verifique o endereço e tente novamente.",
+    "identityError": "Erro de identidade",
+    "identityErrorHint": "Houve um problema ao estabelecer a identidade do site.",
+    "protocolError": "Erro de protocolo",
+    "protocolErrorHint": "O servidor enviou uma resposta que não pôde ser entendida.",
+    "genericError": "Algo deu errado",
+    "genericErrorHint": "A página não pôde ser carregada devido a um erro inesperado.",
+    "tryAgain": "Tentar novamente"
+  },
+  "history": {
+    "title": "Histórico",
+    "clearAll": "Limpar tudo",
+    "empty": "Nenhum histórico de navegação",
+    "websiteColumn": "Site",
+    "addressColumn": "Endereço",
+    "removeFromHistory": "Remover do histórico",
+    "labelToday": "Hoje",
+    "labelYesterday": "Ontem",
+    "labelEarlier": "Mais antigo"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Adicionar página aos favoritos",
+    "removeBookmark": "Remover dos favoritos",
+    "bookmarkAllTabs": "Adicionar todas as abas aos favoritos",
+    "addBookmark": "Adicionar favorito",
+    "newFolder": "Nova pasta",
+    "addFolder": "Adicionar pasta",
+    "add": "Adicionar",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "noBookmarks": "Nenhum favorito ainda",
+    "emptyFolder": "Pasta vazia",
+    "folderNamePlaceholder": "Nome da pasta",
+    "titlePlaceholder": "Título",
+    "openFolder": "Abrir pasta",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "goBack": "Voltar",
+    "dropToMove": "Solte aqui para mover para {{label}}",
+    "rootLabel": "raiz",
+    "parentLabel": "pai"
+  },
+  "optionsMenu": {
+    "zoomOut": "Diminuir zoom",
+    "zoomIn": "Aumentar zoom",
+    "resetZoom": "Redefinir zoom",
+    "findInPage": "Localizar na página",
+    "print": "Imprimir",
+    "history": "Histórico",
+    "settings": "Configurações",
+    "current": "Atual"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Abrir link em nova aba",
+    "copyLinkAddress": "Copiar endereço do link",
+    "cut": "Recortar",
+    "copy": "Copiar",
+    "paste": "Colar",
+    "selectAll": "Selecionar tudo",
+    "back": "Voltar",
+    "forward": "Avançar",
+    "reload": "Recarregar",
+    "share": "Compartilhar",
+    "savePageAs": "Salvar página como",
+    "print": "Imprimir",
+    "copyLink": "Copiar link",
+    "copied": "Copiado!",
+    "copyProxyLink": "Copiar link do proxy"
+  },
+  "windowControls": {
+    "minimize": "Minimizar",
+    "maximize": "Maximizar",
+    "close": "Fechar"
+  },
+  "mobileStart": {
+    "favorites": "Favoritos",
+    "noFavoritesHint": "Adicione favoritos e eles aparecerão aqui.",
+    "readingList": "Lista de leitura",
+    "readingListHint": "A lista de leitura permite coletar páginas e links para ler depois. Toque em Compartilhar para adicionar a página atual."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Pesquisar abas",
+    "bookmarksBtn": "Favoritos",
+    "newTabBtn": "Nova aba",
+    "reloadBtn": "Recarregar",
+    "moreBtn": "Mais",
+    "closeTabTipTitle": "Fechar uma aba",
+    "closeTabTipBody": "Arraste qualquer aba para cima para fechá-la."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Cancelar",
+    "back": "Voltar",
+    "forward": "Avançar",
+    "stop": "Parar",
+    "reload": "Recarregar",
+    "findInPage": "Localizar na página",
+    "print": "Imprimir",
+    "removeBookmark": "Remover dos favoritos",
+    "addBookmark": "Adicionar favorito",
+    "settings": "Configurações"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Favoritos",
+    "historyTab": "Histórico",
+    "searchBookmarks": "Pesquisar favoritos",
+    "searchHistory": "Pesquisar histórico",
+    "noBookmarks": "Nenhum favorito ainda",
+    "noHistory": "Nenhum histórico",
+    "editBookmark": "Editar favorito",
+    "titleLabel": "Título",
+    "urlLabel": "URL",
+    "save": "Salvar",
+    "deleteBookmark": "Excluir favorito",
+    "cancel": "Cancelar"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Barra de endereços",
+      "body": "Toque para pesquisar ou digitar uma URL. Deslize para a esquerda ou direita para alternar entre abas."
+    },
+    "seeYourTabs": {
+      "title": "Veja suas abas",
+      "body": "Deslize para cima na barra de endereços para ver todas as suas abas abertas."
+    },
+    "bookmarksHistory": {
+      "title": "Favoritos e histórico",
+      "body": "Toque aqui para navegar pelas suas páginas salvas e revisitar sites visitados."
+    },
+    "moreOptions": {
+      "title": "Mais opções",
+      "body": "Acesse configurações, pesquisa na página e outros controles do navegador."
+    },
+    "newTab": {
+      "title": "Nova aba",
+      "body": "Você já sabe para que serve isso."
+    }
+  },
+  "onboarding": {
+    "skip": "Pular",
+    "continue": "Continuar",
+    "getStarted": "Começar",
+    "showMeAround": "Mostre-me o navegador",
+    "iKnowWhatImDoing": "Já sei o que estou fazendo",
+    "steps": {
+      "welcome": {
+        "title": "Bem-vindo ao Eclipse",
+        "body": "Um navegador feito para a web ponto a ponto do NWEP — onde os sites rodam diretamente nos dispositivos, não em servidores remotos."
+      },
+      "browse": {
+        "title": "Navegue pela web NWEP",
+        "body": "Digite endereços web:// na barra de URL para se conectar diretamente a sites NWEP. Sem DNS, sem intermediários."
+      },
+      "private": {
+        "title": "Privado por padrão",
+        "body": "Cada conexão usa uma identidade efêmera nova — criptografada de ponta a ponta, sem rastreamento persistente."
+      },
+      "allSet": {
+        "title": "Tudo pronto",
+        "body": "Comece digitando um endereço web:// na barra de URL ou explore o que está disponível na rede."
+      },
+      "tour": {
+        "title": "Quer um tour rápido?",
+        "body": "Vamos guiá-lo pelos gestos e recursos que tornam o Eclipse fácil de usar."
+      }
+    }
+  },
+  "settings": {
+    "general": "Geral",
+    "appearance": "Aparência",
+    "privacy": "Privacidade",
+    "developers": "Desenvolvedores",
+    "newTab": "Nova aba",
+    "openNewTabsWith": "Abrir novas abas com",
+    "empty": "Vazio",
+    "homepage": "Página inicial",
+    "homepageUrl": "URL da página inicial",
+    "homepageUrlActive": "Carregada ao abrir uma nova aba",
+    "homepageUrlInactive": "Ative o modo Página inicial para usar",
+    "addressBar": "Barra de endereços",
+    "searchBookmarks": "Pesquisar favoritos",
+    "searchBookmarksDesc": "Exibir favoritos correspondentes ao digitar",
+    "searchHistory": "Pesquisar histórico",
+    "searchHistoryDesc": "Exibir entradas do histórico ao digitar",
+    "theme": "Tema",
+    "colorScheme": "Esquema de cores",
+    "light": "Claro",
+    "dark": "Escuro",
+    "auto": "Automático",
+    "scaling": "Escala",
+    "browserUiScale": "Escala da interface do navegador",
+    "browserUiScaleDesc": "Escala das abas, barra de ferramentas e interface do navegador",
+    "defaultPageZoom": "Zoom padrão da página",
+    "defaultPageZoomDesc": "Escala o conteúdo ao abrir novas abas",
+    "browsingData": "Dados de navegação",
+    "recordBrowsingHistory": "Registrar histórico de navegação",
+    "recordBrowsingHistoryDesc": "Salvar páginas visitadas no histórico",
+    "browsingHistory": "Histórico de navegação",
+    "browsingHistoryDesc": "Visualizar ou limpar seu histórico salvo",
+    "viewBtn": "Visualizar",
+    "clearBtn": "Limpar",
+    "clearedBtn": "Limpo",
+    "interface": "Interface",
+    "mobileUi": "Interface móvel",
+    "mobileUiDesc": "Substituir a detecção automática de plataforma",
+    "mobileAuto": "Automático",
+    "mobileMobile": "Móvel",
+    "mobileDesktop": "Desktop",
+    "onboarding": "Introdução",
+    "resetWelcomeGuide": "Redefinir guia de boas-vindas",
+    "resetWelcomeGuideDesc": "Exibir o guia de boas-vindas novamente imediatamente",
+    "resetBtn": "Redefinir",
+    "doneBtn": "Concluído",
+    "settingsTitle": "Configurações",
+    "zoomDefault": "{{percent}}% (padrão)"
+  },
+  "bookmarkManager": {
+    "title": "Gerenciar favoritos",
+    "titlePlaceholder": "Título",
+    "urlPlaceholder": "URL (ex.: web://…)",
+    "folderNamePlaceholder": "Nome da pasta",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "addBookmarkBtn": "Adicionar favorito",
+    "addFolderBtn": "Adicionar pasta",
+    "addBookmarkToolbar": "Adicionar favorito",
+    "newFolderToolbar": "Nova pasta",
+    "noBookmarksRoot": "Nenhum favorito ainda. Adicione um abaixo.",
+    "emptyFolder": "Esta pasta está vazia.",
+    "openFolder": "Abrir pasta",
+    "rename": "Renomear",
+    "delete": "Excluir"
+  }
+}

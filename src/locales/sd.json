@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "پوئتي",
+    "forward": "اڳتي",
+    "stop": "بند ڪريو",
+    "reload": "ٻيهر لوڊ ڪريو",
+    "newTab": "نئون ٽيب",
+    "copyLink": "لنڪ نقل ڪريو",
+    "connectionSecurity": "ڪنيڪشن سيڪيورٽي",
+    "searchOrEnterUrl": "ڳوليو يا ويب پتو داخل ڪريو",
+    "bookmarks": "بُڪ مارڪ",
+    "options": "آپشن"
+  },
+  "tab": {
+    "settings": "سيٽنگون",
+    "history": "تاريخ",
+    "newTab": "نئون ٽيب"
+  },
+  "urlBar": {
+    "placeholder": "ڳوليو يا ويب پتو داخل ڪريو",
+    "mobilePlaceholder": "ڳوليو يا ويب پتو داخل ڪريو",
+    "bookmarksGroup": "بُڪ مارڪ",
+    "historyGroup": "تاريخ"
+  },
+  "connection": {
+    "authenticated": "تصديق ٿيل",
+    "authVerified": "باهمي تصديق جي تصديق ٿي",
+    "failed": "ڪنيڪشن ناڪام ٿي",
+    "handshakeIncomplete": "هينڊشيڪ مڪمل نه ٿي",
+    "server": "سرور",
+    "client": "ڪلائنٽ",
+    "ephemeral": "عارضي",
+    "logLabel": "لاگ"
+  },
+  "find": {
+    "placeholder": "صفحي ۾ ڳوليو…",
+    "noResults": "ڪو نتيجو نه مليو",
+    "countOf": "{{current}} مان {{total}}",
+    "prevMatch": "اڳوڻو",
+    "nextMatch": "ايندڙ",
+    "close": "ڳولا بار بند ڪريو"
+  },
+  "error": {
+    "timeout": "ڪنيڪشن جو وقت ختم ٿي ويو",
+    "timeoutHint": "سرور جواب ڏيڻ ۾ تمام گهڻو وقت ورتو. شايد آف لائن يا ناقابل رسائي هجي.",
+    "cantConnect": "هن سائيٽ سان ڪنيڪشن ممڪن نه آهي",
+    "cantConnectHint": "سرور ڪنيڪشن کي رد ڪيو يا ناقابل رسائي هو.",
+    "authFailed": "تصديق ناڪام ٿي",
+    "authFailedHint": "سرور جي ڪرپٽوگرافڪ سڃاڻپ جي تصديق نه ٿي سگهي.",
+    "serverNotFound": "سرور نه مليو",
+    "serverNotFoundHint": "هن پتي تي سرور موجود نه آهي يا ناقابل رسائي آهي. پتو چيڪ ڪريو ۽ ٻيهر ڪوشش ڪريو.",
+    "identityError": "سڃاڻپ جي غلطي",
+    "identityErrorHint": "سائيٽ جي سڃاڻپ قائم ڪرڻ ۾ مسئلو هو.",
+    "protocolError": "پروٽوڪول غلطي",
+    "protocolErrorHint": "سرور اهڙو جواب موڪليو جيڪو سمجهي نه سگهيو.",
+    "genericError": "ڪجهه غلط ٿي ويو",
+    "genericErrorHint": "صفحو اڻڄاتل غلطي جي ڪري لوڊ نه ٿيو.",
+    "tryAgain": "ٻيهر ڪوشش ڪريو"
+  },
+  "history": {
+    "title": "تاريخ",
+    "clearAll": "سڀ صاف ڪريو",
+    "empty": "ڪو براؤزنگ تاريخ نه آهي",
+    "websiteColumn": "ويب سائيٽ",
+    "addressColumn": "پتو",
+    "removeFromHistory": "تاريخ مان هٽايو",
+    "labelToday": "اڄ",
+    "labelYesterday": "ڪالهه",
+    "labelEarlier": "اڳ"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "هي صفحو بُڪ مارڪ ڪريو",
+    "removeBookmark": "بُڪ مارڪ هٽايو",
+    "bookmarkAllTabs": "سڀ ٽيب بُڪ مارڪ ڪريو",
+    "addBookmark": "بُڪ مارڪ شامل ڪريو",
+    "newFolder": "نئون فولڊر",
+    "addFolder": "فولڊر شامل ڪريو",
+    "add": "شامل ڪريو",
+    "cancel": "رد ڪريو",
+    "save": "محفوظ ڪريو",
+    "noBookmarks": "اڃا ڪو بُڪ مارڪ نه آهي",
+    "emptyFolder": "خالي فولڊر",
+    "folderNamePlaceholder": "فولڊر جو نالو",
+    "titlePlaceholder": "عنوان",
+    "openFolder": "فولڊر کوليو",
+    "edit": "تبديل ڪريو",
+    "delete": "حذف ڪريو",
+    "goBack": "پوئتي",
+    "dropToMove": "{{label}} ڏانهن منتقل ڪرڻ لاءِ هتي ڇڏيو",
+    "rootLabel": "روٽ",
+    "parentLabel": "پيرنٽ فولڊر"
+  },
+  "optionsMenu": {
+    "zoomOut": "ننڍو ڪريو",
+    "zoomIn": "وڏو ڪريو",
+    "resetZoom": "زوم ريسيٽ ڪريو",
+    "findInPage": "صفحي ۾ ڳوليو",
+    "print": "ڇاپيو",
+    "history": "تاريخ",
+    "settings": "سيٽنگون",
+    "current": "موجوده"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "لنڪ نئين ٽيب ۾ کوليو",
+    "copyLinkAddress": "لنڪ پتو نقل ڪريو",
+    "cut": "ڪٽيو",
+    "copy": "نقل ڪريو",
+    "paste": "پيسٽ ڪريو",
+    "selectAll": "سڀ چونڊيو",
+    "back": "پوئتي",
+    "forward": "اڳتي",
+    "reload": "ٻيهر لوڊ ڪريو",
+    "share": "شيئر ڪريو",
+    "savePageAs": "صفحو بطور محفوظ ڪريو",
+    "print": "ڇاپيو",
+    "copyLink": "لنڪ نقل ڪريو",
+    "copied": "نقل ٿي ويو!",
+    "copyProxyLink": "پروڪسي لنڪ نقل ڪريو"
+  },
+  "windowControls": {
+    "minimize": "ننڍو ڪريو",
+    "maximize": "وڏو ڪريو",
+    "close": "بند ڪريو"
+  },
+  "mobileStart": {
+    "favorites": "پسنديدا",
+    "noFavoritesHint": "بُڪ مارڪ شامل ڪريو ۽ اهي هتي پسنديدن طور ظاهر ٿيندا.",
+    "readingList": "پڙهڻ جي فهرست",
+    "readingListHint": "پڙهڻ جي فهرست توهان کي بعد ۾ پڙهڻ لاءِ ويب صفحا گڏ ڪرڻ جي اجازت ڏئي ٿي."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "ٽيب ڳوليو",
+    "bookmarksBtn": "بُڪ مارڪ",
+    "newTabBtn": "نئون ٽيب",
+    "reloadBtn": "ٻيهر لوڊ ڪريو",
+    "moreBtn": "وڌيڪ",
+    "closeTabTipTitle": "ٽيب بند ڪريو",
+    "closeTabTipBody": "بند ڪرڻ لاءِ ڪنهن به ٽيب کي مٿي ڇڪيو."
+  },
+  "mobileOptions": {
+    "cancelBtn": "رد ڪريو",
+    "back": "پوئتي",
+    "forward": "اڳتي",
+    "stop": "بند ڪريو",
+    "reload": "ٻيهر لوڊ ڪريو",
+    "findInPage": "صفحي ۾ ڳوليو",
+    "print": "ڇاپيو",
+    "removeBookmark": "بُڪ مارڪ هٽايو",
+    "addBookmark": "بُڪ مارڪ شامل ڪريو",
+    "settings": "سيٽنگون"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "بُڪ مارڪ",
+    "historyTab": "تاريخ",
+    "searchBookmarks": "بُڪ مارڪ ڳوليو",
+    "searchHistory": "تاريخ ڳوليو",
+    "noBookmarks": "اڃا ڪو بُڪ مارڪ نه آهي",
+    "noHistory": "ڪو تاريخ نه آهي",
+    "editBookmark": "بُڪ مارڪ تبديل ڪريو",
+    "titleLabel": "عنوان",
+    "urlLabel": "URL",
+    "save": "محفوظ ڪريو",
+    "deleteBookmark": "بُڪ مارڪ حذف ڪريو",
+    "cancel": "رد ڪريو"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "ايڊريس بار",
+      "body": "ڳولڻ يا URL ٽائيپ ڪرڻ لاءِ ٽيپ ڪريو. ٽيبن جي وچ ۾ منتقل ٿيڻ لاءِ کاٻي يا ساڄي ڇڪيو."
+    },
+    "seeYourTabs": {
+      "title": "پنهنجا ٽيب ڏسو",
+      "body": "سڀ کليل ٽيب ڏسڻ لاءِ ايڊريس بار تي مٿي ڇڪيو."
+    },
+    "bookmarksHistory": {
+      "title": "بُڪ مارڪ ۽ تاريخ",
+      "body": "محفوظ ٿيل صفحا ڏسڻ ۽ سائيٽن تي ٻيهر وڃڻ لاءِ هتي ٽيپ ڪريو."
+    },
+    "moreOptions": {
+      "title": "وڌيڪ آپشن",
+      "body": "سيٽنگون، صفحي ۾ ڳولا ۽ براؤزر ڪنٽرول تائين رسائي حاصل ڪريو."
+    },
+    "newTab": {
+      "title": "نئون ٽيب",
+      "body": "توهان کي خبر آهي اهو ڇا آهي."
+    }
+  },
+  "onboarding": {
+    "skip": "ڇڏيو",
+    "continue": "جاري رکو",
+    "getStarted": "شروع ڪريو",
+    "showMeAround": "مون کي ڏيکاريو",
+    "iKnowWhatImDoing": "مون کي خبر آهي مان ڇا ڪري رهيو آهيان",
+    "steps": {
+      "welcome": {
+        "title": "Eclipse ۾ ڀلي ڪري آيا",
+        "body": "NWEP پيئر-ٽو-پيئر ويب لاءِ ٺاهيل براؤزر — جتي سائيٽون سڌو ڊوائيسن تي هلن ٿيون، ريموٽ سرورن تي نه."
+      },
+      "browse": {
+        "title": "NWEP ويب براؤز ڪريو",
+        "body": "NWEP سائيٽن سان سڌو ڳنڍجڻ لاءِ ايڊريس بار ۾ web:// پتا ٽائيپ ڪريو. ڪو DNS نه، ڪو وچولو نه."
+      },
+      "private": {
+        "title": "ڊفالٽ طور نجي",
+        "body": "هر ڪنيڪشن نئين عارضي سڃاڻپ استعمال ڪري ٿو — مستقل ٽريڪنگ کان سواءِ آخر کان آخر تائين انڪرپٽيد."
+      },
+      "allSet": {
+        "title": "توهان تيار آهيو",
+        "body": "ايڊريس بار ۾ web:// پتو ٽائيپ ڪري شروع ڪريو يا نيٽ ورڪ تي ڇا موجود آهي اها ڳوليو."
+      },
+      "tour": {
+        "title": "ڇا توهان هڪ تڪڙو دورو ڪرڻ چاهيو ٿا؟",
+        "body": "اسان توهان کي انهن حرڪتن ۽ خاصيتن جي باري ۾ رهنمائي ڪنداسين جيڪي Eclipse ۾ نيويگيشن آسان بڻائين ٿيون."
+      }
+    }
+  },
+  "settings": {
+    "language": "ٻولي",
+    "general": "عام",
+    "appearance": "ظاهر",
+    "privacy": "رازداري",
+    "developers": "ڊولپر",
+    "newTab": "نئون ٽيب",
+    "openNewTabsWith": "نئان ٽيب کوليو سان",
+    "empty": "خالي",
+    "homepage": "هوم پيج",
+    "homepageUrl": "هوم پيج URL",
+    "homepageUrlActive": "نئون ٽيب کولڻ وقت لوڊ ٿئي ٿو",
+    "homepageUrlInactive": "هي استعمال ڪرڻ لاءِ هوم پيج موڊ تي وڃو",
+    "addressBar": "ايڊريس بار",
+    "searchBookmarks": "بُڪ مارڪ ڳوليو",
+    "searchBookmarksDesc": "ٽائيپ ڪرڻ وقت ملندڙ بُڪ مارڪ ڏيکاريو",
+    "searchHistory": "تاريخ ڳوليو",
+    "searchHistoryDesc": "ٽائيپ ڪرڻ وقت ملندڙ تاريخ جون داخلائون ڏيکاريو",
+    "theme": "ٿيم",
+    "colorScheme": "رنگ اسڪيم",
+    "light": "روشن",
+    "dark": "اونداهو",
+    "auto": "خودڪار",
+    "scaling": "اسڪيلنگ",
+    "browserUiScale": "براؤزر UI اسڪيل",
+    "browserUiScaleDesc": "ٽيب، ٽول بار ۽ براؤزر انٽرفيس کي اسڪيل ڪري ٿو",
+    "defaultPageZoom": "ڊفالٽ پيج زوم",
+    "defaultPageZoomDesc": "نئان ٽيب کولڻ وقت پيج مواد کي اسڪيل ڪري ٿو",
+    "browsingData": "براؤزنگ ڊيٽا",
+    "recordBrowsingHistory": "براؤزنگ تاريخ رڪارڊ ڪريو",
+    "recordBrowsingHistoryDesc": "ويزٽ ڪيل صفحا پنهنجي تاريخ ۾ محفوظ ڪريو",
+    "browsingHistory": "براؤزنگ تاريخ",
+    "browsingHistoryDesc": "پنهنجي محفوظ تاريخ ڏسو يا صاف ڪريو",
+    "viewBtn": "ڏسو",
+    "clearBtn": "صاف ڪريو",
+    "clearedBtn": "صاف ٿي ويو",
+    "interface": "انٽرفيس",
+    "mobileUi": "موبائل UI",
+    "mobileUiDesc": "خودڪار پليٽ فارم ڊيٽيڪشن کي اوور رائڊ ڪريو",
+    "mobileAuto": "خودڪار",
+    "mobileMobile": "موبائل",
+    "mobileDesktop": "ڊيسڪ ٽاپ",
+    "onboarding": "شروعات",
+    "resetWelcomeGuide": "ڀلي ڪري آيا گائيڊ ريسيٽ ڪريو",
+    "resetWelcomeGuideDesc": "فوري طور خير مقدم دوري کي ٻيهر ڏيکاريو",
+    "resetBtn": "ريسيٽ ڪريو",
+    "doneBtn": "ٿي ويو",
+    "settingsTitle": "سيٽنگون",
+    "zoomDefault": "{{percent}}٪ (ڊفالٽ)"
+  },
+  "bookmarkManager": {
+    "title": "بُڪ مارڪ مئنيجر",
+    "titlePlaceholder": "عنوان",
+    "urlPlaceholder": "URL (مثلاً web://…)",
+    "folderNamePlaceholder": "فولڊر جو نالو",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "رد ڪريو",
+    "save": "محفوظ ڪريو",
+    "addBookmarkBtn": "بُڪ مارڪ شامل ڪريو",
+    "addFolderBtn": "فولڊر شامل ڪريو",
+    "addBookmarkToolbar": "بُڪ مارڪ شامل ڪريو",
+    "newFolderToolbar": "نئون فولڊر",
+    "noBookmarksRoot": "اڃا ڪو بُڪ مارڪ نه آهي. هيٺ هڪ شامل ڪريو.",
+    "emptyFolder": "هي فولڊر خالي آهي.",
+    "openFolder": "فولڊر کوليو",
+    "rename": "نالو تبديل ڪريو",
+    "delete": "حذف ڪريو"
+  }
+}

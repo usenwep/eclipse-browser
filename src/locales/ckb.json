@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "back": "دواوە",
+    "forward": "پێشەوە",
+    "stop": "وەستان",
+    "reload": "دووبارە بارکردن",
+    "newTab": "تابی نوێ",
+    "copyLink": "کۆپیکردنی بەستەر",
+    "connectionSecurity": "ئەمنیەتی پەیوەندی",
+    "searchOrEnterUrl": "بگەڕێ یان ناونیشانی مەلپەڕ بنووسە",
+    "bookmarks": "نیشانەکان",
+    "options": "هەڵبژاردەکان"
+  },
+  "tab": {
+    "settings": "ڕێکخستنەکان",
+    "history": "مێژوو",
+    "newTab": "تابی نوێ"
+  },
+  "urlBar": {
+    "placeholder": "بگەڕێ یان ناونیشانی مەلپەڕ بنووسە",
+    "mobilePlaceholder": "بگەڕێ یان ناونیشانی مەلپەڕ بنووسە",
+    "bookmarksGroup": "نیشانەکان",
+    "historyGroup": "مێژوو"
+  },
+  "connection": {
+    "authenticated": "پشتڕاستکراوە",
+    "authVerified": "دڵنیاکردنەوەی دوولایەنە پشتڕاستکرا",
+    "failed": "پەیوەندی سەرنەکەوت",
+    "handshakeIncomplete": "دەستدانی تەواو نەبوو",
+    "server": "سێرڤەر",
+    "client": "کڕیار",
+    "ephemeral": "کاتی",
+    "logLabel": "تۆمار"
+  },
+  "find": {
+    "placeholder": "لە لاپەڕەدا بگەڕێ…",
+    "noResults": "ئەنجامێک نییە",
+    "countOf": "{{current}} لە {{total}}",
+    "prevMatch": "پێشتر",
+    "nextMatch": "دواتر",
+    "close": "داخستنی باری گەڕان"
+  },
+  "error": {
+    "timeout": "کاتی پەیوەندی تەواو بوو",
+    "timeoutHint": "سێرڤەر زۆر درەنگ بوو لە وەڵامدانەوە. لەوانەیە ئۆفلاین یان دەستنەگەیشتنی بێت.",
+    "cantConnect": "ناتوانرێت بە ئەم ماڵپەڕە پەیوەندی بکرێت",
+    "cantConnectHint": "سێرڤەر پەیوەندییەکەی ڕەتکردەوە یان دەستنەگەیشتنی بوو.",
+    "authFailed": "دڵنیاکردنەوە سەرنەکەوت",
+    "authFailedHint": "ناتوانرێت ناسنامەی کریپتۆگرافیکی سێرڤەر پشتڕاست بکرێتەوە.",
+    "serverNotFound": "سێرڤەر نەدۆزرایەوە",
+    "serverNotFoundHint": "سێرڤەر لەم ناونیشانەدا بوونی نییە یان دەستنەگەیشتنییە. ناونیشانەکە بپشکنە و دووبارە هەوڵبدە.",
+    "identityError": "هەڵەی ناسنامە",
+    "identityErrorHint": "کێشەیەک هەبوو لە دامەزراندنی ناسنامەی ماڵپەڕەکە.",
+    "protocolError": "هەڵەی پرۆتۆکۆل",
+    "protocolErrorHint": "سێرڤەر وەڵامێکی نەناسراوی ناردەوە.",
+    "genericError": "کێشەیەک ڕووی دا",
+    "genericErrorHint": "لاپەڕەکە بار نەکرا بەهۆی هەڵەیەکی چاوەڕوان نەکراو.",
+    "tryAgain": "دووبارە هەوڵبدە"
+  },
+  "history": {
+    "title": "مێژوو",
+    "clearAll": "سڕینەوەی هەموو",
+    "empty": "مێژووی گەڕانی نییە",
+    "websiteColumn": "ماڵپەڕ",
+    "addressColumn": "ناونیشان",
+    "removeFromHistory": "لابردن لە مێژوو",
+    "labelToday": "ئەمڕۆ",
+    "labelYesterday": "دوێنێ",
+    "labelEarlier": "پێشتر"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "نیشانەکردنی ئەم لاپەڕەیە",
+    "removeBookmark": "لابردنی نیشانە",
+    "bookmarkAllTabs": "نیشانەکردنی هەموو تابەکان",
+    "addBookmark": "زیادکردنی نیشانە",
+    "newFolder": "پووشەی نوێ",
+    "addFolder": "زیادکردنی پووشە",
+    "add": "زیادکردن",
+    "cancel": "هەڵوەشاندنەوە",
+    "save": "پاشەکەوتکردن",
+    "noBookmarks": "هێشتا نیشانەیەک نییە",
+    "emptyFolder": "پووشەی بەتاڵ",
+    "folderNamePlaceholder": "ناوی پووشە",
+    "titlePlaceholder": "ناونیشان",
+    "openFolder": "کردنەوەی پووشە",
+    "edit": "دەستکاریکردن",
+    "delete": "سڕینەوە",
+    "goBack": "گەڕانەوە",
+    "dropToMove": "بیخە ئێرە بۆ گواستنەوە بۆ {{label}}",
+    "rootLabel": "ڕەگ",
+    "parentLabel": "پووشەی دایک"
+  },
+  "optionsMenu": {
+    "zoomOut": "بچووکترکردن",
+    "zoomIn": "گەورەترکردن",
+    "resetZoom": "ڕیسێتکردنی زووم",
+    "findInPage": "گەڕان لە لاپەڕە",
+    "print": "چاپکردن",
+    "history": "مێژوو",
+    "settings": "ڕێکخستنەکان",
+    "current": "ئێستا"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "کردنەوەی بەستەر لە تابی نوێدا",
+    "copyLinkAddress": "کۆپیکردنی ناونیشانی بەستەر",
+    "cut": "بڕینەوە",
+    "copy": "کۆپیکردن",
+    "paste": "پەیستکردن",
+    "selectAll": "هەموو هەڵبژاردن",
+    "back": "دواوە",
+    "forward": "پێشەوە",
+    "reload": "دووبارە بارکردن",
+    "share": "هاوبەشکردن",
+    "savePageAs": "پاشەکەوتکردنی لاپەڕە وەک",
+    "print": "چاپکردن",
+    "copyLink": "کۆپیکردنی بەستەر",
+    "copied": "کۆپیکرا!",
+    "copyProxyLink": "کۆپیکردنی بەستەری پرۆکسی"
+  },
+  "windowControls": {
+    "minimize": "بچووکترکردن",
+    "maximize": "گەورەترکردن",
+    "close": "داخستن"
+  },
+  "mobileStart": {
+    "favorites": "دڵخوازەکان",
+    "noFavoritesHint": "نیشانە زیاد بکە تا ئەوان ئێرەدا وەک دڵخواز دەرکەون.",
+    "readingList": "لیستی خوێندنەوە",
+    "readingListHint": "لیستی خوێندنەوە ڕێگەت پێدەدات لاپەڕە ویبەکان کۆبکەیتەوە بۆ خوێندنەوەی دواتر."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "گەڕان لە تابەکاندا",
+    "bookmarksBtn": "نیشانەکان",
+    "newTabBtn": "تابی نوێ",
+    "reloadBtn": "دووبارە بارکردن",
+    "moreBtn": "زیاتر",
+    "closeTabTipTitle": "داخستنی تاب",
+    "closeTabTipBody": "هەر تابێک بکێشە سەرەوە بۆ داخستنی."
+  },
+  "mobileOptions": {
+    "cancelBtn": "هەڵوەشاندنەوە",
+    "back": "دواوە",
+    "forward": "پێشەوە",
+    "stop": "وەستان",
+    "reload": "دووبارە بارکردن",
+    "findInPage": "گەڕان لە لاپەڕە",
+    "print": "چاپکردن",
+    "removeBookmark": "لابردنی نیشانە",
+    "addBookmark": "زیادکردنی نیشانە",
+    "settings": "ڕێکخستنەکان"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "نیشانەکان",
+    "historyTab": "مێژوو",
+    "searchBookmarks": "گەڕان لە نیشانەکاندا",
+    "searchHistory": "گەڕان لە مێژوودا",
+    "noBookmarks": "هێشتا نیشانەیەک نییە",
+    "noHistory": "مێژوویەک نییە",
+    "editBookmark": "دەستکاریکردنی نیشانە",
+    "titleLabel": "ناونیشان",
+    "urlLabel": "URL",
+    "save": "پاشەکەوتکردن",
+    "deleteBookmark": "سڕینەوەی نیشانە",
+    "cancel": "هەڵوەشاندنەوە"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "باری ناونیشان",
+      "body": "بیتاقە بۆ گەڕان یان نووسینی URL. بیکێشە بۆ چەپ یان ڕاست بۆ گەڕانی نێوان تابەکان."
+    },
+    "seeYourTabs": {
+      "title": "تابەکانت ببینە",
+      "body": "باری ناونیشان بیکێشە سەرەوە بۆ بینینی هەموو تابە کراوەکان."
+    },
+    "bookmarksHistory": {
+      "title": "نیشانەکان و مێژوو",
+      "body": "ئێرە بیتاقە بۆ گەڕانی لاپەڕە پاشەکەوتکراوەکان و سەردانی دووبارەی ماڵپەڕەکان."
+    },
+    "moreOptions": {
+      "title": "هەڵبژاردەی زیاتر",
+      "body": "دەستگەیشتن بە ڕێکخستنەکان، گەڕان لە لاپەڕە و کۆنترۆلەکانی وێبگەڕ."
+    },
+    "newTab": {
+      "title": "تابی نوێ",
+      "body": "دەزانی ئەمە چییە."
+    }
+  },
+  "onboarding": {
+    "skip": "تێپەڕین",
+    "continue": "بەردەوامبوون",
+    "getStarted": "دەستپێکردن",
+    "showMeAround": "نیشانمبدە",
+    "iKnowWhatImDoing": "دەزانم چی دەکەم",
+    "steps": {
+      "welcome": {
+        "title": "بەخێربێیت بۆ Eclipse",
+        "body": "وێبگەڕێک دروستکراو بۆ ویبی NWEP ئاگادارکردنەوەی هاوبەش — کە ماڵپەڕەکان ڕاستەوخۆ لەسەر ئامێرەکان کار دەکەن، نەک سێرڤەرە دوورەکان."
+      },
+      "browse": {
+        "title": "ویبی NWEP بگەڕێ",
+        "body": "ناونیشانی web:// لە باری ناونیشاندا بنووسە بۆ پەیوەندیکردنی ڕاستەوخۆ بە ماڵپەڕە NWEPەکان. بێ DNS، بێ ناوبەر."
+      },
+      "private": {
+        "title": "بە شێوەی بنچینەیی تایبەتی",
+        "body": "هەر پەیوەندییەک ناسنامەیەکی کاتی نوێ بەکاردەهێنێت — نهێنیکردنی سەرتاسەری بێ شوێنکردنەوەی هەمیشەیی."
+      },
+      "allSet": {
+        "title": "ئامادەیت",
+        "body": "دەستت پێبکە بە نووسینی ناونیشانی web:// لە باری ناونیشاندا یان بپشکنە چی لە تۆڕەکەدا هەیە."
+      },
+      "tour": {
+        "title": "دەتەوێت گەشتێکی کورت بکەیت؟",
+        "body": "ئاواکاریەکان و تایبەتمەندییەکانت ڕێنوێنی دەکەین کە گەڕانی لە Eclipse ئاسانتر دەکات."
+      }
+    }
+  },
+  "settings": {
+    "language": "زمان",
+    "general": "گشتی",
+    "appearance": "ڕووکار",
+    "privacy": "تایبەتی",
+    "developers": "پەرەپێدەران",
+    "newTab": "تابی نوێ",
+    "openNewTabsWith": "تابە نوێیەکان بکەرەوە بە",
+    "empty": "بەتاڵ",
+    "homepage": "لاپەڕەی سەرەکی",
+    "homepageUrl": "URLی لاپەڕەی سەرەکی",
+    "homepageUrlActive": "کاتی کردنەوەی تابی نوێ بار دەکرێت",
+    "homepageUrlInactive": "بۆ بەکارهێنانی ئەمە بڕۆ بۆ دۆخی لاپەڕەی سەرەکی",
+    "addressBar": "باری ناونیشان",
+    "searchBookmarks": "گەڕان لە نیشانەکاندا",
+    "searchBookmarksDesc": "نیشانە هاوتاوەکان نیشان بدە کاتی نووسین",
+    "searchHistory": "گەڕان لە مێژوودا",
+    "searchHistoryDesc": "تۆمارەکانی مێژووی هاوتاو نیشان بدە کاتی نووسین",
+    "theme": "داڕێژە",
+    "colorScheme": "شێوازی ڕەنگ",
+    "light": "ڕووناک",
+    "dark": "تاریک",
+    "auto": "خودکار",
+    "scaling": "پێوانەکردن",
+    "browserUiScale": "پێوانەی UIی وێبگەڕ",
+    "browserUiScaleDesc": "تابەکان، باری ئامراز و ڕووکاری وێبگەڕ پێوانە دەکات",
+    "defaultPageZoom": "زوومی بنچینەیی لاپەڕە",
+    "defaultPageZoomDesc": "کاتی کردنەوەی تابە نوێیەکان ناوەڕۆکی لاپەڕە پێوانە دەکات",
+    "browsingData": "داتای گەڕان",
+    "recordBrowsingHistory": "تۆمارکردنی مێژووی گەڕان",
+    "recordBrowsingHistoryDesc": "لاپەڕە سەردانکراوەکان لە مێژووتدا پاشەکەوت بکە",
+    "browsingHistory": "مێژووی گەڕان",
+    "browsingHistoryDesc": "مێژووی پاشەکەوتکراوت ببینە یان پاک بکەرەوە",
+    "viewBtn": "بینین",
+    "clearBtn": "پاककردنەوە",
+    "clearedBtn": "پاككرایەوە",
+    "interface": "ڕووکار",
+    "mobileUi": "UIی مۆبایل",
+    "mobileUiDesc": "پاشگیری کردنەوەی ناسینەوەی خودکاری پلاتفۆرم",
+    "mobileAuto": "خودکار",
+    "mobileMobile": "مۆبایل",
+    "mobileDesktop": "شاشەی کومپیوتەر",
+    "onboarding": "دەستپێکردن",
+    "resetWelcomeGuide": "ڕیسێتکردنی ڕێنمایی بەخێرهاتن",
+    "resetWelcomeGuideDesc": "یەکسەر گەشتی بەخێرهاتن دووبارە نیشان بدە",
+    "resetBtn": "ڕیسێت",
+    "doneBtn": "تەواو",
+    "settingsTitle": "ڕێکخستنەکان",
+    "zoomDefault": "{{percent}}٪ (بنچینەیی)"
+  },
+  "bookmarkManager": {
+    "title": "بەڕێوەبردنی نیشانەکان",
+    "titlePlaceholder": "ناونیشان",
+    "urlPlaceholder": "URL (نموونە web://…)",
+    "folderNamePlaceholder": "ناوی پووشە",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "هەڵوەشاندنەوە",
+    "save": "پاشەکەوتکردن",
+    "addBookmarkBtn": "زیادکردنی نیشانە",
+    "addFolderBtn": "زیادکردنی پووشە",
+    "addBookmarkToolbar": "زیادکردنی نیشانە",
+    "newFolderToolbar": "پووشەی نوێ",
+    "noBookmarksRoot": "هێشتا نیشانەیەک نییە. یەکێک لە خوارەوە زیاد بکە.",
+    "emptyFolder": "ئەم پووشەیە بەتاڵە.",
+    "openFolder": "کردنەوەی پووشە",
+    "rename": "گۆڕینی ناو",
+    "delete": "سڕینەوە"
+  }
+}

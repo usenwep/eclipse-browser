@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "back": "Înapoi",
+    "forward": "Înainte",
+    "stop": "Oprește",
+    "reload": "Reîncarcă",
+    "newTab": "Filă nouă",
+    "copyLink": "Copiază linkul",
+    "connectionSecurity": "Securitatea conexiunii",
+    "searchOrEnterUrl": "Caută sau introdu numele site-ului",
+    "bookmarks": "Marcaje",
+    "options": "Opțiuni"
+  },
+  "tab": {
+    "settings": "Setări",
+    "history": "Istoric",
+    "newTab": "Filă nouă"
+  },
+  "urlBar": {
+    "placeholder": "Caută sau introdu numele site-ului",
+    "mobilePlaceholder": "Caută sau introdu un site",
+    "bookmarksGroup": "Marcaje",
+    "historyGroup": "Istoric"
+  },
+  "connection": {
+    "authenticated": "Autentificat",
+    "authVerified": "Autentificare reciprocă verificată",
+    "failed": "Conexiune eșuată",
+    "handshakeIncomplete": "Handshake-ul nu s-a finalizat",
+    "server": "server",
+    "client": "client",
+    "ephemeral": "efemer",
+    "logLabel": "jurnal"
+  },
+  "find": {
+    "placeholder": "Caută în pagină…",
+    "noResults": "Niciun rezultat",
+    "countOf": "{{current}} din {{total}}",
+    "prevMatch": "Potrivire anterioară",
+    "nextMatch": "Potrivire următoare",
+    "close": "Închide bara de căutare"
+  },
+  "error": {
+    "timeout": "Conexiunea a expirat",
+    "timeoutHint": "Serverul a întârziat prea mult să răspundă. Poate fi offline sau inaccesibil.",
+    "cantConnect": "Nu se poate conecta la acest site",
+    "cantConnectHint": "Serverul a refuzat conexiunea sau nu a putut fi accesat.",
+    "authFailed": "Autentificarea a eșuat",
+    "authFailedHint": "Identitatea criptografică a serverului nu a putut fi verificată.",
+    "serverNotFound": "Server negăsit",
+    "serverNotFoundHint": "Serverul de la această adresă nu există sau nu poate fi accesat. Verificați adresa și încercați din nou.",
+    "identityError": "Eroare de identitate",
+    "identityErrorHint": "A apărut o problemă la stabilirea identității site-ului.",
+    "protocolError": "Eroare de protocol",
+    "protocolErrorHint": "Serverul a trimis un răspuns care nu a putut fi interpretat.",
+    "genericError": "Ceva a mers greșit",
+    "genericErrorHint": "Pagina nu a putut fi încărcată din cauza unei erori neașteptate.",
+    "tryAgain": "Încearcă din nou"
+  },
+  "history": {
+    "title": "Istoric",
+    "clearAll": "Șterge tot",
+    "empty": "Niciun istoric de navigare",
+    "websiteColumn": "Site web",
+    "addressColumn": "Adresă",
+    "removeFromHistory": "Elimină din istoric",
+    "labelToday": "Azi",
+    "labelYesterday": "Ieri",
+    "labelEarlier": "Mai devreme"
+  },
+  "bookmarksMenu": {
+    "bookmarkPage": "Marchează această pagină",
+    "removeBookmark": "Elimină marcajul",
+    "bookmarkAllTabs": "Marchează toate filele",
+    "addBookmark": "Adaugă marcaj",
+    "newFolder": "Folder nou",
+    "addFolder": "Adaugă folder",
+    "add": "Adaugă",
+    "cancel": "Anulează",
+    "save": "Salvează",
+    "noBookmarks": "Niciun marcaj încă",
+    "emptyFolder": "Folder gol",
+    "folderNamePlaceholder": "Numele folderului",
+    "titlePlaceholder": "Titlu",
+    "openFolder": "Deschide folderul",
+    "edit": "Editează",
+    "delete": "Șterge",
+    "goBack": "Înapoi",
+    "dropToMove": "Trage aici pentru a muta în {{label}}",
+    "rootLabel": "rădăcină",
+    "parentLabel": "părinte"
+  },
+  "optionsMenu": {
+    "zoomOut": "Micșorează",
+    "zoomIn": "Mărește",
+    "resetZoom": "Resetează zoom-ul",
+    "findInPage": "Caută în pagină",
+    "print": "Imprimă",
+    "history": "Istoric",
+    "settings": "Setări",
+    "current": "Curent"
+  },
+  "contextMenu": {
+    "openLinkNewTab": "Deschide linkul în filă nouă",
+    "copyLinkAddress": "Copiază adresa linkului",
+    "cut": "Taie",
+    "copy": "Copiază",
+    "paste": "Lipește",
+    "selectAll": "Selectează tot",
+    "back": "Înapoi",
+    "forward": "Înainte",
+    "reload": "Reîncarcă",
+    "share": "Distribuie",
+    "savePageAs": "Salvează pagina ca",
+    "print": "Imprimă",
+    "copyLink": "Copiază linkul",
+    "copied": "Copiat!",
+    "copyProxyLink": "Copiază linkul proxy"
+  },
+  "windowControls": {
+    "minimize": "Minimizează",
+    "maximize": "Maximizează",
+    "close": "Închide"
+  },
+  "mobileStart": {
+    "favorites": "Favorite",
+    "noFavoritesHint": "Adaugă marcaje și vor apărea aici ca favorite.",
+    "readingList": "Listă de lectură",
+    "readingListHint": "Lista de lectură îți permite să colectezi pagini web și linkuri pentru a le citi mai târziu. Apasă butonul Distribuie pentru a adăuga pagina curentă."
+  },
+  "mobileTabs": {
+    "searchPlaceholder": "Caută file",
+    "bookmarksBtn": "Marcaje",
+    "newTabBtn": "Filă nouă",
+    "reloadBtn": "Reîncarcă",
+    "moreBtn": "Mai mult",
+    "closeTabTipTitle": "Închide o filă",
+    "closeTabTipBody": "Trage orice filă în sus pentru a o închide."
+  },
+  "mobileOptions": {
+    "cancelBtn": "Anulează",
+    "back": "Înapoi",
+    "forward": "Înainte",
+    "stop": "Oprește",
+    "reload": "Reîncarcă",
+    "findInPage": "Caută în pagină",
+    "print": "Imprimă",
+    "removeBookmark": "Elimină marcajul",
+    "addBookmark": "Adaugă marcaj",
+    "settings": "Setări"
+  },
+  "mobileBookmarks": {
+    "bookmarksTab": "Marcaje",
+    "historyTab": "Istoric",
+    "searchBookmarks": "Caută marcaje",
+    "searchHistory": "Caută în istoric",
+    "noBookmarks": "Niciun marcaj încă",
+    "noHistory": "Niciun istoric",
+    "editBookmark": "Editează marcajul",
+    "titleLabel": "Titlu",
+    "urlLabel": "URL",
+    "save": "Salvează",
+    "deleteBookmark": "Șterge marcajul",
+    "cancel": "Anulează"
+  },
+  "tourTips": {
+    "addressBar": {
+      "title": "Bara de adrese",
+      "body": "Apasă pentru a căuta sau a introduce un URL. Glisează la stânga sau la dreapta pentru a comuta între file."
+    },
+    "seeYourTabs": {
+      "title": "Vezi filele tale",
+      "body": "Glisează în sus pe bara de adrese pentru a vedea toate filele deschise."
+    },
+    "bookmarksHistory": {
+      "title": "Marcaje și istoric",
+      "body": "Apasă aici pentru a răsfoi paginile salvate și a revisita site-urile accesate."
+    },
+    "moreOptions": {
+      "title": "Mai multe opțiuni",
+      "body": "Accesează setările, căutarea în pagină și alte controale ale browserului."
+    },
+    "newTab": {
+      "title": "Filă nouă",
+      "body": "Știi deja la ce servește."
+    }
+  },
+  "onboarding": {
+    "skip": "Sari peste",
+    "continue": "Continuă",
+    "getStarted": "Începe",
+    "showMeAround": "Arată-mi cum funcționează",
+    "iKnowWhatImDoing": "Știu ce fac",
+    "steps": {
+      "welcome": {
+        "title": "Bine ai venit în Eclipse",
+        "body": "Un browser construit pentru web-ul peer-to-peer NWEP — site-urile rulează direct pe dispozitive, nu pe servere la distanță."
+      },
+      "browse": {
+        "title": "Navighează pe web-ul NWEP",
+        "body": "Introdu adrese web:// în bara URL pentru a te conecta direct la site-uri NWEP. Fără DNS, fără intermediari."
+      },
+      "private": {
+        "title": "Privat în mod implicit",
+        "body": "Fiecare conexiune folosește o identitate efemeră nouă — criptată end-to-end, fără urmărire persistentă."
+      },
+      "allSet": {
+        "title": "Ești gata",
+        "body": "Începe introducând o adresă web:// în bara URL sau explorează ce este disponibil în rețea."
+      },
+      "tour": {
+        "title": "Vrei un tur rapid?",
+        "body": "Te vom ghida prin gesturile și funcțiile care fac Eclipse ușor de utilizat."
+      }
+    }
+  },
+  "settings": {
+    "general": "General",
+    "appearance": "Aspect",
+    "privacy": "Confidențialitate",
+    "developers": "Dezvoltatori",
+    "newTab": "Filă nouă",
+    "openNewTabsWith": "Deschide filele noi cu",
+    "empty": "Goală",
+    "homepage": "Pagină de start",
+    "homepageUrl": "URL pagină de start",
+    "homepageUrlActive": "Se încarcă la deschiderea unei file noi",
+    "homepageUrlInactive": "Activează modul Pagină de start pentru a folosi aceasta",
+    "addressBar": "Bara de adrese",
+    "searchBookmarks": "Caută marcaje",
+    "searchBookmarksDesc": "Afișează marcaje potrivite pe măsură ce scrii",
+    "searchHistory": "Caută în istoric",
+    "searchHistoryDesc": "Afișează intrări din istoric pe măsură ce scrii",
+    "theme": "Temă",
+    "colorScheme": "Schemă de culori",
+    "light": "Deschis",
+    "dark": "Întunecat",
+    "auto": "Automat",
+    "scaling": "Scalare",
+    "browserUiScale": "Scara interfeței browserului",
+    "browserUiScaleDesc": "Scalează filele, bara de instrumente și interfața browserului",
+    "defaultPageZoom": "Zoom implicit al paginii",
+    "defaultPageZoomDesc": "Scalează conținutul paginii la deschiderea filelor noi",
+    "browsingData": "Date de navigare",
+    "recordBrowsingHistory": "Înregistrează istoricul de navigare",
+    "recordBrowsingHistoryDesc": "Salvează paginile vizitate în istoricul tău",
+    "browsingHistory": "Istoricul de navigare",
+    "browsingHistoryDesc": "Vizualizează sau șterge istoricul salvat",
+    "viewBtn": "Vizualizează",
+    "clearBtn": "Șterge",
+    "clearedBtn": "Șters",
+    "interface": "Interfață",
+    "mobileUi": "Interfață mobilă",
+    "mobileUiDesc": "Suprascrie detectarea automată a platformei",
+    "mobileAuto": "Automat",
+    "mobileMobile": "Mobil",
+    "mobileDesktop": "Desktop",
+    "onboarding": "Configurare inițială",
+    "resetWelcomeGuide": "Resetează ghidul de bun venit",
+    "resetWelcomeGuideDesc": "Afișează imediat din nou ghidul de bun venit",
+    "resetBtn": "Resetează",
+    "doneBtn": "Gata",
+    "settingsTitle": "Setări",
+    "zoomDefault": "{{percent}}% (implicit)"
+  },
+  "bookmarkManager": {
+    "title": "Gestionează marcajele",
+    "titlePlaceholder": "Titlu",
+    "urlPlaceholder": "URL (ex. web://…)",
+    "folderNamePlaceholder": "Numele folderului",
+    "urlInputPlaceholder": "web://…",
+    "cancel": "Anulează",
+    "save": "Salvează",
+    "addBookmarkBtn": "Adaugă marcaj",
+    "addFolderBtn": "Adaugă folder",
+    "addBookmarkToolbar": "Adaugă marcaj",
+    "newFolderToolbar": "Folder nou",
+    "noBookmarksRoot": "Niciun marcaj încă. Adaugă unul mai jos.",
+    "emptyFolder": "Acest folder este gol.",
+    "openFolder": "Deschide folderul",
+    "rename": "Redenumește",
+    "delete": "Șterge"
+  }
+}
