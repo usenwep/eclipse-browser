@@ -64,7 +64,7 @@ jobs:
       - name: Build
         run: >-
           pnpm tauri build --target ${{ matrix.target }}
-          ${{ startsWith(matrix.os, 'ubuntu') && '--bundles deb,rpm' || '' }}
+          ${{ startsWith(matrix.os, 'ubuntu') && '--bundles deb' || '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -72,16 +72,50 @@ jobs:
         if: startsWith(matrix.os, 'ubuntu')
         run: bash scripts/make-tarball.sh
 
-      - name: Upload artifacts
+      - name: Upload tarball (Linux)
+        if: startsWith(matrix.os, 'ubuntu')
         uses: actions/upload-artifact@v4
         with:
-          name: eclipse-browser-${{ matrix.artifact }}
-          path: src-tauri/target/${{ matrix.target }}/release/bundle/
+          name: eclipse-browser-${{ matrix.artifact }}.tar.gz
+          path: src-tauri/target/${{ matrix.target }}/release/bundle/*.tar.gz
+          if-no-files-found: warn
+
+      - name: Upload .deb (Linux)
+        if: startsWith(matrix.os, 'ubuntu')
+        uses: actions/upload-artifact@v4
+        with:
+          name: eclipse-browser-${{ matrix.artifact }}.deb
+          path: src-tauri/target/${{ matrix.target }}/release/bundle/deb/*.deb
+          if-no-files-found: warn
+
+      - name: Upload .exe (Windows)
+        if: matrix.os == 'windows-latest'
+        uses: actions/upload-artifact@v4
+        with:
+          name: eclipse-browser-${{ matrix.artifact }}-setup.exe
+          path: src-tauri/target/${{ matrix.target }}/release/bundle/nsis/*.exe
+          if-no-files-found: warn
+
+      - name: Upload .msi (Windows)
+        if: matrix.os == 'windows-latest'
+        uses: actions/upload-artifact@v4
+        with:
+          name: eclipse-browser-${{ matrix.artifact }}.msi
+          path: src-tauri/target/${{ matrix.target }}/release/bundle/msi/*.msi
           if-no-files-found: warn
 
   # ── Android ────────────────────────────────────────────────────────────────
   build-android:
     runs-on: ubuntu-24.04
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Release signing. Set these secrets to produce a signed APK/AAB.
+      # Leave unset for a debug-signed build (sideloadable, not Play Store ready).
+      ANDROID_SIGNING_KEY: ${{ secrets.ANDROID_SIGNING_KEY }}
+      ANDROID_KEY_STORE_PASSWORD: ${{ secrets.ANDROID_KEY_STORE_PASSWORD }}
+      ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+      ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
 
     steps:
       - uses: actions/checkout@v4
@@ -121,21 +155,64 @@ jobs:
       - name: Initialize Android project
         run: pnpm tauri android init
 
-      - name: Build Android (arm64-v8a, armeabi-v7a, x86, x86_64)
-        run: pnpm tauri android build --apk --verbose
+      # Build one APK per ABI so each is a direct download.
+      - name: Build arm64-v8a APK
+        run: pnpm tauri android build --apk --target aarch64-linux-android
         env:
           NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Android release signing — add these secrets to sign the APK.
-          # Leave unset to produce a debug-signed APK (installable but not Play Store ready).
-          ANDROID_SIGNING_KEY: ${{ secrets.ANDROID_SIGNING_KEY }}
-          ANDROID_KEY_STORE_PASSWORD: ${{ secrets.ANDROID_KEY_STORE_PASSWORD }}
-          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
-          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
 
-      - name: Upload Android APKs (per-ABI)
+      - name: Build armeabi-v7a APK
+        run: pnpm tauri android build --apk --target armv7-linux-androideabi
+        env:
+          NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
+
+      - name: Build x86 APK
+        run: pnpm tauri android build --apk --target i686-linux-android
+        env:
+          NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
+
+      - name: Build x86_64 APK
+        run: pnpm tauri android build --apk --target x86_64-linux-android
+        env:
+          NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
+
+      # AAB for Play Store upload (requires signed keystore secrets above).
+      - name: Build AAB (Play Store)
+        run: pnpm tauri android build --aab
+        env:
+          NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
+
+      - name: Upload arm64-v8a APK
         uses: actions/upload-artifact@v4
         with:
-          name: eclipse-browser-android
-          path: src-tauri/gen/android/app/build/outputs/apk/
+          name: eclipse-browser-android-arm64-v8a.apk
+          path: src-tauri/gen/android/app/build/outputs/apk/arm64-v8a/release/*.apk
+          if-no-files-found: warn
+
+      - name: Upload armeabi-v7a APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: eclipse-browser-android-armeabi-v7a.apk
+          path: src-tauri/gen/android/app/build/outputs/apk/armeabi-v7a/release/*.apk
+          if-no-files-found: warn
+
+      - name: Upload x86 APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: eclipse-browser-android-x86.apk
+          path: src-tauri/gen/android/app/build/outputs/apk/x86/release/*.apk
+          if-no-files-found: warn
+
+      - name: Upload x86_64 APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: eclipse-browser-android-x86_64.apk
+          path: src-tauri/gen/android/app/build/outputs/apk/x86_64/release/*.apk
+          if-no-files-found: warn
+
+      - name: Upload AAB (Play Store)
+        uses: actions/upload-artifact@v4
+        with:
+          name: eclipse-browser-android.aab
+          path: src-tauri/gen/android/app/build/outputs/bundle/release/*.aab
           if-no-files-found: warn
