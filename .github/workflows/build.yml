@@ -155,11 +155,24 @@ jobs:
       - name: Initialize Android project
         run: pnpm tauri android init
 
-      # Build all APKs in one invocation (all 4 ABIs).
-      - name: Build APKs (all ABIs)
+      # Build universal APK (all ABIs in one APK).
+      - name: Build APK
         run: pnpm tauri android build --apk
         env:
           NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
+
+      # Tauri produces an unsigned universal APK; sign it with apksigner.
+      - name: Sign APK
+        run: |
+          echo "$ANDROID_SIGNING_KEY" | base64 -d > /tmp/release.jks
+          APKSIGNER=$(ls "$ANDROID_HOME/build-tools/"*/apksigner | sort -V | tail -1)
+          "$APKSIGNER" sign \
+            --ks /tmp/release.jks \
+            --ks-pass "pass:$ANDROID_KEY_STORE_PASSWORD" \
+            --key-pass "pass:$ANDROID_KEY_PASSWORD" \
+            --ks-key-alias "$ANDROID_KEY_ALIAS" \
+            --out src-tauri/gen/android/app/build/outputs/apk/universal/release/eclipse-browser.apk \
+            src-tauri/gen/android/app/build/outputs/apk/universal/release/app-universal-release-unsigned.apk
 
       # AAB for Play Store upload (requires signed keystore secrets above).
       - name: Build AAB (Play Store)
@@ -167,40 +180,16 @@ jobs:
         env:
           NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
 
-      - name: List Android build outputs (debug)
-        run: find src-tauri/gen/android/app/build/outputs -type f | sort
-
-      - name: Upload arm64-v8a APK
+      - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: eclipse-browser-android-arm64-v8a.apk
-          path: src-tauri/gen/android/app/build/outputs/apk/arm64-v8a/release/*.apk
-          if-no-files-found: warn
-
-      - name: Upload armeabi-v7a APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: eclipse-browser-android-armeabi-v7a.apk
-          path: src-tauri/gen/android/app/build/outputs/apk/armeabi-v7a/release/*.apk
-          if-no-files-found: warn
-
-      - name: Upload x86 APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: eclipse-browser-android-x86.apk
-          path: src-tauri/gen/android/app/build/outputs/apk/x86/release/*.apk
-          if-no-files-found: warn
-
-      - name: Upload x86_64 APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: eclipse-browser-android-x86_64.apk
-          path: src-tauri/gen/android/app/build/outputs/apk/x86_64/release/*.apk
-          if-no-files-found: warn
+          name: eclipse-browser-android.apk
+          path: src-tauri/gen/android/app/build/outputs/apk/universal/release/eclipse-browser.apk
+          if-no-files-found: error
 
       - name: Upload AAB (Play Store)
         uses: actions/upload-artifact@v4
         with:
           name: eclipse-browser-android.aab
           path: src-tauri/gen/android/app/build/outputs/bundle/**/*.aab
-          if-no-files-found: warn
+          if-no-files-found: error
