@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react"
-import { Globe, Palette, ShieldCheck, Code2, ChevronLeft, ChevronRight } from "lucide-react"
+import { Globe, Palette, ShieldCheck, Code2, ChevronLeft, ChevronRight, Info, Download } from "lucide-react"
 import { useTheme } from "next-themes"
 import { cn } from "@/lib/utils"
 import { t, TranslationKey } from "@/lib/i18n"
 import type { BrowserSettings } from "@/lib/settings"
 
 
-type Section = "general" | "appearance" | "privacy" | "developers"
+type Section = "general" | "appearance" | "privacy" | "developers" | "about"
 
 const SECTIONS: {
   id: Section
@@ -16,6 +16,7 @@ const SECTIONS: {
   { id: "appearance", Icon: Palette     },
   { id: "privacy",    Icon: ShieldCheck },
   { id: "developers", Icon: Code2       },
+  { id: "about",      Icon: Info        },
 ]
 
 
@@ -512,6 +513,48 @@ function DevelopersSection({
 }
 
 
+function AboutSection({
+  currentVersion,
+  updateAvailable,
+  onUpdate,
+  isMobile,
+}: {
+  currentVersion: string
+  updateAvailable: { version: string; releaseUrl: string } | null
+  onUpdate: () => void
+  isMobile?: boolean
+}) {
+  return (
+    <SettingsGroup label="Eclipse Browser" isMobile={isMobile}>
+      <SettingsRow label="Version" isMobile={isMobile}>
+        <span className={cn("text-foreground/50", isMobile ? "text-[14px]" : "text-[12px]")}>
+          {currentVersion ? `v${currentVersion}` : "…"}
+        </span>
+      </SettingsRow>
+      {updateAvailable ? (
+        <SettingsRow label={`Update available: v${updateAvailable.version}`} isMobile={isMobile}>
+          <button
+            onClick={onUpdate}
+            className={cn(
+              "rounded-md font-medium transition-colors flex items-center gap-1.5",
+              "bg-[#0a84ff]/10 text-[#0a84ff] hover:bg-[#0a84ff]/15",
+              isMobile ? "h-8 px-4 text-[14px]" : "h-7 px-3 text-[12px]",
+            )}
+          >
+            <Download className={isMobile ? "size-[15px]" : "size-[12px]"} />
+            Update Now
+          </button>
+        </SettingsRow>
+      ) : currentVersion ? (
+        <SettingsRow label="Up to date" isMobile={isMobile}>
+          <span className={cn("text-green-600 dark:text-green-400 font-medium", isMobile ? "text-[14px]" : "text-[12px]")}>✓</span>
+        </SettingsRow>
+      ) : null}
+    </SettingsGroup>
+  )
+}
+
+
 function SectionContent({
   section,
   settings,
@@ -520,6 +563,9 @@ function SectionContent({
   onOpenHistory,
   onResetOnboarding,
   isMobile,
+  currentVersion,
+  updateAvailable,
+  onUpdate,
 }: {
   section: Section
   settings: BrowserSettings
@@ -528,11 +574,15 @@ function SectionContent({
   onOpenHistory: () => void
   onResetOnboarding?: () => void
   isMobile?: boolean
+  currentVersion: string
+  updateAvailable: { version: string; releaseUrl: string } | null
+  onUpdate: () => void
 }) {
   if (section === "general")    return <GeneralSection settings={settings} update={update} isMobile={isMobile} />
   if (section === "appearance") return <AppearanceSection settings={settings} update={update} isMobile={isMobile} />
   if (section === "privacy")    return <PrivacySection historyEnabled={settings.historyEnabled} onToggleHistory={(v) => update("historyEnabled", v)} onClearHistory={onClearHistory} onOpenHistory={onOpenHistory} isMobile={isMobile} />
   if (section === "developers") return <DevelopersSection settings={settings} update={update} onResetOnboarding={onResetOnboarding} isMobile={isMobile} />
+  if (section === "about")      return <AboutSection currentVersion={currentVersion} updateAvailable={updateAvailable} onUpdate={onUpdate} isMobile={isMobile} />
   return null
 }
 
@@ -544,6 +594,9 @@ export function SettingsPage({
   onOpenHistory,
   onResetOnboarding,
   isMobile = false,
+  currentVersion = "",
+  updateAvailable = null,
+  onUpdate,
 }: {
   settings: BrowserSettings
   onChange: (s: BrowserSettings) => void
@@ -551,6 +604,9 @@ export function SettingsPage({
   onOpenHistory: () => void
   onResetOnboarding?: () => void
   isMobile?: boolean
+  currentVersion?: string
+  updateAvailable?: { version: string; releaseUrl: string } | null
+  onUpdate?: () => void
 }) {
   const [section, setSection] = useState<Section | null>(null)
 
@@ -611,6 +667,9 @@ export function SettingsPage({
                 onOpenHistory={onOpenHistory}
                 onResetOnboarding={onResetOnboarding}
                 isMobile={true}
+                currentVersion={currentVersion}
+                updateAvailable={updateAvailable}
+                onUpdate={onUpdate ?? (() => {})}
               />
             </div>
           </div>
@@ -654,6 +713,9 @@ export function SettingsPage({
             onClearHistory={onClearHistory}
             onOpenHistory={onOpenHistory}
             onResetOnboarding={onResetOnboarding}
+            currentVersion={currentVersion}
+            updateAvailable={updateAvailable}
+            onUpdate={onUpdate ?? (() => {})}
           />
         </div>
       </div>

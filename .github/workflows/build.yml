@@ -67,6 +67,8 @@ jobs:
           ${{ startsWith(matrix.os, 'ubuntu') && '--bundles deb' || '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
 
       - name: Create Linux tarball
         if: startsWith(matrix.os, 'ubuntu')
@@ -102,6 +104,16 @@ jobs:
         with:
           name: eclipse-browser-${{ matrix.artifact }}.msi
           path: src-tauri/target/${{ matrix.target }}/release/bundle/msi/*.msi
+          if-no-files-found: warn
+
+      - name: Upload .nsis.zip + .sig (Windows updater)
+        if: matrix.os == 'windows-latest'
+        uses: actions/upload-artifact@v4
+        with:
+          name: eclipse-browser-${{ matrix.artifact }}-updater
+          path: |
+            src-tauri/target/${{ matrix.target }}/release/bundle/nsis/*.nsis.zip
+            src-tauri/target/${{ matrix.target }}/release/bundle/nsis/*.nsis.zip.sig
           if-no-files-found: warn
 
   # ── Android ────────────────────────────────────────────────────────────────
@@ -155,6 +167,11 @@ jobs:
       - name: Initialize Android project
         run: pnpm tauri android init
 
+      - name: Set Android app label
+        run: |
+          sed -i 's|<string name="app_name">.*</string>|<string name="app_name">Eclipse</string>|' \
+            src-tauri/gen/android/app/src/main/res/values/strings.xml
+
       # Build universal APK (all ABIs in one APK).
       - name: Build APK
         run: pnpm tauri android build --apk
@@ -193,3 +210,55 @@ jobs:
           name: eclipse-browser-android.aab
           path: src-tauri/gen/android/app/build/outputs/bundle/**/*.aab
           if-no-files-found: error
+
+  # ── Release ────────────────────────────────────────────────────────────────
+  release:
+    needs: [build-desktop, build-android]
+    runs-on: ubuntu-24.04
+    if: startsWith(github.ref, 'refs/tags/v')
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Generate latest.json
+        run: |
+          VERSION=$(cat src-tauri/tauri.conf.json | jq -r '.version')
+          WIN_ZIP=$(ls artifacts/eclipse-browser-windows-x86_64-updater/*.nsis.zip 2>/dev/null | head -1)
+          if [ -z "$WIN_ZIP" ]; then
+            echo "No Windows updater artifact found; skipping latest.json"
+            echo '{}' > latest.json
+            exit 0
+          fi
+          WIN_SIG=$(cat "${WIN_ZIP}.sig")
+          WIN_FILENAME=$(basename "$WIN_ZIP")
+          jq -n \
+            --arg version "$VERSION" \
+            --arg pub_date "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --arg win_sig "$WIN_SIG" \
+            --arg win_url "https://github.com/usenwep/eclipse-browser/releases/download/v${VERSION}/${WIN_FILENAME}" \
+            '{version:$version,notes:"",pub_date:$pub_date,
+              platforms:{"windows-x86_64":{url:$win_url,signature:$win_sig}}}' \
+            > latest.json
+
+      - name: Create GitHub Release
+        run: |
+          VERSION=$(cat src-tauri/tauri.conf.json | jq -r '.version')
+          gh release create "v${VERSION}" \
+            --title "v${VERSION}" \
+            --generate-notes \
+            $(ls artifacts/**/*.tar.gz 2>/dev/null || true) \
+            $(ls artifacts/**/*.deb 2>/dev/null || true) \
+            $(ls artifacts/**/*.exe 2>/dev/null || true) \
+            $(ls artifacts/**/*.msi 2>/dev/null || true) \
+            $(ls artifacts/**/*.nsis.zip 2>/dev/null || true) \
+            $(ls artifacts/**/*.nsis.zip.sig 2>/dev/null || true) \
+            $(ls artifacts/**/eclipse-browser.apk 2>/dev/null || true) \
+            $(ls artifacts/**/*.aab 2>/dev/null || true) \
+            latest.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -111,6 +111,7 @@ import { type BrowserSettings, loadSettings, saveSettings } from "@/lib/settings
 import { isOnboardingComplete, markOnboardingComplete, resetOnboarding } from "@/lib/onboarding"
 import { save as saveDialog } from "@tauri-apps/plugin-dialog"
 import { writeTextFile } from "@tauri-apps/plugin-fs"
+import { openUrl } from "@tauri-apps/plugin-opener"
 import { SettingsPage } from "@/components/settings-page"
 import { OnboardingOverlay } from "@/components/onboarding-overlay"
 import {
@@ -1384,6 +1385,8 @@ function OptionsMenu({
   onHistoryNavigate,
   onOpenHistory,
   onOpenSettings,
+  updateAvailable,
+  onUpdate,
 }: {
   zoom: number
   tabHistory: string[]
@@ -1397,13 +1400,18 @@ function OptionsMenu({
   onHistoryNavigate: (index: number) => void
   onOpenHistory: () => void
   onOpenSettings: () => void
+  updateAvailable: { version: string; releaseUrl: string } | null
+  onUpdate: () => void
 }) {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
     <DropdownMenu open={menuOpen} onOpenChange={setMenuOpen}>
-      <DropdownMenuTrigger className={navMenuTriggerCls} aria-label={t("nav.options")}>
+      <DropdownMenuTrigger className={cn(navMenuTriggerCls, "relative")} aria-label={t("nav.options")}>
         <Settings className="size-[14px]" />
+        {updateAvailable && (
+          <span className="absolute top-1 right-1 size-1.5 rounded-full bg-[#ff3b30]" />
+        )}
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-auto min-w-[220px]">
 
@@ -1468,6 +1476,12 @@ function OptionsMenu({
           </DropdownMenuItem>
         )}
         <DropdownMenuSeparator />
+        {updateAvailable && (
+          <DropdownMenuItem onClick={onUpdate} className="text-[#0a84ff] focus:text-[#0a84ff]">
+            <Download />
+            Update available: v{updateAvailable.version}
+          </DropdownMenuItem>
+        )}
         <DropdownMenuItem onClick={onOpenSettings}>
           <Settings />
           {t("optionsMenu.settings")}
@@ -1510,6 +1524,8 @@ function NavBar({
   searchBookmarks,
   searchHistory,
   connectionInfo,
+  updateAvailable,
+  onUpdate,
 }: {
   url: string
   isLoading: boolean
@@ -1542,6 +1558,8 @@ function NavBar({
   searchBookmarks: boolean
   searchHistory: boolean
   connectionInfo?: ConnectionInfo
+  updateAvailable: { version: string; releaseUrl: string } | null
+  onUpdate: () => void
 }) {
   return (
     <div
@@ -1596,6 +1614,8 @@ function NavBar({
         onHistoryNavigate={onHistoryNavigate}
         onOpenHistory={onOpenHistory}
         onOpenSettings={onOpenSettings}
+        updateAvailable={updateAvailable}
+        onUpdate={onUpdate}
       />
     </div>
   )
@@ -3125,11 +3145,14 @@ function MobileBottomChrome({
   }
 
   return (
-    <div className={cn(
-      "shrink-0 pt-9 pb-8",
-      "bg-gradient-to-t from-[#f2f2f7] via-[#f2f2f7]/90 to-transparent",
-      "dark:from-[#1c1c1e] dark:via-[#1c1c1e]/90 dark:to-transparent",
-    )}>
+    <div
+      className={cn(
+        "shrink-0 pt-9",
+        "bg-gradient-to-t from-[#f2f2f7] via-[#f2f2f7]/90 to-transparent",
+        "dark:from-[#1c1c1e] dark:via-[#1c1c1e]/90 dark:to-transparent",
+      )}
+      style={{ paddingBottom: 'calc(env(safe-area-inset-bottom) + 2rem)' }}
+    >
       <div className="mx-4 flex items-center gap-2">
 
         <div className="relative flex-1">
@@ -3796,21 +3819,63 @@ const [globalHistory, setGlobalHistory] = useState<HistoryEntry[]>(loadGlobalHis
   const [tabSwitcherOpen, setTabSwitcherOpen] = useState(false)
   const [optionsSheetOpen, setOptionsSheetOpen] = useState(false)
   const [bookmarksSheetOpen, setBookmarksSheetOpen] = useState(false)
+  const [currentVersion, setCurrentVersion] = useState("")
+  const [updateAvailable, setUpdateAvailable] = useState<{ version: string; releaseUrl: string } | null>(null)
 
   const tourTipRef = useRef(tourTip)
   useEffect(() => { tourTipRef.current = tourTip }, [tourTip])
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-  useEffect(() => {
-    const onResize = () => setWindowWidth(window.innerWidth)
-    window.addEventListener("resize", onResize)
-    return () => window.removeEventListener("resize", onResize)
-  }, [])
   const isMobile = useMemo(() => {
     if (settings.developerForceMobileUi === "mobile") return true
     if (settings.developerForceMobileUi === "desktop") return false
-    return windowWidth < 768 || navigator.maxTouchPoints > 1
-  }, [settings.developerForceMobileUi, windowWidth])
+    return navigator.maxTouchPoints > 1
+  }, [settings.developerForceMobileUi])
+
+  useEffect(() => {
+    if (isMobile) {
+      screen.orientation?.lock?.("portrait").catch(() => {})
+    }
+  }, [isMobile])
+
+  useEffect(() => {
+    const timer = setTimeout(async () => {
+      try {
+        const version = await invoke<string>("get_app_version")
+        setCurrentVersion(version)
+        const res = await fetch("https://api.github.com/repos/usenwep/eclipse-browser/releases/latest")
+        if (!res.ok) return
+        const data = await res.json()
+        const latest = (data.tag_name as string | undefined)?.replace(/^v/, "")
+        if (latest && latest !== version) {
+          setUpdateAvailable({ version: latest, releaseUrl: data.html_url as string })
+        }
+      } catch {
+        // silently fail (no network, rate limit, etc.)
+      }
+    }, 2000)
+    return () => clearTimeout(timer)
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const handleUpdate = useCallback(async () => {
+    if (!updateAvailable) return
+    if (isMobile) {
+      await openUrl(updateAvailable.releaseUrl)
+      return
+    }
+    try {
+      const { check } = await import("@tauri-apps/plugin-updater")
+      const { relaunch } = await import("@tauri-apps/plugin-process")
+      const update = await check()
+      if (update) {
+        await update.downloadAndInstall()
+        await relaunch()
+      } else {
+        await openUrl(updateAvailable.releaseUrl)
+      }
+    } catch {
+      await openUrl(updateAvailable.releaseUrl)
+    }
+  }, [updateAvailable, isMobile])
 
   const contentFrameRef = useRef<ContentFrameHandle>(null)
 
@@ -4067,7 +4132,10 @@ const [globalHistory, setGlobalHistory] = useState<HistoryEntry[]>(loadGlobalHis
           onClearHistory={clearAllHistory}
           onOpenHistory={() => navigate("about:history")}
           onResetOnboarding={() => { resetOnboarding(); setShowOnboarding(true) }}
-isMobile={isMobile}
+          isMobile={isMobile}
+          currentVersion={currentVersion}
+          updateAvailable={updateAvailable}
+          onUpdate={handleUpdate}
         />
       ) : activeTab.url === "about:history" ? (
         <HistoryPage
@@ -4123,6 +4191,8 @@ isMobile={isMobile}
       {isMobile ? (
         <>
 
+          <div className="shrink-0" style={{ height: 'env(safe-area-inset-top)' }} />
+
           <div className="relative h-[2px] shrink-0 bg-transparent overflow-hidden">
             {isLoading && (
               <div className="mobile-loading-bar absolute inset-y-0 w-1/3 bg-[#0a84ff]" />
@@ -4137,6 +4207,29 @@ isMobile={isMobile}
             {contentArea}
           </PullToRefresh>
 
+
+          {updateAvailable && (
+            <div className="shrink-0 flex items-center justify-between gap-2 px-4 py-2 bg-[#0a84ff]/10 border-t border-[#0a84ff]/20">
+              <span className="text-[13px] text-[#0a84ff] leading-tight">
+                Update available: v{updateAvailable.version}
+              </span>
+              <div className="flex items-center gap-2 shrink-0">
+                <button
+                  onClick={handleUpdate}
+                  className="rounded-md font-medium h-7 px-3 text-[12px] bg-[#0a84ff] text-white active:opacity-70"
+                >
+                  Update
+                </button>
+                <button
+                  onClick={() => setUpdateAvailable(null)}
+                  className="text-[#0a84ff] active:opacity-70"
+                  aria-label="Dismiss"
+                >
+                  <X className="size-[14px]" />
+                </button>
+              </div>
+            </div>
+          )}
 
           <MobileBottomChrome
             url={activeTab.url}
@@ -4244,6 +4337,8 @@ isMobile={isMobile}
             searchBookmarks={settings.searchBookmarks}
             searchHistory={settings.searchHistory}
             connectionInfo={activeTab.connectionInfo}
+            updateAvailable={updateAvailable}
+            onUpdate={handleUpdate}
           />
           {contentArea}
         </>

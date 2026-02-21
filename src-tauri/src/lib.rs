@@ -128,15 +128,27 @@ async fn nwep_fetch(url: String) -> Result<NwepResult, String> {
     .map_err(|e| format!("Task error: {e}"))?
 }
 
+#[tauri::command]
+fn get_app_version() -> String {
+    env!("CARGO_PKG_VERSION").to_string()
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     nwep::init().expect("failed to initialize nwep");
 
-    tauri::Builder::default()
+    let builder = tauri::Builder::default()
         .plugin(tauri_plugin_opener::init())
         .plugin(tauri_plugin_dialog::init())
-        .plugin(tauri_plugin_fs::init())
-        .invoke_handler(tauri::generate_handler![nwep_fetch])
+        .plugin(tauri_plugin_fs::init());
+
+    #[cfg(not(target_os = "android"))]
+    let builder = builder
+        .plugin(tauri_plugin_updater::Builder::new().build())
+        .plugin(tauri_plugin_process::init());
+
+    builder
+        .invoke_handler(tauri::generate_handler![nwep_fetch, get_app_version])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
